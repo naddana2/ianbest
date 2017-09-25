@@ -5,6 +5,15 @@ jQuery(window).load(function(){
 	$masonry = $('.masonry'),
 	$imgs     = $('.iso-box img');
 	
+	$container.masonry({
+		itemSelector: '.iso-box',
+		columnWidth:350.75,
+		percentPosition:true,
+		horizontalOrder: true
+	});
+
+
+	
 
 
 	jQuery(document).ready(function($){
@@ -34,16 +43,20 @@ jQuery(window).load(function(){
 
 				});
 
-				$masonry.masonry({
-					columnWidth:350.75,
-					percentPosition:true
-				});
 
 				$imgs.load(function(){
 					$container.isotope('layout');
 
 
-				})
+				});
+				
+				$container.masonry();
+				
+				
+
+				
+				
+				
 
 
 				
@@ -56,15 +69,25 @@ jQuery(window).load(function(){
 			$('.filter-wrapper li a').click(function(){
 
 				var $this = $(this), filterValue = $this.attr('data-filter');
-
+				
+				
+				
 				$container.isotope({ 
 					filter: filterValue,
 					animationOptions: { 
 						duration: 750, 
 						easing: 'linear', 
 						queue: false, 
-					}                
-				});             
+					}        
+				
+				});    
+				
+				$container.masonry('layout')
+		
+				
+				
+				
+				
 
 				// don't proceed if already selected 
 
@@ -78,7 +101,7 @@ jQuery(window).load(function(){
 
 				return false;
 				
-				$masonry.masonry('layout');
+			
 				
 			}); 
 		}
@@ -140,7 +163,7 @@ jQuery(window).load(function(){
 						} else {
 							//2-4 Columns Service Type
 							for (i = i_start-1; i < i_start+now_load-1; i++) {
-								loaded_object = loaded_object + '<div class="iso-box '+ addon_options.items[i].classname +'"><div class="portfolio-thumb"><img src="'+addon_options.items[i].imgurl+'" class=""><div class="thumb-text"><p>'+addon_options.items[i].header+'</p><h2>'+addon_options.items[i].title+'</h2></div><div class="card-ui"><div class="ui-area"><h2><i class="fa fa-calendar" aria-hidden="true"></i></h2><p>'+addon_options.items[i].year+'</p></div><div class="ui-area"><h2><i class="fa fa-user" aria-hidden="true"></i></h2><p>'+addon_options.items[i].person+'</p></div><div class="ui-area"><h2><i class="fa fa-university" aria-hidden="true"></i></h2><p>'+addon_options.items[i].area+'</p></div></div></div><div class="detail-button"><button class="btnS" type="button" onclick="location.href='+addon_options.items[i].location+'>Contact Us</button></div></div></div>';
+								loaded_object = loaded_object + '<div class="iso-box '+ addon_options.items[i].classname +'"><div class="portfolio-thumb"><img src="'+addon_options.items[i].imgurl+'" class=""><div class="thumb-text"><p>'+addon_options.items[i].header+'</p><h2>'+addon_options.items[i].title+'</h2></div><div class="card-ui"><div class="ui-area"><h2><i class="fa fa-calendar" aria-hidden="true"></i></h2><p>'+addon_options.items[i].year+'</p></div><div class="ui-area"><h2><i class="fa fa-user" aria-hidden="true"></i></h2><p>'+addon_options.items[i].person+'</p></div><div class="ui-area"><h2><i class="fa fa-university" aria-hidden="true"></i></h2><p>'+addon_options.items[i].area+'</p></div></div><div class="detail-button"><button class="btnS" type="button" onclick="location.href='+addon_options.items[i].location+'">Contact Us</button></div></div></div>';
 
 
 							}
@@ -148,14 +171,17 @@ jQuery(window).load(function(){
 
 						$newEls = jQuery(loaded_object);
 
-
+						
+						
 						
 
-						$container.isotope('insert', $newEls, function() {
+						
+						$container.masonry().append($newEls).masonry('appended',$newEls);
+					/*	$container.isotope('insert', $newEls, function() {
 
-
-
-
+							
+							
+								
 
 							$container.imagesLoaded(function () {
 
@@ -163,23 +189,35 @@ jQuery(window).load(function(){
 									layoutMode: 'fitRows',
 									itemSelector: '.iso-box'
 
+										
 								});
+								
+								
+							
+								
+								
+								
+							
+
+							
+								
 
 
 								$imgs.load(function(){
-									$container.isotope('layout');
 									
-									$container.masonry('layout');
-
+									$container.isotope('layout');
+										
+									$grid.append($newEls).masonry('append',$newEls);
 								})
+								
+								
 
 						
-								/*$masonry.masonry('layout');*/
 							});
 
 
 							
-						});
+						})*/
 
 					}
 
@@ -200,9 +238,9 @@ jQuery(window).load(function(){
 
 
 
-						$container.isotope('layout');
+					/*	$container.isotope('layout');*/
 
-						$masonry.masonry('layout');
+						$container.masonry('layout');
 					});
 
 
@@ -224,7 +262,7 @@ jQuery(window).load(function(){
 
 
 			});
-			masonry.masonry('layout');
+		
 		}
 
 

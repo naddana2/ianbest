@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html SYSTEM "about:legacy-compat">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -32,22 +32,16 @@
 
 <script type="text/javascript">
 	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-	
 
-	
-	
-	
-
-		function myFunction() {
-			var x = document.getElementById("myTopnav");
-			if (x.className === "topnav") {
-				x.className += " responsive";
-			} else {
-				x.className = "topnav";
-			}
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
 		}
-		
-	
+	}
+
 	/* 
 	  $(document).ready(function() {
 	      console.log("ready!");
@@ -173,15 +167,14 @@
 					<li><a href="#" class="" data-filter=".hospital">HOSPITAL</a></li>
 					<li><a href="#" class="" data-filter=".remodeling">REMODELING</a></li>
 				</ul>
-				<a class="btn_load_more"><i class="fa fa-th-large"
-					aria-hidden="true"></i></a>
+				<a class="btn_load_more"><i class="fa fa-th-large" aria-hidden="true"></i></a>
 			</div>
 
 			<div class="iso-box-wrapper masonry" id="list">
 
 
 
-				<div class="iso-box">
+				<div class="iso-box office">
 					<div class="portfolio-thumb">
 
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
@@ -217,7 +210,7 @@
 					</div>
 				</div>
 
-				<div class="iso-box">
+				<div class="iso-box complex">
 					<div class="portfolio-thumb">
 
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
@@ -255,7 +248,7 @@
 
 					</div>
 				</div>
-				<div class="iso-box">
+				<div class="iso-box remodeling">
 					<div class="portfolio-thumb">
 						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
 						<div class="thumb-text">
@@ -290,7 +283,7 @@
 					</div>
 				</div>
 
-				<div class="iso-box">
+				<div class="iso-box office">
 					<div class="portfolio-thumb">
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
 						<div class="thumb-text">
@@ -327,7 +320,7 @@
 
 					</div>
 				</div>
-				<div class="iso-box">
+				<div class="iso-box hospital">
 					<div class="portfolio-thumb">
 						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
 						<div class="thumb-text">
@@ -362,7 +355,7 @@
 					</div>
 				</div>
 
-				<div class="iso-box">
+				<div class="iso-box remodeling">
 					<div class="portfolio-thumb">
 						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
 						<div class="thumb-text">
@@ -399,7 +392,7 @@
 
 					</div>
 				</div>
-				<div class="iso-box">
+				<div class="iso-box complex">
 					<div class="portfolio-thumb">
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
@@ -434,7 +427,7 @@
 					</div>
 				</div>
 
-				<div class="iso-box">
+				<div class="iso-box office">
 					<div class="portfolio-thumb">
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
 						<div class="thumb-text">
@@ -489,19 +482,52 @@
 	</div>
 
 	<script type="text/javascript">
-	jQuery(window).load(function(){
-	    items_set = [	//Service Data
-	    
-	   	 
-	        			 {classname:'office', imgurl: 'assets/images/portfolio-1.png', header: 'Portfolio, Remodeling', title: '광주 목뉴방외과', year:'2016', person:'5MD', area:'21,932m', location:'work-lime.html'},       	
-	                 	{}
-	    ];
-	    jQuery('#list').portfolio_addon({
-	        type : 1, // 4 portfolio
-	        load_count : items_set.length-1,
-	        items : items_set
-	    });
-	});
+		jQuery(window).load(function() {
+			items_set = [ //Service Data
+
+			{
+				classname : 'hospital',
+				imgurl : 'assets/images/portfolio-2.png',
+				header : 'Portfolio, Remodeling',
+				title : '광주 목뉴방외과',
+				year : '2016',
+				person : '5MD',
+				area : '21,932m',
+				location : 'work-lime.html'
+			}, {
+				classname : 'office',
+				imgurl : 'assets/images/portfolio-1.png',
+				header : 'Portfolio, Remodeling',
+				title : '광주 목뉴방외과',
+				year : '2016',
+				person : '5MD',
+				area : '21,932m',
+				location : 'work-lime.html'
+			},{
+				classname : 'complex',
+				imgurl : 'assets/images/portfolio-3.png',
+				header : 'Portfolio, Remodeling',
+				title : '광주 목뉴방외과',
+				year : '2016',
+				person : '5MD',
+				area : '21,932m',
+				location : 'work-lime.html'
+			},{
+				classname : 'remodeling',
+				imgurl : 'assets/images/portfolio-2.png',
+				header : 'Portfolio, Remodeling',
+				title : '광주 목뉴방외과',
+				year : '2016',
+				person : '5MD',
+				area : '21,932m',
+				location : 'work-lime.html'
+			},{} ];
+			jQuery('#list').portfolio_addon({
+				type : 1, // 4 portfolio
+				load_count : items_set.length - 1,
+				items : items_set
+			});
+		});
 	</script>
 
 
