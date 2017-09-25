@@ -1,0 +1,203 @@
+﻿@CHARSET "UTF-8";
+
+
+@media screen and (max-width:320px) {
+	
+}
+
+
+
+
+@media screen and (max-width:767px) {
+
+
+	
+	
+
+	
+}
+
+
+@media screen and (max-width:991px) {
+	
+	.top-menu .topnav li>a {
+	padding:7px 10px;
+	}
+	
+	.top-menu .topnav li {
+	padding:10px 10px 5px;
+	}
+	
+	.top-menu .brand-logo a {
+	float:right;
+}
+
+	.top-menu .brand-logo img {
+	float:left;
+	padding-left:16px;
+}
+
+
+	.top-menu .brand-logo {
+	width:100%;
+	margin-bottom:8px;
+}
+	
+	.top-menu {
+		padding:8px 0;
+	}
+	
+	.top-menu .brand-logo .fa {
+		display:block;
+		font-size:38.5px;
+		padding:16px;
+		
+	}
+	
+	
+	.top-menu .topnav {
+	display:none;
+	width:100%;
+	padding:12px 0;
+	background:#f7f7f7;
+	}
+	
+	.top-menu .etc-place {
+	display:none;
+	}
+
+}
+
+@media screen and (min-width:768px) {
+
+	
+	
+}
+
+
+@media screen and (min-width:992px) {
+	.top-menu .brand-logo {
+	margin-right:35px;
+	}
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:374px) {
+
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {
+	
+}
+
+@media screen and (min-width:426px) and (max-width:480px) {
+	
+}
+
+@media screen and (min-width:481px) and (max-width:767px) {
+	
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px) {
+	
+}
+
+@media screen and (min-width:769px) and (max-width:828px) {
+	
+}
+
+
+@media screen and (min-width:829px) and (max-width:890px) {
+	
+}
+
+@media screen and (min-width:891px) and (max-width:990px) {
+	
+}
+
+
+@media screen and (min-width:991px) and (max-width:1099px) {
+	
+}
+
+@media screen and (min-width:1100px) and (max-width:1239px) {
+	
+}
+
+@media screen and (min-width:1240px) and (max-width:1399px) {
+	
+}
+
+@media screen and (min-width:1400px) and (max-width:1579px) {
+	
+}
+
+@media screen and (min-width:1580px) and (max-width:1740px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 넥서스반응형 */
+@media screen and (width:412px) and (height:732px) {
+	
+}
+
+/* 아이폰 5 */
+@media screen and (width:320px) and (height:568px) {
+	
+}
+
+/* 아이폰 5 */
+@media screen and (width:375px) and (height:667px) {
+	
+}
+
+/* 아이폰 6  */
+@media screen and (width:414px) and (height:736px) {
+
+}
+
+/* 아이패드  */
+@media screen and (width:768px) and (height:1024px) {
+	
+}
+
+/* 아이패드  */
+@media screen and (width:1024px) and (height:1366px) {
+	
+}
+
+
+
+
+
+/* test */
+
+@media screen and (min-width:768px) {
+	
+
+
+}
+@media screen and (max-width:767px) {
+
+	
+}
+
+
+
+
