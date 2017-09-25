@@ -948,6 +948,12 @@ footer a {
 	background: #f7f7f7;
 }
 
+.service-area {
+	padding: 37px 250px;
+	overflow: hidden;
+	background: #f7f7f7;
+}
+
 .iso-box .portfolio-thumb {
 	position: relative;
 	overflow: hidden;
@@ -1421,4 +1427,21 @@ display:block;
 
 .before-portfolio .first-carousel .owl-carousel .owl-item .item img{
 	height:100% !important;
+}
+
+
+/* 서비스  */
+
+.nav-tabs {
+	width:40%;
+	float:left;
+	padding-left:10%;
+}
+
+.tab-content>.tab-pane {
+	float:left;
+}
+
+.tab-content {
+	overflow:hidden;
 }
