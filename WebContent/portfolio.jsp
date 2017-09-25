@@ -12,20 +12,21 @@
 <link rel="stylesheet" href="assets/css/owl.theme.css">
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
 <!-- <link rel="stylesheet" href="assets/css/nice-select.css">
- --><link rel="stylesheet" href="assets/css/style.css">
+ -->
+<link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <!--  <link rel="stylesheet" href="assets/css/nivo-lightbox.css">
         <link rel="stylesheet" href="assets/css/nivo_themes/default/default.css"> -->
-        	<script src="assets/js/jquery-1.9.1.min.js"></script>
-        	<script src="assets/js/bootstrap.min.js"></script>
-	  <script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/owl.carousel.min2.js"></script>
-	<script src="assets/js/owl3.js"></script>
-	<script src="assets/js/masonry.pkgd.js"></script>
-	   <script src="assets/js/isotope.js"></script>
-	    <script src="assets/js/imagesloaded.min.js"></script>
-   <!--  <script src="assets/js/sorting.js"></script> -->
-	<script src="assets/js/custom.js"></script>
+<script src="assets/js/jquery-1.9.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/owl.carousel.min2.js"></script>
+<script src="assets/js/owl3.js"></script>
+<script src="assets/js/masonry.pkgd.js"></script>
+<script src="assets/js/isotope.js"></script>
+<script src="assets/js/imagesloaded.min.js"></script>
+<!--  <script src="assets/js/sorting.js"></script> -->
+<script src="assets/js/custom.js"></script>
 
 
 
@@ -107,14 +108,14 @@
 
 
 			<div class="second-box">
-			<div class="ubox">
-			<div class="overlay">
-			<h2>WE Construct</h2>
-			<strong>MERITED PROJECT</strong>
-			<p>Ianbest Co.Ltd</p>
-			</div>
-			<img class="" src="assets/images/architect.jpg" alt="GTA V">
-			</div>
+				<div class="ubox">
+					<div class="overlay">
+						<h2>WE Construct</h2>
+						<strong>MERITED PROJECT</strong>
+						<p>Ianbest Co.Ltd</p>
+					</div>
+					<img class="" src="assets/images/architect.jpg" alt="GTA V">
+				</div>
 			</div>
 
 
@@ -135,23 +136,27 @@
 
 			</div>
 			 -->
-			
+
 			<div class="third-box">
-			<div class="youtube-box">	<iframe
-					src="https://www.youtube.com/embed/fpO9yLcY0kY?modestbranding=0&rel=0&showinfo=0"
-					frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+				<div class="youtube-box">
+					<iframe
+						src="https://www.youtube.com/embed/fpO9yLcY0kY?modestbranding=0&rel=0&showinfo=0"
+						frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+				</div>
 				<div class="small-box">
 					<div class="small1">
-					<i class="fa fa-search" aria-hidden="true"></i>
-					<h2>True Revision</h2>
-					<span> is simply dummy text of the printing and typesetting </span>
+						<i class="fa fa-search" aria-hidden="true"></i>
+						<h2>True Revision</h2>
+						<span> is simply dummy text of the printing and typesetting
+						</span>
 					</div>
 					<div class="small2">
-					<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+						<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
 						<h2>True Revision</h2>
-					<span> is simply dummy text of the printing and typesetting </span>
+						<span> is simply dummy text of the printing and typesetting
+						</span>
 					</div>
-					</div>
+				</div>
 			</div>
 
 
@@ -161,14 +166,15 @@
 
 		<div class="portfolio-area">
 			<div class="portfolio-header">
-			<ul class="filter-wrapper">
-                                <li><a href="#" class="" data-filter="*">ALL</a></li>
-                                <li><a href="#" class="" data-filter=".office">OFFICE</a></li>
-                                <li><a href="#" class="" data-filter=".complex">COMPLEX</a></li>
-                                <li><a href="#" class="" data-filter=".hospital">HOSPITAL</a></li>
-                                <li><a href="#" class="" data-filter=".remodeling">REMODELING</a></li>
-                            </ul>
-				<a class="btn_load_more"><i class="fa fa-th-large" aria-hidden="true"></i></a>
+				<ul class="filter-wrapper">
+					<li><a href="#" class="" data-filter="*">ALL</a></li>
+					<li><a href="#" class="" data-filter=".office">OFFICE</a></li>
+					<li><a href="#" class="" data-filter=".complex">COMPLEX</a></li>
+					<li><a href="#" class="" data-filter=".hospital">HOSPITAL</a></li>
+					<li><a href="#" class="" data-filter=".remodeling">REMODELING</a></li>
+				</ul>
+				<a class="btn_load_more"><i class="fa fa-th-large"
+					aria-hidden="true"></i></a>
 			</div>
 
 			<div class="iso-box-wrapper masonry" id="list">
@@ -177,7 +183,7 @@
 
 				<div class="iso-box">
 					<div class="portfolio-thumb">
-					 
+
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
 						<div class="thumb-text">
 							<p>Portfolio, Remodeling</p>
@@ -213,7 +219,7 @@
 
 				<div class="iso-box">
 					<div class="portfolio-thumb">
-				
+
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
 
@@ -465,7 +471,7 @@
 
 					</div>
 				</div>
-				
+
 
 
 
@@ -497,8 +503,8 @@
 	    });
 	});
 	</script>
-	
-	
+
+
 
 	<%@ include file="assets/include/footer.jsp"%>
 
