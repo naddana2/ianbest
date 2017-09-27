@@ -13,7 +13,8 @@
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
-
+	
+	<script src="assets/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript">
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
@@ -146,13 +147,19 @@ function myFunction() {
 		</div>
 		<%@ include file="assets//include/footer.jsp"%>
 		
+		
+		<script type="text/javascript">
+	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
-	
-	<script src="assets/js/jquery-1.9.1.min.js"></script>
+	$('#about').addClass('selected');
+
+</script>
+
+
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/owl.carousel.min2.js"></script>
 	<script src="assets/js/owl2.js"></script>
-	<script src="assets/js/custom.js"></script>
+
 	
 </body>
 </html>
