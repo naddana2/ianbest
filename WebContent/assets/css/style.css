@@ -132,7 +132,7 @@ a:hover, a:focus {
 /* Add a black background color to the top navigation */
 .top-menu {
 	background-color: #3b3b3b;
-	padding: 3.128% 0 0.505% 9.04%;
+	padding: 3.128% 0 0.605% 9.04%;
 	overflow: hidden;
 }
 
@@ -546,6 +546,8 @@ article {
 article:last-child {
 	background: #545454 !important;
 	padding:0;
+	position:relative;
+	height:13.73vw;
 }
 
 article:last-child p {
@@ -614,6 +616,7 @@ article a {
 
 .fa2 {
 	font-size: 12.45em !important;
+	color:white !important;
 }
 
 .fa3 {
@@ -673,14 +676,15 @@ article a {
 }
 
 footer {
-	padding: 2.448vw 7.97vw;
+	padding: 2.477% 9.04%;
 	display: flex;
 	background: #313131;
 }
 
 footer .footer-content {
 	width: 100%;
-	padding: 0.5209vw 0 0.5209vw  1.0418vw;
+/* 	padding: 0.5209vw 0 0.5209vw  1.0418vw; */
+	padding:0;
 	text-align: left;
 }
 
@@ -1764,15 +1768,15 @@ font-family: 'KoPuDotum-M', sans-serif;
 
 
 article .left-box {
-	width: 70%;
-	padding: 6.9347% 12.72%;
+	width: 65%;
+	padding: 5% 0 4.4% 9.04%;
 
 	
 }
 
 article .right-box {
-	width: 30%;
-	background:url(../images/small-1.png) no-repeat center !important;
+	width: 35%;
+	background:url(../images/main-complex.png) no-repeat center !important;
 	
 }
 
@@ -1786,7 +1790,8 @@ article .left-box p {
 
 
 article .left-box .txt-zone {
-	text-align: center;
+	width:fit-content;
+	margin:0 auto;
 	
 
 	}
@@ -1803,7 +1808,7 @@ article .left-box .txt-zone p {
 }
 
 article .left-box img {
-	padding: 0 2.2vw 0 1.053vw;
+	padding: 0;
 	height:fit-content;
 	float:left;
 }
@@ -1824,14 +1829,14 @@ article .right-box:after {
 	z-index: 1;
 	pointer-events: none;
 	
-	left: 70%;
+	left: 65%;
 	width: 45%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-left: 14.74vw solid #545454;
-	border-bottom: 18.23vw solid transparent;
+	border-left: 11.8vw solid #545454;
+	border-bottom: 13.73vw solid transparent;
 } 
 
 .bold {
