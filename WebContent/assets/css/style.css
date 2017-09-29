@@ -107,10 +107,16 @@ a:hover, a:focus {
 	padding: 0;
 }
 
-.fa {
+/* .fa {
 	font-size: 1.7em;
 	color: white;
 	padding: 0.6vh;
+} */
+
+.fa {
+   font-size: 3em;
+   color: #25252c;
+   padding: 0.6vh;
 }
 
 .selected {
@@ -126,7 +132,7 @@ a:hover, a:focus {
 /* Add a black background color to the top navigation */
 .top-menu {
 	background-color: #3b3b3b;
-	padding: 60px 0 10px 173px;
+	padding: 3.128% 0 0.505% 9.04%;
 	overflow: hidden;
 }
 
@@ -158,7 +164,7 @@ a:hover, a:focus {
 }
 
 .top-menu .topnav li {
-	padding: 25px 25px 10px;
+	padding: 1.3vw 1.3vw 0.5vw;
 	background:#3b3b3b;
 }
 
@@ -166,7 +172,7 @@ a:hover, a:focus {
 	display: block;
 	color: #898989 !important;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 0.73vw 0.83vw;
 	font-size: 17.6px;
 	font-weight: 600;
 }
@@ -176,11 +182,11 @@ a:hover, a:focus {
 }
 
 .top-menu .etc-place {
-	padding: 25px 9px 10px;
+	padding: 1.3vw 0.47vw 0.52vw;
 }
 
 .top-menu .etc-place p {
-	padding: 14px 16px;
+	padding: 0.73vw 0.83vw;
 	color: #525252 !important;
 	text-align: center;
 	font-size: 17.6px;
@@ -198,7 +204,7 @@ a:hover, a:focus {
 	position: absolute;
 	width: 29px;
 	height: 29px;
-	margin: -2px 12px;
+	margin: -0.105vw 0.63vw;
 }
 
 .top-menu .brand-logo img {
@@ -217,7 +223,7 @@ a:hover, a:focus {
 /* 
 owl 罹먮윭�� */
 #owl-demo .item {
-	max-height: 720px;
+	max-height: 37.5vw;
 }
 
 #owl-demo .item .owl-overlay {
@@ -272,13 +278,13 @@ owl 罹먮윭�� */
 } */
 #owl-demo .item .owl-overlay h2 {
 	color: white;
-	font-size: 52px;
+	font-size: 3.7142857142857144em;
 	font-weight: 300;
 	letter-spacing: 0.04vw;
 	position:relative;
 	top:38%;
 	text-transform: none;
-	line-height: 6.8rem;
+	line-height: 1.31em;
 	margin-bottom: 5px;
 	font-family:'KoPuDotum-L', sans-serif;
 }
@@ -352,7 +358,7 @@ owl 罹먮윭�� */
 .owl-theme .owl-controls .owl-page span {
 	background: transparent;
 	border-color: white;
-	border: 5.5px solid white;
+	border: 0.3vw solid white;
 }
 
 .owl-theme .owl-controls .owl-buttons div {
@@ -390,13 +396,13 @@ owl 罹먮윭�� */
 
 section .double-set {
 	display: flex;
-	height: 740px;
+	height: 38.54vw;
 	position: relative;
 }
 
 section .double-set .txt-box {
 	width: 50%;
-	padding: 7.5% 0 0 173px;
+	padding: 7.5% 0 0 9.04%;
 	background: transparent;
 }
 
@@ -406,29 +412,29 @@ section .double-set .txt-box .section-header {
 
 section .double-set .txt-box .section-header p {
 	color: #b8b8b8;
-	font-size: 22px;
-	padding-left: 5px;
+	font-size: 1.5714285714285714em;
+	padding-left: 0.23em;
 	font-weight: 300;
-	margin-bottom:25px;
+	margin-bottom:1.3vw;
 	font-family:'KoPuDotum-M', sans-serif;
 }
 
 section .double-set .less_text .section-header p {
-	margin-bottom:30px !important;
+	margin-bottom:1.56vw !important;
 	}
 
 section .double-set .txt-box .section-header h2 {
 	letter-spacing: -0.37px;
-	font-size: 45.7px;
-	line-height: 64px;
-	margin-top: 13px;
-	margin-bottom: 36px;
+	font-size: 3.2642857142857147em;
+	line-height: 1.42em;
+	margin-top: 0.678vw;
+	margin-bottom: 1.8734vw;
 	color: #3b3b3b;
 	font-family: 'KoPuBatang-M', sans-serif;
 }
 
 section .double-set .less_text .section-header h2 {
-	font-size:48.4px !important;
+	font-size:3.457142857142857em !important;
 	}
 
 section .double-set .txt-box .txt-area {
@@ -436,12 +442,12 @@ section .double-set .txt-box .txt-area {
 }
 
 section .double-set .txt-box .txt-area p {
-	font-size: 21px;
-	line-height:30px;
+	font-size: 1.5em;
+	line-height:1.47em;
 }
 
 section .double-set .less_text .txt-area p {
-	font-size: 24px;
+	font-size: 1.7142857142857142em;
 	font-weight:300;
 	font-family:'KoPuDotum-M', sans-serif;
 	
@@ -452,17 +458,17 @@ section .double-set .txt-box .txt-area .btnS {
 	font-weight: 600;
 	font-size: 19px;
 	background: #3b3b3b;
-	padding: 12px 26px;
+	padding: 0.625vw 1.354vw;
 	color: #b3b3b3;
 	border: none;
 }
 
 section .double-set .txt-box .txt-area .btns {
-	margin-top: 57px;
+	margin-top: 2.9646vw;
 	font-weight: 300;
-	font-size: 24.5px;
+	font-size: 1.75em;
 	background: transparent;
-	padding: 0.4vh 1.6rem 0.2vh 0rem;
+	padding: 0.211vw 0.83vw 0.104vw 0;
 	color: white;
 	border-bottom: 2.45px solid white !important;
 	border: none;
@@ -481,6 +487,12 @@ section .double-set .txt-box .txt-area .btnS_fill {
 
 section .double-set .section-img {
 	width: 50%;
+	background:url(../images/cross-walking.png) no-repeat center !important;
+}
+
+section .double-set .section-img2 {
+	width: 50%;
+	background:url(../images/architect.png) no-repeat center !important;
 }
 
 section .double-set .section-img .in_transparent_img {
@@ -490,11 +502,11 @@ section .double-set .section-img .in_transparent_img {
 	height: 100%;
 }
 
-section .double-set .section-img img {
+/* section .double-set .section-img img {
 	width: 100%;
 	height: 100%;
 }
-
+ */
 /*  �젒�빀 �젒�몢�궗 */
 .bg-darkgray {
 	background: #535353 !important;
@@ -526,7 +538,7 @@ section .double-set .section-img img {
 
 article {
 	/* text-align:center; */
-	padding: 53px 163px;
+	padding: 2.79% 8.567%;
 	background:#3b3b3b;
 	display: flex;
 }
@@ -549,30 +561,30 @@ article:last-child span {
 
 article .left-direction {
 	width: 50%;
-	padding: 10px 0 10px 10px;
+	padding: 0.522vw 0 0.522vw 0.522vw;
 	text-align: left;
 }
 
 article .right-direction {
 	width: 50%;
-	padding: 10px 0;
+	padding: 0.521vw 0;
 	text-align: right;
 }
 
 article p {
-	font-size: 22.6px;
+	font-size: 1.6142857142857143em;
 	color: #9fa0a0;
 	font-weight: 300;
-	margin-bottom: 5px;
-	padding-right: 58px;
+	margin-bottom: 0.26vw;
+	padding-right: 3.021vw;
 }
 
 article span {
-	font-size: 37px;
+	font-size: 2.642857142857143em;
 	color: #75d701;
 	letter-spacing: -0.8px;
 	font-weight:600;
-	line-height: 53px;
+	line-height: 2.79vw;
 	font-family:'KoPuDotum-M', sans-serif;
 }
 
@@ -581,7 +593,7 @@ article img {
 }
 
 article a {
-	font-size: 36px;
+	font-size: 2.5714285714285716em;
 	letter-spacing: -1.37px;
 	color: white;
 }
@@ -601,7 +613,7 @@ article a {
 }
 
 .fa2 {
-	font-size: 149px !important;
+	font-size: 12.45em !important;
 }
 
 .fa3 {
@@ -615,7 +627,7 @@ article a {
 .give-backgroundimg {
 	background: url(../images/hand.png) no-repeat !important;
 	width: 100% !important;
-	padding: 8.6% 173px 0 0 !important;
+	padding: 8.6% 9.04% 0 0 !important;
 	text-align: right !important;
 	background-size: cover !important;
 }
@@ -656,19 +668,19 @@ article a {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-left: 180px solid #60b224;
-	border-bottom: 740px solid transparent;
+	border-left: 9.375vw solid #60b224;
+	border-bottom: 38.55vw solid transparent;
 }
 
 footer {
-	padding: 47px 153px;
+	padding: 2.448vw 7.97vw;
 	display: flex;
 	background: #313131;
 }
 
 footer .footer-content {
 	width: 100%;
-	padding: 10px 0 10px 20px;
+	padding: 0.5209vw 0 0.5209vw  1.0418vw;
 	text-align: left;
 }
 
@@ -680,11 +692,11 @@ footer .footer-content {
 
 footer p {
 	text-transform: initial;
-	font-size: 13.5px;
+	font-size: 0.9642857142857143em;
 	color: #888888;
 	font-weight: 300;
 	margin-bottom: 0px;
-	padding-right: 58px;
+	padding-right: 3.02vw;
 }
 
 footer p:first-child {
@@ -700,7 +712,7 @@ footer span {
 }
 
 footer img {
-	padding: 0 0 15px 0;
+	padding: 0 0 0.7818vw 0;
 }
 
 footer a {
@@ -977,11 +989,25 @@ footer a {
 	font-size:2.4em;
 }
 
-.portfolio-area {
+/* .portfolio-area {
 	padding: 37px 250px;
 	overflow: hidden;
 	background: #f7f7f7;
+} */
+
+
+.portfolio-area {
+   padding: 80px 250px;
+   overflow: hidden;
+   background: #f7f7f7;
 }
+
+
+.portfolo_footer {
+    text-align: center;
+    margin-top: 55px;
+}
+
 
 .service-area {
 	padding: 123px 250px;
@@ -1739,7 +1765,7 @@ font-family: 'KoPuDotum-M', sans-serif;
 
 article .left-box {
 	width: 70%;
-	padding: 132px 185px;
+	padding: 6.9347% 12.72%;
 
 	
 }
@@ -1765,19 +1791,19 @@ article .left-box .txt-zone {
 
 	}
 article .left-box .txt-zone p {
-	font-size: 34px;
+	font-size: 2.4285714285714284em;
 	color: #75d701;
 	letter-spacing: -0.8px;
 	font-weight:300;
 	text-align:justify;
-	line-height: 43px;
+	line-height: 1.29em;
 	font-family:'KoPuDotum-L', sans-serif;
 	padding:0;
 	margin:0;
 }
 
 article .left-box img {
-	padding: 0 8.6vw 0 20px;
+	padding: 0 2.2vw 0 1.053vw;
 	height:fit-content;
 	float:left;
 }
@@ -1804,8 +1830,8 @@ article .right-box:after {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-left: 283px solid #545454;
-	border-bottom: 350px solid transparent;
+	border-left: 14.74vw solid #545454;
+	border-bottom: 18.23vw solid transparent;
 } 
 
 .bold {

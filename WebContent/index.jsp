@@ -88,7 +88,7 @@
 		<div class="double-set"> 
 		 <div class="txt-box w50 bg-green less_text"><div class="section-header"><p class="white">HUMAN CENTERED ARCHITECTURE</p><h2>단순 미적추구 이상의<br>UX를 구현한 공간디자인</h2></div><div class="txt-area"><p>우리는 사용자의 동선흐름을 예측하여 디자인에 적용합니다.</p><button class="btns" type="button" onclick="location.href='work-lime.html'">MORE VIEW</button></div></div>
 		 <div class="section-img w50 make-area">
-		 <img src="assets/images/main-cross.jpg">
+		
 	</div>
 	</div>
 		</section>
@@ -102,8 +102,7 @@
 		<section>
 		<div class="double-set"> 
 		 <div class="txt-box w50 less_text bg-darkgray"><div class="section-header"><p class="bg-whitegray">BUSINESS AREA</p><h2 class="white">전문적이고 차별화된<br>종합 건설서비스</h2></div><div class="txt-area white"><p class="white">이안베스트가 만든 이로운 공간. <br>이안베스트에서는 늘 편안한 환경이 제공됩니다.</p><button class="btnS" type="button" onclick="location.href='work-lime.html'">MORE VIEW</button></div></div>
-		 <div class="section-img w50">
-		 <img src="assets/images/architect.png">
+		 <div class="section-img2 w50">
 	</div>
 	</div>
 		</section>
