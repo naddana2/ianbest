@@ -39,78 +39,16 @@
 
 	<div id="wrap" class="wrap">
 
-		<div class="before-portfolio">
-			<div class="first-carousel">
-				<div id="owl-demo" class="owl-carousel owl-theme">
-					<div class="item">
-						<div class="owl-overlay-portfolio">
-							<h2>Setember 06 | 2016 construct</h2>
-							<p>베스티안 오송메디클러스터</p>
-
-							<!-- 	<button class="btnS" type="button" onclick="location.href='work-web.html'">CONTACT US</button> -->
-						</div>
-
-						<img class="" src="assets/images/4in22.png" alt="GTA V">
-
-					</div>
-					<div class="item">
-						<div class="owl-overlay-portfolio">
-							<h2>June 13 | 2015 construct</h2>
-							<p>광주 목뉴방외과</p>
-
-							<!-- 	<button class="btnS" type="button" onclick="location.href='work-web.html'">CONTACT US</button> -->
-						</div>
-						<img class="" src="assets/images/square.png" alt="GTA V">
-
-					</div>
-				</div>
-			</div>
-
-			<div class="second-box">
-				<div class="ubox">
-					<div class="overlay">
-						<h2>WE Construct</h2>
-						<strong>MERITED PROJECT</strong>
-						<p>Ianbest Co.Ltd</p>
-					</div>
-					<img class="" src="assets/images/architect.jpg" alt="GTA V">
-				</div>
-			</div>
-
-			<div class="third-box">
-				<div class="youtube-box">
-					<iframe
-						src="https://www.youtube.com/embed/fpO9yLcY0kY?modestbranding=0&rel=0&showinfo=0"
-						frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-				</div>
-				<div class="small-box">
-					<div class="small1">
-						<i class="fa fa-search" aria-hidden="true"></i>
-						<h2>True Revision</h2>
-						<span> is simply dummy text of the printing and typesetting
-						</span>
-					</div>
-					<div class="small2">
-						<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-						<h2>True Revision</h2>
-						<span> is simply dummy text of the printing and typesetting
-						</span>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="portfolio-area">
 			<div class="portfolio-header">
-				<ul class="filter-wrapper button-group" id="filters" >
+				<ul class="filter-wrapper button-group" id="filters">
 					<li><a href="#" class="" data-filter="*">ALL</a></li>
 					<li><a href="#" class="" data-filter=".office">OFFICE</a></li>
 					<li><a href="#" class="" data-filter=".complex">COMPLEX</a></li>
 					<li><a href="#" class="" data-filter=".hospital">HOSPITAL</a></li>
 					<li><a href="#" class="" data-filter=".remodeling">REMODELING</a></li>
 				</ul>
-				<a class="append-button"> <i class="fa fa-th-large"
-					aria-hidden="true"></i>
-				</a>
+
 			</div>
 
 			<div class="iso-box-wrapper masonry" id="list">
@@ -150,7 +88,7 @@
 					</div>
 				</div>
 
-				<div class="iso-box complex" >
+				<div class="iso-box complex">
 					<div class="portfolio-thumb">
 
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
@@ -371,11 +309,9 @@
 					<div class="portfolio-thumb">
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
 						<div class="thumb-text">
-
 							<p>Portfolio, Industrial</p>
 							<h2>경기도립 미술관</h2>
 						</div>
-
 
 						<div class="card-ui">
 							<div class="ui-area">
@@ -398,29 +334,29 @@
 							</div>
 						</div>
 						<div class="detail-button">
-							<button class="btnS" type="button"
-								onclick="location.href='work-lime.html'">Contact Us</button>
+							<button class="btnS" type="button" onclick="location.href='work-lime.html'">Contact Us</button>
 						</div>
-
 					</div>
 				</div>
 			</div>
+			
+			<div class="portfolo_footer">
+				<a class="append-button"> 
+					<i class="fa fa-chevron-down" aria-hidden="true" id="icon"></i>
+				</a>
+			</div>
 		</div>
-
-
 
 	</div>
 
 	<%@ include file="assets/include/footer.jsp"%>
-<script type="text/javascript">
-	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
-	$('#project').addClass('selected');
+	<script type="text/javascript">
+		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
-</script>
-
-
-
+		$('#project').addClass('selected');
+		
+	</script>
 
 </body>
 </html>
