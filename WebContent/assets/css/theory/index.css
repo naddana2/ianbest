@@ -180,7 +180,7 @@ section .double-set .section-img .in_transparent_img {
 
 .full-page {
    width: 100% !important;
-   background: url(../images/10year.png) no-repeat center !important;
+   background: url(../../images/10year.png) no-repeat center !important;
    background-size: cover !important;
 }
 

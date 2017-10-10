@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="assets/css/owl.theme.css">
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/theory/about.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 
 <script src="assets/js/jquery-1.9.1.min.js"></script>

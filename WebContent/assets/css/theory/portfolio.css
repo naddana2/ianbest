@@ -1,0 +1,128 @@
+.portfolio-area {
+   padding: 80px 250px;
+   overflow: hidden;
+   background: rgba(49, 49, 49, 1);
+}
+
+
+.portfolio-header {
+   width: 100%;
+   padding: 0 17px;
+}
+
+.portfolio-header ul {
+   display: inline-flex;
+   list-style: none;
+   padding: 0;
+   letter-spacing: 0.31px;
+}
+
+.portfolio-header ul>li {
+   font-size: 18px;
+   padding-right: 30px;
+}
+
+.portfolio-header ul>li>a {
+   color: #a0a0a0;
+   font-family: 'KoPuDotum-L', sans-serif;
+   line-height: 30px;
+   font-weight: 600;
+}
+
+.portfolio-area  .iso-box-wrapper {
+   height: 100%;
+   overflow: hidden;
+}
+
+
+.iso-box-wrapper .iso-box {
+   width: 350.75px;
+   float: left;
+   padding: 17px;
+   /* margin-top: 22px; */
+}
+
+
+.iso-box .portfolio-thumb {
+   position: relative;
+   overflow: hidden;
+   margin: 0;
+   box-shadow: 3px 4px 17px 1px rgba(101, 89, 114, 0.44);
+}
+
+
+.iso-box .portfolio-thumb img {
+   width: 100%;
+   height: auto;
+}
+
+
+.portfolio-thumb .thumb-text {
+   padding: 27px 0;
+	background: white;
+	border-left: 1.4px solid #d6d6d6;
+	border-right: 1.4px solid #d6d6d6;
+	box-shadow: inset 0 -1.7px 0px 0px rgba(234, 234, 234, 0.6);
+}
+
+
+.portfolio-thumb .thumb-text p {
+   font-weight: 300;
+   font-family: 'KoPuBatang-M', sans-serif;
+   letter-spacing: 0.1347px;
+   text-transform: none;
+   font-size: 12.3px;
+   margin-bottom: 3px;
+   padding: 0 17px;
+   color: #525252;
+}
+
+
+.portfolio-thumb .thumb-text h2 {
+   font-weight: 600;
+   color: black;
+   font-size: 20.2px;
+   letter-spacing: 0.6px;
+   line-height: 32.2px;
+   margin-top: 0;
+   margin-bottom: 4px;
+   padding: 0 17px;
+}
+
+
+.portfolio-header ul>li>a:hover {
+    color: white !important;
+}
+
+
+
+
+.portfolo_footer {
+   text-align: center;
+   margin-top: 55px;
+}
+
+
+
+
+.move-contact {
+	text-align: center;
+	padding: 91px 0;
+	background:#6eb92b;
+}
+
+.move-contact p {
+	font-size: 16.6px;
+	margin-bottom: 0;
+	color:white;
+	font-family:'KoPuBatang-L', sans-serif;
+	font-weight:300;
+}
+
+.move-contact h2 {
+	font-size: 33.5px;
+	letter-spacing: -0.12px;
+	color: white;
+	font-weight: 600;
+	margin-top: 12px;
+}

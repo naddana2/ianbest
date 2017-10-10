@@ -1,0 +1,383 @@
+
+
+
+.portfolio-thumb .intro {
+   text-align: center;
+   padding: 32px 0 !important;
+}
+
+
+.portfolio-thumb .thumb-text span {
+   padding: 17px 0 22px 0;
+   display: inline-block;
+   color: #525252;
+   letter-spacing: 0.5px;
+}
+
+.portfolio-thumb .card-ui {
+   padding: 18px 0;
+   background: #f9f9f9;
+   display: flex;
+   border-left: 1.4px solid #d6d6d6;
+   border-right: 1.4px solid #d6d6d6;
+}
+
+.portfolio-thumb .card-ui .ui-area {
+   width: 33%;
+   margin: 0 auto;
+   text-align: center;
+   border-right: 2px solid #eaeaea;
+}
+
+.portfolio-thumb .card-ui .ui-area h2 {
+   margin: 0;
+   padding-bottom: 9px;
+   font-size: 15px;
+   font-weight: 600;
+   margin-top: 3.2px;
+   letter-spacing: 0.5px;
+   color: #777777;
+   text-transform: none;
+}
+
+.portfolio-thumb .card-ui .ui-area h2>i {
+   color: #777777;
+   font-size: 20px;
+}
+
+.portfolio-thumb .card-ui .ui-area p {
+   color: #9d9d9d;
+   margin-bottom: 3.2px;
+   letter-spacing: 0.5px;
+   line-height: 7px;
+}
+
+
+.portfolio-thumb .card-ui .ui-area:last-child {
+   border: none;
+}
+
+
+.portfolio-thumb .thumb-text h2>strong {
+   font-size: 14.3px;
+   font-weight: 300;
+   letter-spacing: 0.57px;
+   color: #525252;
+   font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+
+
+.combine-context {
+   width: 795.5px !important;
+}
+
+.combine-context img {
+   width: 100%;
+   height: auto;
+}
+
+
+
+.detail-button {
+   text-align: center;
+   background: #25252c;
+}
+
+.detail-button .btnS {
+   font-weight: 300;
+   font-size: 18.3px;
+   background: transparent;
+   text-transform: capitalize;
+   padding: 16px 10px;
+   color: #ffffff;
+   border: none;
+   width: 100%;
+}
+
+.ms {
+   width: 20%;
+}
+
+.portfolio-thumb .thumb-video {
+   height: 332px;
+   position: relative;
+   overflow: hidden;
+}
+
+.portfolio-thumb .thumb-video iframe {
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+}
+
+.portfolio-thumb .intro p {
+   font-family: 'KoPuBatang-M', sans-serif;
+   margin-bottom: 16px;
+   font-size: 15.1px;
+   margin-top: 6px;
+   color: #e5e5e5;
+}
+
+.portfolio-thumb .intro h2 {
+   font-weight: 600;
+   color: white;
+   font-size: 20.2px;
+   letter-spacing: 0.6px;
+   line-height: 32.2px;
+   margin-top: 0;
+   margin-bottom: 22px;
+   padding: 0 17px;
+}
+
+.portfolio-thumb .intro span {
+   padding: 0 17px;
+   letter-spacing: -0.3px;
+   font-size: 15px;
+   color: #e5e5e5;
+}
+
+.flat-black {
+   background: #25252c !important;
+}
+
+.portfolio-thumb .intro {
+   border: none !important;
+}
+
+.before-portfolio {
+   padding-top: 52px;
+   width: 100%;
+   overflow: hidden;
+   height: 424.5px;
+}
+
+.before-portfolio .first-carousel {
+   width: 45% !important;
+   float: left;
+   padding: 9px;
+   height: 100%;
+}
+
+.before-portfolio .second-box {
+   width: 25%;
+   float: left;
+   padding: 9px;
+   height: 100%;
+}
+
+.before-portfolio .second-box .ubox .overlay {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   background: rgba(94, 114, 155, 0.39) !important;
+   padding: 20.2% 16%;
+   display: none;
+}
+
+.before-portfolio .second-box .ubox {
+   height: 100%;
+   position: relative;
+}
+
+.before-portfolio .second-box .ubox:hover .overlay {
+   display: block;
+}
+
+.overlay h2 {
+   color: #e7e7e7;
+   font-size: 22px;
+   margin-bottom: 12px;
+   text-transform: uppercase;
+   letter-spacing: 1.5px;
+   padding-bottom: 0;
+   font-family: 'Abel', sans-serif;
+}
+
+.overlay strong {
+   color: white;
+   font-weight: 600;
+   font-size: 26px;
+   letter-spacing: 1.3px;
+   font-family: 'KoPuDotum-B', sans-serif;
+}
+
+.overlay p {
+   color: white;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 30px;
+   margin: 15px auto;
+   width: fit-content;
+   border-bottom: 2px solid white;
+}
+
+.before-portfolio .second-box .ubox img {
+   width: 100%;
+   height: 100%;
+}
+
+.before-portfolio .second-youtube {
+   width: 25% !important;
+   float: left;
+   padding: 17px;
+}
+
+.before-portfolio .second-youtube .dum {
+   height: 332px;
+   position: relative;
+   overflow: hidden;
+}
+
+.before-portfolio .second-youtube .dum iframe {
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+}
+
+.second-youtube .intro p {
+   font-family: 'KoPuBatang-M', sans-serif;
+   margin-bottom: 16px;
+   font-size: 15.1px;
+   margin-top: 6px;
+   color: #e5e5e5;
+}
+
+.second-youtube .intro h2 {
+   font-weight: 600;
+   color: white;
+   font-size: 20.2px;
+   letter-spacing: 0.6px;
+   line-height: 32.2px;
+   margin-top: 0;
+   margin-bottom: 22px;
+   padding: 0 17px;
+}
+
+.second-youtube .intro span {
+   padding: 0 17px;
+   letter-spacing: -0.3px;
+   font-size: 15px;
+   color: #e5e5e5;
+   display: inline-block;
+}
+
+.flat-black {
+   background: #25252c !important;
+}
+
+.before-portfolio .third-box {
+   width: 30% !important;
+   float: left;
+   height: 100%;
+   padding: 9px;
+}
+
+.before-portfolio .third-box .youtube-box {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   height: 50%;
+}
+
+.before-portfolio .third-box .youtube-box iframe {
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   padding: 0 0 9px 0;
+   bottom: 0;
+}
+
+.second-youtube .intro {
+   border: none !important;
+   text-align: center;
+   padding: 32px 0 !important;
+}
+
+.first-carousel #owl-demo .item img {
+   width: 100%;
+   display: block;
+}
+
+.first-carousel #owl-demo .item .owl-overlay-portfolio {
+   background: rgba(94, 114, 155, 0.39) !important;
+}
+
+/* .before-portfolio .third-box .box-set {
+   height: 205px;
+}
+ */
+.before-portfolio .third-box .small-box {
+   width: 100%;
+   height: 50%;
+   text-align: center;
+}
+
+.before-portfolio .third-box .small-box>div {
+   width: calc(50% - 4.5px);
+   height: 100%;
+   float: left;
+   padding: 4.5px;
+}
+
+.before-portfolio .third-box  .small1 {
+   background: rgba(11, 7, 121, 0.78);
+   margin-right: 4.5px;
+}
+
+.before-portfolio .third-box  .small2 {
+   background: rgba(67, 69, 82, 0.8);
+   margin-left: 4.5px;
+}
+
+.before-portfolio .third-box .small-box>div>i {
+   font-size: 3.54em;
+   padding-bottom: 1.31vh;
+   margin-top: 8px;
+}
+
+.before-portfolio .third-box .small-box>div>h2 {
+   margin-top: 8px;
+   color: white;
+   font-family: 'KoPuBatang-M', sans-serif;
+   letter-spacing: 1.1px;
+   font-size: 21.7px;
+   text-transform: none;
+   padding: 0;
+}
+
+.before-portfolio .third-box .small-box>div>span {
+   color: white;
+}
+
+.before-portfolio .first-carousel .owl-carousel {
+   height: 100% !important;
+}
+
+.before-portfolio .first-carousel .owl-carousel .owl-wrapper-outer {
+   height: 100% !important;
+}
+
+.before-portfolio .first-carousel .owl-carousel .owl-wrapper-outer .owl-wrapper
+   {
+   height: 100% !important;
+}
+
+.before-portfolio .first-carousel .owl-carousel .owl-item {
+   height: 100% !important;
+}
+
+.before-portfolio .first-carousel .owl-carousel .owl-item .item {
+   height: 100% !important;
+}
+
+.before-portfolio .first-carousel .owl-carousel .owl-item .item img {
+   height: 100% !important;
+}

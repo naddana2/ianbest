@@ -9,9 +9,10 @@
 
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/contact.css">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/theory/contact.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
+
 
 <script src="assets/js/jquery-1.9.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
@@ -20,7 +21,7 @@
 
 </head>
 <body>
-	<%@ include file="assets//include/header.jsp"%>
+	<%@ include file="assets/include/header.jsp"%>
 		<div id="wrap" class="wrap">
 			<div class="contact_wrap padding">
 				<div class="contact_header subtitle">
@@ -38,7 +39,7 @@
 				</div>
 			</div>
 		</div>
-	<%@ include file="assets//include/footer.jsp"%>
+	<%@ include file="assets/include/footer.jsp"%>
 
 	<script type="text/javascript">
 		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */

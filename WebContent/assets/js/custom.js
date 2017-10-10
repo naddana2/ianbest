@@ -52,14 +52,14 @@ jQuery(window).load(function(){
 			if(flag == true){
 				$isop.append($items).isotope('appended', $items);
 				setTimeout(function(){
-					icon.className = "fa fa-chevron-up";
+					icon.className = "fa fa-chevron-up gray";
 				}, 250);
 				flag = false;
 			}else{
 				$isop.isotope('remove', $items );
 			    setTimeout(function(){
-			    	icon.className = "fa fa-chevron-down";
 			    	$isop.isotope('layout');
+			    	icon.className = "fa fa-chevron-down gray";
 			    }, 250);
 			    flag = true;
 			}

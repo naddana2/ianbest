@@ -12,13 +12,14 @@
 <link rel="stylesheet" href="assets/css/owl.theme.css">
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/theory/portfolio.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <script src="assets/js/jquery-1.9.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/owl.carousel.min2.js"></script>
 <script src="assets/js/owl3.js"></script>
 <script src="assets/js/isotope.js"></script>
-<script src="assets/js/custom2.js"></script>
+<script src="assets/js/custom.js"></script>
 
 
 <script type="text/javascript">
