@@ -55,83 +55,22 @@ function myFunction() {
 		
 		
 		</div>
-		<div class="img-section">
+		<div class="bottom-area">
+	<div class="left-grid">
 		
+	
 		<img src="assets/images/4in1.png" alt="The Last of us">
 		<img src="assets/images/4in2.png" alt="The Last of us">
 		<img src="assets/images/4in3.png" alt="The Last of us">
 		<img src="assets/images/4in4.png" alt="The Last of us">
 		</div>
+		<div class="right-grid"></div>
 		
-		<div class="move-contact"><p>Get in touch</p><h2>CONTACT</h2></div>
-		<div class="project-view"><div class="view-header"><p>Related</p><h2>PROJECT</h2></div>
 		
-		<div id="owl-demo" class="owl-carousel owl-theme small-owl">
-			<div class="item">
-				
-				<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
-				<p>베스티안 서울병원 리모델링</p>
-			</div>
-			<div class="item">
-				
-				<img src="assets/images/small-carousel2.jpg" alt="The Last of us">
-				<p>베스티안 부산병원</p>
-			</div>
-			<div class="item">
-				
-				<img src="assets/images/small-carousel3.jpg" alt="The Last of us">
-				<p>광주목뉴방외과</p>
-			</div>
-				<div class="item">
-				
-				<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
-				<p>베스티안 서울병원 리모델링</p>
-			</div>
-			<div class="item">
-				
-				<img src="assets/images/small-carousel2.jpg" alt="The Last of us">
-				<p>베스티안 부산병원</p>
-			</div>
-			<div class="item">
-				
-				<img src="assets/images/small-carousel3.jpg" alt="The Last of us">
-				<p>광주목뉴방외과</p>
-			</div><div class="item">
-				
-				<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
-				<p>베스티안 서울병원 리모델링</p>
-			</div>
-			<div class="item">
-				
-				<img src="assets/images/small-carousel2.jpg" alt="The Last of us">
-				<p>베스티안 부산병원</p>
-			</div>
-			<div class="item">
-				
-				<img src="assets/images/small-carousel3.jpg" alt="The Last of us">
-				<p>광주목뉴방외과</p>
-			</div><div class="item">
-				
-				<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
-				<p>베스티안 서울병원 리모델링</p>
-			</div>
-			<div class="item">
-				
-				<img src="assets/images/small-carousel2.jpg" alt="The Last of us">
-				<p>베스티안 부산병원</p>
-			</div>
-			<div class="item">
-				
-				<img src="assets/images/small-carousel3.jpg" alt="The Last of us">
-				<p>광주목뉴방외과</p>
-			</div>
-			
-			
-			
-		</div>
-		</div>
 		
-		</div>
+		</div></div>
+		
+	
 		<%@ include file="assets//include/footer.jsp"%>
 		
 		
