@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.contact_wrap {
+    padding: 7.4% 9.04%;
+    overflow: hidden;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 43vh;
+}
+
+.contact_map {
+    width: 50%;
+    float: left;
+    padding-right: 10%;
+}
+
+.contact_content {
+    width: 50%;
+    float: left;
+}
+
+.contact_header.subtitle {
+    margin-bottom: 5%;
+}
