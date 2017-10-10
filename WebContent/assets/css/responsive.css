@@ -30,6 +30,7 @@
 	
 	.top-menu .brand-logo a {
 	float:right;
+	display:block !important;
 }
 
 	.top-menu .brand-logo img {

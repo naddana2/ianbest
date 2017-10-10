@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="assets/css/owl.theme.css">
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/theory/service.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <script src="assets/js/jquery-1.9.1.min.js"></script>
 
@@ -205,7 +206,7 @@
 
 				<ul class="nav nav-tabs nav-stacked hypertabcontent current"
 					id="tab1">
-					<li class="li-menu2"><a><div class="tab-info">
+					<li class=""><a><div class="tab-info">
 								<h3 class="toro">Design project</h3>
 							</div></a></li>
 					<li class="active li-menu"><a class="animated fadeIn"

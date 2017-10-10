@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/owl.theme.css">
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
-<link rel="stylesheet" href="assets/css/style2.css">
+<link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <script src="assets/js/jquery-1.9.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
@@ -150,7 +150,7 @@
 			
 			<div class="portfolo_footer">
 				<a class="append-button"> 
-					<i class="fa fa-chevron-down" aria-hidden="true" id="icon"></i>
+					<i class="fa fa-chevron-down gray" aria-hidden="true" id="icon"></i>
 				</a>
 			</div>
 		</div>

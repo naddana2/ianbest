@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="assets/css/owl.theme.css">
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/theory/index.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <script src="assets/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript">
@@ -59,7 +60,7 @@
 				<img src="assets/images/carousel-1.png" alt="The Last of us">
 			</div>
 			<div class="item">
-				<div class="ovr-2 owl-overlay">
+				<div class="owl-overlay">
 					<h2>
 						건물설계 컨설팅에서 시설관리까지<br>
 						<strong>앞서나가는 종합 건설, 이안베스트</strong>
