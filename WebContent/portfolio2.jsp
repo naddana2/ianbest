@@ -11,14 +11,14 @@
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/owl.theme.css">
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style2.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <script src="assets/js/jquery-1.9.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/owl.carousel.min2.js"></script>
 <script src="assets/js/owl3.js"></script>
 <script src="assets/js/isotope.js"></script>
-<script src="assets/js/custom.js"></script>
+<script src="assets/js/custom2.js"></script>
 
 
 <script type="text/javascript">
@@ -42,7 +42,7 @@
 		<div class="portfolio-area">
 			<div class="portfolio-header">
 				<ul class="filter-wrapper button-group" id="filters">
-					<li><a href="#" class="" data-filter="*">ALL</a></li>
+					<li><a href="#" class="is-checked" data-filter="*">ALL</a></li>
 					<li><a href="#" class="" data-filter=".office">OFFICE</a></li>
 					<li><a href="#" class="" data-filter=".complex">COMPLEX</a></li>
 					<li><a href="#" class="" data-filter=".hospital">HOSPITAL</a></li>
@@ -61,30 +61,7 @@
 							<h2>광주 목뉴방외과</h2>
 
 						</div>
-						<div class="card-ui">
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-calendar" aria-hidden="true"></i>
-								</h2>
-								<p>2016</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-user" aria-hidden="true"></i>
-								</h2>
-								<p>5MD</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-university" aria-hidden="true"></i>
-								</h2>
-								<p>21,932m²</p>
-							</div>
-						</div>
-						<div class="detail-button">
-							<button class="btnS" type="button"
-								onclick="location.href='work-lime.html'">Contact Us</button>
-						</div>
+
 					</div>
 				</div>
 
@@ -99,30 +76,6 @@
 						</div>
 
 
-						<div class="card-ui">
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-calendar" aria-hidden="true"></i>
-								</h2>
-								<p>2016</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-user" aria-hidden="true"></i>
-								</h2>
-								<p>5MD</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-university" aria-hidden="true"></i>
-								</h2>
-								<p>21,932m²</p>
-							</div>
-						</div>
-						<div class="detail-button">
-							<button class="btnS" type="button"
-								onclick="location.href='work-lime.html'">Contact Us</button>
-						</div>
 
 					</div>
 				</div>
@@ -134,30 +87,6 @@
 							<h2>광주 목뉴방외과</h2>
 
 						</div>
-						<div class="card-ui">
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-calendar" aria-hidden="true"></i>
-								</h2>
-								<p>2016</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-user" aria-hidden="true"></i>
-								</h2>
-								<p>5MD</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-university" aria-hidden="true"></i>
-								</h2>
-								<p>21,932m²</p>
-							</div>
-						</div>
-						<div class="detail-button">
-							<button class="btnS" type="button"
-								onclick="location.href='work-lime.html'">Contact Us</button>
-						</div>
 					</div>
 				</div>
 
@@ -171,31 +100,6 @@
 						</div>
 
 
-						<div class="card-ui">
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-calendar" aria-hidden="true"></i>
-								</h2>
-								<p>2016</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-user" aria-hidden="true"></i>
-								</h2>
-								<p>5MD</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-university" aria-hidden="true"></i>
-								</h2>
-								<p>21,932m²</p>
-							</div>
-						</div>
-						<div class="detail-button">
-							<button class="btnS" type="button"
-								onclick="location.href='work-lime.html'">Contact Us</button>
-						</div>
-
 					</div>
 				</div>
 				<div class="iso-box remodeling">
@@ -205,30 +109,6 @@
 							<p>Portfolio, Remodeling</p>
 							<h2>광주 목뉴방외과</h2>
 
-						</div>
-						<div class="card-ui">
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-calendar" aria-hidden="true"></i>
-								</h2>
-								<p>2016</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-user" aria-hidden="true"></i>
-								</h2>
-								<p>5MD</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-university" aria-hidden="true"></i>
-								</h2>
-								<p>21,932m²</p>
-							</div>
-						</div>
-						<div class="detail-button">
-							<button class="btnS" type="button"
-								onclick="location.href='work-lime.html'">Contact Us</button>
 						</div>
 					</div>
 				</div>
@@ -242,31 +122,6 @@
 							<h2>경기도립 미술관</h2>
 						</div>
 
-
-						<div class="card-ui">
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-calendar" aria-hidden="true"></i>
-								</h2>
-								<p>2016</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-user" aria-hidden="true"></i>
-								</h2>
-								<p>5MD</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-university" aria-hidden="true"></i>
-								</h2>
-								<p>21,932m²</p>
-							</div>
-						</div>
-						<div class="detail-button">
-							<button class="btnS" type="button"
-								onclick="location.href='work-lime.html'">Contact Us</button>
-						</div>
 
 					</div>
 				</div>
@@ -278,30 +133,6 @@
 							<h2>광주 목뉴방외과</h2>
 
 						</div>
-						<div class="card-ui">
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-calendar" aria-hidden="true"></i>
-								</h2>
-								<p>2016</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-user" aria-hidden="true"></i>
-								</h2>
-								<p>5MD</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-university" aria-hidden="true"></i>
-								</h2>
-								<p>21,932m²</p>
-							</div>
-						</div>
-						<div class="detail-button">
-							<button class="btnS" type="button"
-								onclick="location.href='work-lime.html'">Contact Us</button>
-						</div>
 					</div>
 				</div>
 
@@ -313,29 +144,6 @@
 							<h2>경기도립 미술관</h2>
 						</div>
 
-						<div class="card-ui">
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-calendar" aria-hidden="true"></i>
-								</h2>
-								<p>2016</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-user" aria-hidden="true"></i>
-								</h2>
-								<p>5MD</p>
-							</div>
-							<div class="ui-area">
-								<h2>
-									<i class="fa fa-university" aria-hidden="true"></i>
-								</h2>
-								<p>21,932m²</p>
-							</div>
-						</div>
-						<div class="detail-button">
-							<button class="btnS" type="button" onclick="location.href='work-lime.html'">Contact Us</button>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -346,16 +154,15 @@
 				</a>
 			</div>
 		</div>
+				<div class="move-contact"><p>Get in touch</p><h2>CONTACT</h2></div>
+		
 
 	</div>
 
 	<%@ include file="assets/include/footer.jsp"%>
 
 	<script type="text/javascript">
-		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-
 		$('#project').addClass('selected');
-		
 	</script>
 
 </body>
