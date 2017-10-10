@@ -18,7 +18,7 @@
 <script src="assets/js/owl.carousel.min2.js"></script>
 <script src="assets/js/owl3.js"></script>
 <script src="assets/js/isotope.js"></script>
-<script src="assets/js/custom2.js"></script>
+<script src="assets/js/custom.js"></script>
 
 
 <script type="text/javascript">

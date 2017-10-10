@@ -48,28 +48,15 @@ function myFunction() {
 <div id="wrap" class="wrap">
 		
 		
-		<div class="header-area">
-		<div class="header-overlay">
-		<p>Healthcare</p>
-		<span>베스티안 오송 메디클러스터</span>.
-		</div>
-		<img src="assets/images/about-header.png" alt="The Last of us">
-		</div>
 		
 		<div class="about-content">
-		<h2>베스티안 오송 메디클러스터</h2>
+		<h2>Bestian Osong Medicluster</h2>
 		<img src="assets/images/big.png" alt="The Last of us">
-		<div class="subject">
-		<h2>Project Summary<i class="fa fa-th-large" aria-hidden="true"></i></h2></div>
-		<div class="text-area">
-		<div class="right-content"><span>베스티안 오송메디클러스터는 충청북도 오송 첨복의료복합단지내에 대지1만471090m²<br>(4,450,05평), 연면적 21,237,42m²으로 2018년 5월 준공 예정이다. </span></div>
-		<div class="left-content"><p><strong>Location:</strong>충청북도 오송</p><p><strong>Location:</strong>충청북도 오송</p></div>
-		</div>
 		
 		
 		</div>
 		<div class="img-section">
-		<iframe src="https://www.youtube.com/embed/fpO9yLcY0kY" frameborder="0" allowfullscreen></iframe>
+		
 		<img src="assets/images/4in1.png" alt="The Last of us">
 		<img src="assets/images/4in2.png" alt="The Last of us">
 		<img src="assets/images/4in3.png" alt="The Last of us">
