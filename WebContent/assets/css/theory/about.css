@@ -1,10 +1,10 @@
 
 .about-content {
-   padding: 4.4% 9.04%;
+   padding: 4.4% 12.64%;
 }
 
 .about-content h2 {
-   font-size: 33.5px;
+   font-size: 2.392857142857143em;
    letter-spacing: -0.12px;
    color: #707070;
    padding: 0 7px;
@@ -22,7 +22,7 @@
 
 .bottom-area {
    position:relative;
-   padding:2.3% 9.04%;
+   padding:2.3% 12.64%;
    overflow:hidden;
 }
 .bottom-area .left-grid {
@@ -31,45 +31,66 @@
 }
 
 .bottom-area .right-grid {
+	 padding:0 4% 0 17%;
    width:50%;
    float:left;
 }
 
 .left-grid img {
    width:100%;
-}
-
-
-.right-grid {
-   
-   padding:0 4% 0 17%;
+   margin-bottom:15px;
+  
 }
 
 .right-grid .topbox {
-   
+   border-top:2px solid gray;
+   border-bottom:2px solid gray;
+   padding:43px 26px;
 }
 
 .right-grid .bottombox {
    
+   border-bottom:2px solid gray;
+   padding:65px 26px 98px;
+
 }
 .right-grid h2 {
-   
+     margin-top:0;
+   font-size: 2.33em;
+   text-transform: none;
+   letter-spacing: -0.4px;
+   font-family: 'KoPuDotum-M', sans-serif;
+   margin-bottom: 15px;
 }
 
-.right-grid p {
+.imgbox p {
    float:right;
+   width:50%;
+   margin:0;
+   padding:45px 15px 5px;
    
 }
 
 .right-grid span {
-   
+   letter-spacing:0.2px;
+   font-size:1.56em;
 }
 
 .right-grid span> strong {
-   
+   font-size:1.06em;
 }
 
-.right-grid img {
-   float:left;
+.imgbox img {
+   
    width:50%;
+  
+}
+
+.bottombox .imgbox {
+	margin-top:18px;
+	overflow:hidden;
+}
+
+.test {
+	height:400px !important;
 }

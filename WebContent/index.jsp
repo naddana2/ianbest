@@ -50,8 +50,7 @@
 			<div class="item">
 				<div class="owl-overlay">
 					<h2>
-						건물설계 컨설팅에서 시설관리까지<br>
-						<strong>앞서나가는 종합 건설, 이안베스트</strong>
+						건물설계 컨설팅에서 시설관리까지<br> <strong>앞서나가는 종합 건설, 이안베스트</strong>
 					</h2>
 
 
@@ -62,8 +61,7 @@
 			<div class="item">
 				<div class="owl-overlay">
 					<h2>
-						건물설계 컨설팅에서 시설관리까지<br>
-						<strong>앞서나가는 종합 건설, 이안베스트</strong>
+						건물설계 컨설팅에서 시설관리까지<br> <strong>앞서나가는 종합 건설, 이안베스트</strong>
 					</h2>
 				</div>
 				<img src="assets/images/carousel-2.png" alt="Mirror Edge">
@@ -71,8 +69,7 @@
 			<div class="item">
 				<div class="owl-overlay ovr-3">
 					<h2>
-						건물설계 컨설팅에서 시설관리까지<br>
-						<strong>앞서나가는 종합 건설, 이안베스트</strong>
+						건물설계 컨설팅에서 시설관리까지<br> <strong>앞서나가는 종합 건설, 이안베스트</strong>
 					</h2>
 
 				</div>
@@ -202,6 +199,12 @@
 	<%@ include file="assets//include/footer.jsp"%>
 
 
+	<script type="text/javascript">
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+
+     $('.top-menu').css('padding','3.128% 0 0.605% 9.04%');
+     $('footer').css('padding','3.128% 0 0.605% 9.04%');
+   </script>
 
 
 	<script src="assets/js/bootstrap.min.js"></script>

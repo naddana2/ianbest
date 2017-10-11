@@ -119,7 +119,7 @@ a:hover, a:focus {
 /* 헤더-네비 */
 .top-menu {
    background-color: #3b3b3b;
-   padding: 3.128% 0 0.605% 9.04%;
+   padding: 3.128% 0 0.605% 12.64%;
    overflow: hidden;
 }
 
@@ -203,7 +203,7 @@ a:hover, a:focus {
 
 /* 푸터*/
 footer {
-   padding: 2.477% 9.04%;
+   padding: 2.477% 12.64%;
    display: flex;
    background: #313131;
 }
@@ -373,7 +373,7 @@ a.is-checked {
    color: white !important;
 }
 .gray {
-	color:#dcdcdc !important;
+	color:#808080 !important;
 }
 .bg-darkgray {
    background: #535353 !important;
