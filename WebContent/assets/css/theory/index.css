@@ -1,7 +1,5 @@
 /* Ä³·¯¼¿ */
-#owl-demo .item {
-   max-height: 37.5vw;
-}
+
 
 #owl-demo .item .owl-overlay {
    position: absolute;
@@ -75,7 +73,7 @@
 
 section .double-set {
    display: flex;
-   height: 38.54vw;
+
    position: relative;
 }
 
@@ -110,9 +108,6 @@ section .double-set .txt-box .section-header h2 {
    font-family: 'KoPuBatang-M', sans-serif;
 }
 
-section .double-set .less_text .section-header h2 {
-   font-size: 3.457142857142857em !important;
-}
 
 
 
@@ -185,9 +180,8 @@ section .double-set .section-img .in_transparent_img {
 }
 
 
-.less_text {
-   padding-top: 8.9% !important;
-}
+
+
 
 
 .make-area:after {
@@ -248,21 +242,25 @@ section .double-set .section-img .in_transparent_img {
 /* ¾ÆÆ¼Å¬ ÁÂ¿ì¹Ú½º*/
 article {
    /* text-align:center; */
-   padding: 2.79% 8.567%;
+   padding: 2.79% 9.04%;
    background: #3b3b3b;
-   display: flex;
+   overflow:hidden;
 }
 
 article .left-direction {
    width: 50%;
-   padding: 0.522vw 0 0.522vw 0.522vw;
+   padding: 0.522vw 0;
    text-align: left;
+   float:left;
 }
+
+
 
 article .right-direction {
    width: 50%;
    padding: 0.521vw 0;
    text-align: right;
+   float:left;
 }
 
 article p {
@@ -278,13 +276,21 @@ article span {
    color: #75d701;
    letter-spacing: -0.8px;
    font-weight: 600;
-   line-height: 2.79vw;
+   line-height:	50px;
    font-family: 'KoPuDotum-M', sans-serif;
 }
 
 article img {
    padding: 0 10px 0 20px;
 }
+
+
+article .mobile_chevron {
+	display:none;
+	float:right;
+	padding:0 5px 0 20px;
+} 
+
 
 article a {
    font-size: 2.5714285714285716em;
@@ -300,7 +306,8 @@ article a:hover {
    background: #545454 !important;
    padding: 0;
    position: relative;
-   height: 13.73vw;
+   display:flex;
+   
 }
 
 .special p {
@@ -318,12 +325,12 @@ article:last-child {
    background: #545454 !important;
    padding: 0;
    position: relative;
-   height: 11.33vw;
+ 
 }
 
 article:last-child p {
    color: #282828 !important;
-   font-size: 21px;
+   font-size: 1.5em;
    margin-bottom: 7px;
    padding: 0;
    font-family:'KoPuDotum-M', sans-serif;
@@ -332,7 +339,7 @@ article:last-child p {
 article:last-child span {
    color: white !important;
    letter-spacing:0.5px !important;
-   font-size:2.442857em !important;
+   font-size:2.442857em;
 }
 
 article:last-child div {
