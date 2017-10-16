@@ -144,7 +144,7 @@
 
 		</div>
 		<div class="move-contact"><p>Get in touch</p><h2>CONTACT</h2></div>
-		<div class="view-header"><h2>RECENT PROJECT</h2></div>
+		<div class="view-header"><h2>Recent Project</h2></div>
 		<div class="project-view">
 		
 		<div id="owl-demo" class="owl-carousel owl-theme small-owl">

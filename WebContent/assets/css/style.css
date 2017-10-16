@@ -304,8 +304,8 @@ footer a {
 .owl-theme .owl-controls .owl-buttons {
    position: absolute;
    top: 37.7%;
-   width: 100%;
-   display:none;
+   
+   
 }
 
 .owl-theme .owl-controls .owl-buttons .owl-prev {

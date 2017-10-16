@@ -1,4 +1,4 @@
-/* Ä³·¯¼¿ */
+/* Ä³ï¿½ï¿½ï¿½ï¿½ */
 
 
 #owl-demo .item .owl-overlay {
@@ -68,7 +68,7 @@
 
 
 
-/* ÁÂ¿ì¹Ú½º */
+/* ï¿½Â¿ï¿½Ú½ï¿½ */
 
 
 section .double-set {
@@ -239,7 +239,7 @@ section .double-set .section-img .in_transparent_img {
 
 
 
-/* ¾ÆÆ¼Å¬ ÁÂ¿ì¹Ú½º*/
+/* ï¿½ï¿½Æ¼Å¬ ï¿½Â¿ï¿½Ú½ï¿½*/
 article {
    /* text-align:center; */
    padding: 2.79% 9.04%;
@@ -413,6 +413,10 @@ article .right-box:after {
    border-left: 11.8vw solid #545454;
    border-bottom: 13.73vw solid transparent;
 }
+
+.owl-theme .owl-controls .owl-buttons {
+		width:100% !important;
+	}
 
 
 

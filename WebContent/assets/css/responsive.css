@@ -229,13 +229,17 @@
 	}
 	.project-view {
 		display:block;
-		padding:0 calc(4.34% - 7.8px);
+		padding:0 calc(4.34% - 7.8px); 
+		
 	}
 	.right-grid .bottombox {
 		display:none;
 	}
-	.morebtn2  {
-		display:block;
+
+	.view-header {
+	
+	display:block;
+
 	}
 }
 

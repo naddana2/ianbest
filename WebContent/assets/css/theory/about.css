@@ -151,7 +151,7 @@
 	margin-top: 12px;
 }
 
-/*  га╥на╖ф╝ ╨Д */
+/*  О©╫О©╫О©╫О©╫О©╫О©╫ф╝ О©╫О©╫ */
 .project-view {
 	padding: 53px 166px 97px 166px;
 	background: #535353;
@@ -160,6 +160,7 @@
 
 .view-header {
 	margin: 0 auto;
+	display:none;
 
 }
 
@@ -172,7 +173,8 @@
 	letter-spacing: -0.12px;
 	font-weight: 600;
 	margin-bottom: 0px;
-	padding-left:7px;
+	padding-left:4.34%;
+	text-transform:none;
 }
 
 #owl-demo .item img {
@@ -202,6 +204,16 @@
 
 .fa3 {
 	color:white!important;
+}
+
+
+.owl-wrapper-outer {
+	
+}
+
+.owl-carousel .owl-item .item {
+	
+	
 }
 
 

@@ -22,7 +22,6 @@
 <script src="assets/js/owl.carousel.min2.js"></script>
 <script src="assets/js/owl3.js"></script>
 <script src="assets/js/isotope.js"></script>
-<script src="assets/js/custom2.js"></script>
 
 
 <script type="text/javascript">
@@ -79,13 +78,10 @@
 						</div>
 					</div>
 				</div>
-				
 <%	
 	}
 %>
- 
 			</div>
-
 			<div class="portfolo_footer">
 				<a class="append-button"> <i class="fa fa-chevron-down gray"
 					aria-hidden="true" id="icon"></i>
@@ -96,14 +92,26 @@
 			<p>Get in touch</p>
 			<h2>CONTACT</h2>
 		</div>
-
-
 	</div>
 
 
 	<%@ include file="assets/include/footer.jsp"%>
 
 	<script type="text/javascript">
+	
+	var item = '';
+	<%
+		for (IanDto port : list) {
+			int port_id = port.getPort_id();
+			String port_name = port.getPort_name();
+			String port_division = port.getPort_division();
+	%>
+		item += '<div class="iso-box <%=port_division%>"><div class="portfolio-thumb"><img class="" src="assets/images/portfolio-<%=port_id%>.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, <%=port_division%></p><h2><%=port_name%></h2></div></div></div>';
+	<%
+		}
+	%>
+	
+	
 		jQuery(window).load(function(){
 
 			$('#project').addClass('selected');
@@ -146,11 +154,7 @@
 	            });
 	        });
 			
-			var item = '';
-			
-			for (var  i= 0; i < 4; i++) {
-				item += '<div class="iso-box office"><div class="portfolio-thumb"><img class="" src="assets/images/portfolio-1.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, Industrial</p><h2>경기도립 미술관</h2></div></div></div>';
-			}
+
 			var $items = $(item);
 			var flag = true;
 			var icon = document.getElementById('icon');
