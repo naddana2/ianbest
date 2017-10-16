@@ -18,6 +18,7 @@
 <script type="text/javascript">
 	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
+	
 	$(function() {
 		var mobilemenu = $('#mobilemenu');
 		menu = $('nav ul');
@@ -102,7 +103,7 @@
 		</section>
 		<section>
 		<div class="double-set">
-			<div class="txt-box w50 bg-green less_text">
+			<div class="less_text txt-box w50 bg-green">
 				<div class="section-header">
 					<p class="white">HUMAN CENTERED ARCHITECTURE</p>
 					<h2>
@@ -122,15 +123,16 @@
 		<article>
 		<div class="left-direction">
 			<p>What's new?</p>
-			<span>RECENT PROJECT</span>
+			<span>RECENT PROJECT</span> <img class="mobile_chevron" src="assets/images/chevronM.png"
+				alt="GTA V" style="">
 		</div>
 		<div class="right-direction">
-			<a>베스티안 오송 메디클러스터<img src="assets/images/chevron.png" alt="GTA V"></a>
+			<a>베스티안 오송 메디클러스터<img class="chevron" src="assets/images/chevron.png" alt="GTA V"></a>
 		</div>
 		</article>
 		<section>
 		<div class="double-set">
-			<div class="txt-box w50 less_text bg-darkgray">
+			<div class="txt-box w50 less_text bg-darkgray m-page">
 				<div class="section-header">
 					<p class="bg-whitegray">BUSINESS AREA</p>
 					<h2 class="white">
@@ -185,7 +187,7 @@
 			<p>Work with us?</p>
 			<span>+ NEW PROJECT</span>
 		</div>
-		<div class="right-direction deep-green">
+		<div class="right-direction deep-green block">
 			<p>Recruit</p>
 			<span>+ JOIN US</span>
 		</div>
