@@ -126,3 +126,8 @@
 	font-weight: 600;
 	margin-top: 12px;
 }
+
+
+.append-button .gray:hover {
+    color: white !important;
+}

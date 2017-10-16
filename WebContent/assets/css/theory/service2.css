@@ -1,0 +1,103 @@
+.bigli a {
+	color: white;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
+	{
+	color: #6eb92b !important;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	color: #6eb92b !important;
+}
+
+.nav-tabs>li>a {
+	color: white;
+}
+
+.bignav {
+	width: 100%;
+	float: left;
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin-bottom: 27px;
+}
+
+.smallnav {
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+.history_img_div {
+	width: 50%;
+	float: right;
+	height: 364px;
+}
+
+.nav-tabs .bigli {
+	width: 20%;
+}
+
+.tab2 .nav-tabs li {
+	float: none;
+}
+
+.history_image {
+	width: 100%;
+}
+
+.tab-content_wrap {
+	padding: 0 6% 4.8% 16%;
+	height: 631.3438px;
+}
+
+.bignav .childli {
+	display: inline-block;
+	color: #dadada;
+	text-decoration: none;
+	padding: 14px 16px 0 16px;
+	font-size: 32px;
+	transition: 0.3s;
+	letter-spacing: -0.2px;
+	font-family: 'KoPuBatang-B', sans-serif;
+}
+
+.smallnav .childli {
+	font-size: 21.2px;
+	margin: 0;
+	color: #b5b5b6;
+	padding: 0;
+	line-height: 29px;
+	font-family: 'KoPuDotum-M', sans-serif;
+}
+
+.tab2 {
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.bignav:after{
+	content: "";
+	display: inline-block;
+	background: rgba(193, 193, 193, 0.15);
+	width: 100%;
+	height: 5px;
+	position: relative;
+	z-index: 3;
+	margin-top: -15.4px;
+}
+
+.bigli i {
+   padding: 0.6vh 43px 0;
+   color: rgba(221, 221, 221, 1);
+   font-size: 1.54em;
+}
+
+
+.active i {
+   color: #6eb92b !important;
+}

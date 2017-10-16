@@ -47,13 +47,14 @@
 }
 
 
-.service-area .tab-content {
-   padding: 0 6% 4.8% 16%;
-   height: 631.3438px;
+.service-area>.tab-content {
+   padding: 0px 10%;
+   /* height: 631.3438px; */
+   overflow: hidden;
 }
 
 
-/* �Ǹ޴� */
+/* íƒ­ë©”ë‰´ */
 .hypertab {
    list-style: none;
    margin: 0;
@@ -94,15 +95,11 @@
    display: block;
 }
 
-.nav-tabs {
-   width: 25%;
-   float: left;
-}
 
 .tab-content>.tab-pane {
-   width: 75%;
+   width: 100%;
    float: left;
-   padding: 0 10% 0 7%;
+   /* padding: 0 10% 0 7%; */
 }
 
 .tab-pane .imageset {
@@ -116,9 +113,6 @@
 
 
 
-.nav-tabs>li>a {
-   margin-right: 0;
-}
 
 
 .tab-info h3 {
@@ -160,9 +154,6 @@
    margin-top: -15.4px;
 }
 
-.nav-tabs .active .tab-info h3 {
-   color: #6eb92b !important;
-}
 
 
 
@@ -173,25 +164,25 @@
 
 
 .move-contact {
-	text-align: center;
-	padding: 91px 0;
-	background:#6eb92b;
+   text-align: center;
+   padding: 91px 0;
+   background:#6eb92b;
 }
 
 .move-contact p {
-	font-size: 16.6px;
-	margin-bottom: 0;
-	color:white;
-	font-family:'KoPuBatang-L', sans-serif;
-	font-weight:300;
+   font-size: 16.6px;
+   margin-bottom: 0;
+   color:white;
+   font-family:'KoPuBatang-L', sans-serif;
+   font-weight:300;
 }
 
 .move-contact h2 {
-	font-size: 33.5px;
-	letter-spacing: -0.12px;
-	color: white;
-	font-weight: 600;
-	margin-top: 12px;
+   font-size: 33.5px;
+   letter-spacing: -0.12px;
+   color: white;
+   font-weight: 600;
+   margin-top: 12px;
 }
 
 
@@ -258,4 +249,3 @@
    width: fit-content;
    padding-bottom: 8.3px;
 }
-

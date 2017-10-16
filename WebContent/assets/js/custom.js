@@ -40,7 +40,7 @@ jQuery(window).load(function(){
         
 		var item = '';
 		
-		for (var int = 0; int < 4; int++) {
+		for (var  i= 0; i < 4; i++) {
 			item += '<div class="iso-box office"><div class="portfolio-thumb"><img class="" src="assets/images/portfolio-1.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, Industrial</p><h2>경기도립 미술관</h2></div><div class="card-ui"><div class="ui-area"><h2><i class="fa fa-calendar" aria-hidden="true"></i></h2><p>2016</p></div><div class="ui-area"><h2><i class="fa fa-user" aria-hidden="true"></i></h2><p>5MD</p></div><div class="ui-area"><h2><i class="fa fa-university" aria-hidden="true"></i></h2><p>21,932m²</p></div></div><div class="detail-button"><button class="btnS" type="button"onclick="location.href=">Contact Us</button></div></div></div>';
 		}
 		var $items = $(item);
