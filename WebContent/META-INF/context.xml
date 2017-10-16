@@ -6,7 +6,7 @@
               username="root"
               password="1234"
               driverClassName="com.mysql.jdbc.Driver"
-              url="jdbc:mysql://127.0.0.1:3306/Ian"
+              url="jdbc:mysql://58.181.29.116:3306/Ian"
               maxTotal="20"
               maxIdle="10" />
 </Context>
