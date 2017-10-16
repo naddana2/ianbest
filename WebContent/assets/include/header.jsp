@@ -4,7 +4,7 @@
 	<!-- 첫째 -->
 
 	<div class="brand-logo">
-		 <img src="assets/images/ian-logo.png">
+	
 	</div>
 	<a id="mobilemenu"><i class="fa fa-align-justify white"
 		aria-hidden="true"></i></a>

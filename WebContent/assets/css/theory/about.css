@@ -7,7 +7,7 @@
    font-size: 2.392857142857143em;
    letter-spacing: -0.12px;
    color: #dcdddd;
-   padding: 0 7px;
+   padding: 0;
    font-weight: 600;
    text-transform: none;
 }
@@ -125,6 +125,10 @@
 
 
 
+
+
+
+
 .move-contact {
 	text-align: center;
 	padding: 2.6% 0;
@@ -154,30 +158,31 @@
 	display:none;
 }
 
-.project-view .view-header {
-	width: calc(100% - 14px);
+.view-header {
 	margin: 0 auto;
 
 }
 
-.project-view .view-header p {
-	font-size: 16.6px;
-	margin-bottom: 0;
-}
 
-.project-view .view-header h2 {
+
+.view-header h2 {
 	
 	font-size: 2.392857142857143em;
 	color: #dcdddd;
 	letter-spacing: -0.12px;
 	font-weight: 600;
 	margin-bottom: 0px;
+	padding-left:7px;
 }
 
 #owl-demo .item img {
 	width:100%;
 	display:block;
 	height:auto;
+}
+
+.owl-pagination {
+	display:none;
 }
 
 .small-owl {
@@ -195,7 +200,8 @@
 	padding: 0 7px;
 }
 
-.owl-theme .owl-controls {
-	display:none !important;
+.fa3 {
+	color:white!important;
 }
+
 
