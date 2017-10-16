@@ -127,7 +127,7 @@
 				alt="GTA V" style="">
 		</div>
 		<div class="right-direction">
-			<a>베스티안 오송 메디클러스터<img class="chevron" src="assets/images/chevron.png" alt="GTA V"></a>
+			<span><a>베스티안 오송 메디클러스터<img class="chevron" src="assets/images/chevron.png" alt="GTA V"></a></span>
 		</div>
 		</article>
 		<section>
@@ -204,8 +204,7 @@
 	<script type="text/javascript">
       /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
-     $('.top-menu').css('padding','3.128% 0 0.605% 9.04%');
-     $('footer').css('padding','3.128% 0 0.605% 9.04%');
+   
    </script>
 
 

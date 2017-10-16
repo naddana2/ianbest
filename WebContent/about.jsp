@@ -133,6 +133,72 @@
 					<img src="assets/images/portfolio-small-1.png" alt="The Last of us"> <p>Bestian Seoul Hospital<br>베스티안서울병원</p></div>
 					<div class="imgbox"><img src="assets/images/portfolio-small-2.png" alt="The Last of us"> <p>Bestian Busan Hospital<br>베스티안부산병원</p></div>
 					<div class="imgbox"><img src="assets/images/portfolio-small-3.png" alt="The Last of us"> <p class="last-p">Mok Breast-Endocrine<br>Surgery Clinic<br>목뉴방외과</p></div>
+					<div class="project-view"><div class="view-header"><h2>RECENT PROJECT</h2></div>
+		
+		<div id="owl-demo" class="owl-carousel owl-theme small-owl">
+			<div class="item">
+				
+				<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
+				<p>베스티안 서울병원 리모델링</p>
+			</div>
+			<div class="item">
+				
+				<img src="assets/images/small-carousel2.jpg" alt="The Last of us">
+				<p>베스티안 부산병원</p>
+			</div>
+			<div class="item">
+				
+				<img src="assets/images/small-carousel3.jpg" alt="The Last of us">
+				<p>광주목뉴방외과</p>
+			</div>
+				<div class="item">
+				
+				<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
+				<p>베스티안 서울병원 리모델링</p>
+			</div>
+			<div class="item">
+				
+				<img src="assets/images/small-carousel2.jpg" alt="The Last of us">
+				<p>베스티안 부산병원</p>
+			</div>
+			<div class="item">
+				
+				<img src="assets/images/small-carousel3.jpg" alt="The Last of us">
+				<p>광주목뉴방외과</p>
+			</div><div class="item">
+				
+				<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
+				<p>베스티안 서울병원 리모델링</p>
+			</div>
+			<div class="item">
+				
+				<img src="assets/images/small-carousel2.jpg" alt="The Last of us">
+				<p>베스티안 부산병원</p>
+			</div>
+			<div class="item">
+				
+				<img src="assets/images/small-carousel3.jpg" alt="The Last of us">
+				<p>광주목뉴방외과</p>
+			</div><div class="item">
+				
+				<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
+				<p>베스티안 서울병원 리모델링</p>
+			</div>
+			<div class="item">
+				
+				<img src="assets/images/small-carousel2.jpg" alt="The Last of us">
+				<p>베스티안 부산병원</p>
+			</div>
+			<div class="item">
+				
+				<img src="assets/images/small-carousel3.jpg" alt="The Last of us">
+				<p>광주목뉴방외과</p>
+			</div>
+			
+			
+			
+		</div>
+		</div>
 					<div class="morebtn"><p>more</p><span class="glyphicons glyphicons-arrow-right"></span></div>
 					</div>
 					
@@ -143,6 +209,8 @@
 
 		</div>
 		<div class="move-contact"><p>Get in touch</p><h2>CONTACT</h2></div>
+		
+		
 	</div>
 
 

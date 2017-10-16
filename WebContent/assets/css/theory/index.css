@@ -73,7 +73,7 @@
 
 section .double-set {
    display: flex;
-
+	
    position: relative;
 }
 
@@ -263,11 +263,12 @@ article .right-direction {
    float:left;
 }
 
+
+
 article p {
    font-size: 1.6142857142857143em;
    color: #9fa0a0;
    font-weight: 300;
-   margin-bottom: 0.26vw;
    padding-right: 3.021vw;
 }
 
@@ -276,12 +277,17 @@ article span {
    color: #75d701;
    letter-spacing: -0.8px;
    font-weight: 600;
-   line-height:	50px;
+   line-height:	25px;
    font-family: 'KoPuDotum-M', sans-serif;
 }
 
+article span >a {
+	font-size:1.042857142857143em;
+	line-height:60px;
+}
+
 article img {
-   padding: 0 10px 0 20px;
+   padding: 5px 10px 0 20px;
 }
 
 
@@ -389,6 +395,7 @@ article .left-box img {
    padding: 0;
    height: fit-content;
    float: left;
+   display:none;
 }
 
 

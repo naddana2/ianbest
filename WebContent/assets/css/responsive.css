@@ -121,6 +121,7 @@
 	#mobilemenu {
 		float: right;
 		display: block !important;
+		margin-right:calc(4.34% - 15.827px);
 	}
 	.top-menu .brand-logo {
 		margin-bottom: 8px;
@@ -192,6 +193,45 @@
 	article a {
 		font-size: 1.971429em;
 	}
+	.about-content {
+		padding:4.5% 4.34% 2.5%;
+	}
+	.bottom-area {
+		padding:2.5% 2.09%;
+	}
+		
+	
+	.left-grid img {
+		padding:2.25%;
+		width:50%;
+		float:left;
+	}
+	
+	.bottom-area .right-grid {
+		padding:0 4% 0 2.25%;
+		width:100%;
+		float:left;
+	}
+	.bottom-area .left-grid {
+		float:left;
+		width:100% !important;
+	}
+	
+	.right-grid .topbox {
+		padding:2.3vw 0;
+	}
+	.right-grid .bottombox {
+		padding:3.7vw 0;
+	}
+	.bottombox .imgbox {
+		display:none;
+	}
+	.move-contact {
+		display:none;
+	}
+	.project-view {
+		display:block;
+	}
 }
 
 @media screen and (min-width:768px) {
@@ -207,15 +247,11 @@
 		padding: 0px 91px;
 		height: 71px;
 	}
-	section .double-set {
-		height: 38.54vw;
-	}
+	
 	section .double-set .less_text .section-header h2 {
 		font-size: 3.457142857142857em !important;
 	}
-	.less_text {
-		padding-top: 8.9%;
-	}
+
 }
 
 @media screen and (min-width:320px) and (max-width:374px) {
@@ -292,15 +328,20 @@
 	article .left-box .txt-zone p {
 		font-size: 1.428571em;
 	}
-	article .left-box img {
-		display: none;
-	}
+	
 	#owl-demo .item .owl-overlay h2 {
 		top: 34%;
 	}
 	article .left-direction p {
-	font-size:1.2em !important;
+		font-size: 1.2em !important;
 	}
+	.special {
+		height:13.53vw;
+	}
+	article .right-box:after {
+		border-bottom:13.53vw solid transparent;
+	}
+	
 }
 
 @media screen and (min-width:768px) and (max-width:768px) {
@@ -360,9 +401,6 @@
 	}
 }
 
-
-
-
 @media screen and (min-width:1100px) and (max-width:1239px) {
 }
 
@@ -383,77 +421,159 @@
 		
 	}
 	.top-menu {
-		padding:3.128% 0 1.105% 4.04% !important;
+		padding: 3.128% 0 1.105% 6.04%;
 	}
-	
 	.owl-theme .owl-controls .owl-buttons {
-		top:32.5%;
+		top: 32.5%;
 	}
 	#owl-demo .item .owl-overlay h2 {
-		top:32.2%;
-		font-size:3.114286em;
+		top: 32.2%;
+		font-size: 3.114286em;
 	}
 	.fa2 {
-		font-size:9.45em !important;
+		font-size: 9.45em !important;
 	}
 	section .double-set .txt-box .section-header p {
-		font-size:1.271429em;
+		font-size: 1.271429em;
 	}
 	section .double-set .txt-box .section-header h2 {
-		font-size:2.764286em;
+		font-size: 2.764286em;
 	}
 	section .double-set .txt-box .txt-area p {
-		font-size:1.3em;
+		font-size: 1.3em;
 	}
 	section .double-set .less_text .section-header h2 {
-		font-size:2.764286em !important;	
+		font-size: 2.764286em !important;
 	}
 	section .double-set .less_text .txt-area p {
-		font-size:1.3em;
+		font-size: 1.3em;
 	}
 	section .double-set .txt-box {
-		padding:5% 0 0 9.04%;
+		padding: 5% 0 0 6.04%;
 	}
 	.less_text {
-		padding-top:6.8% !important;
+		padding-top: 7.2% !important;
 	}
-	
-		article .chevron {
+	article .chevron {
 		width: 52px;
-		margin: 0 0 0 10px;
+		margin: -3px 0 0 10px;
 		padding: 0;
 	}
+	article {
+		padding:2.79% 6.04%;
+	}
+	
+	article .left-box {
+		padding:2.79% 6.04%;
+	}
+	footer {
+		padding:2.477% 6.04% !important;
+	}
+	section .double-set {
+		height: 40.54vw;
+	}
+	.make-area:after {
+		border-bottom:40.55vw solid transparent;	
+	}
+	article .right-direction span {
+	font-size:2em;
+	
+	}
+	
+	article .left-box .txt-zone p {
+		font-size:2.128571em;
+	}
+	
+	.special {
+		height:13.25vw;
+	}
+	article .right-box:after {
+		border-bottom:13.25vw solid transparent
+	}
+	
+}
+
+@media screen and (min-width:1192px) {
+	
+
+	section .double-set {
+		height: 38.54vw;
+	}
+
+}
+@media screen and (min-width:1192px) and (max-width:1375px) {
+	.top-menu {
+		padding:3.128% 0 1.605% 7.04%;
+	}
+	section .double-set .txt-box {
+	
+		padding:7.5% 0 0 7.04%;
+	}
+	article {
+		padding:2.79% 7.04%;
+	}
+	.give-backgroundimg {
+		padding:8.6% 7.04% 0 0 !important;
+	}
+	article .left-box {
+		padding:5% 0 4.4% 7.04%;
+	}
+	footer {
+		padding:2.477% 7.04%;
+	}
+	
+	section .double-set {
+		height:43.75vw;
+	}
+	.less_text {
+		padding-top:7.1% !important;
+	}
+	
+	.special {
+		height:16.65vw;
+	}
+	
+	article .right-box:after {
+		border-bottom:16.65vw solid transparent;	
+	}
+	
+	article .right-direction span {
+		font-size:2.442857em;
+	}
+	
+	
 	
 	
 }
 
-@media screen and (min-width:991px) and (max-width:1091px) { 
+
+@media screen and (min-width:991px) and (max-width:1091px) {
 	section .double-set .txt-box .section-header p {
-		font-size:1.271429em;
+		font-size: 1.271429em;
 	}
 	section .double-set .txt-box .section-header h2 {
-		font-size:2.464286em;
+		font-size: 2.464286em;
 	}
 	section .double-set .txt-box .txt-area p {
-		font-size:1.14em;
+		font-size: 1.14em;
 	}
 	section .double-set .less_text .section-header h2 {
-		font-size:2.464286em !important;	
+		font-size: 2.464286em !important;
 	}
 	section .double-set .less_text .txt-area p {
-		font-size:1.2em;
+		font-size: 1.2em;
 	}
 	section .double-set .txt-box {
-		padding:4% 0 0 9.04%;
+		
 	}
 	section .double-set .txt-box .txt-area .btns {
-		margin-top:18px;
+		margin-top: 18px;
 	}
 	section .double-set .txt-box .txt-area .btnS {
-		margin-top:18px;
+		margin-top: 18px;
 	}
 	.less_text {
-		padding-top:6.8% !important;
+		
 	}
 }
 
@@ -461,8 +581,48 @@
 	.right-grid .topbox {
 		height: 20.6vw;
 	}
+	
+
+	
 }
 
+@media screen and (min-width:1376px) {
+	article .left-box img {
+		display:block;
+	}
+}
+
+@media screen and (min-width:1376px) and (max-width:1580px) {
+	article .left-box img {
+		height:58px;
+	}
+	article .left-box .txt-zone p {
+		font-size:2.028571em;
+	}
+	.special {
+		height:15.06vw;
+	}
+	
+	article .right-box:after {
+		border-bottom:15.06vw solid transparent;	
+	}
+}
+
+@media screen and (min-width:1580px) and (max-width:1700px) {
+	
+	article .left-box .txt-zone p {
+		font-size:2.1285714285714284em;
+	}
+	
+	
+	.special {
+		height:13.06vw;
+	}
+	
+	article .right-box:after {
+		border-bottom:13.06vw solid transparent;	
+	}
+}
 /* 넥서스반응형 */
 @media screen and (width:412px) and (height:732px) {
 }
@@ -495,7 +655,7 @@
 }
 
 @media screen and (min-width:991px) and (max-width:991px) {
-	
-	.owl-theme .owl-controls .owl-buttons{
-		top:36.3% !important;
+	.owl-theme .owl-controls .owl-buttons {
+		top: 36.3% !important;
 	}
+}
