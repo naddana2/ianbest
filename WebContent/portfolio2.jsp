@@ -70,7 +70,7 @@
 		String port_division = port.getPort_division();
 %>
 				<div class="iso-box <%=port_division%>">
-					<div class="portfolio-thumb">
+					<div class="portfolio-thumb"  onclick="location.href='index.jsp?id=<%=port_id %>'" style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-<%=port_id%>.png" alt="GTA V">
 						<div class="thumb-text">
 							<p>Portfolio, <%=port_division%></p>
