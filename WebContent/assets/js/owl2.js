@@ -48,13 +48,13 @@ $(document).ready(function() {
 		
 	// Go to the next item
 	$('.owl-prev').click(function() {
-	    owl.trigger('next.owl.carousel');
+		owl.trigger('prev.owl.carousel', [300]);
 	})
 	// Go to the previous item
 	$('.owl-next').click(function() {
 	    // With optional speed parameter
 	    // Parameters has to be in square bracket '[]'
-	    owl.trigger('prev.owl.carousel', [300]);
+		owl.trigger('next.owl.carousel', [300]);
 	})
 	
 	
