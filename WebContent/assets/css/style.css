@@ -117,7 +117,7 @@ a:hover, a:focus {
 
 
 
-/* 헤더-네비 */
+/* �뿤�뜑-�꽕鍮� */
 .top-menu {
    background-color: #3b3b3b;
    padding: 3.128% 0 0.605% 9.04%;
@@ -209,7 +209,7 @@ a:hover, a:focus {
 
 
 
-/* 푸터*/
+/* �뫖�꽣*/
 footer {
    padding: 2.477% 9.04%;
    display: flex;
@@ -271,7 +271,7 @@ footer a {
 
 
 
-/* owl - 공통기본형 */
+/* owl - 怨듯넻湲곕낯�삎 */
 
 .carousel {
    position: relative;
@@ -316,11 +316,14 @@ footer a {
    float: right;
 }
 
+.owl-theme .owl-controls .owl-buttons {
+	
+}
 
 
 
 
-/* 접두사 */
+/* �젒�몢�궗 */
 
 
 .no-padding {
@@ -379,7 +382,7 @@ footer a {
 
 
 
-/* 선택자*/
+/* �꽑�깮�옄*/
 
 .selected {
    color: #85c352 !important;
@@ -391,7 +394,7 @@ a.is-checked {
 
 
 
-/* 컬러잼 */
+/* 而щ윭�왋 */
 
 
 .white {

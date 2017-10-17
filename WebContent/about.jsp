@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/owl.theme.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.css">
+<link rel="stylesheet" href="assets/css/mak/owl.carousel.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/theory/about.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
@@ -144,14 +144,14 @@
 
 		</div>
 		<div class="move-contact"><p>Get in touch</p><h2>CONTACT</h2></div>
-		<div class="view-header"><h2>Recent Project</h2></div>
+		<div class="view-header"><h2>Recent Project</h2><div class="owl-controls"><div class="owl-buttons"><div class="owl-prev"><i class="fa fa-chevron-left fa3"></i></div><div class="owl-next"><i class="fa fa-chevron-right fa3"></i></div></div></div></div>
 		<div class="project-view">
 		
 		<div id="owl-demo" class="owl-carousel owl-theme small-owl">
 			<div class="item">
 				
 				<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
-				<p>베스티안 서울병원 리모델링</p>
+				<p>베스티안 서울병원</p>
 			</div>
 			<div class="item">
 				
@@ -166,7 +166,7 @@
 				<div class="item">
 				
 				<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
-				<p>베스티안 서울병원 리모델링</p>
+				<p>베스티안 서울병원</p>
 			</div>
 			<div class="item">
 				
@@ -180,7 +180,7 @@
 			</div><div class="item">
 				
 				<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
-				<p>베스티안 서울병원 리모델링</p>
+				<p>베스티안 서울병원</p>
 			</div>
 			<div class="item">
 				
@@ -194,7 +194,7 @@
 			</div><div class="item">
 				
 				<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
-				<p>베스티안 서울병원 리모델링</p>
+				<p>베스티안 서울병원</p>
 			</div>
 			<div class="item">
 				
@@ -219,8 +219,14 @@
 
 <script type="text/javascript">
 	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-
-	$('#about').addClass('selected');
+jQuery(window).load(function(){
+	
+	
+$('#about').addClass('selected');
+	
+	
+});
+	
 
 </script>
 
@@ -228,7 +234,7 @@
 
 
 	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/owl.carousel.min2.js"></script>
+	<script src="assets/js/mak/owl.carousel.min.js"></script>
 	<script src="assets/js/owl2.js"></script>
 
 
