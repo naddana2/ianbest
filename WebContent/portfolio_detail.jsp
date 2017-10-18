@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ page import="kr.co.ianbest.dao.*"%>
+<%@ page import="kr.co.ianbest.dto.*"%>
+<%@ page import="java.util.List"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -16,6 +19,23 @@
 <link rel="stylesheet" href="assets/css/responsive.css">
 
 <script src="assets/js/jquery-1.9.1.min.js"></script>
+
+<%
+	String port_id = request.getParameter("id");
+	int id = Integer.parseInt(port_id);
+	System.out.println(port_id);
+	
+	IanDao dao = IanDao.getInstance();
+	IanDto dto = new IanDto();
+	
+	List<IanDto> Recentlist = null;
+	List<IanDto> Recentlist2 = null;
+	
+	Recentlist = dao.port_Recentlist();
+	Recentlist2 = dao.port_Recentlist2();
+
+	dto = dao.port_Detail(id);
+%>
 <script type="text/javascript">
    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
    
@@ -30,22 +50,20 @@
 		});
 	});
    
-   var tabsFn = (function() {
+   var tabsFn = function() {
 		function init() {
 			setHeight();
 		}
-
 		function setHeight() {
 			var $imgboxp = $('.imgbox p');
 			var pHeight = $('.bottombox .imgbox').height();
 			var leftHeight = $('.bottom-area .left-grid').height();
-			
 			$imgboxp.css({
 				height : pHeight
 			});
-
-		$(init);
-	})();
+			$(init);
+		};
+	}
 </script>
 
 </head>
@@ -57,15 +75,16 @@
 	<div id="wrap" class="wrap">
 
 		<div class="about-content">
-			<h2>Bestian Osong Medicluster</h2>
-			<img src="assets/images/big.png" alt="The Last of us">
+			<h2><%=dto.getPort_name() %></h2>
+			<img src="assets/images/portfolio/port<%=port_id%>/main.jpg"
+				alt="The Last of us">
 		</div>
 		<div class="bottom-area">
 			<div class="left-grid">
-				<img src="assets/images/4in1.png" alt="The Last of us"> <img
-					src="assets/images/4in2.png" alt="The Last of us"> <img
-					src="assets/images/4in3.png" alt="The Last of us"> <img
-					src="assets/images/4in4.png" alt="The Last of us">
+				<img src="assets/images/portfolio/port<%=port_id%>/sub1.png">
+				<img src="assets/images/portfolio/port<%=port_id%>/sub2.png">
+				<img src="assets/images/portfolio/port<%=port_id%>/sub3.png">
+				<img src="assets/images/portfolio/port<%=port_id%>/sub4.png">
 			</div>
 			<div class="right-grid">
 				<div class="topbox">
@@ -77,27 +96,20 @@
 				</div>
 				<div class="bottombox">
 					<h2>Recent Project</h2>
+					
+			<% 
+				for (IanDto port : Recentlist2) { 
+			%>					
 					<div class="imgbox">
-						<img src="assets/images/portfolio-small-1.png"
+						<img src="assets/images/portfolio/port<%=port.getPort_id()%>/main.jpg"
 							alt="The Last of us">
 						<p>
-							Bestian Seoul Hospital<br>베스티안서울병원
+							<%=port.getPort_name() %>
 						</p>
 					</div>
-					<div class="imgbox">
-						<img src="assets/images/portfolio-small-2.png"
-							alt="The Last of us">
-						<p>
-							Bestian Busan Hospital<br>베스티안부산병원
-						</p>
-					</div>
-					<div class="imgbox">
-						<img src="assets/images/portfolio-small-3.png"
-							alt="The Last of us">
-						<p class="last-p">
-							Mok Breast-Endocrine<br>Surgery Clinic<br>목뉴방외과
-						</p>
-					</div>
+			<% 
+				}
+			%>
 					<div class="morebtn">
 						<p>more</p>
 						<span class="glyphicons glyphicons-arrow-right"></span>
@@ -105,12 +117,12 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="move-contact">
 			<p>Get in touch</p>
 			<h2>CONTACT</h2>
 		</div>
-		
+
 		<div class="view-header">
 			<h2>Recent Project</h2>
 			<div class="owl-controls">
@@ -124,73 +136,34 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="project-view">
 			<div id="owl-demo" class="owl-carousel owl-theme small-owl">
+			<% 
+				for (IanDto port : Recentlist) { 
+			%>
 				<div class="item">
-					<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
-					<p>베스티안 서울병원</p>
+					<img src="assets/images/portfolio/port<%=port.getPort_id()%>/main.jpg">
+					<p><%=port.getPort_name() %></p>
 				</div>
-				<div class="item">
-					<img src="assets/images/small-carousel2.jpg" alt="The Last of us">
-					<p>베스티안 부산병원</p>
-				</div>
-				<div class="item">
-					<img src="assets/images/small-carousel3.jpg" alt="The Last of us">
-					<p>광주목뉴방외과</p>
-				</div>
-				<div class="item">
-					<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
-					<p>베스티안 서울병원</p>
-				</div>
-				<div class="item">
-					<img src="assets/images/small-carousel2.jpg" alt="The Last of us">
-					<p>베스티안 부산병원</p>
-				</div>
-				<div class="item">
-					<img src="assets/images/small-carousel3.jpg" alt="The Last of us">
-					<p>광주목뉴방외과</p>
-				</div>
-				<div class="item">
-					<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
-					<p>베스티안 서울병원</p>
-				</div>
-				<div class="item">
-					<img src="assets/images/small-carousel2.jpg" alt="The Last of us">
-					<p>베스티안 부산병원</p>
-				</div>
-				<div class="item">
-					<img src="assets/images/small-carousel3.jpg" alt="The Last of us">
-					<p>광주목뉴방외과</p>
-				</div>
-				<div class="item">
-					<img src="assets/images/small-carousel1.jpg" alt="The Last of us">
-					<p>베스티안 서울병원</p>
-				</div>
-				<div class="item">
-					<img src="assets/images/small-carousel2.jpg" alt="The Last of us">
-					<p>베스티안 부산병원</p>
-				</div>
-				<div class="item">
-					<img src="assets/images/small-carousel3.jpg" alt="The Last of us">
-					<p>광주목뉴방외과</p>
-				</div>
+			<% 
+				}
+			%>
 			</div>
 		</div>
+		
 	</div>
 
 	<%@ include file="assets/include/footer.jsp"%>
 
 	<script type="text/javascript">
-	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-	jQuery(window).load(function(){
-		$('#about').addClass('selected');
-	});
-</script>
-
+		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+		jQuery(window).load(function(){
+			$('#project').addClass('selected');
+		})
+	</script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/mak/owl.carousel.min.js"></script>
 	<script src="assets/js/owl2.js"></script>
-
 </body>
 </html>

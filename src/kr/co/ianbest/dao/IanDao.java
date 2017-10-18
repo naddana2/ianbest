@@ -49,6 +49,160 @@ public class IanDao
 			catch (SQLException localSQLException2) {}
 		}
 	}
+	public List<IanDto> port_list() throws Exception {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		List<IanDto> list = null;
+		IanDto dto = null;
+		String sql = "";
+		try {
+			conn = getConnection();
+			sql = "select * from ian_port limit 8";
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			list = new ArrayList<IanDto>();
+			
+			while (rs.next()){
+				dto = new IanDto();
+				dto.setPort_id(rs.getInt("port_id"));
+				dto.setPort_name(rs.getString("port_name"));
+				dto.setPort_division(rs.getString("port_division"));
+				list.add(dto);
+			}
+		}
+		catch (Exception e) {
+			throw new Exception(e);
+		}
+		finally {
+			executeClose(rs, pstmt, conn);
+		}
+		return list;
+	}
+	public List<IanDto> port_list2() throws Exception {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		List<IanDto> list = null;
+		IanDto dto = null;
+		String sql = "";
+		try {
+			conn = getConnection();
+			sql = "select * from ian_port limit 8, 10000";
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			list = new ArrayList<IanDto>();
+			
+			while (rs.next()){
+				dto = new IanDto();
+				dto.setPort_id(rs.getInt("port_id"));
+				dto.setPort_name(rs.getString("port_name"));
+				dto.setPort_division(rs.getString("port_division"));
+				list.add(dto);
+			}
+		}
+		catch (Exception e) {
+			throw new Exception(e);
+		}
+		finally {
+			executeClose(rs, pstmt, conn);
+		}
+		return list;
+	}
+	public IanDto port_Detail(int id) throws Exception {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		IanDto dto = null;
+		String sql = "";
+		try {
+			conn = getConnection();
+			sql = "select * from ian_port where port_id = ?";
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, id);
+			rs = pstmt.executeQuery();
+
+			
+			if (rs.next()){
+				dto = new IanDto();
+				dto.setPort_id(rs.getInt("port_id"));
+				dto.setPort_name(rs.getString("port_name"));
+				dto.setPort_division(rs.getString("port_division"));
+			}
+		}
+		catch (Exception e) {
+			throw new Exception(e);
+		}
+		finally {
+			executeClose(rs, pstmt, conn);
+		}
+		return dto;
+	}
+	
+	public List<IanDto> port_Recentlist() throws Exception {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		List<IanDto> list = null;
+		IanDto dto = null;
+		String sql = "";
+		try {
+			conn = getConnection();
+			sql = "select * from ian_port order by port_id desc limit 5;";
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			list = new ArrayList<IanDto>();
+			
+			while (rs.next()){
+				dto = new IanDto();
+				dto.setPort_id(rs.getInt("port_id"));
+				dto.setPort_name(rs.getString("port_name"));
+				dto.setPort_division(rs.getString("port_division"));
+				list.add(dto);
+			}
+		}
+		catch (Exception e) {
+			throw new Exception(e);
+		}
+		finally {
+			executeClose(rs, pstmt, conn);
+		}
+		return list;
+	}
+	public List<IanDto> port_Recentlist2() throws Exception {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		List<IanDto> list = null;
+		IanDto dto = null;
+		String sql = "";
+		try {
+			conn = getConnection();
+			sql = "select * from ian_port order by port_id desc limit 3;";
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			list = new ArrayList<IanDto>();
+			
+			while (rs.next()){
+				dto = new IanDto();
+				dto.setPort_id(rs.getInt("port_id"));
+				dto.setPort_name(rs.getString("port_name"));
+				dto.setPort_division(rs.getString("port_division"));
+				list.add(dto);
+			}
+		}
+		catch (Exception e) {
+			throw new Exception(e);
+		}
+		finally {
+			executeClose(rs, pstmt, conn);
+		}
+		return list;
+	}
+	
+	
+	// 팝업 DAO ======================================================================
+	// 팝업리스트
 	public List<IanDto> pop_Selectlocation() throws Exception {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
@@ -70,37 +224,6 @@ public class IanDao
 				dto.setPop_top(rs.getString("pop_top"));
 				dto.setPop_switch(rs.getString("pop_switch"));
 				
-				list.add(dto);
-			}
-		}
-		catch (Exception e) {
-			throw new Exception(e);
-		}
-		finally {
-			executeClose(rs, pstmt, conn);
-		}
-		return list;
-	}
-	
-	public List<IanDto> port_list() throws Exception {
-		Connection conn = null;
-		PreparedStatement pstmt = null;
-		ResultSet rs = null;
-		List<IanDto> list = null;
-		IanDto dto = null;
-		String sql = "";
-		try {
-			conn = getConnection();
-			sql = "select * from ian_port";
-			pstmt = conn.prepareStatement(sql);
-			rs = pstmt.executeQuery();
-			list = new ArrayList<IanDto>();
-			
-			while (rs.next()){
-				dto = new IanDto();
-				dto.setPort_id(rs.getInt("port_id"));
-				dto.setPort_name(rs.getString("port_name"));
-				dto.setPort_division(rs.getString("port_division"));
 				list.add(dto);
 			}
 		}

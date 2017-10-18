@@ -61,7 +61,9 @@
 	IanDao dao = IanDao.getInstance();
 	IanDto dto = new IanDto();
 	List<IanDto> list = null;
+	List<IanDto> list2 = null;
 	list = dao.port_list();
+	list2 = dao.port_list2();
 	
 	for (IanDto port : list) {
 		
@@ -70,7 +72,7 @@
 		String port_division = port.getPort_division();
 %>
 				<div class="iso-box <%=port_division%>">
-					<div class="portfolio-thumb"  onclick="location.href='index.jsp?id=<%=port_id %>'" style="cursor: pointer;">
+					<div class="portfolio-thumb"  onclick="location.href='portfolio_detail.jsp?id=<%=port_id %>'" style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-<%=port_id%>.png" alt="GTA V">
 						<div class="thumb-text">
 							<p>Portfolio, <%=port_division%></p>
@@ -101,12 +103,12 @@
 	
 	var item = '';
 	<%
-		for (IanDto port : list) {
+		for (IanDto port : list2) {
 			int port_id = port.getPort_id();
 			String port_name = port.getPort_name();
 			String port_division = port.getPort_division();
 	%>
-		item += '<div class="iso-box <%=port_division%>"><div class="portfolio-thumb" onclick="location.href=\'index.jsp?id=<%=port_id %>\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-<%=port_id%>.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, <%=port_division%></p><h2><%=port_name%></h2></div></div></div>';
+		item += '<div class="iso-box <%=port_division%>"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.jsp?id=<%=port_id %>\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-<%=port_id%>.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, <%=port_division%></p><h2><%=port_name%></h2></div></div></div>';
 	<%
 		}
 	%>
