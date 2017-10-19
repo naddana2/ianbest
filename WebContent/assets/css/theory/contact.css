@@ -5,8 +5,8 @@
 }
 
 #map-canvas {
-	width: 100%;
-	height: 50vh;
+   width: 100%;
+   height: 50vh;
 }
 
 .contact_map {
@@ -23,33 +23,47 @@
    font-size: 39.2px;
    font-weight: 600;
    color: white;
-   letter-spacing: 0.76px;
-   font-family: 'KoPuDotum-M', sans-serif;
+   letter-spacing: -.12px;
+   font-family: 'KoPuDotum-L', sans-serif;
 }
 .contact_wrap h5 {
    font-size: 20px;
    font-weight: 600;
    color: white;
-   letter-spacing: 0.76px;
-   font-family: 'KoPuDotum-M', sans-serif;
+   letter-spacing: -.12px;
+   font-family: 'KoPuDotum-L', sans-serif;
    line-height: 35px;
 }
 
 .padding{
-	padding-top : 4.4%;
+   padding-top : 4.4%;
 }
 .margin50{
-	margin : 50px 0;
+   margin : 50px 0;
 }
 .border_bot{
-	border-bottom: 2px solid white;
-	width: 35px;
-	padding-bottom: 13px;
+   border-bottom: 2px solid white;
+   width: 35px;
+   padding-bottom: 13px;
 }
 
 .contact_content p {
     font-size: 14.2px;
+    font-weight: 600;
     color: rgba(201, 202, 202, 1);
     letter-spacing: 0.76px;
     font-family: 'KoPuDotum-M', sans-serif;
+}
+
+
+
+
+@media screen and (max-width:991px) {
+      .top-menu .brand-logo {
+         margin-left:calc(4.34% + 8px) !important;
+      }
+      
+      footer {
+         padding-left:calc(4.34% + 8px) !important;
+      }
 }
