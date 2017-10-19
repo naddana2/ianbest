@@ -5,8 +5,8 @@
 }
 
 #map-canvas {
-	width: 100%;
-	height: 50vh;
+   width: 100%;
+   height: 50vh;
 }
 
 .contact_map {
@@ -36,15 +36,15 @@
 }
 
 .padding{
-	padding-top : 4.4%;
+   padding-top : 4.4%;
 }
 .margin50{
-	margin : 50px 0;
+   margin : 50px 0;
 }
 .border_bot{
-	border-bottom: 2px solid white;
-	width: 35px;
-	padding-bottom: 13px;
+   border-bottom: 2px solid white;
+   width: 35px;
+   padding-bottom: 13px;
 }
 
 .contact_content p {
@@ -59,6 +59,7 @@
 
 
 @media screen and (max-width:991px) {
+
 		.top-menu .brand-logo {
 			margin-left:calc(4.34% + 8px) !important;
 		}
@@ -66,4 +67,13 @@
 		footer {
 			padding-left:calc(4.34% + 8px) !important;
 		}
+
+      .top-menu .brand-logo {
+         margin-left:calc(4.34% + 8px) !important;
+      }
+      
+      footer {
+         padding-left:calc(4.34% + 8px) !important;
+      }
+
 }

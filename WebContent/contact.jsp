@@ -13,12 +13,10 @@
 <link rel="stylesheet" href="assets/css/theory/contact.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 
-
 <script src="assets/js/jquery-1.9.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/map.js"></script>
-<script
-	src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB_bNNglsjbbOhArM3uMMLm0Qy4aCTPEu4"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB_bNNglsjbbOhArM3uMMLm0Qy4aCTPEu4"></script>
 
 </head>
 <body>
@@ -45,8 +43,8 @@
 				<div class="contact_content">
 					<h5 class="border_bot">IANBEST</h5>
 					<p class="">
-						TEL : 1670 - 5116 <br> FAX : 02 - 568 - 2952<br> E-mail
-						: ribio@naver.com
+						TEL : 1670 - 5116 <br> FAX : 02 - 568 - 2952<br> 
+						E-mail : ribio@naver.com
 					</p>
 				</div>
 			</div>
@@ -56,7 +54,7 @@
 
 	<script type="text/javascript">
 		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-		$('#about').addClass('selected');
+		$('#contact').addClass('selected');
 	</script>
 
 </body>

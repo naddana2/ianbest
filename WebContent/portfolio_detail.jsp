@@ -156,7 +156,7 @@
 
 	<%@ include file="assets/include/footer.jsp"%>
 
-	<script type="text/javascript">
+	<script type="text/javascript" event="" for="">
 		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 		jQuery(window).load(function(){
 			$('#project').addClass('selected');
