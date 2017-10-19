@@ -1,250 +1,219 @@
 .service-area {
-   padding: 123px 250px;
-   overflow: hidden;
-   background: #535353;
+	padding: 4.5% 13.04% 11.5%;
+	overflow: hidden;
+	background: #535353;
+}
+
+.service-area .service-item {
+	padding:38px 0 28px;
+	border-bottom:2px solid #b5b5b673;
+}
+
+.service-item .innertitle {
+	padding-bottom:25px;
+	
+	
+}
+
+.innertitle img {
+	
+}
+.innertitle h2 {
+	font-size: 1.992857142857143em;
+	font-weight: 600;
+	color: white;
+	padding:0;
+	letter-spacing: -0.12px;
+	text-transform:none;
+	float:left;
+	width:fit-content;
+	padding-right:.5%;
+	margin:0;
 }
 
 .subtitle h2 {
-   font-size: 39.2px;
-   font-weight: 600;
-   color: white;
-   letter-spacing: 0.76px;
-   font-family: 'KoPuDotum-M', sans-serif;
+	font-size: 2.392857142857143em;
+	font-weight: 600;
+	color: white;
+	padding:0;
+	letter-spacing: -0.12px;
+	text-transform:none;
 }
 
+
+
+.service-area  span {
+	color:#b5b5b6;
+	font-size:1.3em;
+	
+}
 .service-area .subtitle {
-   padding-bottom: 52px;
+	
+
 }
 
-.service-area .service-content {
-   padding: 0 10% 9.1% 10%;
-   border-bottom: 2.5px solid rgba(226, 226, 226, 0.61);
-}
-
-.service-content .center-area {
-   padding-bottom: 47px;
-}
-
-.service-content .big-pot {
-   text-align: center;
-   padding-bottom: 62px;
-   padding-top: 15px;
-}
-
-.service-content .center-area p {
-   color: #9fa0a0;
-   font-size: 21.6px;
-   text-align: center;
-   line-height: 35px;
-   font-family: 'KoPuDotum-M', sans-serif;
-   font-weight: 300;
-}
-
-
-.service-content .img-grid {
-   padding: 22px 94px 74px 94px;
-   overflow: hidden;
-}
-
-
-.service-area>.tab-content {
-   padding: 0px 10%;
-   /* height: 631.3438px; */
-   overflow: hidden;
-}
-
-
-/* 챠�뮻�챘짤�씳モ�걔� */
-.hypertab {
-   list-style: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   margin-bottom: 27px;
-}
-/* Float the list items side by side */
-.hypertab .motherli {
-   float: left;
-   width: 20%;
-}
-/* Style the links inside the list items */
-.hypertab .motherli .childli {
-   display: inline-block;
-   color: #dadada;
-   text-decoration: none;
-   padding: 14px 16px 0 16px;
-   font-size: 32px;
-   transition: 0.3s;
-   letter-spacing: -0.2px;
-   font-family: 'KoPuBatang-B', sans-serif;
-}
-
-.hypertab .motherli a:hover {
-   color: #6eb92b !important;
-}
-/* Style the tab content */
-.hypertabcontent {
-   display: none;
-}
-
-.hypertab .current {
-   color: #6eb92b;
-}
-
-.hypertabcontent.current {
-   display: block;
-}
-
-
-.tab-content>.tab-pane {
-   width: 100%;
-   float: left;
-   /* padding: 0 10% 0 7%; */
-}
-
-.tab-pane .imageset {
-   height: inherit;
-}
-
-.tab-pane .imageset img {
-   width: 100%;
-   max-height: 100%;
-}
-
-.tab-info h3 {
-   font-size: 21.2px;
-   margin: 0;
-   color: #b5b5b6;
-   padding: 0;
-   line-height: 29px;
-   font-family: 'KoPuDotum-M', sans-serif;
-}
-
-
-.hypertab .special a {
-   padding: 14px 0 0 !important;
-}
-
-.motherli i {
-   padding: 0.6vh 43px 0;
-   color: #525252;
-   font-size: 1.54em;
-}
-
-.current .childli {
-   color: #6eb92b !important;
-}
-
-.current i {
-   color: #6eb92b !important;
-}
-
-.hypertab:after {
-   content: "";
-   display: inline-block;
-   background: rgba(193, 193, 193, 0.15);
-   width: 90%;
-   height: 5px;
-   position: relative;
-   z-index: 3;
-   margin-top: -15.4px;
+.mobile_view img {
+	width:100% !important;
+	padding:4% !important;
 }
 
 
 
 
-
-
-
-
-
-
-.move-contact {
-   text-align: center;
-   padding: 91px 0;
-   background:#6eb92b;
+.img-grid {
+	padding:5.5% 23% 9.5%;
+	overflow:hidden;
+	
 }
 
-.move-contact p {
-   font-size: 16.6px;
-   margin-bottom: 0;
-   color:white;
-   font-family:'KoPuBatang-L', sans-serif;
-   font-weight:300;
+.img-grid img {
+	width:33.3%;
+	padding:8px;
+	
 }
 
-.move-contact h2 {
-   font-size: 33.5px;
-   letter-spacing: -0.12px;
-   color: white;
-   font-weight: 600;
-   margin-top: 12px;
+.introduce-box {
+	padding:2.4% 0 5.3%;
 }
-
-
-.grid2 {
-   padding: 0 78px 40px 78px !important;
-}
-
-
-.service-content .introduce {
-   padding-bottom: 32px;
-}
-
-.img-grid .img-box {
-   float: left;
-   text-align: center;
-   width: 33.3%;
-   padding: 25px 0;
-}
-
-.img-grid .img-box img {
-   margin-bottom: 15px;
-}
-
-.img-grid .img-box p {
-   color: #9fa0a0;
-   font-size: 21.6px;
-   font-family: 'KoPuDotum-M', sans-serif;
-   font-weight: 300;
-}
-
-
 .introduce p {
-   margin: 0 auto;
-   line-height: 35px;
-   font-size: 23px;
-   color: #b5b5b5;
-   width: 520px;
-   letter-spacing: 0.7px;
+	padding-bottom:10px;
+	line-height:36px;
+   font-size: 1.492857em;
+   color: #ffffff;
+
+   letter-spacing: -.12px;
 }
 
 
 .introduce img {
  
-   margin-right: 30px;
-   margin-top: -3px;
+ 	padding-right:1.5%;
 }
 
 
-.big-pot img {
-   margin-bottom: 13px;
+
+.service-area>.tab-content {
+	overflow: hidden;
+	display:none;
 }
 
-.big-pot .second-img {
-   margin-bottom: 41px !important;
+/* 梨좑옙裕삼옙梨섏ℓ占쎌뵵�깴占쎄콛占� */
+.hypertab {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin-bottom: 27px;
+}
+/* Float the list items side by side */
+.hypertab .motherli {
+	float: left;
+	width: 20%;
+}
+/* Style the links inside the list items */
+.hypertab .motherli .childli {
+	display: inline-block;
+	color: #dadada;
+	text-decoration: none;
+	padding: 14px 16px 0 16px;
+	font-size: 32px;
+	transition: 0.3s;
+	letter-spacing: -0.2px;
+	font-family: 'KoPuBatang-B', sans-serif;
 }
 
-.big-pot h2 {
-   margin: 5px auto;
-   letter-spacing: -0.46px;
-   font-size: 28.4px;
-   color: white;
-   font-family: 'KoPuDotum-B', sans-serif;
-   border-bottom: 7px solid white;
-   width: fit-content;
-   padding-bottom: 8.3px;
+.hypertab .motherli a:hover {
+	color: #6eb92b !important;
 }
+/* Style the tab content */
+.hypertabcontent {
+	display: none;
+}
+
+.hypertab .current {
+	color: #6eb92b;
+}
+
+.hypertabcontent.current {
+	display: block;
+}
+
+.tab-content>.tab-pane {
+	width: 100%;
+	float: left;
+	/* padding: 0 10% 0 7%; */
+}
+
+.tab-pane .imageset {
+	height: inherit;
+}
+
+.tab-pane .imageset img {
+	width: 100%;
+	max-height: 100%;
+}
+
+.tab-info h3 {
+	font-size: 21.2px;
+	margin: 0;
+	color: #b5b5b6;
+	padding: 0;
+	line-height: 29px;
+	font-family: 'KoPuDotum-M', sans-serif;
+}
+
+.hypertab .special a {
+	padding: 14px 0 0 !important;
+}
+
+.motherli i {
+	padding: 0.6vh 43px 0;
+	color: #525252;
+	font-size: 1.54em;
+}
+
+.current .childli {
+	color: #6eb92b !important;
+}
+
+.current i {
+	color: #6eb92b !important;
+}
+
+.hypertab:after {
+	content: "";
+	display: inline-block;
+	background: rgba(193, 193, 193, 0.15);
+	width: 90%;
+	height: 5px;
+	position: relative;
+	z-index: 3;
+	margin-top: -15.4px;
+}
+
+.move-contact {
+	text-align: center;
+	padding: 2.6% 0;
+	background: #6eb92b;
+}
+
+.move-contact p {
+	font-size: 16.6px;
+	margin-bottom: 0;
+	color: white;
+	font-family: 'KoPuBatang-L', sans-serif;
+	font-weight: 300;
+}
+
+.move-contact h2 {
+	font-size: 33.5px;
+	letter-spacing: -0.12px;
+	color: white;
+	font-weight: 600;
+	margin-top: 12px;
+}
+
+
 
 
 .bigli a {
@@ -267,24 +236,22 @@
 .bignav {
 	width: 100%;
 	float: left;
-	text-align: center;
+	text-align: left;
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 3% 1.5% 0;
 	overflow: hidden;
-	margin-bottom: 27px;
+	margin-bottom: 8%;
 }
 
 .smallnav {
-	width: 20%;
+	width: 35%;
 	float: left;
-	text-align: center;
 }
 
 .history_img_div {
-	width: 50%;
-	float: right;
-	height: 364px;
+	width: 65%;
+	float: left;
 }
 
 .nav-tabs .bigli {
@@ -293,43 +260,46 @@
 
 .tab2 .nav-tabs li {
 	float: none;
+	padding-bottom:3px;
 }
 
 .history_image {
 	width: 100%;
+	height:529px;
 }
 
-.tab-content_wrap {
+/* .tab-content_wrap {
 	padding: 0 6% 4.8% 16%;
 	height: 631.3438px;
-}
-
+} */
 .bignav .childli {
 	display: inline-block;
 	color: #dadada;
 	text-decoration: none;
 	padding: 14px 16px 0 16px;
-	font-size: 32px;
+	font-size: 2.0857142857142856em;
 	transition: 0.3s;
 	letter-spacing: -0.2px;
 	font-family: 'KoPuBatang-B', sans-serif;
 }
 
 .smallnav .childli {
-	font-size: 21.2px;
+	font-size: 1.5142857142857142em;
 	margin: 0;
 	color: #b5b5b6;
 	padding: 0;
 	line-height: 29px;
+	text-align: left;
+	padding: 0 9% 0 9%;
 	font-family: 'KoPuDotum-M', sans-serif;
 }
 
 .tab2 {
-    overflow: hidden;
-    margin-top: 80px;
+	overflow: hidden;
+	/* height: 30.5vw; */
 }
 
-.bignav:after{
+.bignav:after {
 	content: "";
 	display: inline-block;
 	background: rgba(193, 193, 193, 0.15);
@@ -341,12 +311,160 @@
 }
 
 .bigli i {
-   padding: 0.6vh 43px 0;
-   color: rgba(221, 221, 221, 1);
-   font-size: 1.54em;
+	padding: 0.6vh 40px 0;
+	color: rgba(221, 221, 221, 1);
+	font-size: 1.54em;
+}
+
+.active i {
+	color: #6eb92b !important;
+}
+
+.smallnav p {
+	margin-bottom: 0;
+	text-align: left;
+	padding: 0 9% 8px 9%;
+	color: rgba(217, 217, 217, 0.89);
+	font-size: 1.5142857142857142em;
 }
 
 
-.active i {
-   color: #6eb92b !important;
+
+
+/* 모바일메뉴 */
+
+.mobile-tab {
+	padding:0 20% 0 0;
+}
+
+.mobile-tab >li {
+	width:33.3%;
+	text-align:center;
+	
+}
+
+.mobile-tab >li>a {
+	padding:0;
+	width:89%;
+	margin:0 auto;
+	padding-bottom:8px;
+	border-bottom:2px solid white;
+	font-size:1.23em;
+	font-family:'KoPuBaTang-M', sans-serif;
+	color:#ecebeb;
+	margin-left:0;
+}
+
+.inner-tab {
+	overflow:hidden;
+}
+
+.inner-tab>.tab-pane {
+	width:100%;
+	float:left;
+}
+
+.tab-pane .history {
+	padding-top:8%;
+}
+
+
+.tab-pane .history .txtbox {
+	border-left:2px solid white;
+	padding-left:4%;
+	margin-left:8px;
+	position:relative;
+}
+.tab-pane .history .txtbox h1 {
+
+}
+
+.tab-pane .history .txtbox h2 {
+	padding-left:2%;
+}
+
+h1.title{
+	position: absolute;
+	top: -1px;
+    left: -15px;
+    margin-top:0;
+	font-size:1.7em;
+	line-height:1.6em;
+	padding-left:35px;
+	background:	url(../../images/minimi.png)no-repeat 5px 0px;
+	color:white;
+}
+
+.tab-pane .history .txtbox p {
+	padding-left:2%;
+}
+
+.tab-pane .history img {
+	
+	padding-left:8px;
+	margin-bottom:6%;
+	
+}
+
+.top-menu {
+	padding:3.128% 0 0.605% 13.04%;
+}
+
+footer {
+	padding:2.477% 13.04%;
+}
+
+.txtbox ul {
+	list-style:none;
+	padding:10% 4.5% 2.5%;
+	margin-bottom:0;
+}
+
+.txtbox ul > li > span {
+		display:block;
+}
+
+.txtbox ul > li {
+	padding-bottom:13px;
+}
+
+
+.lst_dot_history li .month {
+	color:white;
+	font-size:1.1em;
+	padding-bottom:4.5px;
+
+	
+}
+
+.lst_dot_history li .history_obj {
+	color:rgba(217, 217, 217, 0.89);
+	
+	
+}
+
+
+.mobile_view {
+	display:none;
+	padding-top:3%;	
+}
+
+ .Ming {
+	width:70% !important;
+	margin:0 auto;
+	padding:6% !important;
+} 
+
+
+
+
+
+@media screen and (max-width:991px) {
+		.top-menu .brand-logo {
+			margin-left:calc(4.34% + 8px) !important;
+		}
+		
+		footer {
+			padding-left:calc(4.34% + 8px) !important;
+		}
 }

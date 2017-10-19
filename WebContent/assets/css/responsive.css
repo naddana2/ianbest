@@ -33,6 +33,9 @@
 	section .double-set .txt-box .txt-area .btns {
 		display: none;
 	}
+	.mobile-tab {
+		padding: 0 0 0 8px !important; 
+	}
 }
 
 @media screen and (max-width:480px) {
@@ -49,11 +52,66 @@
 	section .double-set .txt-box .txt-area p {
 		display: none;
 	}
+	.img-grid {
+		padding: 5.5% 0 9.8%;
+	}
+	.introduce p {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width:333px) {
+	.introduce p {
+		font-size: 0.9em;
+	}
 }
 
 @media screen and (max-width:579px) {
 	section .double-set .txt-box .txt-area p {
 		display: none;
+	}
+	.img-grid img {
+		width: 50%;
+		float: left;
+	}
+	.subtitle h2 {
+		font-size: 1.792857em;
+	}
+	.innertitle h2 {
+		font-size: 1.492857em;
+	}
+	.service-area  span {
+		font-size: 1.18em;
+	}
+	.txtbox ul {
+		padding: 45px 4.5% 2.5%;
+	}
+	.introduce-box {
+		padding: 20px 0 46px 8px !important;
+	}
+}
+
+@media screen and (min-width:580px) and (max-width:767px) {
+	.subtitle h2 {
+		font-size: 1.892857em;
+	}
+	.innertitle h2 {
+		font-size: 1.692857em;
+	}
+	.img-grid {
+		padding: 5.5% 4.34% 9.5%;
+	}
+	h1.title {
+		font-size: 1.6em;
+	}
+	.service-area  span {
+		font-size: 1.2em;
+	}
+	.introduce-box {
+		padding: 26px 0 40px 8px !important;
+	}
+	.Ming {
+		padding: 3% 6% !important;
 	}
 }
 
@@ -126,22 +184,39 @@
 	.right-grid h2 {
 		font-size: 1.992857em;
 		padding-top: 2.5%;
-		margin-bottom:0;
+		margin-bottom: 0;
 	}
 	.about-content h2 {
 		font-size: 1.992857em;
-		padding-bottom:10px;
+		padding-bottom: 10px;
 	}
-	
 	.small-owl {
-	padding-top:1.7%;
-	
+		padding-top: 1.7%;
 	}
-	
 	.right-grid span {
-		font-size:1.26em;
+		font-size: 1.26em;
 	}
-	
+	.mobile-view {
+		display: block;
+	}
+
+	/* 서비스 */
+	.mobile_hide {
+		display: none;
+	}
+	.service-area .service-item {
+		padding: 38px 0 0;
+		border-bottom: none;
+	}
+	.move-contact {
+		display: none;
+	}
+	.service-area {
+		padding: 4.5% 4.34% 2.5%;
+	}
+	.mobile_view {
+		display: block;
+	}
 }
 
 @media screen and (max-width:991px) {
@@ -193,7 +268,7 @@
 		padding: 3.5% 0 3.5% 4.34%;
 	}
 	footer {
-		padding: 3.128% 0px 3.128% 5.34% !important;
+		padding: 3.128% 0px 3.128% 4.34% !important;
 	}
 	section .double-set .txt-box .section-header p {
 		font-size: 1.031429em;
@@ -252,9 +327,6 @@
 	.right-grid .bottombox {
 		padding: 3.7vw 0;
 	}
-	.move-contact {
-		display: none;
-	}
 	.project-view {
 		display: block;
 		padding: 0 4.34%;
@@ -264,7 +336,7 @@
 	}
 	.view-header {
 		display: block;
-		overflow:hidden;
+		overflow: hidden;
 	}
 	.view-header h2 {
 		font-size: 1.992857em;
@@ -284,17 +356,53 @@
 	.owl-theme .owl-controls .owl-buttons {
 		display: block;
 	}
+	.service-area>.tab-content {
+		display: block;
+	}
+	.mobile-view {
+		display: none !important;
+	}
+	.top-menu .brand-logo {
+		background: url(../images/ian-logo.png) no-repeat !important;
+		padding: 0 91px;
+		height: 71px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1192px) {
+	.smallnav p {
+		font-size: 1.114286em;
+	}
+	.smallnav .childli {
+		font-size: 1.114286em;
+		line-height: 25px;
+	}
+	.history_image {
+		height: 465px;
+	}
+	.bignav .childli {
+		font-size: 1.685714em;
+	}
+	.bigli i {
+		padding: 0.6vh 33px 0;
+	}
 }
 
 @media screen and (min-width:992px) {
-	.top-menu .brand-logo {
-		margin-right: 1.83vw;
-		background: url(../images/ian-logo.png) no-repeat;
-		padding: 0px 91px;
-		height: 71px;
-	}
 	section .double-set .less_text .section-header h2 {
 		font-size: 3.457142857142857em !important;
+	}
+	.introduce p {
+		font-size: 1.392857em;
+	}
+	.subtitle h2 {
+		font-size: 2.192857em;
+	}
+	.innertitle h2 {
+		font-size: 1.792857em;
+	}
+	.service-area  span {
+		font-size: 1.24em
 	}
 }
 
@@ -320,6 +428,17 @@
 	}
 }
 
+@media screen and (min-width:481px) and (max-width:579px) {
+	.img-grid {
+		padding: 9% 7% 12% 0;
+	}
+
+	
+}
+
+@media screen and (min-width:425px) and (max-width:579px) {
+}
+
 @media screen and (min-width:481px) and (max-width:767px) {
 	section .double-set .txt-box .section-header h2 {
 		font-size: 1.864286em;
@@ -333,14 +452,34 @@
 		font-size: 1.514286em;
 		top: 27%;
 	}
+	.introduce p {
+		font-size: 1.192857em;
+	}
+		.service-area  .span-box {
+		padding-right: calc(7% + 8px);
+	}
+	.introduce-box {
+		padding: 20px calc(7% + 8px) 46px 8px !important;
+	}
+	/* .Ming {
+		width: 80% !important;
+		padding: 6% calc(7% + 8px) 6% 8px !important;
+		margin: 0;
+	} */
+	.txtbox ul {
+		padding: 45px calc(7% + 8px) 2.5% 4.5% !important;
+	}
 }
 
-@media screen and (min-width:581px) and (max-width:767px) {
+@media screen and (min-width:580px) and (max-width:767px) {
 	#owl-demo .item .owl-overlay h2 {
 		top: 34%;
 	}
 	section .double-set .txt-box .section-header p {
 		font-size: 1.091429em;
+	}
+	.img-grid {
+		padding: 5.5% 20% 9.5% 0;
 	}
 }
 
@@ -383,6 +522,33 @@
 	}
 	article .right-box:after {
 		border-bottom: 13.53vw solid transparent;
+	}
+	.introduce-box {
+		padding: 30px 0 51px 8px !important;
+	}
+	.img-grid {
+		padding: 5.5% 35% 9.5% 0;
+	}
+	.bignav {
+		margin-bottom: 6%;
+	}
+	.subtitle h2 {
+		font-size: 2.092857em;
+	}
+	.innertitle h2 {
+		font-size: 1.792857em;
+	}
+	.service-area  span {
+		font-size: 1.24em;
+	}
+	.introduce p {
+		font-size: 1.272286em;
+	}
+	#mobilemenu i {
+		margin-top: 1vw;
+	}
+	.history_image {
+		padding: 0 8%;
 	}
 }
 
@@ -443,6 +609,12 @@
 	}
 }
 
+@media screen and (min-width:992px) and (max-width:1375px) {
+	.img-grid {
+		padding: 5.5% 40% 9.5% 0;
+	}
+}
+
 @media screen and (min-width:1100px) and (max-width:1239px) {
 }
 
@@ -463,7 +635,8 @@
 		
 	}
 	.top-menu {
-		padding: 3.128% 0 1.105% 6.04%;
+		padding: 3.128% 0 1.105%;
+		padding-left: calc(4.34% + 8px);
 	}
 	.owl-theme .owl-controls .owl-buttons {
 		top: 32.5%;
@@ -528,23 +701,32 @@
 	article .right-box:after {
 		border-bottom: 13.25vw solid transparent
 	}
-	
 	.about-content {
-		padding:4.5% 6.04%;
+		padding: 4.5% 6.04%;
 	}
-	
 	.bottom-area {
-		padding:2.5% 6.04%;
+		padding: 2.5% 6.04%;
 	}
-	
 	.bottom-area .right-grid {
-		padding:0 0 0 8%;
+		padding: 0 0 0 8%;
 	}
 	.imgbox .last-p {
-		padding:2% 0 1% 3% !important;
+		padding: 2% 0 1% 3% !important;
 	}
 	.imgbox p {
-		padding:4% 0 1% 3%;
+		padding: 4% 0 1% 3%;
+	}
+	.top-menu .brand-logo {
+		margin-right: 3vw;
+		background: url(../images/ian-logo.png) no-repeat;
+		padding: 0px 91px;
+		height: 71px;
+	}
+}
+
+@media screen and (max-width:1191px) {
+	.service-area {
+		padding: 4.5% 4.34% 11.5%;
 	}
 }
 
@@ -552,11 +734,18 @@
 	section .double-set {
 		height: 38.54vw;
 	}
+	.top-menu .brand-logo {
+		margin-right: 1.83vw;
+		background: url(../images/ian-logo.png) no-repeat;
+		padding: 0px 91px;
+		height: 71px;
+	}
 }
 
 @media screen and (min-width:1192px) and (max-width:1375px) {
 	.top-menu {
-		padding: 3.128% 0 1.605% 7.04%;
+		padding: 3.128% 0 1.605%;
+		padding-left: calc(7.04% + 8px);
 	}
 	section .double-set .txt-box {
 		padding: 7.5% 0 0 7.04%;
@@ -587,6 +776,30 @@
 	}
 	article .right-direction span {
 		font-size: 2.442857em;
+	}
+	.service-area {
+		padding: 4.5% 7.34% 11.5%;
+	}
+	.top-menu .brand-logo {
+		margin-right: 3.2vw;
+	}
+}
+
+@media screen and (max-width:1375px) {
+	.service-area .subtitle {
+		padding-left: 8px;
+	}
+	.service-item .innertitle {
+		padding-left: 8px;
+	}
+	.service-area  .span-box {
+		padding-left: 8px;
+	}
+	.introduce-box {
+		padding: 2.4% 0 5.3% 8px;
+	}
+	.mobile-tab {
+		padding:0 20% 0 8px;
 	}
 }
 
@@ -620,28 +833,25 @@
 	}
 }
 
-
 @media screen and (min-width:1192px) and (max-width:1399px) {
-		
-		.bottom-area .right-grid {
-			padding:0 0 0 13%;
-		}
-		.imgbox .last-p {
-			padding:2% 0 1% 3% !important;
-		}
-		.imgbox p {
-			padding:5% 0 1% 3%;
-		}
-		.bottom-area {
-			padding:2.5% 9.04%;
-		}
-		.about-content {
-			padding:4.5% 9.04%;
-		}
-		
+	.bottom-area .right-grid {
+		padding: 0 0 0 13%;
 	}
+	.imgbox .last-p {
+		padding: 2% 0 1% 3% !important;
+	}
+	.imgbox p {
+		padding: 5% 0 1% 3%;
+	}
+	.bottom-area {
+		padding: 2.5% 9.04%;
+	}
+	.about-content {
+		padding: 4.5% 9.04%;
+	}
+}
+
 @media screen and (min-width:1400px) {
-	
 }
 
 @media screen and (min-width:1376px) {

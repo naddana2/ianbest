@@ -340,7 +340,10 @@ footer a {
 }
 
 .better-top {
-   padding-top: 47px;
+   padding-top: 3.3414%;
+}
+.better-bottom {
+   padding-bottom: 3.3414% !important;
 }
 
 
@@ -367,7 +370,7 @@ footer a {
 }
 
 .divider {
-   padding: 10px 0;
+   padding: 17px 0;
 }
 
 .divider2 {
@@ -377,6 +380,7 @@ footer a {
 .block {
 	display:block !important;
 }
+
 
 
 
