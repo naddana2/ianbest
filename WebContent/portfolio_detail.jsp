@@ -28,11 +28,11 @@
 	IanDao dao = IanDao.getInstance();
 	IanDto dto = new IanDto();
 	
-	List<IanDto> Recentlist = null;
-	List<IanDto> Recentlist2 = null;
+	List<IanDto> Recentlist3 = null;
+	List<IanDto> Recentlist5 = null;
 	
-	Recentlist = dao.port_Recentlist();
-	Recentlist2 = dao.port_Recentlist2();
+	Recentlist3 = dao.port_Recentlist(3);
+	Recentlist5 = dao.port_Recentlist(5);
 
 	dto = dao.port_Detail(id);
 %>
@@ -98,7 +98,7 @@
 					<h2>Recent Project</h2>
 					
 			<% 
-				for (IanDto port : Recentlist2) { 
+				for (IanDto port : Recentlist3) {
 			%>					
 					<div class="imgbox">
 						<img src="assets/images/portfolio/port<%=port.getPort_id()%>/main.jpg"
@@ -140,7 +140,7 @@
 		<div class="project-view">
 			<div id="owl-demo" class="owl-carousel owl-theme small-owl">
 			<% 
-				for (IanDto port : Recentlist) { 
+				for (IanDto port : Recentlist5) { 
 			%>
 				<div class="item">
 					<img src="assets/images/portfolio/port<%=port.getPort_id()%>/main.jpg">

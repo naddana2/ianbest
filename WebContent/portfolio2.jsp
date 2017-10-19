@@ -60,12 +60,12 @@
 <%
 	IanDao dao = IanDao.getInstance();
 	IanDto dto = new IanDto();
-	List<IanDto> list = null;
-	List<IanDto> list2 = null;
-	list = dao.port_list();
-	list2 = dao.port_list2();
+	List<IanDto> port_list = null;
+	List<IanDto> port_list_more = null;
+	port_list = dao.port_list();
+	port_list_more = dao.port_list_more();
 	
-	for (IanDto port : list) {
+	for (IanDto port : port_list) {
 		
 		int port_id = port.getPort_id();
 		String port_name = port.getPort_name();
@@ -103,7 +103,7 @@
 	
 	var item = '';
 	<%
-		for (IanDto port : list2) {
+		for (IanDto port : port_list_more) {
 			int port_id = port.getPort_id();
 			String port_name = port.getPort_name();
 			String port_division = port.getPort_division();

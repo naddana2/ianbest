@@ -49,6 +49,8 @@ public class IanDao
 			catch (SQLException localSQLException2) {}
 		}
 	}
+	
+	// 포트폴리오 리스트 8개 
 	public List<IanDto> port_list() throws Exception {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
@@ -79,7 +81,9 @@ public class IanDao
 		}
 		return list;
 	}
-	public List<IanDto> port_list2() throws Exception {
+	
+	// 포트폴리오 리스트 더보기 .
+	public List<IanDto> port_list_more() throws Exception {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
@@ -109,6 +113,8 @@ public class IanDao
 		}
 		return list;
 	}
+	
+	// 포트폴리오 디테일 (상세페이지 id)
 	public IanDto port_Detail(int id) throws Exception {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
@@ -139,7 +145,8 @@ public class IanDao
 		return dto;
 	}
 	
-	public List<IanDto> port_Recentlist() throws Exception {
+	// 포트폴리오 상세페이지 (최근 포트폴리오 목록)
+	public List<IanDto> port_Recentlist(int a) throws Exception {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
@@ -148,8 +155,9 @@ public class IanDao
 		String sql = "";
 		try {
 			conn = getConnection();
-			sql = "select * from ian_port order by port_id desc limit 5;";
+			sql = "select * from ian_port order by port_id desc limit ?;";
 			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, a);
 			rs = pstmt.executeQuery();
 			list = new ArrayList<IanDto>();
 			
@@ -169,37 +177,6 @@ public class IanDao
 		}
 		return list;
 	}
-	public List<IanDto> port_Recentlist2() throws Exception {
-		Connection conn = null;
-		PreparedStatement pstmt = null;
-		ResultSet rs = null;
-		List<IanDto> list = null;
-		IanDto dto = null;
-		String sql = "";
-		try {
-			conn = getConnection();
-			sql = "select * from ian_port order by port_id desc limit 3;";
-			pstmt = conn.prepareStatement(sql);
-			rs = pstmt.executeQuery();
-			list = new ArrayList<IanDto>();
-			
-			while (rs.next()){
-				dto = new IanDto();
-				dto.setPort_id(rs.getInt("port_id"));
-				dto.setPort_name(rs.getString("port_name"));
-				dto.setPort_division(rs.getString("port_division"));
-				list.add(dto);
-			}
-		}
-		catch (Exception e) {
-			throw new Exception(e);
-		}
-		finally {
-			executeClose(rs, pstmt, conn);
-		}
-		return list;
-	}
-	
 	
 	// 팝업 DAO ======================================================================
 	// 팝업리스트
