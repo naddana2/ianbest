@@ -23,7 +23,6 @@
 <script src="assets/js/owl3.js"></script>
 <script src="assets/js/isotope.js"></script>
 
-
 <script type="text/javascript">
 	function myFunction() {
 		var x = document.getElementById("myTopnav");
@@ -56,7 +55,6 @@
 			</div>
 
 			<div class="iso-box-wrapper masonry" id="list">
-			
 <%
 	IanDao dao = IanDao.getInstance();
 	IanDto dto = new IanDto();
@@ -155,7 +153,6 @@
 	                $(this).addClass('is-checked');
 	            });
 	        });
-			
 
 			var $items = $(item);
 			var flag = true;

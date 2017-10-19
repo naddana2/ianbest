@@ -3,16 +3,16 @@
 <nav class="top-menu">
 	<!-- 첫째 -->
 
-	<div class="brand-logo">
+	<div class="brand-logo" onclick="location.href= 'index.jsp'" style="cursor: pointer;">
 	
 	</div>
 	<a id="mobilemenu"><i class="fa fa-align-justify white"
 		aria-hidden="true"></i></a>
 	<ul class="topnav" id="myTopnav">
-		<li><a class="" href="" id="about">ABOUT</a></li>
-		<li><a class="" href="" id="service">SERVICE</a></li>
-		<li><a class="" href="" id="project">PROJECT</a></li>
-		<li><a class="" href="" id="contact">CONTACT</a></li>
+		<li><a class="" href="#" id="about">ABOUT</a></li>
+		<li><a class="" href="service.jsp" id="service">SERVICE</a></li>
+		<li><a class="" href="portfolio2.jsp" id="project">PROJECT</a></li>
+		<li><a class="" href="contact.jsp" id="contact">CONTACT</a></li>
 	</ul>
 	<div class="etc-place">
 		<p>
