@@ -32,11 +32,16 @@
 				</div>
 			</div>
 			<div class="content padding">
-				<div class="contact_header subtitle">
+				<div class="contact_header subtitle mobile_hide">
 					<h2>CONTACT</h2>
 				</div>
-				<div>
+				<div class="mobile_hide">
 					<h5>제작문의 및 견적을 의뢰하시면 신속하게 답변드립니다. <br>
+						아래 연락처나 이메일로 문의주시면 바로 상담받을실 수 있습니다.
+					</h5>
+				</div>
+				<div class="mobile_view">
+					<h5>제작문의 및 견적을 의뢰하시면 신속하게 답변드립니다. 
 						아래 연락처나 이메일로 문의주시면 바로 상담받을실 수 있습니다.
 					</h5>
 				</div>

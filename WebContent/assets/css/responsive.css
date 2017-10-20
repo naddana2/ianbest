@@ -45,6 +45,10 @@
 	.introduce p {
 		font-size: 1em;
 	}
+	
+	#owl-demo .item .owl-overlay h2 {
+		font-size:1.43em;
+	}
 }
 
 @media screen and (max-width:333px) {
@@ -82,7 +86,18 @@
 	}
 	.about-content h2 {
 		font-size: 1.792857em;
-	}920919bkyc!@#
+	}
+	.contact_wrap h5 {
+		font-size:1.192857em;
+		line-height:25px;
+	}
+	.contact_content p {
+		font-size:1.1em;
+		line-height:22px;
+		letter-spacing:-.12px;
+		padding-top:15px;
+	}
+	
 }
 
 @media screen and (min-width:580px) and (max-width:767px) {
@@ -197,6 +212,7 @@
 		margin-bottom: 0;
 	} 
 	
+	
 	.small-owl {
 		padding-top: 1.7%;
 	}
@@ -222,6 +238,12 @@
 	.mobile_view {
 		display: block;
 	}
+	.owl-nav {
+		display:none;
+	}
+	.map .subtitle {
+		padding-bottom:10px;
+	}
 }
 
 @media screen and (max-width:991px) {
@@ -234,7 +256,7 @@
 	#mobilemenu {
 		float: right;
 		display: block !important;
-		margin-right: calc(4.34% - 15.827px);
+		margin-right: calc(4.34% - 1.9vh);
 	}
 	.top-menu .brand-logo {
 		margin-bottom: 8px;
@@ -355,6 +377,10 @@
 		width: 40%;
 		padding-right: 4.34%;
 	}
+	.contact_wrap {
+		padding:4.5% 4.34% 5%;
+	}
+	
 }
 
 @media screen and (min-width:768px) {
@@ -362,13 +388,16 @@
 	.service-area>.tab-content {
 		display: block;
 	}
-	.mobile-view {
+	.mobile_view {
 		display: none !important;
 	}
 	.top-menu .brand-logo {
 		background: url(../images/ian-logo.png) no-repeat !important;
 		padding: 0 91px;
 		height: 71px;
+	}
+	.contact_content {
+		padding-top:40px;
 	}
 }
 
@@ -482,7 +511,7 @@
 		font-size: 2.414286em;
 	}
 	.fa2 {
-		font-size: 7.45em !important;
+		font-size: 6em !important;
 	}
 	.make-area:after {
 		border-bottom: 39vw solid transparent;
@@ -550,6 +579,13 @@
 	.right-grid span {
 		font-size:1.52em;
 	}
+	
+	.owl-prev {
+		top: calc(50% - 3em);
+	}
+	.owl-next {
+		top: calc(50% - 3em);
+	}
 }
 
 @media screen and (min-width:768px) and (max-width:768px) {
@@ -566,9 +602,7 @@
 
 @media screen and (min-width:769px) and (max-width:828px) {
 	
-	.fa2 {
-		font-size: 7.45em !important;
-	}
+
 	.less_text {
 		padding-top: 7.5% !important;
 	}
@@ -576,9 +610,7 @@
 
 @media screen and (min-width:829px) and (max-width:890px) {
 	
-	.fa2 {
-		font-size: 7.45em !important;
-	}
+	
 	.less_text {
 		padding-top: 8.3% !important;
 	}
@@ -586,9 +618,7 @@
 
 @media screen and (min-width:891px) and (max-width:991px) {
 	
-	.fa2 {
-		font-size: 7.45em !important;
-	}
+	
 	.less_text {
 		padding-top: 9.4% !important;
 	}
@@ -662,11 +692,15 @@
 		padding: 3.128% 0 1.105% 4.34%;
 		
 	}
+	#owl-demo .item .owl-overlay h2 {
+		font-size:3.334em;
+	}
+	.contact_wrap {
+		padding:4.5% 4.34% 5%;
+	}
 	
 
-	.fa2 {
-		font-size: 9.45em !important;
-	}
+	
 	section .double-set .txt-box .section-header p {
 		font-size: 1.271429em;
 	}
@@ -816,6 +850,9 @@
 	}
 	.about-content {
 		padding: 4.5% 7.04%;
+	}
+	.contact_wrap {
+		padding:4.5% 7.04% 5%;
 	}
 }
 

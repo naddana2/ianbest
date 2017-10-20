@@ -30,7 +30,7 @@
 			x.className += " responsive";
 		} else {
 			x.className = "topnav";
-		}
+		}c
 	}
 </script>
 </head>

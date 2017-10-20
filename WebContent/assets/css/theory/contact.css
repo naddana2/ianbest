@@ -10,7 +10,7 @@
 }
 
 .contact_map {
-	padding-bottom: 80px;
+	padding-bottom: 4.2vw;
 }
 
 .contact_content {
@@ -60,17 +60,3 @@ footer {
 	padding: 2.477% 13.04%;
 }
 
-@media screen and (max-width:991px) {
-	.top-menu .brand-logo {
-		margin-left: calc(4.34% + 8px) !important;
-	}
-	footer {
-		padding-left: calc(4.34% + 8px) !important;
-	}
-	.top-menu .brand-logo {
-		margin-left: calc(4.34% + 8px) !important;
-	}
-	footer {
-		padding-left: calc(4.34% + 8px) !important;
-	}
-}
