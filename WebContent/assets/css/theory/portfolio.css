@@ -1,5 +1,5 @@
 .portfolio-area {
-   padding: 80px 250px;
+   padding: 4.5% 9.04%;
    overflow: hidden;
    background: rgba(81, 81, 81, 1);
 }
@@ -36,7 +36,7 @@
 
 
 .iso-box-wrapper .iso-box {
-   width: 350.75px;
+    width: 389.73px; 
    float: left;
    padding: 17px;
    /* margin-top: 22px; */
@@ -107,7 +107,7 @@
 
 .move-contact {
 	text-align: center;
-	padding: 91px 0;
+	padding: 2.6% 0;
 	background:#6eb92b;
 }
 
@@ -131,3 +131,54 @@
 .append-button .gray:hover {
     color: white !important;
 }
+
+
+.top-menu {
+		padding: 3.128% 0 0.605% calc(9.04% + 17px);
+		
+	}
+	
+	
+	
+	footer {
+			padding:2.477% calc(9.04% + 17px);
+		}
+	
+
+
+@media screen and (max-width:991px) {
+		.top-menu .brand-logo {
+			margin-left:calc(4.34% + 17px) !important;
+		}
+		
+		footer {
+			padding-left:calc(4.34% + 17px) !important;
+		}
+}
+
+
+@media screen and (min-width:992px) and (max-width:1191px) {
+		
+	.top-menu {
+		padding: 3.128% 0 1.105% calc(4.34% + 17px) !important;
+		
+	}
+	footer {
+		padding:2.477% calc(4.334% + 17px) !important;
+	}
+}
+
+
+@media screen and (min-width:1192px) and (max-width:1375px) {
+	.top-menu {
+		padding: 3.128% 0 1.605% calc(7.04% + 17px) !important;
+		
+	}
+	footer {
+		padding:2.477% calc(7.04% + 17px) !important;
+	}
+}
+
+
+
+

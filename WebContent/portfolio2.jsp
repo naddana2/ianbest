@@ -19,8 +19,6 @@
 <link rel="stylesheet" href="assets/css/responsive.css">
 <script src="assets/js/jquery-1.9.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/owl.carousel.min2.js"></script>
-<script src="assets/js/owl3.js"></script>
 <script src="assets/js/isotope.js"></script>
 
 <script type="text/javascript">
@@ -112,7 +110,7 @@
 	%>
 	
 	
-		jQuery(window).load(function(){
+		 jQuery(window).load(function(){
 
 			$('#project').addClass('selected');
 			
@@ -120,7 +118,7 @@
 	            itemSelector: '.iso-box',
 				masonry: {
 					itemSelector: 'iso-box',
-					columnWidth:350.75,
+					columnWidth:389.73,
 					percentPosition: true,
 					horizontalOrder: true
 			  }
@@ -175,7 +173,7 @@
 				    flag = true;
 				}
 			});
-		});
+		}); 
 	</script>
 
 </body>

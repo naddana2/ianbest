@@ -132,7 +132,7 @@
 
 
 
-			<div class="mobile-view">
+			<div class="mobile_view">
 				<ul class="nav nav-tabs mobile-tab">
 					<li class="active"><a data-toggle="tab" href="#home">2016-2013</a></li>
 					<li><a data-toggle="tab" href="#menu1">2012-2007</a></li>
