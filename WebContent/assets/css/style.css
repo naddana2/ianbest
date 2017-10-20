@@ -117,7 +117,7 @@ a:hover, a:focus {
 
 
 
-/* �뿤�뜑-�꽕鍮� */
+/* ï¿½ë¿¤ï¿½ëœ‘-ï¿½ê½•é®ï¿½ */
 .top-menu {
    background-color: #3b3b3b;
    padding: 3.128% 0 0.605% 9.04%;
@@ -209,7 +209,7 @@ a:hover, a:focus {
 
 
 
-/* �뫖�꽣*/
+/* ï¿½ë«–ï¿½ê½£*/
 footer {
    padding: 2.477% 9.04%;
    display: flex;
@@ -271,7 +271,7 @@ footer a {
 
 
 
-/* owl - 怨듯넻湲곕낯�삎 */
+/* owl - æ€¨ë“¯ë„»æ¹²ê³•ë‚¯ï¿½ì‚Ž */
 
 .carousel {
    position: relative;
@@ -323,7 +323,7 @@ footer a {
 
 
 
-/* �젒�몢�궗 */
+/* ï¿½ì ’ï¿½ëª¢ï¿½ê¶— */
 
 
 .no-padding {
@@ -386,7 +386,7 @@ footer a {
 
 
 
-/* �꽑�깮�옄*/
+/* ï¿½ê½‘ï¿½ê¹®ï¿½ì˜„*/
 
 .selected {
    color: #85c352 !important;
@@ -398,7 +398,7 @@ a.is-checked {
 
 
 
-/* 而щ윭�왋 */
+/* è€ŒÑ‰ìœ­ï¿½ì™‹ */
 
 
 .white {
@@ -433,17 +433,18 @@ a.is-checked {
   content: "\e092";
 }
 
-/* 캐러셀 */
+/* ìºëŸ¬ì…€ */
 
 .license_chevron {
     color: #6a7796;
+    padding: 0 0.6vh;
 }
 
 .owl-prev {
     /* width: 50%; */
     float: left;
     position: absolute;
-    top: 50%;
+    top: calc(50% - 1.5em);
 }
 
 .owl-next {
@@ -451,14 +452,14 @@ a.is-checked {
     float: right;
     /* text-align: right; */
     position: absolute;
-    top: 50%;
+    top: calc(50% - 1.5em);
     right: 0;
 }
 
 .owl-nav {
-    overflow: hidden;
+    /* overflow: hidden; */
     /* position: absolute; */
     /* width: 100%; */
     /* top: 50%; */
-    z-index: 0;
+    /* z-index: 0; */
 }
