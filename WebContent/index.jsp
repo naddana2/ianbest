@@ -32,20 +32,11 @@
 		
 	});
 </script>
-
 </head>
-
 
 <body>
 
-
 	<%@ include file="assets/include/header.jsp"%>
-
-
-
-
-
-
 
 	<div id="wrap" class="wrap">
 
@@ -55,8 +46,6 @@
 					<h2>
 						건물설계 컨설팅에서 시설관리까지<br> <strong>앞서나가는 종합 건설, 이안베스트</strong>
 					</h2>
-
-
 					<!-- 	<button class="btnS" type="button" onclick="location.href='work-web.html'">CONTACT US</button> -->
 				</div>
 				<img src="assets/images/carousel-1.png" alt="The Last of us">
@@ -78,8 +67,6 @@
 				</div>
 				<img src="assets/images/carousel-3.png" alt="GTA V">
 			</div>
-
-
 		</div>
 		<section>
 
@@ -212,7 +199,7 @@
 
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>
-	<script src="assets/js/owl.js"></script>
+	<script src="assets/js/owl_index.js"></script>
 	<script src="assets/js/custom.js"></script>
 	<script src="assets/js/wow.min.js"></script>
 
