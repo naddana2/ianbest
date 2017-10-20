@@ -1,5 +1,5 @@
 .about-content {
-	padding: 4.5% 13%;
+	padding: 4.5% 13.04%;
 }
 
 .about-content h2 {
@@ -15,6 +15,9 @@
 	max-height: 744px;
 	width: 100%;
 }
+ .about-content h2 {
+ 	padding-bottom:10px;
+ }
 
 .bottom-area {
 	position: relative;
@@ -214,22 +217,27 @@
 	opacity: 0.4;
 }
 
-/* responsive - nav  */
-@media screen and (min-width:1192px) and (max-width:1399px) {
-	.top-menu {
-		padding: 3.128% 0 1.605% 9.04% !important;
-	}
-	footer {
-		padding: 2.477% 9.04% !important;
-	}
+.top-menu {
+	padding:3.128% 0 0.605% 13.04%;
+}
+
+footer {
+	padding:2.477% 13.04%;
 }
 
 
-@media screen and (min-width:1400px) {
+@media screen and (max-width:991px) {
+		.move-contact {
+			display:none;
+		}
+		
+	}
+
+
+@media screen and (min-width:1192px) and (max-width:1375px) {
 	.top-menu {
-		padding: 3.128% 0 1.605% 13% !important;
+		padding: 3.128% 7.04% 1.605% !important;
+		
 	}
-	footer {
-		padding: 2.477% 13% !important;
-	}
+	
 }

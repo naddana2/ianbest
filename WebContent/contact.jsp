@@ -23,7 +23,7 @@
 	<%@ include file="assets/include/header.jsp"%>
 	<div id="wrap" class="wrap">
 		<div class="contact_wrap">
-			<div class="map padding">
+			<div class="map">
 				<div class="contact_header subtitle">
 					<h2>LOCATION</h2>
 				</div>
@@ -35,7 +35,7 @@
 				<div class="contact_header subtitle">
 					<h2>CONTACT</h2>
 				</div>
-				<div class ="margin50">
+				<div>
 					<h5>제작문의 및 견적을 의뢰하시면 신속하게 답변드립니다. <br>
 						아래 연락처나 이메일로 문의주시면 바로 상담받을실 수 있습니다.
 					</h5>
