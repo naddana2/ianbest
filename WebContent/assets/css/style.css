@@ -407,33 +407,3 @@ a.is-checked {
   content: "\e092";
 }
 
-/* ìºëŸ¬ì…€ */
-
-.license_chevron {
-    color: #6a7796;
-    padding: 0 0.6vh;
-}
-
-.owl-prev {
-    /* width: 50%; */
-    float: left;
-    position: absolute;
-    top: calc(50% - 1.5em);
-}
-
-.owl-next {
-    /* width: 50%; */
-    float: right;
-    /* text-align: right; */
-    position: absolute;
-    top: calc(50% - 1.5em);
-    right: 0;
-}
-
-.owl-nav {
-    /* overflow: hidden; */
-    /* position: absolute; */
-    /* width: 100%; */
-    /* top: 50%; */
-    /* z-index: 0; */
-}
