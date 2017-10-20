@@ -39,7 +39,10 @@
 				<h2>IANBEST</h2>
 			</div>
 			<div class="ian_about">
-				<div class="about_ianImage"></div>
+				<div class="about_ianImage">
+					<img class="ian_img" src="assets/images/about/Ian1.png">
+					<img class="ian_img" src="assets/images/about/Ian2.png">
+				</div>
 				<div class="about_ianBest">
 					<div class="about_ianBest2">
 						<h3>
@@ -59,13 +62,33 @@
 					</div>
 				</div>
 				<div class="about_content">
-					<div class="about_contents"></div>
-					<div class="about_icon"></div>
+					<div class="about_contents">
+						<h4>
+							"건설설계컨설팅에서 건물시설관리까지 <br>
+							이안베스트는 처음부터 끝까지 관리합니다. "
+						</h4>
+					</div>
+					<div class="about_icon">
+						<img class="about_img" src="assets/images/about/about_01.png">
+						<img class="about_img" src="assets/images/about/about_02.png">
+						<img class="about_img" src="assets/images/about/about_03.png">
+					</div>
 				</div>
 			</div>
 			<div class="about">
 				<div class="subtitle">
 					<h2>ABOUT</h2>
+				</div>
+				<div class ="about_content2">
+					<p>설립일 : 2007년 12월 05일 </p>
+					<p>대표자 : 박명수 </p>
+					<p>주소 : 서울시 강남구 논현로76길 25 꿈희망미래빌딩 5층 </p>
+					<p>총종업원수 : 53명 </p>
+					<p>건축기사 5명, 전기기사 4명 , 전기공사기사 3명, 산업안전기사 1명, 컬러리스트 기사 1명, </p>
+					<p>컬러리스트 코디네이터 1명 , 건축 설비기사 1명</p>
+
+					<p>실내건축공사업 / 대한전문건설협회 정회원 / 실내건축공사협의회 정회원 </p>
+					<p>건물시설관리업 / 위생관리업 / 시설경비업</p>
 				</div>
 			</div>
 		</div>
