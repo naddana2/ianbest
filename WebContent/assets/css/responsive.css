@@ -1,23 +1,16 @@
 ﻿@CHARSET "UTF-8";
 
-@media screen and (max-width:320px) {
-	.owl-theme .owl-controls .owl-buttons {
-		top: -34%;
-		right: 0
-	}
-}
+
 
 @media screen and (max-width:374px) {
-	#owl-demo .item .owl-overlay h2 {
+/* 	#owl-demo .item .owl-overlay h2 {
 		top: 19.3% !important;
 		font-size: 1.354286em !important;
-	}
+	} */
 	article:last-child span {
 		font-size: 1.242857em !important;
 	}
-	.owl-theme .owl-controls .owl-buttons {
-		display: none;
-	}
+	
 	.view-header h2 {
 		width: 65% !important;
 	}
@@ -142,10 +135,7 @@
 }
 
 @media screen and (max-width:767px) {
-	.owl-theme .owl-controls .owl-buttons div {
-		font-size: 0.4em;
-		display: none;
-	}
+	
 	.top-menu .brand-logo img {
 		
 	}
@@ -374,9 +364,7 @@
 }
 
 @media screen and (min-width:768px) {
-	.owl-theme .owl-controls .owl-buttons {
-		display: block;
-	}
+	
 	.service-area>.tab-content {
 		display: block;
 	}
@@ -497,9 +485,7 @@
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
-	.owl-theme .owl-controls .owl-buttons {
-		top: 34.7%;
-	}
+	
 	#owl-demo .item .owl-overlay h2 {
 		font-size: 2.414286em;
 	}
@@ -589,9 +575,7 @@
 }
 
 @media screen and (min-width:769px) and (max-width:828px) {
-	.owl-theme .owl-controls .owl-buttons {
-		top: 34.3%;
-	}
+	
 	.fa2 {
 		font-size: 7.45em !important;
 	}
@@ -601,9 +585,7 @@
 }
 
 @media screen and (min-width:829px) and (max-width:890px) {
-	.owl-theme .owl-controls .owl-buttons {
-		top: 35.9%;
-	}
+	
 	.fa2 {
 		font-size: 7.45em !important;
 	}
@@ -613,9 +595,7 @@
 }
 
 @media screen and (min-width:891px) and (max-width:991px) {
-	.owl-theme .owl-controls .owl-buttons {
-		top: 36.3%;
-	}
+	
 	.fa2 {
 		font-size: 7.45em !important;
 	}
@@ -692,13 +672,11 @@
 		padding: 3.128% 0 1.105% 4.34%;
 		
 	}
-	.owl-theme .owl-controls .owl-buttons {
-		top: 32.5%;
-	}
-	#owl-demo .item .owl-overlay h2 {
+	
+/* 	#owl-demo .item .owl-overlay h2 {
 		top: 32.2%;
 		font-size: 3.114286em;
-	}
+	} */
 	.fa2 {
 		font-size: 9.45em !important;
 	}
@@ -989,8 +967,3 @@
 @media screen and (max-width:767px) {
 }
 
-@media screen and (min-width:991px) and (max-width:991px) {
-	.owl-theme .owl-controls .owl-buttons {
-		top: 36.3% !important;
-	}
-}

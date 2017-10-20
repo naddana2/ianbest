@@ -1,4 +1,4 @@
-/* ĳ���� */
+/* 캐占쏙옙占쏙옙 */
 
 
 #owl-demo .item .owl-overlay {
@@ -45,9 +45,10 @@
    letter-spacing: 0.04vw;
    position: relative;
    top: 38%;
+   padding:0;
+   margin:0;
    text-transform: none;
    line-height: 1.31em;
-   margin-bottom: 5px;
    font-family: 'KoPuDotum-L', sans-serif;
 }
 
@@ -68,7 +69,7 @@
 
 
 
-/* �¿�ڽ� */
+/* 占승울옙黴占� */
 
 
 section .double-set {
@@ -239,7 +240,7 @@ section .double-set .section-img .in_transparent_img {
 
 
 
-/* ��ƼŬ �¿�ڽ�*/
+/* 占쏙옙티클 占승울옙黴占�*/
 article {
    /* text-align:center; */
    padding: 2.79% 9.04%;

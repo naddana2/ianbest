@@ -290,41 +290,15 @@ footer a {
    border: 0.4vw solid white;
 }
 
-.owl-theme .owl-controls .owl-buttons div {
-   background: transparent;
-   display: block;
-   opacity: 0.9;
-}
+
 
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span
    {
    background: white;
 }
 
-.owl-theme .owl-controls .owl-buttons {
-   position: absolute;
-   top: 37.7%;
-   
-   
-}
-
-.owl-theme .owl-controls .owl-buttons .owl-prev {
-   float: left;
-}
-
-.owl-theme .owl-controls .owl-buttons .owl-next {
-   float: right;
-}
-
-.owl-theme .owl-controls .owl-buttons {
-	
-}
-
-
-
 
 /* ï¿½ì ’ï¿½ëª¢ï¿½ê¶— */
-
 
 .no-padding {
    padding: 0;
