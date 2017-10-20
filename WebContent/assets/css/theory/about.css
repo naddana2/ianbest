@@ -6,6 +6,7 @@
 .about_ianBest h3 {
 	font-size: 4rem;
 	color : rgba(130,130,130,1);
+	line-height: 25px;
 }
 
 .about_ianBest {
@@ -38,6 +39,7 @@ img.ian_img {
 .about_ianImage {
     padding: 0 15%;
     overflow: hidden;
+    margin: 80px 0;
 }
 
 .about_contents {
@@ -61,6 +63,21 @@ img.ian_img {
 
 .about {
     border-top: 1px solid white;
+}
+
+img.about_img {
+    /* padding: 0 20px; */
+}
+
+.about_contents {
+    margin: 80px 0;
+}
+
+.about_content {
+    margin-bottom: 80px;
+}
+.mg_left{
+	margin-left: 20px;
 }
 
 

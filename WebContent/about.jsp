@@ -69,9 +69,9 @@
 						</h4>
 					</div>
 					<div class="about_icon">
-						<img class="about_img" src="assets/images/about/about_01.png">
-						<img class="about_img" src="assets/images/about/about_02.png">
-						<img class="about_img" src="assets/images/about/about_03.png">
+						<img class="about_img" src="assets/images/about/about_b_01.png">
+						<img class="about_img" src="assets/images/about/about_b_02.png">
+						<img class="about_img" src="assets/images/about/about_b_03.png">
 					</div>
 				</div>
 			</div>
@@ -84,11 +84,11 @@
 					<p>대표자 : 박명수 </p>
 					<p>주소 : 서울시 강남구 논현로76길 25 꿈희망미래빌딩 5층 </p>
 					<p>총종업원수 : 53명 </p>
-					<p>건축기사 5명, 전기기사 4명 , 전기공사기사 3명, 산업안전기사 1명, 컬러리스트 기사 1명, </p>
-					<p>컬러리스트 코디네이터 1명 , 건축 설비기사 1명</p>
-
-					<p>실내건축공사업 / 대한전문건설협회 정회원 / 실내건축공사협의회 정회원 </p>
-					<p>건물시설관리업 / 위생관리업 / 시설경비업</p>
+					<p class="mg_left">건축기사 5명, 전기기사 4명 , 전기공사기사 3명, 산업안전기사 1명, 컬러리스트 기사 1명, </p>
+					<p class="mg_left">컬러리스트 코디네이터 1명 , 건축 설비기사 1명</p>
+					<br>
+					<p class="mg_left">실내건축공사업 / 대한전문건설협회 정회원 / 실내건축공사협의회 정회원 </p>
+					<p class="mg_left">건물시설관리업 / 위생관리업 / 시설경비업</p>
 				</div>
 			</div>
 		</div>
