@@ -1,0 +1,53 @@
+.about-area {
+	padding: 4.5% 13.04% 11.5%;
+	overflow: hidden;
+	background: #535353;
+}
+.about_ianBest h3 {
+	font-size: 4rem;
+	color : rgba(130,130,130,1);
+}
+
+.about_ianBest {
+    text-align: center;
+}
+.about_ianBest2 {
+    padding : 30px 0;
+    border-bottom : 1px solid white;
+    border-top : 1px solid white;
+    display: inline-block;
+}
+
+.about_ianBest strong{
+	color: white;
+}
+
+
+@media screen and (max-width:991px) {
+		.top-menu .brand-logo {
+			margin-left:calc(4.34% + 8px) !important;
+		}
+		
+		footer {
+			padding-left:calc(4.34% + 8px) !important;
+		}
+}
+
+
+@media screen and (min-width:992px) and (max-width:1191px) {
+		
+	.top-menu {
+		padding: 3.128% 0 1.105% calc(4.34% + 8px) !important;
+		
+	}
+	footer {
+		padding:2.477% calc(4.334% + 8px) !important;
+	}
+}
+
+
+@media screen and (min-width:1192px) and (max-width:1375px) {
+	.top-menu {
+		padding: 3.128% 0 1.605% calc(7.04% + 8px) !important;
+		
+	}

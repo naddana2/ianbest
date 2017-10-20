@@ -181,21 +181,13 @@
 			<span>+ JOIN US</span>
 		</div>
 		</article>
-
-
-
-
-
 	</div>
 	<%@ include file="assets//include/footer.jsp"%>
 
 
 	<script type="text/javascript">
       /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-
-   
    </script>
-
 
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>
