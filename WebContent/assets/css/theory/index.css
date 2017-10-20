@@ -1,4 +1,4 @@
-/* 캐占쏙옙占쏙옙 */
+/* ìºå ì™ì˜™å ì™ì˜™ */
 
 
 #owl-demo .item .owl-overlay {
@@ -40,15 +40,15 @@
 
 #owl-demo .item .owl-overlay h2 {
    color: white;
-   font-size: 3.7142857142857144em;
+   font-size: 4em;
    font-weight: 300;
    letter-spacing: 0.04vw;
    position: relative;
-   top: 38%;
+   top: calc(50% - 1.4em);
    padding:0;
    margin:0;
    text-transform: none;
-   line-height: 1.31em;
+   line-height: 1.4em;
    font-family: 'KoPuDotum-L', sans-serif;
 }
 
@@ -69,7 +69,7 @@
 
 
 
-/* 占승울옙黴占� */
+/* å ìŠ¹ìš¸ì˜™é»´å ï¿½ */
 
 
 section .double-set {
@@ -240,7 +240,7 @@ section .double-set .section-img .in_transparent_img {
 
 
 
-/* 占쏙옙티클 占승울옙黴占�*/
+/* å ì™ì˜™í‹°í´ å ìŠ¹ìš¸ì˜™é»´å ï¿½*/
 article {
    /* text-align:center; */
    padding: 2.79% 9.04%;
