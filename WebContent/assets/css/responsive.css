@@ -3,10 +3,7 @@
 
 
 @media screen and (max-width:374px) {
-/* 	#owl-demo .item .owl-overlay h2 {
-		top: 19.3% !important;
-		font-size: 1.354286em !important;
-	} */
+
 	article:last-child span {
 		font-size: 1.242857em !important;
 	}
@@ -32,10 +29,7 @@
 }
 
 @media screen and (max-width:480px) {
-	#owl-demo .item .owl-overlay h2 {
-		font-size: 1.514286em;
-		top: 27%;
-	}
+
 	.owl-pagination {
 		top: 80.5%;
 	}
@@ -413,7 +407,7 @@
 @media screen and (min-width:375px) and (max-width:424px) {
 	#owl-demo .item .owl-overlay h2 {
 		font-size: 1.514286em;
-		top: 24%;
+
 	}
 	section .double-set .txt-box .section-header h2 {
 		font-size: 1.564286em;
@@ -451,7 +445,7 @@
 	}
 	#owl-demo .item .owl-overlay h2 {
 		font-size: 1.514286em;
-		top: 27%;
+	
 	}
 	.introduce p {
 		font-size: 1.192857em;
@@ -473,9 +467,7 @@
 }
 
 @media screen and (min-width:580px) and (max-width:767px) {
-	#owl-demo .item .owl-overlay h2 {
-		top: 34%;
-	}
+	
 	section .double-set .txt-box .section-header p {
 		font-size: 1.091429em;
 	}
@@ -510,9 +502,7 @@
 	article .left-box .txt-zone p {
 		font-size: 1.428571em;
 	}
-	#owl-demo .item .owl-overlay h2 {
-		top: 34%;
-	}
+
 	article .left-direction p {
 		font-size: 1.2em !important;
 	}
@@ -673,10 +663,7 @@
 		
 	}
 	
-/* 	#owl-demo .item .owl-overlay h2 {
-		top: 32.2%;
-		font-size: 3.114286em;
-	} */
+
 	.fa2 {
 		font-size: 9.45em !important;
 	}
