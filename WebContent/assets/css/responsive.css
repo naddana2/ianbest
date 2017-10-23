@@ -74,6 +74,11 @@
 	.service-area  span {
 		font-size: 1.18em;
 	}
+	#mobilemenu {
+		margin-top:5px;
+	}
+	
+	
 	
 		.right-grid span {
 		font-size: 1.38em;
@@ -256,7 +261,10 @@
 	#mobilemenu {
 		float: right;
 		display: block !important;
-		margin-right: calc(4.34% - 1.9vh);
+		margin-right: calc(4.34% + 8px);
+		background:url(../images/justify.png) no-repeat;
+		padding: 0 17.5px;
+		height:35px;
 	}
 	.top-menu .brand-logo {
 		margin-bottom: 8px;
@@ -585,6 +593,9 @@
 	}
 	.owl-next {
 		top: calc(50% - 3em);
+	}
+	#mobilemenu {
+		margin-top:10px;
 	}
 }
 
@@ -949,6 +960,12 @@
 	}
 }
 
+
+@media screen and (min-width:580px) and (max-width:767px) {
+			#mobilemenu {
+				margin-top:3px;
+			}
+}
 @media screen and (min-width:1580px) and (max-width:1700px) {
 	article .left-box .txt-zone p {
 		font-size: 2.1285714285714284em;
