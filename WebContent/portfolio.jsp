@@ -116,8 +116,8 @@
 			
 		    var $isop = $('.masonry').isotope({
 	            itemSelector: '.iso-box',
-				masonry: {
-					columnWidth:389.73,
+					itemSelector: 'iso-box',
+					percentPosition: true,
 					horizontalOrder: true
 			  }
 	        });
