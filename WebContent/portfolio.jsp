@@ -118,7 +118,6 @@
 	            itemSelector: '.iso-box',
 				masonry: {
 					itemSelector: 'iso-box',
-					columnWidth:389.73,
 					percentPosition: true,
 					horizontalOrder: true
 			  }
