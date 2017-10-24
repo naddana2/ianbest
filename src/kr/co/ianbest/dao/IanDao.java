@@ -70,6 +70,7 @@ public class IanDao
 				dto.setPort_id(rs.getInt("port_id"));
 				dto.setPort_name(rs.getString("port_name"));
 				dto.setPort_division(rs.getString("port_division"));
+				dto.setPort_width(rs.getString("port_width"));
 				list.add(dto);
 			}
 		}
@@ -102,6 +103,7 @@ public class IanDao
 				dto.setPort_id(rs.getInt("port_id"));
 				dto.setPort_name(rs.getString("port_name"));
 				dto.setPort_division(rs.getString("port_division"));
+				dto.setPort_width(rs.getString("port_width"));
 				list.add(dto);
 			}
 		}

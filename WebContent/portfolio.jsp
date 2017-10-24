@@ -21,6 +21,7 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/isotope.js"></script>
 <script type="text/javascript">
+<<<<<<< HEAD
 	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
 	
@@ -35,6 +36,26 @@
 		});
 		
 		
+=======
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+	
+	$(function() {
+		var mobilemenu = $('#mobilemenu');
+		menu = $('nav ul');
+		menuHeight = menu.height();
+
+		$(mobilemenu).on('click', function(e) {
+			e.preventDefault();
+			menu.slideToggle();
+		});
+>>>>>>> branch 'master' of https://github.com/naddana2/ianbest.git
 	});
 </script>
 </head>
@@ -59,6 +80,8 @@
 			</div>
 
 			<div class="iso-box-wrapper masonry" id="list">
+			
+			
 <%
 	IanDao dao = IanDao.getInstance();
 	IanDto dto = new IanDto();
@@ -72,8 +95,9 @@
 		int port_id = port.getPort_id();
 		String port_name = port.getPort_name();
 		String port_division = port.getPort_division();
+		String port_width = port.getPort_width();
 %>
-				<div class="iso-box <%=port_division%>">
+				<div class="iso-box <%=port_division%> width<%=port_width%>">
 					<div class="portfolio-thumb"  onclick="location.href='portfolio_detail.jsp?id=<%=port_id %>'" style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-<%=port_id%>.png" alt="GTA V">
 						<div class="thumb-text">
@@ -85,6 +109,7 @@
 <%	
 	}
 %>
+
 			</div>
 			<div class="portfolo_footer">
 				<a class="append-button"> <i class="fa fa-chevron-down gray"
@@ -109,8 +134,10 @@
 			int port_id = port.getPort_id();
 			String port_name = port.getPort_name();
 			String port_division = port.getPort_division();
+			String port_width = port.getPort_width();
+
 	%>
-		item += '<div class="iso-box <%=port_division%>"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.jsp?id=<%=port_id %>\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-<%=port_id%>.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, <%=port_division%></p><h2><%=port_name%></h2></div></div></div>';
+		item += '<div class="iso-box <%=port_division%> width<%=port_width%>"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.jsp?id=<%=port_id %>\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-<%=port_id%>.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, <%=port_division%></p><h2><%=port_name%></h2></div></div></div>';
 	<%
 		}
 	%>
@@ -124,8 +151,8 @@
 	            itemSelector: '.iso-box',
 				masonry: {
 					itemSelector: 'iso-box',
-					percentPosition: true,
-					horizontalOrder: true
+					horizontalOrder: true,
+					percentPosition: true
 			  }
 	        });
 		    
