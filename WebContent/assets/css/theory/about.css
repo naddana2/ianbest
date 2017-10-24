@@ -1,12 +1,12 @@
 .about-area {
-	padding: 4.5% 13.04% 11.5%;
+	padding: 4.5% 19.04% 6%;
 	overflow: hidden;
 	background: #535353;
 }
 .about_ianBest h3 {
-	font-size: 2.642857142857143em;
+	font-size: 2.442857142857143em;
 	color : rgba(130,130,130,1);
-	padding:5px 0 10px;
+	padding:5px 0 11.5px;
 	margin:0;
 	line-height:1.08;
 	letter-spacing:3.92px;
@@ -24,10 +24,10 @@
 .about_ianBest2:before {
 	content: "";
 	position:absolute;
-	left: 30.5%;
+	left: 32.5%;
 	bottom:0;
 	height: 100%;
-	width: 39%;
+	width: 35%;
 	border-bottom: 3px solid white;
 	border-top: 3px solid white;
 }
@@ -37,7 +37,7 @@
 }
 
 .about_icon {
-    padding: 1% 15% 10%;
+    padding: 7.5% 8.5% 10%;
 }
 
 
@@ -49,23 +49,25 @@ img.ian_img {
 
 .about_ianImage {
     padding: 5.7% 14.1% 8.7%;
-    overflow: hidden;
-   
+    overflow: hidden;w
 }
 
 .about_ianImage:before {
 	content: "\\";
-	position:relative;
-	right:55.7%;
-	font-size:3.75vw;
+	position:absolute;
+	right:53%;
+	font-size:3.25vw;
+	margin-top:-2px;
 	color:white;
+	transform:rotate(-7deg);
+	font-family:'KoPuBatang-L', sans-serif;
 }
 
 .about_contents {
     text-align: center;
 }
 
-.about_contents h4 {
+.about_content h4 {
     color: white;
     font-size: 2.2em;
     line-height: 41.7px;
@@ -73,10 +75,11 @@ img.ian_img {
 }
 .about-area p {
     color: rgba(219, 219, 219, 1);
-    font-size: 1.43em;
+    font-size: 1.33em;
     font-weight:300;
     letter-spacing:-0.28px;
-    margin-bottom:12px;
+    margin-bottom:0;
+    line-height:1.78;
 }
 
 .subtitle {
@@ -93,41 +96,29 @@ img.about_img {
    padding:0 16px;
 }
 
-.about_contents {
-    padding:4.6% 0;
+.about_content {
+    padding: 7.8% 0 0%;
+    text-align:center;
 }
 
 
-.mg_left{
-	margin-left: 20px;
+.pd_left {
+	padding-left: 20px;
+}
+
+.about-info {
+	padding-bottom:6.4%;
+}
+
+.subtitle h2 {
+	font-size: 2.392857142857143em;
+	font-weight: 600;
+	color: white;
+	padding:0;
+	letter-spacing: -0.12px;
+	text-transform:none;
 }
 
 
-@media screen and (max-width:991px) {
-		.top-menu .brand-logo {
-			margin-left:calc(4.34% + 8px) !important;
-		}
-		
-		footer {
-			padding-left:calc(4.34% + 8px) !important;
-		}
-}
 
 
-@media screen and (min-width:992px) and (max-width:1191px) {
-		
-	.top-menu {
-		padding: 3.128% 0 1.105% calc(4.34% + 8px) !important;
-		
-	}
-	footer {
-		padding:2.477% calc(4.334% + 8px) !important;
-	}
-}
-
-
-@media screen and (min-width:1192px) and (max-width:1375px) {
-	.top-menu {
-		padding: 3.128% 0 1.605% calc(7.04% + 8px) !important;
-		
-	}

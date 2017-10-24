@@ -20,16 +20,22 @@
 <script src="assets/js/jquery-1.9.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/isotope.js"></script>
-
 <script type="text/javascript">
-	function myFunction() {
-		var x = document.getElementById("myTopnav");
-		if (x.className === "topnav") {
-			x.className += " responsive";
-		} else {
-			x.className = "topnav";
-		}c
-	}
+	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+
+	
+	$(function() {
+		var mobilemenu = $('#mobilemenu');
+		menu = $('nav ul');
+		menuHeight = menu.height();
+
+		$(mobilemenu).on('click', function(e) {
+			e.preventDefault();
+			menu.slideToggle();
+		});
+		
+		
+	});
 </script>
 </head>
 

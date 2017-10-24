@@ -23,7 +23,7 @@
 	position: relative;
 	padding: 2.5% 13%;
 	overflow: hidden;
-}
+}i
 
 .bottom-area .left-grid {
 	width: 50%;
@@ -226,18 +226,7 @@ footer {
 }
 
 
-@media screen and (max-width:991px) {
-		.move-contact {
-			display:none;
-		}
-		
-	}
 
 
-@media screen and (min-width:1192px) and (max-width:1375px) {
-	.top-menu {
-		padding: 3.128% 7.04% 1.605% !important;
-		
-	}
-	
-}
+
+
