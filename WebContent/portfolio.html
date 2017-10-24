@@ -1,8 +1,9 @@
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<html><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" pageEncoding="UTF-8">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <meta content="width=device-width, initial-scale=1" name="viewport">
 
@@ -15,7 +16,11 @@
 <link rel="stylesheet" href="assets/css/responsive.css">
 <script src="assets/js/jquery-1.9.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/owl.carousel.min2.js"></script>
+<script src="assets/js/owl3.js"></script>
 <script src="assets/js/isotope.js"></script>
+<script src="assets/js/custom.js"></script>
+
 
 <script type="text/javascript">
 	function myFunction() {
@@ -26,55 +31,12 @@
 			x.className = "topnav";
 		}
 	}
-	
-	$(function() {
-		var mobilemenu = $('#mobilemenu');
-		menu = $('nav ul');
-		menuHeight = menu.height();
-
-		$(mobilemenu).on('click', function(e) {
-			e.preventDefault();
-			menu.slideToggle();
-		});
-		
-		
-	});
 </script>
 </head>
 
 <body>
 
-
-	
-<nav class="top-menu">
-	<!-- 첫째 -->
-
-<div class="brand-logo" onclick="location.href= 'index.html'" style="cursor: pointer;">
-	
-	</div>
-	<a id="mobilemenu"><i class="fa fa-align-justify white"
-		aria-hidden="true"></i></a>
-	<ul class="topnav" id="myTopnav">
-		<li><a class="" href="about.html" id="about">ABOUT</a></li>
-		<li><a class="" href="service.html" id="service">SERVICE</a></li>
-		<li><a class="" href="portfolio.html" id="project">PROJECT</a></li>
-		<li><a class="" href="contact.html" id="contact">CONTACT</a></li>
-	</ul>
-	<div class="etc-place">
-		<p>
-			<a>BROCHURE PDF</a>
-		</p>
-	</div>
-
-
-
-
-
-</nav>
-
-
-
-
+	<%@ include file="assets/include/header.jsp"%>
 
 	<div id="wrap" class="wrap">
 
@@ -90,190 +52,119 @@
 
 			</div>
 
-			<div class="iso-box-wrapper masonry" id="list" style="position: relative; height: 1371.16px;">
+			<div class="iso-box-wrapper masonry" id="list">
+				<div class="iso-box office">
+					<div class="portfolio-thumb">
 
-				<div class="iso-box hospital" style="position: absolute; left: 0px; top: 0px;">
-					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
 						<div class="thumb-text">
-							<p>Portfolio, hospital</p>
-							<h2>A병원</h2>
+							<p>Portfolio, Remodeling</p>
+							<h2>광주 목뉴방외과</h2>
+
 						</div>
+
 					</div>
 				</div>
 
-				<div class="iso-box office" style="position: absolute; left: 389px; top: 0px;">
-					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
-						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
-						<div class="thumb-text">
-							<p>Portfolio, office</p>
-							<h2>B병원</h2>
-						</div>
-					</div>
-				</div>
+				<div class="iso-box complex">
+					<div class="portfolio-thumb">
 
-				<div class="iso-box complex" style="position: absolute; left: 779px; top: 0px;">
-				<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
-							<p>Portfolio, complex</p>
-							<h2>C병원</h2>
+
+							<p>Portfolio, Industrial</p>
+							<h2>경기도립 미술관</h2>
 						</div>
+
+
+
 					</div>
 				</div>
-
-				<div class="iso-box remodeling" style="position: absolute; left: 1169px; top: 0px;">
-					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
-						<img class="" src="assets/images/portfolio-4.png" alt="GTA V">
+				<div class="iso-box complex">
+					<div class="portfolio-thumb">
+						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
 						<div class="thumb-text">
-							<p>Portfolio, remodeling</p>
-							<h2>D병원</h2>
+							<p>Portfolio, Remodeling</p>
+							<h2>광주 목뉴방외과</h2>
+
 						</div>
 					</div>
 				</div>
 
-				<div class="iso-box remodeling" style="position: absolute; left: 0px; top: 507px;">
-					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
-						<img class="" src="assets/images/portfolio-5.png" alt="GTA V">
+				<div class="iso-box remodeling">
+					<div class="portfolio-thumb">
+						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
 						<div class="thumb-text">
-							<p>Portfolio, remodeling</p>
-							<h2>E병원</h2>
+
+							<p>Portfolio, Industrial</p>
+							<h2>경기도립 미술관</h2>
 						</div>
+
+
 					</div>
 				</div>
-
-				<div class="iso-box complex" style="position: absolute; left: 389px; top: 569px;">
-					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
-						<img class="" src="assets/images/portfolio-6.png" alt="GTA V">
+				<div class="iso-box remodeling">
+					<div class="portfolio-thumb">
+						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
 						<div class="thumb-text">
-							<p>Portfolio, complex</p>
-							<h2>F병원</h2>
+							<p>Portfolio, Remodeling</p>
+							<h2>광주 목뉴방외과</h2>
+
 						</div>
 					</div>
 				</div>
 
-				<div class="iso-box hospital" style="position: absolute; left: 779px; top: 628px;">
-					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
-						<img class="" src="assets/images/portfolio-7.png" alt="GTA V">
+				<div class="iso-box hospital">
+					<div class="portfolio-thumb">
+						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
 						<div class="thumb-text">
-							<p>Portfolio, hospital</p>
-							<h2>G병원</h2>
+
+							<p>Portfolio, Industrial</p>
+							<h2>경기도립 미술관</h2>
 						</div>
+
+
 					</div>
 				</div>
-
-				<div class="iso-box complex" style="position: absolute; left: 1169px; top: 685px;">
-					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
-						<img class="" src="assets/images/portfolio-8.png" alt="GTA V">
+				<div class="iso-box hospital">
+					<div class="portfolio-thumb">
+						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
-							<p>Portfolio, complex</p>
-							<h2>H병원</h2>
+							<p>Portfolio, Remodeling</p>
+							<h2>광주 목뉴방외과</h2>
+
 						</div>
 					</div>
 				</div>
 
+				<div class="iso-box hospital">
+					<div class="portfolio-thumb">
+						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
+						<div class="thumb-text">
+							<p>Portfolio, Industrial</p>
+							<h2>경기도립 미술관</h2>
+						</div>
+
+					</div>
+				</div>
 			</div>
+			
 			<div class="portfolo_footer">
-				<a class="append-button"> <i class="fa fa-chevron-down gray" aria-hidden="true" id="icon"></i>
+				<a class="append-button"> 
+					<i class="fa fa-chevron-down gray" aria-hidden="true" id="icon"></i>
 				</a>
 			</div>
 		</div>
-		<div class="move-contact">
-			<p>Get in touch</p>
-			<h2>CONTACT</h2>
-		</div>
+				<div class="move-contact"><p>Get in touch</p><h2>CONTACT</h2></div>
+		
+
 	</div>
 
-
-	
-<footer class="dark">
-		<div class="footer-content">
-		<img src="assets/images/ian-logo-gray.png" alt="GTA V">
-		<p class="nomal">(주)이안베스트<br>대표자 박영수 | 법인등록번호 10111-3799321 | TEL 1670 - 5116 | FAX 02 - 568 -2952<br>ADD 서울시 강남구 논현로76길 25 꿈희망미래빌딩 5층<br>E-mail ribio@naver.com | Copyrights㉿2017 ianbest All rights reserved. </p>
-		<p>서울시 강남구 논현로76길 25 꿈희망미래빌딩 5층 <br> TEL 1670 - 5116 | E-mail ribio@naver.com <br> Copyrights 2017 ianbest All rights reserved. </p></div>
-		</footer>
-    
-    
-    
-    
+	<%@ include file="assets/include/footer.jsp"%>
 
 	<script type="text/javascript">
-	
-	var item = '';
-	
-		item += '<div class="iso-box hospital"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.html\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-9.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, hospital</p><h2>I병원</h2></div></div></div>';
-	
-		item += '<div class="iso-box remodeling"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.html\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-10.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, remodeling</p><h2>J병원</h2></div></div></div>';
-	
-		item += '<div class="iso-box office"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.html\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-11.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, office</p><h2>K병원</h2></div></div></div>';
-	
-	
-	
-		 jQuery(window).load(function(){
-
-			$('#project').addClass('selected');
-			
-		    var $isop = $('.masonry').isotope({
-	            itemSelector: '.iso-box',
-				masonry: {
-					itemSelector: 'iso-box',
-					columnWidth:389.73,
-					percentPosition: true,
-					horizontalOrder: true
-			  }
-	        });
-		    
-	        // filter functions
-	        var filterFns = {
-	            // show if number is greater than 50
-	            numberGreaterThan50: function() {
-	                var number = $(this).find('.number').text();
-	                return parseInt(number, 10) > 50;
-	            }
-	        };
-
-	        // bind filter button click
-	        $('#filters').on('click', 'a', function() {
-	            var filterValue = $(this).attr('data-filter');
-	            // use filterFn if matches value
-	            filterValue = filterFns[filterValue] || filterValue;
-	            $isop.isotope({
-	                filter: filterValue
-	            });
-	        });
-
-	        // change is-checked class on buttons
-	        $('.button-group').each(function(i, buttonGroup) {
-	            var $buttonGroup = $(buttonGroup);
-	            $buttonGroup.on('click', 'a', function() {
-	                $buttonGroup.find('.is-checked').removeClass('is-checked');
-	                $(this).addClass('is-checked');
-	            });
-	        });
-
-			var $items = $(item);
-			var flag = true;
-			var icon = document.getElementById('icon');
-
-			$('.append-button').on('click',function(){
-				// create new item elements
-				if(flag == true){
-					$isop.append($items).isotope('appended', $items);
-					setTimeout(function(){
-						icon.className = "fa fa-chevron-up gray";
-					}, 250);
-					flag = false;
-				}else{
-					$isop.isotope('remove', $items );
-				    setTimeout(function(){
-				    	$isop.isotope('layout');
-				    	icon.className = "fa fa-chevron-down gray";
-				    }, 250);
-				    flag = true;
-				}
-			});
-		}); 
+		$('#project').addClass('selected');
 	</script>
 
-
-<div id="tqShowIP" class="tqShowIP_right">::1</div></body></html>
+</body>
+</html>

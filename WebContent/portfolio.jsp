@@ -22,14 +22,6 @@
 <script src="assets/js/isotope.js"></script>
 
 <script type="text/javascript">
-	function myFunction() {
-		var x = document.getElementById("myTopnav");
-		if (x.className === "topnav") {
-			x.className += " responsive";
-		} else {
-			x.className = "topnav";
-		}
-	}
 	
 	$(function() {
 		var mobilemenu = $('#mobilemenu');

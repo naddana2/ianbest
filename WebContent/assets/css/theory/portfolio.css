@@ -18,12 +18,10 @@
         -webkit-column-count: 2;
         column-count: 2;
     }
-    .iso-box-wrapper .width1{
+    .iso-box-wrapper .iso-box{
     width: 50%; 
-	}
-    .iso-box-wrapper .width2{
-    width: 100%; 
-	}
+   }
+ 
 }
 @media only screen and (min-width: 769px) and (max-width: 1200px){
     .masonry {
@@ -31,12 +29,10 @@
         -webkit-column-count: 3;
         column-count: 3;
     }
-    .iso-box-wrapper .width1{
+    .iso-box-wrapper .iso-box{
     width: 33.33%; 
-	}
-    .iso-box-wrapper .width2{
-    width: 66.66%; 
-	}
+   }
+  
 }
 @media only screen and (min-width: 1201px) {
     .masonry {
@@ -44,12 +40,10 @@
         -webkit-column-count: 4;
         column-count: 4;
     }
-    .iso-box-wrapper .width1{
+    .iso-box-wrapper .iso-box{
     width: 25%; 
-	}
-    .iso-box-wrapper .width2{
-    width: 50%; 
-	}
+   }
+   
 }
 
 
@@ -107,10 +101,10 @@
 
 .portfolio-thumb .thumb-text {
    padding: 27px 0;
-	background: white;
-	border-left: 1.4px solid #d6d6d6;
-	border-right: 1.4px solid #d6d6d6;
-	box-shadow: inset 0 -1.7px 0px 0px rgba(234, 234, 234, 0.6);
+   background: white;
+   border-left: 1.4px solid #d6d6d6;
+   border-right: 1.4px solid #d6d6d6;
+   box-shadow: inset 0 -1.7px 0px 0px rgba(234, 234, 234, 0.6);
 }
 
 
@@ -154,25 +148,25 @@
 
 
 .move-contact {
-	text-align: center;
-	padding: 2.6% 0;
-	background:#6eb92b;
+   text-align: center;
+   padding: 2.6% 0;
+   background:#6eb92b;
 }
 
 .move-contact p {
-	font-size: 16.6px;
-	margin-bottom: 0;
-	color:white;
-	font-family:'KoPuBatang-L', sans-serif;
-	font-weight:300;
+   font-size: 16.6px;
+   margin-bottom: 0;
+   color:white;
+   font-family:'KoPuBatang-L', sans-serif;
+   font-weight:300;
 }
 
 .move-contact h2 {
-	font-size: 33.5px;
-	letter-spacing: -0.12px;
-	color: white;
-	font-weight: 600;
-	margin-top: 12px;
+   font-size: 33.5px;
+   letter-spacing: -0.12px;
+   color: white;
+   font-weight: 600;
+   margin-top: 12px;
 }
 
 
@@ -182,52 +176,53 @@
 
 
 .top-menu {
-		padding: 3.128% 0 0.605% calc(13.04% + 17px);
-		
-	}
-	
-	
-	
-	footer {
-			padding:2.477% calc(13.04% + 17px);
-		}
-	
+      padding: 3.128% 0 0.605% calc(13.04% + 17px);
+      
+   }
+   
+   
+   
+   footer {
+         padding:2.477% calc(13.04% + 17px);
+      }
+   
 
 
 @media screen and (max-width:991px) {
-	
-		
-		.top-menu .brand-logo {
-			margin-left:calc(4.34% + 17px) !important;
-		}
-		
-		footer {
-			padding-left:calc(4.34% + 17px) !important;
-		}
+   
+      
+      .top-menu .brand-logo {
+         margin-left:calc(4.34% + 17px) !important;
+      }
+      
+      footer {
+         padding-left:calc(4.34% + 17px) !important;
+      }
 }
 
 
 @media screen and (min-width:992px) and (max-width:1191px) {
-		
-	.top-menu {
-		padding: 3.128% 0 1.105% calc(4.34% + 17px) !important;
-		
-	}
-	footer {
-		padding:2.477% calc(4.334% + 17px) !important;
-	}
+      
+   .top-menu {
+      padding: 3.128% 0 1.105% calc(4.34% + 17px) !important;
+      
+   }
+   footer {
+      padding:2.477% calc(4.334% + 17px) !important;
+   }
 }
 
 
 @media screen and (min-width:1192px) and (max-width:1375px) {
-	.top-menu {
-		padding: 3.128% 0 1.605% calc(7.04% + 17px) !important;
-		
-	}
-	footer {
-		padding:2.477% calc(7.04% + 17px) !important;
-	}
+   .top-menu {
+      padding: 3.128% 0 1.605% calc(7.04% + 17px) !important;
+      
+   }
+   footer {
+      padding:2.477% calc(7.04% + 17px) !important;
+   }
 }
+
 
 
 

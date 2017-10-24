@@ -23,7 +23,7 @@
 	position: relative;
 	padding: 2.5% 13%;
 	overflow: hidden;
-}i
+}
 
 .bottom-area .left-grid {
 	width: 50%;
@@ -159,63 +159,6 @@
 	text-transform: none;
 }
 
-#owl-demo .item img {
-	width: 100%;
-	display: block;
-	height: auto;
-}
-
-.owl-pagination {
-	display: none;
-}
-
-.small-owl .item p {
-	padding: 0 7px;
-	margin-top: 10px;
-	color: #b5b5b6;
-	font-size: 1.3em;
-	text-align: center;
-}
-
-.small-owl .item img {
-	
-}
-
-.fa3 {
-	color: white !important;
-	padding: 0.6vh 1.3vh;
-	font-size: 1.992857em !important;
-}
-
-.owl-wrapper-outer {
-	
-}
-
-.owl-carousel .owl-item .item {
-	
-}
-
-.owl-theme .owl-controls .owl-buttons {
-	top: -30.5%;
-	right: 0;
-}
-
-.view-header .owl-controls .owl-buttons {
-	overflow: hidden;
-	float: right;
-}
-
-.view-header .owl-controls .owl-buttons div {
-	float: left;
-}
-
-.owl-carousel .center {
-	opacity: 1.0 !important;
-}
-
-.owl-carousel .owl-item {
-	opacity: 0.4;
-}
 
 .top-menu {
 	padding:3.128% 0 0.605% 13.04%;
