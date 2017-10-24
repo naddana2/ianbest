@@ -1,4 +1,10 @@
+<<<<<<< HEAD
+/* Ã¬ÂºÂÃ¥ÂÂ Ã¬Ââ„¢Ã¬Ëœâ„¢Ã¥ÂÂ Ã¬Ââ„¢Ã¬Ëœâ„¢ */
+
+
+=======
 /* ìºå ì™ì˜™å ì™ì˜™ */
+>>>>>>> branch 'master' of https://github.com/naddana2/ianbest.git
 #owl-demo .item .owl-overlay {
 	position: absolute;
 	width: 100%;
@@ -56,7 +62,21 @@
 	text-transform: lowercase;
 }
 
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+/* Ã¥ÂÂ Ã¬Å Â¹Ã¬Å¡Â¸Ã¬Ëœâ„¢Ã©Â»Â´Ã¥ÂÂ Ã¯Â¿Â½ */
+
+
+=======
 /* å ìŠ¹ìš¸ì˜™é»´å ï¿½ */
+>>>>>>> branch 'master' of https://github.com/naddana2/ianbest.git
 section .double-set {
 	display: flex;
 	position: relative;
@@ -206,7 +226,15 @@ section .double-set .section-img .in_transparent_img {
 	color: #3b3b3b !important;
 }
 
+<<<<<<< HEAD
+
+
+
+
+/* Ã¥ÂÂ Ã¬Ââ„¢Ã¬Ëœâ„¢Ã­â€¹Â°Ã­ÂÂ´ Ã¥ÂÂ Ã¬Å Â¹Ã¬Å¡Â¸Ã¬Ëœâ„¢Ã©Â»Â´Ã¥ÂÂ Ã¯Â¿Â½*/
+=======
 /* å ì™ì˜™í‹°í´ å ìŠ¹ìš¸ì˜™é»´å ï¿½*/
+>>>>>>> branch 'master' of https://github.com/naddana2/ianbest.git
 article {
 	/* text-align:center; */
 	padding: 2.79% 9.04%;
@@ -407,6 +435,15 @@ article .right-box:after {
 }
 
 .owl-dot span {
+<<<<<<< HEAD
+   background: none repeat scroll 0 0 #d0cece;
+   border-radius: 20px;
+   display: block;
+   height: 14px;
+   margin: 5px 7px;
+   opacity: 0.8;
+   width: 14px;
+=======
 	background: none repeat scroll 0 0 #ffffff;
 	border-radius: 20px;
 	display: block;
@@ -423,7 +460,13 @@ article .right-box:after {
 	footer {
 		padding-left: 3.128% 0px 3.128% 4.34% !important;
 	}
+>>>>>>> branch 'master' of https://github.com/naddana2/ianbest.git
 }
+<<<<<<< HEAD
+.owl-dot.active span {
+   background: none repeat scroll 0 0 #ffffff !important;
+}
+=======
 
 @media screen and (min-width:992px) and (max-width:1191px) {
 	.top-menu {
@@ -442,3 +485,4 @@ article .right-box:after {
 		padding: 2.477% 7.04% !important;
 	}
 }
+>>>>>>> branch 'master' of https://github.com/naddana2/ianbest.git
