@@ -1,4 +1,4 @@
-/* ìºå ì™ì˜™å ì™ì˜™ */
+/* Ã¬ÂºÂÃ¥ÂÂ Ã¬Ââ„¢Ã¬Ëœâ„¢Ã¥ÂÂ Ã¬Ââ„¢Ã¬Ëœâ„¢ */
 
 
 #owl-demo .item .owl-overlay {
@@ -69,7 +69,7 @@
 
 
 
-/* å ìŠ¹ìš¸ì˜™é»´å ï¿½ */
+/* Ã¥ÂÂ Ã¬Å Â¹Ã¬Å¡Â¸Ã¬Ëœâ„¢Ã©Â»Â´Ã¥ÂÂ Ã¯Â¿Â½ */
 
 
 section .double-set {
@@ -240,7 +240,7 @@ section .double-set .section-img .in_transparent_img {
 
 
 
-/* å ì™ì˜™í‹°í´ å ìŠ¹ìš¸ì˜™é»´å ï¿½*/
+/* Ã¥ÂÂ Ã¬Ââ„¢Ã¬Ëœâ„¢Ã­â€¹Â°Ã­ÂÂ´ Ã¥ÂÂ Ã¬Å Â¹Ã¬Å¡Â¸Ã¬Ëœâ„¢Ã©Â»Â´Ã¥ÂÂ Ã¯Â¿Â½*/
 article {
    /* text-align:center; */
    padding: 2.79% 9.04%;
@@ -453,7 +453,7 @@ article .right-box:after {
   left:calc(50% - 42.6px);
 }
 .owl-dot span {
-   background: none repeat scroll 0 0 #ffffff;
+   background: none repeat scroll 0 0 #d0cece;
    border-radius: 20px;
    display: block;
    height: 14px;
@@ -461,12 +461,6 @@ article .right-box:after {
    opacity: 0.8;
    width: 14px;
 }
-
-
-
-
-
-
-
-
-
+.owl-dot.active span {
+   background: none repeat scroll 0 0 #ffffff !important;
+}

@@ -167,7 +167,6 @@
 	                $(this).addClass('is-checked');
 	            });
 	        });
-
 			var $items = $(item);
 			var flag = true;
 			var icon = document.getElementById('icon');
