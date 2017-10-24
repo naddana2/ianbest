@@ -6,8 +6,7 @@
 	<div class="brand-logo" onclick="location.href= 'index.jsp'" style="cursor: pointer;">
 	
 	</div>
-	<a id="mobilemenu"><i class="fa fa-align-justify white"
-		aria-hidden="true"></i></a>
+	<a id="mobilemenu"></a>
 	<ul class="topnav" id="myTopnav">
 		<li><a class="" href="#" id="about">ABOUT</a></li>
 		<li><a class="" href="service.jsp" id="service">SERVICE</a></li>

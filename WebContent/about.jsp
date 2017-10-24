@@ -61,19 +61,19 @@
 						</h3>
 					</div>
 				</div>
-				<div class="about_content">
+				
 					<div class="about_contents">
 						<h4>
-							"건설설계컨설팅에서 건물시설관리까지 <br>
-							이안베스트는 처음부터 끝까지 관리합니다. "
+							건설설계컨설팅에서 건물시설관리까지 <br>
+							이안베스트는 처음부터 끝까지 관리합니다
 						</h4>
 					</div>
 					<div class="about_icon">
-						<img class="about_img" src="assets/images/about/about_b_01.png">
-						<img class="about_img" src="assets/images/about/about_b_02.png">
-						<img class="about_img" src="assets/images/about/about_b_03.png">
+						<img class="about_img" src="assets/images/about/about_01.png">
+						<img class="about_img" src="assets/images/about/about_02.png">
+						<img class="about_img" src="assets/images/about/about_03.png">
 					</div>
-				</div>
+				
 			</div>
 			<div class="about">
 				<div class="subtitle">
@@ -93,10 +93,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="move-contact">
-		<p>Get in touch</p>
-		<h2>CONTACT</h2>
-	</div>
+	
 
 	<%@ include file="assets//include/footer.jsp"%>
 	<script type="text/javascript">
