@@ -10,6 +10,7 @@ public class IanDto {
 	private int port_id;
 	private String port_name;
 	private String port_division;
+	private String port_width;
 	
 	public int getPop_id() {
 		return pop_id;
@@ -52,6 +53,12 @@ public class IanDto {
 	}
 	public void setPort_division(String port_division) {
 		this.port_division = port_division;
+	}
+	public String getPort_width() {
+		return port_width;
+	}
+	public void setPort_width(String port_width) {
+		this.port_width = port_width;
 	}
 	
 }
