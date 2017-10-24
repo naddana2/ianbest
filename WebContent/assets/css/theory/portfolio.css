@@ -1,5 +1,5 @@
 .portfolio-area {
-   padding: 4.5% 9.04%;
+   padding: 4.5% 13.04%;
    overflow: hidden;
    background: rgba(81, 81, 81, 1);
 }
@@ -182,19 +182,21 @@
 
 
 .top-menu {
-		padding: 3.128% 0 0.605% calc(9.04% + 17px);
+		padding: 3.128% 0 0.605% calc(13.04% + 17px);
 		
 	}
 	
 	
 	
 	footer {
-			padding:2.477% calc(9.04% + 17px);
+			padding:2.477% calc(13.04% + 17px);
 		}
 	
 
 
 @media screen and (max-width:991px) {
+	
+		
 		.top-menu .brand-logo {
 			margin-left:calc(4.34% + 17px) !important;
 		}

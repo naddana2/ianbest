@@ -47,8 +47,17 @@
 	}
 	
 	#owl-demo .item .owl-overlay h2 {
-		font-size:1.43em;
+		font-size:1.43em !important;
 	}
+	.about_ianBest h3 {
+		font-size:1.597857em !important;
+		line-height:1.02 !important;
+	}
+	.about_content h4 {
+		font-size:1.46em !important;
+		line-height:31.7px !important;
+	}
+	
 }
 
 @media screen and (max-width:333px) {
@@ -102,6 +111,40 @@
 		letter-spacing:-.12px;
 		padding-top:15px;
 	}
+	
+	img.ian_img {
+		width:100%;
+		padding-bottom:36px;
+	}
+	.about_ianImage {
+		padding:5.7% 16.1% 8.7%;
+	}
+	.about_ianBest h3 {
+		font-size:1.842857em;
+		line-height:1.05;
+	}
+	.about_ianBest2 {
+		padding:33.5px 0;
+	}
+	.about_content h4 {
+		font-size:1.6em;
+		line-height:34.7px;
+	}
+	img.about_img {
+		width:100%;
+		padding:0 16px 38px;
+	}
+	.about-area p {
+		font-size:1em;
+	}
+	.about_icon {
+		padding:7.5% 26.5% 6%;
+	}
+	
+	.about_ianImage:before {
+		display:none;
+	}
+	
 	
 }
 
@@ -290,6 +333,10 @@
 	.top-menu {
 		padding: 3.128% 0px 0.605% 0px !important;
 	}
+	
+	.about-area {
+		padding:3.128%  4.34% 1.605%;
+	}
 	section .double-set .txt-box {
 		padding: 3.5% 0 0 4.34%;
 	}
@@ -303,7 +350,7 @@
 		padding: 3.5% 0 3.5% 4.34%;
 	}
 	footer {
-		padding: 3.128% 0px 3.128% 4.34% !important;
+		padding: 3.128% 0px 3.128% 4.34%;
 	}
 	section .double-set .txt-box .section-header p {
 		font-size: 1.031429em;
@@ -388,6 +435,9 @@
 	.contact_wrap {
 		padding:4.5% 4.34% 5%;
 	}
+	.portfolio-area {
+		padding:4.5% 4.34%;
+	}
 	
 }
 
@@ -408,6 +458,29 @@
 		padding-top:40px;
 	}
 }
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+	img.about_img {
+		width:32.8%;
+		}
+		.about_ianBest h3 {
+		font-size:2.042857em;
+		}
+		.about_content h4 {
+		font-size:1.7em;
+		line-height:33.3px;
+		}
+		.about-area p {
+			font-size:1.18em;
+		}
+		.about_ianImage:before {
+			right:54.2%;
+			font-size:4.85vw;
+		}
+		
+
+	}
 
 @media screen and (min-width:768px) and (max-width:1192px) {
 	.smallnav p {
@@ -436,9 +509,27 @@
 	
 
 	
-}
+
 
 @media screen and (min-width:320px) and (max-width:374px) {
+	
+	.subtitle h2 {
+		font-size:1.592857em !important;
+	}
+	.about_ianBest h3 {
+		font-size:1.117857em !important;
+		line-height:0.74 !important;
+	}
+	.about_ianBest2 {
+		padding:27.5px 0 !important;
+	}
+	.about_content h4 {
+		font-size:1.06em !important;
+		line-height:27.7px !important;
+	}
+	img.about_img {
+		padding:0 16px 28px !important;
+	}
 }
 
 @media screen and (min-width:375px) and (max-width:424px) {
@@ -450,6 +541,25 @@
 		font-size: 1.564286em;
 		margin-top: 15px;
 	}
+	
+	.about_ianBest2 {
+		padding:24.5px 0 !important;
+	}
+	
+	.about_ianBest h3 {
+		font-size:1.297857em !important;
+		line-height:1.02 !important;
+	}
+	
+	img.about_img {
+		width:100%;
+		padding:0 16px 23px !important;
+	}
+	.about_content h4 {
+		font-size:1.26em !important;
+		line-height:28.7px !important;
+	}
+	
 }
 
 @media screen and (min-width:425px) and (max-width:480px) {
@@ -511,7 +621,45 @@
 	.img-grid {
 		padding: 5.5% 20% 9.5% 0;
 	}
+	.about_ianBest h3 {
+		font-size:1.742857em;
+		line-height:1.01;
+	}
+	.about_ianBest2 {
+		padding:31px 0;
+	}
+	.about_content h4 {
+		font-size:1.5em;
+		line-height:31.7px;
+	}
+	
+	.about_icon {
+		padding:7.5% 25% 10%;
+	}
+	img.about_img {
+		width:100%;
+		padding:0 16px 55px;
+	}
+	.about-area p {
+		font-size:1em;
+	}
+	.about_icon {
+		padding:7.5% 25% 6%;
+	}
+	.about_ianImage:before {
+		right:54.2%;
+		font-size:4.85vw;
+	}
+	
+	
+	
 }
+
+@media screen and (min-width:650px) and (max-width:767px) {
+	.about_icon {
+		padding:7.5% 29.2% 6% !important;
+		}
+	}
 
 @media screen and (min-width:768px) and (max-width:991px) {
 	
@@ -710,6 +858,9 @@
 		padding:4.5% 4.34% 5%;
 	}
 	
+	.about-area {
+		padding:3.128% 4.34% 1.605%;
+	}
 
 	
 	section .double-set .txt-box .section-header p {
@@ -786,6 +937,38 @@
 		padding: 0px 91px;
 		height: 71px;
 	}
+	.portfolio-area {
+		padding:4.5% 4.34%;
+	}
+	
+	
+		
+	.about_ianImage {
+		padding:5.7% 15.1% 8.7%;
+	}
+	.about_ianBest h3 {
+		font-size:2.342857em;
+	}
+	.about_content h4 {
+		font-size:2.1em;
+	}
+	.about-area p {
+		font-size:1.23em;
+	}
+	.about_icon {
+		padding:7.5% 3.7% 10%;
+	}
+	.about-area p {
+		font-size:1.13em;
+	}
+	
+	.about_ianImage:before {
+		right:54.2%;
+		font-size:4.55vw;
+		transform:rotate(-4deg);
+	}
+	
+	
 }
 
 @media screen and (max-width:1191px) {
@@ -865,6 +1048,34 @@
 	.contact_wrap {
 		padding:4.5% 7.04% 5%;
 	}
+	.portfolio-area {
+		padding:4.5% 7.04%;
+	}
+	.about-area {
+		padding:3.128% 13.04% 1.605%;
+	}
+	
+	.about_icon {
+		padding:7.5% 3.4% 10%;
+	}
+	
+	
+	.about_ianImage {
+		padding:5.7% 16.1% 8.7%;
+	}
+	.about_ianBest h3 {
+		font-size:2.242857em;
+	}
+	.about_content h4 {
+		font-size:2em;
+	}
+	.about-area p {
+		font-size:1.23em;
+	}
+	
+
+	
+	
 }
 
 @media screen and (max-width:1375px) {
@@ -960,6 +1171,18 @@
 	}
 }
 
+@media screen and (min-width:1376px) and (max-width:1590px) {
+	.about-area {
+		padding:4.5% 14.04% 6%;
+	}
+	.about_ianImage:before {
+		right:53.3%;
+		font-size:3.85vw;
+	}
+	
+	
+}
+
 
 @media screen and (min-width:580px) and (max-width:767px) {
 			#mobilemenu {
@@ -976,7 +1199,18 @@
 	article .right-box:after {
 		border-bottom: 13.06vw solid transparent;
 	}
+	
 }
+
+
+
+
+@media screen and (min-width:1886px) {
+		.about_icon {
+			padding:7.5% 15% 10%;
+		}
+	}
+	
 /* 넥서스반응형 */
 @media screen and (width:412px) and (height:732px) {
 }
@@ -1007,4 +1241,9 @@
 
 @media screen and (max-width:767px) {
 }
+
+
+
+
+
 

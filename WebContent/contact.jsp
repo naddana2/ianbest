@@ -17,7 +17,23 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/map.js"></script>
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB_bNNglsjbbOhArM3uMMLm0Qy4aCTPEu4"></script>
+<script type="text/javascript">
+	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
+	
+	$(function() {
+		var mobilemenu = $('#mobilemenu');
+		menu = $('nav ul');
+		menuHeight = menu.height();
+
+		$(mobilemenu).on('click', function(e) {
+			e.preventDefault();
+			menu.slideToggle();
+		});
+		
+		
+	});
+</script>
 </head>
 <body>
 	<%@ include file="assets/include/header.jsp"%>
