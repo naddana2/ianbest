@@ -21,6 +21,9 @@
     .iso-box-wrapper .iso-box{
     width: 50%; 
    }
+    .iso-box-wrapper .grid-sizer{
+    width: 50%; 
+   }
  
 }
 @media only screen and (min-width: 769px) and (max-width: 1200px){
@@ -30,6 +33,9 @@
         column-count: 3;
     }
     .iso-box-wrapper .iso-box{
+    width: 33.33%; 
+   }
+    .iso-box-wrapper .grid-sizer{
     width: 33.33%; 
    }
   
@@ -42,6 +48,12 @@
     }
     .iso-box-wrapper .iso-box{
     width: 25%; 
+   }
+    .iso-box-wrapper .grid-sizer{
+    width: 25%; 
+   }
+     .iso-box-wrapper .width{
+    width: 50% !important; 
    }
    
 }
@@ -222,7 +234,6 @@
       padding:2.477% calc(7.04% + 17px) !important;
    }
 }
-
 
 
 

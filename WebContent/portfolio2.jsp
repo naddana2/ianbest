@@ -18,7 +18,7 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/isotope.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
-	<script src="assets/js/owl3.js"></script>
+<script src="assets/js/owl3.js"></script>
 
 <script type="text/javascript">
 	$(function() {
@@ -54,35 +54,30 @@
 
 			<div class="iso-box-wrapper masonry" id="list">
 
-	
-
-
-
-
-
-
-				<div class="iso-box office">
-					<div class="portfolio-thumb">
-					<div class="owl-carousel owl-theme">
-    <div class="item"><img class="" src="assets/images/portfolio/square.png" alt="GTA V"></div>
-    <div class="item"><img class="" src="assets/images/portfolio/4in22.png" alt="GTA V"></div>
-    </div>
-
-						
-
+				<div class="grid-sizer"></div>
+				 <div class="iso-box office width">
+					<div class="owl-carousel owl-theme small-owl">
+						<div class="item">
+							<img class="" src="assets/images/portfolio/square.png"
+								alt="GTA V">
+						</div>
+						<div class="item">
+							<img class="" src="assets/images/portfolio/4in22.png" alt="GTA V">
+						</div>
 					</div>
 				</div>
+				<div class="iso-box complex">
+					<div class="portfolio-thumb"
+						onclick="location.href='portfolio_detail.html'"
+						style="cursor: pointer;">
+						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
+						<div class="thumb-text">
+							<p>Portfolio, Remodeling</p>
+							<h2>광주 목뉴방외과</h2>
 
-
-
-
-
-
-
-
-
-
-
+						</div>
+					</div>
+				</div>
 
 				<div class="iso-box complex">
 					<div class="portfolio-thumb"
@@ -100,19 +95,6 @@
 
 					</div>
 				</div>
-				<div class="iso-box complex">
-					<div class="portfolio-thumb"
-						onclick="location.href='portfolio_detail.html'"
-						style="cursor: pointer;">
-						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
-						<div class="thumb-text">
-							<p>Portfolio, Remodeling</p>
-							<h2>광주 목뉴방외과</h2>
-
-						</div>
-					</div>
-				</div>
-
 				<div class="iso-box remodeling">
 					<div class="portfolio-thumb"
 						onclick="location.href='portfolio_detail.html'"
@@ -211,11 +193,10 @@
 			$('#project').addClass('selected');
 
 			var $isop = $('.masonry').isotope({
-				itemSelector : '.iso-box',
 				masonry : {
 					itemSelector : 'iso-box',
+					columnWidth: '.grid-sizer',
 					horizontalOrder : true,
-					percentPosition : true
 				}
 			});
 

@@ -20,10 +20,8 @@ $(document).ready(function() {
 	  });*/
 
 	var owl = $('.small-owl').owlCarousel({
-			center: true,
 			items: 1,
-			loop: true,
-			margin: 10,
+			
 			nav: false,
 			
 		/*	 responsive: {
