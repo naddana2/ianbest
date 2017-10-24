@@ -1,68 +1,66 @@
-<<<<<<< HEAD
 /* Ã¬ÂºÂÃ¥ÂÂ Ã¬Ââ„¢Ã¬Ëœâ„¢Ã¥ÂÂ Ã¬Ââ„¢Ã¬Ëœâ„¢ */
 
 
-=======
-/* ìºå ì™ì˜™å ì™ì˜™ */
->>>>>>> branch 'master' of https://github.com/naddana2/ianbest.git
 #owl-demo .item .owl-overlay {
-	position: absolute;
-	width: 100%;
-	text-align: center;
-	background: rgba(0, 0, 0, 0.43);
-	height: 100%;
+   position: absolute;
+   width: 100%;
+   text-align: center;
+   background: rgba(0, 0, 0, 0.43);
+   height: 100%;
 }
 
 .owl-overlay-portfolio h2 {
-	color: #e7e7e7;
-	font-weight: 600;
-	font-size: 14px;
-	margin-bottom: 9px;
-	letter-spacing: 1.3px;
+   color: #e7e7e7;
+   font-weight: 600;
+   font-size: 14px;
+   margin-bottom: 9px;
+   letter-spacing: 1.3px;
 }
 
 #owl-demo .item .owl-overlay h2>strong {
-	font-family: 'KoPuDotum-B', sans-serif
+   font-family: 'KoPuDotum-B', sans-serif
 }
+
 
 #owl-demo .item img {
-	width: 100%;
-	display: block;
-	height: auto;
+   width: 100%;
+   display: block;
+   height: auto;
 }
+
 
 .owl-pagination {
-	position: absolute;
-	top: 82.5%;
-	width: 60%;
-	margin: 0 20%;
-	display: block;
+   position: absolute;
+   top: 82.5%;
+   width: 60%;
+   margin: 0 20%;
+   display: block;
 }
 
+
 #owl-demo .item .owl-overlay h2 {
-	color: white;
-	font-size: 3.734em;
-	font-weight: 300;
-	letter-spacing: 0.04vw;
-	position: relative;
-	top: calc(50% - 1.3em);
-	padding: 0;
-	margin: 0;
-	text-transform: none;
-	line-height: 1.3em;
-	font-family: 'KoPuDotum-L', sans-serif;
+   color: white;
+   font-size: 3.734em;
+   font-weight: 300;
+   letter-spacing: 0.04vw;
+   position: relative;
+   top: calc(50% - 1.3em);
+   padding:0;
+   margin:0;
+   text-transform: none;
+   line-height: 1.3em;
+   font-family: 'KoPuDotum-L', sans-serif;
 }
 
 #owl-demo .item .owl-overlay p {
-	color: white;
-	font-size: 18px;
-	line-height: 2.8rem;
-	font-weight: 300;
-	margin-top: 13px;
-	text-transform: lowercase;
+   color: white;
+   font-size: 18px;
+   line-height: 2.8rem;
+   font-weight: 300;
+   margin-top: 13px;
+   text-transform: lowercase;
 }
 
-<<<<<<< HEAD
 
 
 
@@ -74,368 +72,387 @@
 /* Ã¥ÂÂ Ã¬Å Â¹Ã¬Å¡Â¸Ã¬Ëœâ„¢Ã©Â»Â´Ã¥ÂÂ Ã¯Â¿Â½ */
 
 
-=======
-/* å ìŠ¹ìš¸ì˜™é»´å ï¿½ */
->>>>>>> branch 'master' of https://github.com/naddana2/ianbest.git
 section .double-set {
-	display: flex;
-	position: relative;
+   display: flex;
+	
+   position: relative;
 }
 
 section .double-set .txt-box {
-	width: 50%;
-	padding: 7.5% 0 0 9.04%;
-	background: transparent;
+   width: 50%;
+   padding: 7.5% 0 0 9.04%;
+   background: transparent;
 }
 
+
+
 section .double-set .txt-box .section-header p {
-	color: #b8b8b8;
-	font-size: 1.5714285714285714em;
-	padding-left: 0.23em;
-	font-weight: 300;
-	margin-bottom: 1.3vw;
-	font-family: 'KoPuDotum-M', sans-serif;
+   color: #b8b8b8;
+   font-size: 1.5714285714285714em;
+   padding-left: 0.23em;
+   font-weight: 300;
+   margin-bottom: 1.3vw;
+   font-family: 'KoPuDotum-M', sans-serif;
 }
 
 section .double-set .less_text .section-header p {
-	margin-bottom: 1.56vw !important;
+   margin-bottom: 1.56vw !important;
 }
 
 section .double-set .txt-box .section-header h2 {
-	letter-spacing: -0.37px;
-	font-size: 3.2642857142857147em;
-	line-height: 1.42em;
-	margin-top: 0.678vw;
-	margin-bottom: 1.8734vw;
-	color: #3b3b3b;
-	font-family: 'KoPuBatang-M', sans-serif;
+   letter-spacing: -0.37px;
+   font-size: 3.2642857142857147em;
+   line-height: 1.42em;
+   margin-top: 0.678vw;
+   margin-bottom: 1.8734vw;
+   color: #3b3b3b;
+   font-family: 'KoPuBatang-M', sans-serif;
 }
 
+
+
+
 section .double-set .txt-box .txt-area p {
-	font-size: 1.5em;
-	line-height: 1.47em;
+   font-size: 1.5em;
+   line-height: 1.47em;
 }
 
 section .double-set .less_text .txt-area p {
-	font-size: 1.7142857142857142em;
-	font-weight: 300;
-	font-family: 'KoPuDotum-M', sans-serif;
+   font-size: 1.7142857142857142em;
+   font-weight: 300;
+   font-family: 'KoPuDotum-M', sans-serif;
 }
 
 section .double-set .txt-box .txt-area .btnS {
-	margin-top: 33px;
-	font-weight: 600;
-	font-size: 19px;
-	background: #3b3b3b;
-	padding: 0.625vw 1.354vw;
-	color: #b3b3b3;
-	border: none;
+   margin-top: 33px;
+   font-weight: 600;
+   font-size: 19px;
+   background: #3b3b3b;
+   padding: 0.625vw 1.354vw;
+   color: #b3b3b3;
+   border: none;
 }
 
 section .double-set .txt-box .txt-area .btns {
-	margin-top: 2.9646vw;
-	font-weight: 300;
-	font-size: 1.75em;
-	background: transparent;
-	padding: 0.211vw 0.83vw 0.104vw 0;
-	color: white;
-	border-bottom: 2.45px solid white !important;
-	border: none;
-	text-transform: lowercase;
+   margin-top: 2.9646vw;
+   font-weight: 300;
+   font-size: 1.75em;
+   background: transparent;
+   padding: 0.211vw 0.83vw 0.104vw 0;
+   color: white;
+   border-bottom: 2.45px solid white !important;
+   border: none;
+   text-transform: lowercase;
 }
 
 section .double-set .txt-box .txt-area .btnS_fill {
-	margin-top: 3vw;
-	font-weight: 600;
-	font-size: 19px;
-	background: #d2d2d2;
-	padding: 0.4vh 2rem 0.4vh 2rem;
-	color: #707070;
-	border: 2.45px solid #dcdcdc;
+   margin-top: 3vw;
+   font-weight: 600;
+   font-size: 19px;
+   background: #d2d2d2;
+   padding: 0.4vh 2rem 0.4vh 2rem;
+   color: #707070;
+   border: 2.45px solid #dcdcdc;
 }
 
 section .double-set .section-img {
-	width: 50%;
-	background: url(../../images/cross-walking.png) no-repeat center
-		!important;
+   width: 50%;
+   background: url(../../images/cross-walking.png) no-repeat center !important;
 }
 
 section .double-set .section-img2 {
-	width: 50%;
-	background: url(../../images/architect.png) no-repeat center !important;
+   width: 50%;
+   background: url(../../images/architect.png) no-repeat center !important;
 }
 
 section .double-set .section-img .in_transparent_img {
-	width: 80%;
-	margin: 0 10% 0 10%;
-	padding: 94px 0;
-	height: 100%;
+   width: 80%;
+   margin: 0 10% 0 10%;
+   padding: 94px 0;
+   height: 100%;
 }
+
+
 
 .full-page {
-	width: 100% !important;
-	background: url(../../images/10year.png) no-repeat center !important;
-	background-size: cover !important;
+   width: 100% !important;
+   background: url(../../images/10year.png) no-repeat center !important;
+   background-size: cover !important;
 }
+
+
+
+
+
 
 .make-area:after {
-	content: "";
-	position: absolute;
-	z-index: 1;
-	pointer-events: none;
-	top: 0;
-	left: 50%;
-	width: 45%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	border-left: 9.375vw solid #60b224;
-	border-bottom: 38.55vw solid transparent;
+   content: "";
+   position: absolute;
+   z-index: 1;
+   pointer-events: none;
+   top: 0;
+   left: 50%;
+   width: 45%;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   border-left: 9.375vw solid #60b224;
+   border-bottom: 38.55vw solid transparent;
 }
 
+
+
+
 .give-backgroundimg {
-	background: url(../../images/hand.png) no-repeat !important;
-	width: 100% !important;
-	padding: 8.6% 9.04% 0 0 !important;
-	text-align: right !important;
-	background-size: cover !important;
+   background: url(../../images/hand.png) no-repeat !important;
+   width: 100% !important;
+   padding: 8.6% 9.04% 0 0 !important;
+   text-align: right !important;
+   background-size: cover !important;
 }
 
 .give-backgroundimg p {
-	color: #797979 !important;
+   color: #797979 !important;
 }
 
 .give-backgroundimg .content {
-	color: #3b3b3b !important;
+   color: #3b3b3b !important;
 }
 
 .give-backgroundimg .txt-area .btns {
-	margin-top: 3vw;
-	font-weight: 300;
-	font-size: 19px;
-	background: transparent;
-	padding: 0.4vh 0rem 0.2vh 0rem !important;
-	color: #767676 !important;
-	border-bottom: 2.45px solid #d2d2d2 !important;
-	border: none;
-	text-transform: lowercase;
+   margin-top: 3vw;
+   font-weight: 300;
+   font-size: 19px;
+   background: transparent;
+   padding: 0.4vh 0rem 0.2vh 0rem !important;
+   color: #767676 !important;
+   border-bottom: 2.45px solid #d2d2d2 !important;
+   border: none;
+   text-transform: lowercase;
 }
 
 .give-backgroundimg .section-header h2 {
-	color: #3b3b3b !important;
+   color: #3b3b3b !important;
 }
 
-<<<<<<< HEAD
 
 
 
 
 /* Ã¥ÂÂ Ã¬Ââ„¢Ã¬Ëœâ„¢Ã­â€¹Â°Ã­ÂÂ´ Ã¥ÂÂ Ã¬Å Â¹Ã¬Å¡Â¸Ã¬Ëœâ„¢Ã©Â»Â´Ã¥ÂÂ Ã¯Â¿Â½*/
-=======
-/* å ì™ì˜™í‹°í´ å ìŠ¹ìš¸ì˜™é»´å ï¿½*/
->>>>>>> branch 'master' of https://github.com/naddana2/ianbest.git
 article {
-	/* text-align:center; */
-	padding: 2.79% 9.04%;
-	background: #3b3b3b;
-	overflow: hidden;
+   /* text-align:center; */
+   padding: 2.79% 9.04%;
+   background: #3b3b3b;
+   overflow:hidden;
 }
 
 article .left-direction {
-	width: 50%;
-	padding: 0.522vw 0;
-	text-align: left;
-	float: left;
+   width: 50%;
+   padding: 0.522vw 0;
+   text-align: left;
+   float:left;
 }
+
+
 
 article .right-direction {
-	width: 50%;
-	padding: 0.521vw 0;
-	text-align: right;
-	float: left;
+   width: 50%;
+   padding: 0.521vw 0;
+   text-align: right;
+   float:left;
 }
 
+
+
 article p {
-	font-size: 1.6142857142857143em;
-	color: #9fa0a0;
-	font-weight: 300;
-	padding-right: 3.021vw;
+   font-size: 1.6142857142857143em;
+   color: #9fa0a0;
+   font-weight: 300;
+   padding-right: 3.021vw;
 }
 
 article span {
-	font-size: 2.642857142857143em;
-	color: #75d701;
-	letter-spacing: -0.8px;
-	font-weight: 600;
-	line-height: 25px;
-	font-family: 'KoPuDotum-M', sans-serif;
+   font-size: 2.642857142857143em;
+   color: #75d701;
+   letter-spacing: -0.8px;
+   font-weight: 600;
+   line-height:	25px;
+   font-family: 'KoPuDotum-M', sans-serif;
 }
 
-article span>a {
-	font-size: 1.042857142857143em;
-	line-height: 60px;
+article span >a {
+	font-size:1.042857142857143em;
+	line-height:60px;
 }
 
 article img {
-	padding: 5px 10px 0 20px;
+   padding: 5px 10px 0 20px;
 }
+
 
 article .mobile_chevron {
-	display: none;
-	float: right;
-	padding: 0 5px 0 20px;
-}
+	display:none;
+	float:right;
+	padding:0 5px 0 20px;
+} 
+
 
 article a {
-	font-size: 2.5714285714285716em;
-	letter-spacing: -1.37px;
-	color: white;
+   font-size: 2.5714285714285716em;
+   letter-spacing: -1.37px;
+   color: white;
 }
 
 article a:hover {
-	color: white !important;
+   color: white !important;
 }
 
 .special {
-	background: #545454 !important;
-	padding: 0;
-	position: relative;
-	display: flex;
+   background: #545454 !important;
+   padding: 0;
+   position: relative;
+   display:flex;
+   
 }
 
 .special p {
-	color: #c9caca !important;
-	font-size: 18px;
-	margin-bottom: 0;
-	padding-left: 5px;
+   color: #c9caca !important;
+   font-size: 18px;
+   margin-bottom: 0;
+   padding-left: 5px;
 }
 
 .special span {
-	color: white !important;
+   color: white !important;
 }
 
 article:last-child {
-	background: #545454 !important;
-	padding: 0;
-	position: relative;
+   background: #545454 !important;
+   padding: 0;
+   position: relative;
+ 
 }
 
 article:last-child p {
-	color: #282828 !important;
-	font-size: 1.5em;
-	margin-bottom: 7px;
-	padding: 0;
-	font-family: 'KoPuDotum-M', sans-serif;
+   color: #282828 !important;
+   font-size: 1.5em;
+   margin-bottom: 7px;
+   padding: 0;
+   font-family:'KoPuDotum-M', sans-serif;
 }
 
 article:last-child span {
-	color: white !important;
-	letter-spacing: 0.5px !important;
-	font-size: 2.442857em;
+   color: white !important;
+   letter-spacing:0.5px !important;
+   font-size:2.442857em;
 }
 
 article:last-child div {
-	width: 50% !important;
-	padding: 3.3% 0 !important;
-	text-align: center !important;
+   width: 50% !important;
+   padding: 3.3% 0 !important;
+   text-align: center !important;
 }
 
+
+
 article .left-box {
-	width: 65%;
-	padding: 5% 0 4.4% 9.04%;
+   width: 65%;
+   padding: 5% 0 4.4% 9.04%;
 }
 
 article .right-box {
-	width: 35%;
-	background: url(../../images/main-complex.png) no-repeat center
-		!important;
+   width: 35%;
+   background: url(../../images/main-complex.png) no-repeat center !important;
 }
 
 article .left-box p {
-	font-size: 22.6px;
-	color: #9fa0a0;
-	font-weight: 300;
-	margin-bottom: 5px;
-	padding-right: 58px;
+   font-size: 22.6px;
+   color: #9fa0a0;
+   font-weight: 300;
+   margin-bottom: 5px;
+   padding-right: 58px;
 }
 
 article .left-box .txt-zone {
-	width: fit-content;
-	margin: 0 auto;
+   width: fit-content;
+   margin: 0 auto;
 }
 
 article .left-box .txt-zone p {
-	font-size: 2.4285714285714284em;
-	color: #75d701;
-	letter-spacing: -0.8px;
-	font-weight: 300;
-	text-align: justify;
-	line-height: 1.29em;
-	font-family: 'KoPuDotum-L', sans-serif;
-	padding: 0;
-	margin: 0;
+   font-size: 2.4285714285714284em;
+   color: #75d701;
+   letter-spacing: -0.8px;
+   font-weight: 300;
+   text-align: justify;
+   line-height: 1.29em;
+   font-family: 'KoPuDotum-L', sans-serif;
+   padding: 0;
+   margin: 0;
 }
 
 article .left-box img {
-	padding: 0;
-	height: fit-content;
-	float: left;
-	display: none;
+   padding: 0;
+   height: fit-content;
+   float: left;
+   display:none;
 }
 
+
 article .right-box:after {
-	content: "";
-	position: absolute;
-	z-index: 1;
-	pointer-events: none;
-	left: 65%;
-	width: 45%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	border-left: 11.8vw solid #545454;
-	border-bottom: 13.73vw solid transparent;
+   content: "";
+   position: absolute;
+   z-index: 1;
+   pointer-events: none;
+   left: 65%;
+   width: 45%;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   border-left: 11.8vw solid #545454;
+   border-bottom: 13.73vw solid transparent;
 }
 
 .owl-theme .owl-controls .owl-buttons {
-	width: 100% !important;
-}
+		width:100% !important;
+	}
+
+
+
+
 
 .license_chevron {
-	color: #ffffff;
-	padding: 0 0.6vh;
+    color: #ffffff;
+    padding: 0 0.6vh;
 }
 
 .owl-prev {
-	/* width: 50%; */
-	float: left;
-	position: absolute;
-	top: calc(50% - 4em);
-	padding-left: 30px;
+    /* width: 50%; */
+    float: left;
+    position: absolute;
+    top: calc(50% - 4em);
+    padding-left:30px;
 }
 
 .owl-next {
-	/* width: 50%; */
-	float: right;
-	/* text-align: right; */
-	position: absolute;
-	top: calc(50% - 4em);
-	right: 0;
-	padding-right: 30px;
+    /* width: 50%; */
+    float: right;
+    /* text-align: right; */
+    position: absolute;
+    top: calc(50% - 4em);
+    right: 0;
+    padding-right:30px;
 }
-
-.owl-theme .owl-dots {
-	display: flex;
-	position: absolute;
-	bottom: 6.5%;
-	width: fit-content;
-	left: calc(50% - 42.6px);
+.owl-theme .owl-dots {  
+  display: flex;
+  position:absolute;
+  bottom:6.5%;
+  width:fit-content;
+  left:calc(50% - 42.6px);
 }
-
 .owl-dot span {
-<<<<<<< HEAD
    background: none repeat scroll 0 0 #d0cece;
    border-radius: 20px;
    display: block;
@@ -443,46 +460,7 @@ article .right-box:after {
    margin: 5px 7px;
    opacity: 0.8;
    width: 14px;
-=======
-	background: none repeat scroll 0 0 #ffffff;
-	border-radius: 20px;
-	display: block;
-	height: 14px;
-	margin: 5px 7px;
-	opacity: 0.8;
-	width: 14px;
 }
-@media screen and (max-width:991px) {
-	.top-menu {
-		padding: 3.128% 0px 0.605% 0px !important;
-	}
-	
-	footer {
-		padding-left: 3.128% 0px 3.128% 4.34% !important;
-	}
->>>>>>> branch 'master' of https://github.com/naddana2/ianbest.git
-}
-<<<<<<< HEAD
 .owl-dot.active span {
    background: none repeat scroll 0 0 #ffffff !important;
 }
-=======
-
-@media screen and (min-width:992px) and (max-width:1191px) {
-	.top-menu {
-		padding: 3.128% 0 1.105% 6.34% !important;
-	}
-	footer {
-		padding: 2.477% 6.34% !important;
-	}
-}
-
-@media screen and (min-width:1192px) and (max-width:1375px) {
-	.top-menu {
-		padding: 3.128% 0 1.605% 7.04% !important;
-	}
-	footer {
-		padding: 2.477% 7.04% !important;
-	}
-}
->>>>>>> branch 'master' of https://github.com/naddana2/ianbest.git

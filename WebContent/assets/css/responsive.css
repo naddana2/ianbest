@@ -1,6 +1,42 @@
 ﻿@CHARSET "UTF-8";
 
 
+@media screen and (max-width:424px) {
+	.owl-dot span {
+		background: none repeat scroll 0 0 #ffffff;
+		border-radius: 20px;
+		display: block;
+		height: 9px;
+		margin: 5px 7px;
+		opacity: 0.8;
+		width: 9px;
+	}
+	#owl-demo .item img {
+	   width: 100%;
+	   display: block;
+	   height: 250px;
+	}
+	
+	section .double-set .txt-box .section-header h2 {
+		letter-spacing: -0.37px;
+		font-size: 3.2642857142857147em;
+		line-height: 1.42em;
+		margin-top: 0.678vw;
+		margin-bottom: 3vw;
+		color: #3b3b3b;
+		font-family: 'KoPuBatang-M', sans-serif;
+	}
+	
+	article:last-child div {
+		width: 50% !important;
+		padding: 10% 0 !important;
+		text-align: center !important;
+	}
+	
+}
+
+
+
 
 @media screen and (max-width:374px) {
 
@@ -233,7 +269,7 @@
 		display: none;
 	}
 	article:last-child div {
-		padding: 2.2% 0 !important;
+		padding: 10% 0 !important;
 	}
 	article:last-child span {
 		font-size: 1.342857em;
@@ -1209,7 +1245,8 @@
 		.about_icon {
 			padding:7.5% 15% 10%;
 		}
-	}
+}
+
 	
 /* 넥서스반응형 */
 @media screen and (width:412px) and (height:732px) {
