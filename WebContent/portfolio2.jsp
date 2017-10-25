@@ -18,7 +18,6 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/isotope.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
-<script src="assets/js/owl3.js"></script>
 <script src="assets/js/ddd.js"></script>
 
 <script type="text/javascript">
@@ -56,7 +55,7 @@
 			<div class="iso-box-wrapper masonry" id="list">
 
 				<div class="grid-sizer"></div>
-				 <div class="iso-box office width">
+				 <div class="iso-box width">
 					<div class="owl-carousel owl-theme small-owl">
 						<div class="item">
 							<img class="" src="assets/images/portfolio/square.png"

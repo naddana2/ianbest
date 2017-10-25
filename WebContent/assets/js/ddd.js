@@ -14,22 +14,36 @@ jQuery(window).load(function() {
 	
 	$('#project').addClass('selected');
 	
-	setTimeout(() => {
+	setTimeout(function() {
 		$isop.isotope('layout');
-	}, 100);
+		
+	}, 0)
+	
+	setTimeout(function() {
+		$('.portfolio-area').css("visibility", "visible");
+
+		
+	}, 388)
+	
+	
+	
+	
+	
 	
 	var $isop =  $('.masonry').isotope({
 		masonry : {
 			itemSelector : 'iso-box',
 			columnWidth: '.grid-sizer',
 			horizontalOrder : true,
-		}
+			
+		}, transitionDuration: 300
 	});
 	
 	var owl = $('.small-owl').owlCarousel({
 		items: 1,
 		nav: false,
 	});
+	
 
 
 	// filter functions
@@ -46,6 +60,7 @@ jQuery(window).load(function() {
 		var filterValue = $(this).attr('data-filter');
 		// use filterFn if matches value
 		filterValue = filterFns[filterValue] || filterValue;
+		
 		$isop.isotope({
 			filter : filterValue
 		});

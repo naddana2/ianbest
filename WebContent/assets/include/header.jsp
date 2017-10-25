@@ -10,7 +10,7 @@
 	<ul class="topnav" id="myTopnav">
 		<li><a class="" href="about.jsp" id="about">ABOUT</a></li>
 		<li><a class="" href="service.jsp" id="service">SERVICE</a></li>
-		<li><a class="" href="portfolio.jsp" id="project">PROJECT</a></li>
+		<li><a class="" href="portfolio2.jsp" id="project">PROJECT</a></li>
 		<li><a class="" href="contact.jsp" id="contact">CONTACT</a></li>
 	</ul>
 	<div class="etc-place">
