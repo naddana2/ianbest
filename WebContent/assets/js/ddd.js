@@ -22,8 +22,7 @@ jQuery(window).load(function() {
 	setTimeout(function() {
 		$('.portfolio-area').css("visibility", "visible");
 
-		
-	}, 388)
+	}, 297)
 	
 	
 	
