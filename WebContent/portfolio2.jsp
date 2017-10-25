@@ -152,9 +152,7 @@
 				</div>
 
 				<div class="iso-box hospital">
-					<div class="portfolio-thumb"
-						onclick="location.href='portfolio_detail.html'"
-						style="cursor: pointer;">
+					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
 						<div class="thumb-text">
 							<p>Portfolio, Industrial</p>
@@ -175,6 +173,26 @@
 
 					</div>
 				</div>
+				
+				<div class="iso-box width">
+					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
+					<img class="" src="assets/images/portfolio/prov.png" alt="GTA V">
+					</div>
+				</div> 
+				<div class="iso-box visible width">
+					
+				</div> 
+				<div class="iso-box width">
+					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
+					<div class="combine"><div class="img-box"><img class="" src="assets/images/portfolio/isis.png" alt="GTA V"></div>
+					<div class="thumb-text2">
+							<p>Portfolio, Industrial</p>
+							<h2>경기도립 미술관</h2>
+						</div>
+					</div>
+					
+					</div>
+				</div> 
 			</div>
 
 			<div class="portfolo_footer">
