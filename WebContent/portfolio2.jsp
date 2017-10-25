@@ -31,6 +31,7 @@
 			menu.slideToggle();
 		});
 	});
+
 </script>
 </head>
 
@@ -55,7 +56,7 @@
 			<div class="iso-box-wrapper masonry" id="list">
 
 				<div class="grid-sizer"></div>
-				 <div class="iso-box width">
+				<div class="iso-box width">
 					<div class="owl-carousel owl-theme small-owl">
 						<div class="item">
 							<img class="" src="assets/images/portfolio/square.png"
@@ -65,7 +66,7 @@
 							<img class="" src="assets/images/portfolio/4in22.png" alt="GTA V">
 						</div>
 					</div>
-				</div>
+				</div> 
 				<div class="iso-box complex">
 					<div class="portfolio-thumb"
 						onclick="location.href='portfolio_detail.html'"
@@ -95,6 +96,7 @@
 
 					</div>
 				</div>
+				
 				<div class="iso-box remodeling">
 					<div class="portfolio-thumb"
 						onclick="location.href='portfolio_detail.html'"

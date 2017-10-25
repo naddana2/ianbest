@@ -12,6 +12,17 @@ item += '<div class="iso-box office"><div class="portfolio-thumb" onclick="locat
 
 jQuery(window).load(function() {
 	
+	$(window).resize(function() { // 창크기 바뀔때마다
+		console.log("바뀌느즁")
+		
+		setTimeout(function() {
+			$isop.isotope('layout');
+		}, 297)
+	});
+	
+
+	
+	
 	$('#project').addClass('selected');
 	
 	setTimeout(function() {

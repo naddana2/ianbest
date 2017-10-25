@@ -1,5 +1,5 @@
 .portfolio-area {
-   padding: 4.5% 13.04%;
+   padding: 4.5% 15.25%;
    overflow: hidden;
    background: rgba(81, 81, 81, 1);
    visibility:hidden;
@@ -25,6 +25,9 @@
     .iso-box-wrapper .grid-sizer{
     width: 50%; 
    }
+    .iso-box-wrapper .width{
+    width: 100% !important; 
+   }
  
 }
 @media only screen and (min-width: 769px) and (max-width: 1200px){
@@ -38,6 +41,9 @@
    }
     .iso-box-wrapper .grid-sizer{
     width: 33.33%; 
+   }
+    .iso-box-wrapper .width{
+    width: 66.66% !important; 
    }
   
 }
