@@ -71,7 +71,7 @@
 					<div class="portfolio-thumb"
 						onclick="location.href='portfolio_detail.html'"
 						style="cursor: pointer;">
-						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
+						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
 							<p>Portfolio, Remodeling</p>
 							<h2>광주 목뉴방외과</h2>
@@ -85,7 +85,7 @@
 						onclick="location.href='portfolio_detail.html'"
 						style="cursor: pointer;">
 
-						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
+						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
 						<div class="thumb-text">
 
 							<p>Portfolio, Industrial</p>
@@ -101,7 +101,7 @@
 					<div class="portfolio-thumb"
 						onclick="location.href='portfolio_detail.html'"
 						style="cursor: pointer;">
-						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
+						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
 
 							<p>Portfolio, Industrial</p>
@@ -115,7 +115,7 @@
 					<div class="portfolio-thumb"
 						onclick="location.href='portfolio_detail.html'"
 						style="cursor: pointer;">
-						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
+						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
 						<div class="thumb-text">
 							<p>Portfolio, Remodeling</p>
 							<h2>광주 목뉴방외과</h2>
@@ -156,6 +156,18 @@
 						onclick="location.href='portfolio_detail.html'"
 						style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
+						<div class="thumb-text">
+							<p>Portfolio, Industrial</p>
+							<h2>경기도립 미술관</h2>
+						</div>
+
+					</div>
+				</div>
+				<div class="iso-box hospital">
+					<div class="portfolio-thumb"
+						onclick="location.href='portfolio_detail.html'"
+						style="cursor: pointer;">
+						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
 							<p>Portfolio, Industrial</p>
 							<h2>경기도립 미술관</h2>
