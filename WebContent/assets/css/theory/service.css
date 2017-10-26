@@ -455,7 +455,7 @@ footer {
 
 
 
-@media screen and (max-width:991px) {
+/* @media screen and (max-width:991px) {
 		.top-menu .brand-logo {
 			margin-left:calc(4.34% + 8px) !important;
 		}
@@ -463,10 +463,10 @@ footer {
 		footer {
 			padding-left:calc(4.34% + 8px) !important;
 		}
-}
+} */
 
 
-@media screen and (min-width:992px) and (max-width:1191px) {
+/* @media screen and (min-width:992px) and (max-width:1191px) {
 		
 	.top-menu {
 		padding: 3.128% 0 1.105% calc(4.34% + 8px) !important;
@@ -476,8 +476,8 @@ footer {
 		padding:2.477% calc(4.334% + 8px) !important;
 	}
 }
-
-
+ */
+/* 
 @media screen and (min-width:1192px) and (max-width:1375px) {
 	.top-menu {
 		padding: 3.128% 0 1.605% calc(7.04% + 8px) !important;
@@ -485,4 +485,4 @@ footer {
 	footer {
 		padding:2.477% calc(7.04% + 8px) !important;
 	}	
-}
+} */
