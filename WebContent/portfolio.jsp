@@ -20,6 +20,7 @@
 <script src="assets/js/jquery-1.9.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/isotope.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
 
 <script type="text/javascript">
 	
@@ -56,6 +57,19 @@
 			</div>
 
 			<div class="iso-box-wrapper masonry" id="list">
+			
+							<div class="grid-sizer"></div>
+				 <div class="iso-box width">
+					<div class="owl-carousel owl-theme small-owl">
+						<div class="item">
+							<img class="" src="assets/images/portfolio/square.png"
+								alt="GTA V">
+						</div>
+						<div class="item">
+							<img class="" src="assets/images/portfolio/4in22.png" alt="GTA V">
+						</div>
+					</div>
+				</div>
 			
 			
 <%
@@ -119,68 +133,101 @@
 	%>
 	
 	
-		 jQuery(window).load(function(){
-
-			$('#project').addClass('selected');
+	jQuery(window).load(function() {
+		
+		$(window).resize(function() { // 창크기 바뀔때마다
+			setTimeout(function() {
+				$isop.isotope('layout');
+			}, 297)
+		});
+		
+		$('#project').addClass('selected');
+		
+		setTimeout(function() {
+			$isop.isotope('layout');
 			
-		    var $isop = $('.masonry').isotope({
-	            itemSelector: '.iso-box',
-				masonry: {
-					itemSelector: 'iso-box',
-					horizontalOrder: true,
-					percentPosition: true
-			  }
-	        });
-		    
-	        // filter functions
-	        var filterFns = {
-	            // show if number is greater than 50
-	            numberGreaterThan50: function() {
-	                var number = $(this).find('.number').text();
-	                return parseInt(number, 10) > 50;
-	            }
-	        };
+		}, 0)
+		
+		setTimeout(function() {
+			$('.portfolio-area').css("visibility", "visible");
 
-	        // bind filter button click
-	        $('#filters').on('click', 'a', function() {
-	            var filterValue = $(this).attr('data-filter');
-	            // use filterFn if matches value
-	            filterValue = filterFns[filterValue] || filterValue;
-	            $isop.isotope({
-	                filter: filterValue
-	            });
-	        });
+		}, 297)
+		
+		
+		
+		
+		
+		
+		var $isop =  $('.masonry').isotope({
+			masonry : {
+				itemSelector : 'iso-box',
+				columnWidth: '.grid-sizer',
+				horizontalOrder : true,
+				
+			}, transitionDuration: 300
+		});
+		
+		var owl = $('.small-owl').owlCarousel({
+			items: 1,
+			nav: false,
+			loop : true
+		});
+		
 
-	        // change is-checked class on buttons
-	        $('.button-group').each(function(i, buttonGroup) {
-	            var $buttonGroup = $(buttonGroup);
-	            $buttonGroup.on('click', 'a', function() {
-	                $buttonGroup.find('.is-checked').removeClass('is-checked');
-	                $(this).addClass('is-checked');
-	            });
-	        });
-			var $items = $(item);
-			var flag = true;
-			var icon = document.getElementById('icon');
 
-			$('.append-button').on('click',function(){
-				// create new item elements
-				if(flag == true){
-					$isop.append($items).isotope('appended', $items);
-					setTimeout(function(){
-						icon.className = "fa fa-chevron-up gray";
-					}, 250);
-					flag = false;
-				}else{
-					$isop.isotope('remove', $items );
-				    setTimeout(function(){
-				    	$isop.isotope('layout');
-				    	icon.className = "fa fa-chevron-down gray";
-				    }, 250);
-				    flag = true;
+		// filter functions
+		var filterFns = {
+				// show if number is greater than 50
+				numberGreaterThan50 : function() {
+					var number = $(this).find('.number').text();
+					return parseInt(number, 10) > 50;
 				}
+		};
+
+		// bind filter button click
+		$('#filters').on('click', 'a', function() {
+			var filterValue = $(this).attr('data-filter');
+			// use filterFn if matches value
+			filterValue = filterFns[filterValue] || filterValue;
+			
+			$isop.isotope({
+				filter : filterValue
 			});
-		}); 
+		});
+
+		// change is-checked class on buttons
+		$('.button-group').each(function(i, buttonGroup) {
+			var $buttonGroup = $(buttonGroup);
+			$buttonGroup.on('click', 'a', function() {
+				$buttonGroup.find('.is-checked').removeClass('is-checked');
+				$(this).addClass('is-checked');
+			});
+		});
+		var $items = $(item);
+		var flag = true;
+		var icon = document.getElementById('icon');
+
+		$('.append-button').on('click', function() {
+			// create new item elements
+			if (flag == true) {
+				$isop.append($items).isotope('appended', $items);
+				setTimeout(function() {
+					icon.className = "fa fa-chevron-up gray";
+				}, 250);
+				flag = false;
+			} else {
+				$isop.isotope('remove', $items);
+				setTimeout(function() {
+					$isop.isotope('layout');
+					icon.className = "fa fa-chevron-down gray";
+				}, 250);
+				flag = true;
+			}
+		});
+		
+		
+
+	});
 	</script>
 
 </body>

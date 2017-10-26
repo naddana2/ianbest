@@ -19,7 +19,6 @@
 <script type="text/javascript">
 	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
-	
 	$(function() {
 		var mobilemenu = $('#mobilemenu');
 		menu = $('nav ul');
@@ -40,97 +39,101 @@
 			<div class="subtitle">
 				<h2>BUSINESS AREA</h2>
 			</div>
-			
-			
+
+
 			<div class="service-item">
-			<div class="innertitle">
-				<h2>종합건설업</h2>
-				<img class="" src="assets/images/icon.png">
-			</div>
-			<div class="span-box mobile_hide">
-			<span>사람이 편안한,사람이 행복한 공간을 디자인하는 이안베스트는<br>사람을 둘러싼 여러가지 환경을 심도있게 이해하고 솔루션을 제안합니다.
-				</span></div>
-				
-				<div class="span-box mobile_view">
-			<span>사람에게 편안하고 행복한 공간을 디자인하는 이안베스트는  환경을 심도있게 이해하고 맞춤 솔루션을 제안합니다.
-				</span></div>
-			
-				<div class="img-grid"><img class="" src="assets/images/service_master.png"><img class="" src="assets/images/service_building.png"><img class="" src="assets/images/service_plant.png">
-				<img class="" src="assets/images/service_home.png"><img class="" src="assets/images/service_merchant.png"><img class="" src="assets/images/service_culture.png"></div>
-			
-			
-			<div class="innertitle">
-				<h2>종합 병원 건축 & 인테리어</h2>
-				<img class="" src="assets/images/icon.png">
-			</div>
+				<div class="innertitle">
+					<h2>종합건설업</h2>
+					<img class="" src="assets/images/icon.png">
+				</div>
+				<div class="span-box mobile_hide">
+					<span>사람이 편안한,사람이 행복한 공간을 디자인하는 이안베스트는<br>사람을 둘러싼 여러가지
+						환경을 심도있게 이해하고 솔루션을 제안합니다.
+					</span>
+				</div>
 
-			<div class="span-box mobile_hide">
-				<span>전문적이고 차별화된 의료시설 건축은 다른 건축물에 비해 기능성이 강조될 뿐만 아니라<br>24시간
-					사람이 활동하는 공간으로 진료과별 규모별 특성이 다르기 때문에<br>전문성이 반드시 필요합니다.
-				</span>
+				<div class="span-box mobile_view">
+					<span>사람에게 편안하고 행복한 공간을 디자인하는 이안베스트는 환경을 심도있게 이해하고 맞춤 솔루션을
+						제안합니다. </span>
+				</div>
+
+				<div class="img-grid">
+					<img class="" src="assets/images/service/icon-02.png">
+					<img class="" src="assets/images/service/icon-03.png">
+					<img class="" src="assets/images/service/icon-04.png">
+					<img class="" src="assets/images/service/icon-05.png">
+					<img class="" src="assets/images/service/icon-06.png">
+					<img class="" src="assets/images/service/icon-07.png">
+				</div>
+
+
+				<div class="innertitle">
+					<h2>종합 병원 건축 & 인테리어</h2>
+					<img class="" src="assets/images/icon.png">
+				</div>
+
+				<div class="span-box mobile_hide">
+					<span>전문적이고 차별화된 의료시설 건축은 다른 건축물에 비해 기능성이 강조될 뿐만 아니라<br>24시간
+						사람이 활동하는 공간으로 진료과별 규모별 특성이 다르기 때문에<br>전문성이 반드시 필요합니다.
+					</span>
 				</div>
 				<div class="span-box mobile_view">
-				<span>의료시설 건축은 다른 건축과 달리 진료과별 규모별 특성이 다르기 때문에 전문성이 반드시 필요합니다.
-				</span>
+					<span>의료시설 건축은 다른 건축과 달리 진료과별 규모별 특성이 다르기 때문에 전문성이 반드시
+						필요합니다. </span>
 				</div>
-	
+
 				<div class="divider mobile_hide"></div>
-			
-				<div class="span-box mobile_hide"><span>10여년간의 의료기관 건축 노하우를 보유한 이안베스트는 급변하는 의료 환경 안에서<br>환자와
-					의료진의 관계를 이해하고 병원의 미션을 공유하고자 노력합니다.<br>의료진과 직원 환자 들과 끊임없이 소통하고
-					의견을 조율하면서 최상의 공간을<br>창조하는 것이 우리의 목표입니다.
-				</span></div>
-				<div class="span-box mobile_view"><span>환자와
-					의료진의 공간을 이해하고  최상의 공간을 창조하는 것이 우리의 목표입니다.
-				</span></div>
-			<div class="introduce-box">
-			<div class="introduce">
-				<p>
-					<img class="" src="assets/images/icon_face.png">사용자 중심
-					업무프로세스를 구현한 인테리어
-				</p>
-			</div>
-			<div class="introduce">
-				<p>
-					<img class="" src="assets/images/icon_face.png">사용자경험을 표준화하는
-					시설시스템 구축
-				</p>
-			</div>
-			<div class="introduce">
-				<p>
-					<img class="" src="assets/images/icon_face.png">신규건물도 1년 된 듯
-					10년된 건물도 1년 된 듯
-				</p>
-			</div>
-			</div>
-			
-			<div class="innertitle better-bottom">
-				<h2>시설종합관리</h2>
-				<img class="" src="assets/images/icon.png">
-			</div>
-		<div class="span-box mobile_hide">
-				<span>완공이 되었다고 모든 게 끝난 것이 아닙니다.<br> 건축이 이루어진 후의 유지보수가 건축공간의 수명을 결정합니다.<br> 효율적이고 쳬계적인 이안베스트의 시설종합관리 서비스로<br> 건출설계부터 관리, 처음부터 끝가지 관리합니다.
-				</span>
+
+				<div class="span-box mobile_hide">
+					<span>10여년간의 의료기관 건축 노하우를 보유한 이안베스트는 급변하는 의료 환경 안에서<br>환자와
+						의료진의 관계를 이해하고 병원의 미션을 공유하고자 노력합니다.<br>의료진과 직원 환자 들과 끊임없이 소통하고
+						의견을 조율하면서 최상의 공간을<br>창조하는 것이 우리의 목표입니다.
+					</span>
 				</div>
-				
 				<div class="span-box mobile_view">
-				<span>건축이 이루어진 후의 유지보수가 건축공간의 수명을 결정합니다. 이안베스트는 효율적이고 체계적으로 시설종합관리 서비스를 제공합니다.
-				</span>
+					<span>환자와 의료진의 공간을 이해하고 최상의 공간을 창조하는 것이 우리의 목표입니다. </span>
 				</div>
-			
-				<div class="img-grid mobile_hide"><img class="" src="assets/images/service_facility.png"><img class="" src="assets/images/service_guard.png"><img class="" src="assets/images/service_cleaning.png"></div>
-				<div class="img-grid mobile_view Ming"><img class="" src="assets/images/mobile_answer.png"></div>
-				
-			
+				<div class="introduce-box">
+					<div class="introduce">
+						<p>
+							<img class="" src="assets/images/icon_face.png">사용자 중심
+							업무프로세스를 구현한 인테리어
+						</p>
+					</div>
+					<div class="introduce">
+						<p>
+							<img class="" src="assets/images/icon_face.png">사용자경험을
+							표준화하는 시설시스템 구축
+						</p>
+					</div>
+					<div class="introduce">
+						<p>
+							<img class="" src="assets/images/icon_face.png">신규건물도 1년 된
+							듯 10년된 건물도 1년 된 듯
+						</p>
+					</div>
+				</div>
+
+				<div class="innertitle better-bottom">
+					<h2>시설종합관리</h2>
+					<img class="" src="assets/images/icon.png">
+				</div>
+				<div class="span-box mobile_hide">
+					<span>완공이 되었다고 모든 게 끝난 것이 아닙니다.<br> 건축이 이루어진 후의 유지보수가
+						건축공간의 수명을 결정합니다.<br> 효율적이고 쳬계적인 이안베스트의 시설종합관리 서비스로<br>
+						건출설계부터 관리, 처음부터 끝가지 관리합니다.
+					</span>
+				</div>
+
+				<div class="span-box mobile_view">
+					<span>건축이 이루어진 후의 유지보수가 건축공간의 수명을 결정합니다. 이안베스트는 효율적이고 체계적으로
+						시설종합관리 서비스를 제공합니다. </span>
+				</div>
+
+				<div class="img-grid">
+					<img class="" src="assets/images/service/mobile_answer.png">
+				</div>
 			</div>
-			
-			
-
-
-
-
-
-
 
 			<div class="mobile_view">
 				<ul class="nav nav-tabs mobile-tab">
@@ -138,7 +141,6 @@
 					<li><a data-toggle="tab" href="#menu1">2012-2007</a></li>
 					<li><a data-toggle="tab" href="#menu2">2006-1990</a></li>
 				</ul>
-
 
 				<div class="tab-content inner-tab">
 					<div id="home" class="tab-pane fade in active">
@@ -164,7 +166,6 @@
 										class="history_obj">질병관리본부 보건의료통계 표창</span></li>
 								</ul>
 							</div>
-							
 						</div>
 					</div>
 					<div id="menu1" class="tab-pane fade">
