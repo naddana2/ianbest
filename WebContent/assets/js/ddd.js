@@ -2,11 +2,11 @@
 
 var item = '';
 
-item += '<div class="iso-box hospital"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.html\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-9.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, hospital</p><h2>I병원</h2></div></div></div>';
+item += '<div class="iso-box hospital"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.html\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-9.png" alt="GTA V"><div class="thumb-text"><p>2015 Feb | Office</p><h2>I병원</h2></div></div></div>';
 
-item += '<div class="iso-box remodeling"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.html\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-10.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, remodeling</p><h2>J병원</h2></div></div></div>';
+item += '<div class="iso-box remodeling"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.html\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-10.png" alt="GTA V"><div class="thumb-text"><p>2015 Feb | Office</p><h2>J병원</h2></div></div></div>';
 
-item += '<div class="iso-box office"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.html\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-11.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, office</p><h2>K병원</h2></div></div></div>';
+item += '<div class="iso-box office"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.html\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-11.png" alt="GTA V"><div class="thumb-text"><p>2015 Feb | Office</p><h2>K병원</h2></div></div></div>';
 
 
 
