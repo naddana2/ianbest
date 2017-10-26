@@ -21,6 +21,8 @@
 <script src="assets/js/ddd.js"></script>
 
 <script type="text/javascript">
+
+
 	$(function() {
 		var mobilemenu = $('#mobilemenu');
 		menu = $('nav ul');
@@ -31,6 +33,8 @@
 			menu.slideToggle();
 		});
 	});
+	
+	
 
 </script>
 </head>
@@ -43,15 +47,16 @@
 
 		<div class="portfolio-area">
 			<div class="portfolio-header">
-				<ul class="filter-wrapper button-group" id="filters">
+			
+				 <ul class="filter-wrapper button-group" id="filters">
 					<li><a href="#" class="is-checked" data-filter="*">ALL</a></li>
 					<li><a href="#" class="" data-filter=".office">OFFICE</a></li>
 					<li><a href="#" class="" data-filter=".complex">COMPLEX</a></li>
 					<li><a href="#" class="" data-filter=".hospital">HOSPITAL</a></li>
 					<li><a href="#" class="" data-filter=".remodeling">REMODELING</a></li>
-				</ul>
-
+				</ul> 
 			</div>
+							
 
 			<div class="iso-box-wrapper masonry" id="list">
 
@@ -73,7 +78,7 @@
 						style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
-							<p>Portfolio, Remodeling</p>
+							<p>2015 Feb | Office</p>
 							<h2>광주 목뉴방외과</h2>
 
 						</div>
@@ -174,7 +179,7 @@
 					</div>
 				</div>
 				
-				<div class="iso-box width">
+				<div class="iso-box width none_mobile">
 					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
 					<img class="" src="assets/images/portfolio/prov.png" alt="GTA V">
 					</div>
@@ -182,7 +187,7 @@
 				<div class="iso-box visible width">
 					
 				</div> 
-				<div class="iso-box width">
+				<div class="iso-box width none_mobile">
 					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
 					<div class="combine"><div class="img-box"><img class="" src="assets/images/portfolio/isis.png" alt="GTA V"></div>
 					<div class="thumb-text2">

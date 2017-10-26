@@ -1,7 +1,7 @@
 .portfolio-area {
    padding: 4.5% 15.25%;
    overflow: hidden;
-   background: rgba(81, 81, 81, 1);
+   background: rgba(31, 31, 31);
    visibility:hidden;
 }
 
@@ -172,35 +172,34 @@
 
 
 .portfolio-thumb .thumb-text {
-   padding: 27px 0;
-   background: white;
-   border-left: 1.4px solid #d6d6d6;
-   border-right: 1.4px solid #d6d6d6;
-   box-shadow: inset 0 -1.7px 0px 0px rgba(234, 234, 234, 0.6);
+   padding: 15px 0 52px;
+   background: #494949;
+  
 }
 
 
 .portfolio-thumb .thumb-text p {
    font-weight: 300;
-   font-family: 'KoPuBatang-M', sans-serif;
+   font-family: 'KoPuBatang-B', sans-serif;
    letter-spacing: 0.1347px;
    text-transform: none;
-   font-size: 12.3px;
-   margin-bottom: 3px;
-   padding: 0 17px;
-   color: #525252;
+   font-size: 13.5px;
+   margin-bottom: 0px;
+   letter-spacing:-0.92px;
+   padding: 0 19px;
+   color: #717171;
 }
 
 
 .portfolio-thumb .thumb-text h2 {
    font-weight: 600;
-   color: black;
-   font-size: 20.2px;
+   color: white;
+   font-size: 17.2px;
    letter-spacing: 0.6px;
    line-height: 32.2px;
    margin-top: 0;
    margin-bottom: 4px;
-   padding: 0 17px;
+   padding: 0 19px;
 }
 
 
@@ -252,6 +251,8 @@
 	
 }
 
+
+
 .top-menu {
       padding: 3.128% 0 0.605% calc(13.04% + 17px);
       
@@ -277,6 +278,14 @@
       }
 }
 
+
+
+@media screen and (max-width:1200px) {
+   
+.none_mobile {
+	display:none !important;
+	}
+}
 
 @media screen and (min-width:992px) and (max-width:1191px) {
       

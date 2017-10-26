@@ -9,18 +9,23 @@
 
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/nice-select.css">
+
 <link rel="stylesheet" href="assets/css/owl.theme.css">
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/theory/portfolio.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <script src="assets/js/jquery-1.9.1.min.js"></script>
+<script src="assets/js/jquery.nice-select.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/isotope.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
-	<script src="assets/js/owl3.js"></script>
+<script src="assets/js/ddd2.js"></script>
 
 <script type="text/javascript">
+
+
 	$(function() {
 		var mobilemenu = $('#mobilemenu');
 		menu = $('nav ul');
@@ -31,6 +36,9 @@
 			menu.slideToggle();
 		});
 	});
+	
+	
+
 </script>
 </head>
 
@@ -42,53 +50,72 @@
 
 		<div class="portfolio-area">
 			<div class="portfolio-header">
-				<ul class="filter-wrapper button-group" id="filters">
+			<select>
+					<option data-display="ALL">ALL</option>
+					<option value="1">Office</option>
+					<option value="2">Complex</option>
+					<option value="3">Hospital</option>
+					<option value="4">Remodeling</option>
+				</select><i class="fa fa-th-large" aria-hidden="true"></i>
+				
+				 <!-- <ul class="filter-wrapper button-group" id="filters">
 					<li><a href="#" class="is-checked" data-filter="*">ALL</a></li>
 					<li><a href="#" class="" data-filter=".office">OFFICE</a></li>
 					<li><a href="#" class="" data-filter=".complex">COMPLEX</a></li>
 					<li><a href="#" class="" data-filter=".hospital">HOSPITAL</a></li>
 					<li><a href="#" class="" data-filter=".remodeling">REMODELING</a></li>
-				</ul>
-
+				</ul>  -->
 			</div>
+							
 
 			<div class="iso-box-wrapper masonry" id="list">
 
-	
+				<div class="grid-sizer"></div>
+				<div class="iso-box width">
+					<div class="owl-carousel owl-theme small-owl">
+						<div class="item">
+							<img class="" src="assets/images/portfolio/square.png"
+								alt="GTA V">
+						</div>
+						<div class="item">
+							<img class="" src="assets/images/portfolio/4in22.png" alt="GTA V">
+						</div>
+					</div>
+				</div> 
+				<div class="iso-box complex">
+					<div class="portfolio-thumb"
+						onclick="location.href='portfolio_detail.html'"
+						style="cursor: pointer;">
+						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
+						<div class="thumb-text">
+							<p>2015 Feb | Office</p>
+							<h2>광주 목뉴방외과</h2>
 
-
-
-
-
-
-				<div class="iso-box office">
-					<div class="portfolio-thumb">
-					<div class="owl-carousel owl-theme">
-    <div class="item"><img class="" src="assets/images/portfolio/square.png" alt="GTA V"></div>
-    <div class="item"><img class="" src="assets/images/portfolio/4in22.png" alt="GTA V"></div>
-    </div>
-
-						
-
+						</div>
 					</div>
 				</div>
-
-
-
-
-
-
-
-
-
-
-
 
 				<div class="iso-box complex">
 					<div class="portfolio-thumb"
 						onclick="location.href='portfolio_detail.html'"
 						style="cursor: pointer;">
 
+						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
+						<div class="thumb-text">
+
+							<p>Portfolio, Industrial</p>
+							<h2>경기도립 미술관</h2>
+						</div>
+
+
+
+					</div>
+				</div>
+				
+				<div class="iso-box remodeling">
+					<div class="portfolio-thumb"
+						onclick="location.href='portfolio_detail.html'"
+						style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
 
@@ -97,41 +124,13 @@
 						</div>
 
 
-
 					</div>
 				</div>
-				<div class="iso-box complex">
-					<div class="portfolio-thumb"
-						onclick="location.href='portfolio_detail.html'"
-						style="cursor: pointer;">
-						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
-						<div class="thumb-text">
-							<p>Portfolio, Remodeling</p>
-							<h2>광주 목뉴방외과</h2>
-
-						</div>
-					</div>
-				</div>
-
 				<div class="iso-box remodeling">
 					<div class="portfolio-thumb"
 						onclick="location.href='portfolio_detail.html'"
 						style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
-						<div class="thumb-text">
-
-							<p>Portfolio, Industrial</p>
-							<h2>경기도립 미술관</h2>
-						</div>
-
-
-					</div>
-				</div>
-				<div class="iso-box remodeling">
-					<div class="portfolio-thumb"
-						onclick="location.href='portfolio_detail.html'"
-						style="cursor: pointer;">
-						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
 						<div class="thumb-text">
 							<p>Portfolio, Remodeling</p>
 							<h2>광주 목뉴방외과</h2>
@@ -168,9 +167,7 @@
 				</div>
 
 				<div class="iso-box hospital">
-					<div class="portfolio-thumb"
-						onclick="location.href='portfolio_detail.html'"
-						style="cursor: pointer;">
+					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
 						<div class="thumb-text">
 							<p>Portfolio, Industrial</p>
@@ -179,6 +176,38 @@
 
 					</div>
 				</div>
+				<div class="iso-box hospital">
+					<div class="portfolio-thumb"
+						onclick="location.href='portfolio_detail.html'"
+						style="cursor: pointer;">
+						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
+						<div class="thumb-text">
+							<p>Portfolio, Industrial</p>
+							<h2>경기도립 미술관</h2>
+						</div>
+
+					</div>
+				</div>
+				
+				<div class="iso-box width none_mobile">
+					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
+					<img class="" src="assets/images/portfolio/prov.png" alt="GTA V">
+					</div>
+				</div> 
+				<div class="iso-box visible width">
+					
+				</div> 
+				<div class="iso-box width none_mobile">
+					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
+					<div class="combine"><div class="img-box"><img class="" src="assets/images/portfolio/isis.png" alt="GTA V"></div>
+					<div class="thumb-text2">
+							<p>Portfolio, Industrial</p>
+							<h2>경기도립 미술관</h2>
+						</div>
+					</div>
+					
+					</div>
+				</div> 
 			</div>
 
 			<div class="portfolo_footer">
@@ -197,78 +226,6 @@
 
 	<%@ include file="assets/include/footer.jsp"%>
 
-	<script type="text/javascript">
-		var item = '';
-
-		item += '<div class="iso-box hospital"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.html\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-9.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, hospital</p><h2>I병원</h2></div></div></div>';
-
-		item += '<div class="iso-box remodeling"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.html\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-10.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, remodeling</p><h2>J병원</h2></div></div></div>';
-
-		item += '<div class="iso-box office"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.html\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-11.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, office</p><h2>K병원</h2></div></div></div>';
-
-		jQuery(window).load(function() {
-
-			$('#project').addClass('selected');
-
-			var $isop = $('.masonry').isotope({
-				itemSelector : '.iso-box',
-				masonry : {
-					itemSelector : 'iso-box',
-					horizontalOrder : true,
-					percentPosition : true
-				}
-			});
-
-			// filter functions
-			var filterFns = {
-				// show if number is greater than 50
-				numberGreaterThan50 : function() {
-					var number = $(this).find('.number').text();
-					return parseInt(number, 10) > 50;
-				}
-			};
-
-			// bind filter button click
-			$('#filters').on('click', 'a', function() {
-				var filterValue = $(this).attr('data-filter');
-				// use filterFn if matches value
-				filterValue = filterFns[filterValue] || filterValue;
-				$isop.isotope({
-					filter : filterValue
-				});
-			});
-
-			// change is-checked class on buttons
-			$('.button-group').each(function(i, buttonGroup) {
-				var $buttonGroup = $(buttonGroup);
-				$buttonGroup.on('click', 'a', function() {
-					$buttonGroup.find('.is-checked').removeClass('is-checked');
-					$(this).addClass('is-checked');
-				});
-			});
-			var $items = $(item);
-			var flag = true;
-			var icon = document.getElementById('icon');
-
-			$('.append-button').on('click', function() {
-				// create new item elements
-				if (flag == true) {
-					$isop.append($items).isotope('appended', $items);
-					setTimeout(function() {
-						icon.className = "fa fa-chevron-up gray";
-					}, 250);
-					flag = false;
-				} else {
-					$isop.isotope('remove', $items);
-					setTimeout(function() {
-						$isop.isotope('layout');
-						icon.className = "fa fa-chevron-down gray";
-					}, 250);
-					flag = true;
-				}
-			});
-		});
-	</script>
 
 </body>
 </html>
