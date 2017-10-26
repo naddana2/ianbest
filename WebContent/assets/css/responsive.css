@@ -2,20 +2,8 @@
 
 
 @media screen and (max-width:424px) {
-	.owl-dot span {
-		background: none repeat scroll 0 0 #ffffff;
-		border-radius: 20px;
-		display: block;
-		height: 9px;
-		margin: 5px 7px;
-		opacity: 0.8;
-		width: 9px;
-	}
-	#owl-demo .item img {
-	   width: 100%;
-	   display: block;
-	   height: 250px;
-	}
+	
+
 	
 	section .double-set .txt-box .section-header h2 {
 		letter-spacing: -0.37px;

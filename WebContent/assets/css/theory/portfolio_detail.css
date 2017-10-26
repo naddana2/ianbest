@@ -170,6 +170,34 @@ footer {
 
 
 
+.view-header .owl-controls .owl-buttons {
+	overflow:hidden;
+	float:right;
+}
+	
+	
+.owl-prev {
+	width:fit-content;
+	float:left;
+}
 
+.owl-next {
+	width:fit-content;
+	float:left;
+}
 
+.owl-item .item {
+    opacity: 0.3;
+}
+
+.owl-item + .center .item {
+    opacity: 1.0;
+}
+@media screen and (max-width:991px) {
+
+.move-contact {
+		display:none !important;
+	}
+
+}
 
