@@ -1,7 +1,7 @@
 .portfolio-area {
    padding: 4.5% 15.25%;
    overflow: hidden;
-   background: rgba(31, 31, 31);
+   background: rgb(31, 31, 31);
    visibility:hidden;
 }
 
@@ -13,24 +13,35 @@
  
 }
 
-@media only screen and (min-width: 426px) and (max-width: 768px){
+@media only screen and (min-width: 320px) and (max-width: 767px){
     .masonry {
         -moz-column-count: 2;
         -webkit-column-count: 2;
         column-count: 2;
     }
+   
+    .iso-box-wrapper .width{
+    display:none !important;
+   }
     .iso-box-wrapper .iso-box{
     width: 50%; 
    }
     .iso-box-wrapper .grid-sizer{
     width: 50%; 
    }
-    .iso-box-wrapper .width{
-    width: 100% !important; 
-   }
  
 }
-@media only screen and (min-width: 769px) and (max-width: 1200px){
+
+@media only screen and (min-width: 580px) and (max-width: 767px){
+	 .iso-box-wrapper .iso-box{
+    width: 33% !important; 
+   }
+    .iso-box-wrapper .grid-sizer{
+    width: 33% !important; 
+   }
+}
+	
+@media only screen and (min-width: 768px) and (max-width: 1200px){
     .masonry {
         -moz-column-count: 3;
         -webkit-column-count: 3;
@@ -72,7 +83,7 @@
 
 .portfolio-header {
    width: 100%;
-   padding: 0 17px;
+   padding: 0 9.5px;
 }
 
 .portfolio-header ul {
@@ -112,7 +123,7 @@
    position: relative;
    overflow: hidden;
    margin: 0;
-   box-shadow: 3px 4px 17px 1px rgba(101, 89, 114, 0.44);
+   box-shadow: 3px 4px 17px 1px rgb(37, 37, 37);
 }
 
 
@@ -139,40 +150,38 @@
 
 .combine .thumb-text2 {
 
-   padding: 27px 0;
-   background: white;
-   border-left: 1.4px solid #d6d6d6;
-   border-right: 1.4px solid #d6d6d6;
-   box-shadow: inset 0 -1.7px 0px 0px rgba(234, 234, 234, 0.6);
+   padding: 24.5% 0 0;
+   background: #494949;
+  
 }
 
 .combine .thumb-text2 p {
 		 font-weight: 300;
    font-family: 'KoPuBatang-M', sans-serif;
-   letter-spacing: 0.1347px;
+   letter-spacing: -0.92px;
    text-transform: none;
-   font-size: 12.3px;
-   margin-bottom: 3px;
-   padding: 0 17px;
-   color: #525252;
+   font-size: 13.5px;
+   padding: 0 29px;
+   color: #717171;
+   margin-bottom:0;
 }
 
 
-.portfolio-thumb .thumb-text h2 {
+.combine .thumb-text2 h2 {
    font-weight: 600;
-   color: black;
-   font-size: 20.2px;
+   color: white;
+   font-size: 17.2px;
    letter-spacing: 0.6px;
    line-height: 32.2px;
    margin-top: 0;
    margin-bottom: 4px;
-   padding: 0 17px;
+   padding: 0 29px;
 }
 
 
 
 .portfolio-thumb .thumb-text {
-   padding: 15px 0 52px;
+   padding: 5.7% 0 13.3%;
    background: #494949;
   
 }
@@ -254,14 +263,14 @@
 
 
 .top-menu {
-      padding: 3.128% 0 0.605% calc(13.04% + 17px);
+      padding: 3.128% 0 0.605% calc(13.04% + 9.5px);
       
    }
    
    
    
    footer {
-         padding:2.477% calc(13.04% + 17px);
+         padding:2.477% calc(13.04% + 9.5px);
       }
    
 
@@ -270,11 +279,11 @@
    
       
       .top-menu .brand-logo {
-         margin-left:calc(4.34% + 17px) !important;
+         margin-left:calc(4.34% + 9.5px) !important;
       }
       
       footer {
-         padding-left:calc(4.34% + 17px) !important;
+         padding-left:calc(4.34% + 9.5px) !important;
       }
 }
 
@@ -290,23 +299,63 @@
 @media screen and (min-width:992px) and (max-width:1191px) {
       
    .top-menu {
-      padding: 3.128% 0 1.105% calc(4.34% + 17px) !important;
+      padding: 3.128% 0 1.105% calc(4.34% + 9.5px) !important;
       
    }
    footer {
-      padding:2.477% calc(4.334% + 17px) !important;
+      padding:2.477% calc(4.334% + 9.5px) !important;
    }
+}
+
+@media screen and (min-width:320px) {
+	.move-contact {
+		display:block !important;
+	}
 }
 
 
 @media screen and (min-width:1192px) and (max-width:1375px) {
    .top-menu {
-      padding: 3.128% 0 1.605% calc(7.04% + 17px) !important;
+      padding: 3.128% 0 1.605% calc(7.04% + 9.5px) !important;
       
    }
    footer {
-      padding:2.477% calc(7.04% + 17px) !important;
+      padding:2.477% calc(7.04% + 9.5px) !important;
    }
+}
+
+
+
+@media screen and (min-width:580px) and (max-width:767px) {
+
+	.move-contact p {
+		font-size:15.2px;
+	}
+	.move-contact {
+		padding:3.1% 0 2.1%;
+	}
+	.move-contact h2 {
+		font-size:27px;
+	}
+	
+}
+@media screen and (max-width:579px) {
+
+	.move-contact p {
+		font-size:15.2px;
+	}
+	.move-contact {
+		padding:3.1% 0 2.1%;
+	}
+	.move-contact h2 {
+		font-size:27px;
+	}
+}
+
+@media screen and (max-width:991px) {
+		.move-contact h2 {
+		margin:0;
+	}
 }
 
 

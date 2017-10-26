@@ -93,7 +93,7 @@
 						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
 						<div class="thumb-text">
 
-							<p>Portfolio, Industrial</p>
+							<p>2015 Feb | Office</p>
 							<h2>경기도립 미술관</h2>
 						</div>
 
@@ -109,7 +109,7 @@
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
 
-							<p>Portfolio, Industrial</p>
+							<p>2015 Feb | Office</p>
 							<h2>경기도립 미술관</h2>
 						</div>
 
@@ -122,7 +122,7 @@
 						style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
 						<div class="thumb-text">
-							<p>Portfolio, Remodeling</p>
+							<p>2015 Feb | Office</p>
 							<h2>광주 목뉴방외과</h2>
 
 						</div>
@@ -136,7 +136,7 @@
 						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
 						<div class="thumb-text">
 
-							<p>Portfolio, Industrial</p>
+							<p>2015 Feb | Office</p>
 							<h2>경기도립 미술관</h2>
 						</div>
 
@@ -149,7 +149,7 @@
 						style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
-							<p>Portfolio, Remodeling</p>
+							<p>2015 Feb | Office</p>
 							<h2>광주 목뉴방외과</h2>
 
 						</div>
@@ -160,7 +160,7 @@
 					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
 						<div class="thumb-text">
-							<p>Portfolio, Industrial</p>
+							<p>2015 Feb | Office</p>
 							<h2>경기도립 미술관</h2>
 						</div>
 
@@ -172,7 +172,7 @@
 						style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
-							<p>Portfolio, Industrial</p>
+							<p>2015 Feb | Office</p>
 							<h2>경기도립 미술관</h2>
 						</div>
 
@@ -191,7 +191,7 @@
 					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
 					<div class="combine"><div class="img-box"><img class="" src="assets/images/portfolio/isis.png" alt="GTA V"></div>
 					<div class="thumb-text2">
-							<p>Portfolio, Industrial</p>
+							<p>2015 Feb | Office</p>
 							<h2>경기도립 미술관</h2>
 						</div>
 					</div>

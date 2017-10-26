@@ -21,7 +21,6 @@
 		letter-spacing: -0.37px;
 		font-size: 3.2642857142857147em;
 		line-height: 1.42em;
-		margin-top: 0.678vw;
 		margin-bottom: 3vw;
 		color: #3b3b3b;
 		font-family: 'KoPuBatang-M', sans-serif;
@@ -31,6 +30,21 @@
 		width: 50% !important;
 		padding: 10% 0 !important;
 		text-align: center !important;
+	}
+	.portfolio-header ul>li>a {
+		font-size:15.2px !important
+	}
+	.portfolio-thumb .thumb-text p {
+		padding:0;
+		text-align:center;
+	}
+	.portfolio-thumb .thumb-text h2 {
+		padding:0;
+		text-align:center;
+		font-size:16.3px;
+	}
+	.portfolio-thumb .thumb-text {
+		padding:11% 0;
 	}
 	
 }
@@ -92,6 +106,20 @@
 	.about_content h4 {
 		font-size:1.46em !important;
 		line-height:31.7px !important;
+	}
+	.portfolio-header ul {
+		display:inline-block;
+		padding:12px 0 3px;
+		margin-bottom:8px;
+	}
+	.portfolio-header ul>li {
+		padding-right:11px !important;
+		width:33%;
+		float:left;
+	
+	}
+	.portfolio-header ul>li>a {
+		font-size:16px !important;
 	}
 	
 }
@@ -180,7 +208,9 @@
 	.about_ianImage:before {
 		display:none;
 	}
-	
+	.portfolo_footer {
+		margin-top:31px;
+	}
 	
 }
 
@@ -225,6 +255,7 @@
 		font-size: 1.892857em;
 		padding-bottom: 10px;
 	} 
+	
 }
 
 @media screen and (max-width:767px) {
@@ -514,6 +545,9 @@
 			right:54.2%;
 			font-size:4.85vw;
 		}
+		.portfolio-header ul {
+			margin-bottom:20px;
+		}
 		
 
 	}
@@ -604,17 +638,31 @@
 		margin-top: 15px;
 		margin-bottom: 0;
 	}
+	
+	
 }
 
 @media screen and (min-width:481px) and (max-width:579px) {
 	.img-grid {
 		padding: 5.5% 4% 9.5%;
 	}
-
+	.portfolio-header ul>li {
+		padding-right:11px !important;
+	
+	}
+	.portfolio-header ul>li>a {
+		font-size:15.6px !important;
+	}
+	.portfolio-header ul {
+		padding:12px 0 3px;
+		margin-bottom:0;
+	}
 	
 }
 
 @media screen and (min-width:425px) and (max-width:579px) {
+	
+	
 }
 
 @media screen and (min-width:481px) and (max-width:767px) {
@@ -687,6 +735,13 @@
 		font-size:4.85vw;
 	}
 	
+	.portfolio-header ul>li {
+		font-size:15.6px;
+		padding-right:11px;
+	}
+	.portfolio-area {
+		padding:6.5% 4.34% !important;
+	}
 	
 	
 }
