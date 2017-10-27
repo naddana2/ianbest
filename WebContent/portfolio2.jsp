@@ -49,11 +49,11 @@
 			<div class="portfolio-header">
 			
 				 <ul class="filter-wrapper button-group" id="filters">
-					<li><a href="#" class="is-checked" data-filter="*">ALL</a></li>
-					<li><a href="#" class="" data-filter=".office">OFFICE</a></li>
-					<li><a href="#" class="" data-filter=".complex">COMPLEX</a></li>
-					<li><a href="#" class="" data-filter=".hospital">HOSPITAL</a></li>
-					<li><a href="#" class="" data-filter=".remodeling">REMODELING</a></li>
+					<li><a href="#" class="is-checked" data-filter="*">All</a></li>
+					<li><a href="#" class="" data-filter=".office">Office</a></li>
+					<li><a href="#" class="" data-filter=".complex">Complex</a></li>
+					<li><a href="#" class="" data-filter=".hospital">Hospital</a></li>
+					<li><a href="#" class="" data-filter=".remodeling">Remodling</a></li>
 				</ul> 
 			</div>
 							

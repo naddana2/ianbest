@@ -82,7 +82,7 @@
 	}
 }
 
-@media screen and (max-width:333px) {
+@media screen and (max-width:343px) {
 	.introduce p {
 		font-size: 0.9em;
 	}
@@ -384,6 +384,7 @@
 	}
 	article p {
 		font-size: 1.031429em;
+		margin-bottom:0;
 	}
 	article span {
 		font-size: 1.664286em;
@@ -510,7 +511,7 @@
 		padding: 0 16px 28px !important;
 	}
 	.portfolio-header ul>li>a {
-		font-size: 14px !important;
+		font-size: 14.7px !important;
 	}
 	.portfolio-thumb .thumb-text p {
 		font-size: 12.4px;
@@ -559,7 +560,7 @@
 		margin-bottom: 5px;
 	}
 	.portfolio-header ul>li {
-		padding: 7px 3px 7px 0 !important;
+		padding: 3px 3px 7px 0 !important;
 		width: 33%;
 		float: left;
 	}
@@ -639,6 +640,14 @@
 	.portfolio-thumb .thumb-text h2 {
 		font-size: 16px;
 	}
+	.portfolio-header {
+		padding:2.6% 9.5px 10px;
+		text-align:center;
+	}
+	.portfolio-header ul>li {
+		padding: 7px 10px 3px 0 !important;
+	}
+	
 }
 
 @media screen and (min-width:481px) and (max-width:767px) {
@@ -978,7 +987,7 @@ and
 		padding: 3.128% 0 1.105% 4.34%;
 	}
 	#owl-demo .item .owl-overlay h2 {
-		font-size: 3.334em;
+		font-size: 2.934em;
 	}
 	.contact_wrap {
 		padding: 4.5% 4.34% 5%;
@@ -1016,7 +1025,7 @@ and
 		padding: 2.79% 6.04%;
 	}
 	article .left-box {
-		padding: 2.79% 6.04%;
+		padding: 3.69% 6.04%;
 	}
 	footer {
 		padding: 2.477% 4.34%;
@@ -1131,6 +1140,10 @@ and
 	article .left-box {
 		padding: 5% 0 4.4% 7.04%;
 	}
+	
+	article .left-box .txt-zone p {
+		font-size:2.128571em;
+	}
 	footer {
 		padding: 2.477% 7.04%;
 	}
@@ -1194,6 +1207,10 @@ and
 	.about-area p {
 		font-size: 1.23em;
 	}
+	#owl-demo .item .owl-overlay h2 {
+		font-size:2.934em;
+	}
+	
 }
 
 @media screen and (max-width:1375px) {

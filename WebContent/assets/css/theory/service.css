@@ -83,7 +83,7 @@
 
 .introduce img {
  
- 	padding-right:1.5%;
+ 	padding-right:2%;
 }
 
 
@@ -462,6 +462,14 @@ h1.title{
 }
 
 
+@media screen and (min-width:992px) and (max-width:1191px) { 
+	.img-grid {
+		padding:3.5% 0 8%;
+	}
+	.introduce-box {
+		padding:3.3% 0 6% 8px !important; 
+	}
+}
 
 
 
