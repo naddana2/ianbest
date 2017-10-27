@@ -18,12 +18,10 @@
 		font-size: 15.2px !important
 	}
 	.portfolio-thumb .thumb-text p {
-		padding: 0;
-		text-align: center;
+		
 	}
 	.portfolio-thumb .thumb-text h2 {
-		padding: 0;
-		text-align: center;
+	
 		font-size: 16.3px;
 	}
 	.portfolio-thumb .thumb-text {
@@ -275,9 +273,7 @@
 		padding-top: 2.5%;
 		margin-bottom: 0;
 	}
-	.small-owl {
-		padding-top: 1.7%;
-	}
+	
 	.mobile-view {
 		display: block;
 	}
@@ -447,6 +443,9 @@
 	.contact_wrap {
 		padding: 4.5% 4.34% 5%;
 	}
+	.small-owl {
+		padding-top: 1.7%;
+	}
 }
 
 @media screen and (min-width:768px) {
@@ -466,28 +465,6 @@
 	}
 }
 
-@media screen and (min-width:768px) and (max-width:991px) {
-	img.about_img {
-		width: 32.8%;
-	}
-	.about_ianBest h3 {
-		font-size: 2.042857em;
-	}
-	.about_content h4 {
-		font-size: 1.7em;
-		line-height: 33.3px;
-	}
-	.about-area p {
-		font-size: 1.18em;
-	}
-	.about_ianImage:before {
-		right: 54.2%;
-		font-size: 4.85vw;
-	}
-	.portfolio-header ul {
-		margin-bottom: 20px;
-	}
-}
 
 @media screen and (min-width:768px) and (max-width:1192px) {
 	.smallnav p {
@@ -627,6 +604,28 @@
 		font-size: 1.13em;
 		line-height: 1.66;
 	}
+	.about-content h2 {
+		font-size:1.892857em;
+	}
+	
+	.right-grid span {
+		font-size:1.41em;
+	}
+	.portfolio-area {
+	padding:6.5% 7.34% 4.5% !important;
+	}
+	.portfolio-thumb .thumb-text p {
+		padding:0 !important;
+		text-align:center !important;
+	}
+	.portfolio-thumb .thumb-text h2 {
+		padding:0 !important;
+		text-align:center !important;
+	}
+	.portfolio-thumb .thumb-text {
+		padding:7.1% 0 !important;
+	}
+	
 }
 
 @media screen and (min-width:425px) and (max-width:579px) {
@@ -716,7 +715,7 @@
 		padding-right: 13px;
 	}
 	.portfolio-area {
-		padding: 6.5% 4.34% !important;
+		padding: 11.5% 4.34% !important;
 	}
 }
 
@@ -807,6 +806,37 @@
 	}
 	.portfolio-header ul>li>a {
 		font-size: 16px;
+	}
+	.portfolio-thumb .thumb-text p {
+		padding:0 !important;
+		text-align:center !important;
+	}
+	.portfolio-thumb .thumb-text h2 {
+		padding:0 !important;
+		text-align:center !important;
+	}
+		img.about_img {
+		width: 32.8%;
+	}
+	.about_ianBest h3 {
+		font-size: 2.042857em;
+	}
+	.about_content h4 {
+		font-size: 1.7em;
+		line-height: 33.3px;
+	}
+	.about-area p {
+		font-size: 1.18em;
+	}
+	.about_ianImage:before {
+		right: 54.2%;
+		font-size: 4.85vw;
+	}
+	.portfolio-header ul {
+		margin-bottom: 20px;
+	}
+	.portfolio-thumb .thumb-text {
+		padding: 8.7% 0 !important;
 	}
 }
 
@@ -1063,7 +1093,7 @@ and
 
 @media screen and (max-width:1200px) {
 	.portfolio-area {
-		padding: 6.5% 11.34% 4.5%;
+		padding: 6.5% 9.34% 4.5%;
 	}
 }
 

@@ -52,6 +52,7 @@ jQuery(window).load(function() {
 	
 	var owl = $('.small-owl').owlCarousel({
 		items: 1,
+		loop: true,
 		nav: false,
 	});
 	

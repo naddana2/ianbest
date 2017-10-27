@@ -113,6 +113,7 @@ a:hover, a:focus {
 
 .fa3 {
    font-size: 35px !important;
+   color:white !important;
 }
 
 
@@ -275,6 +276,10 @@ footer a {
 
 .carousel {
    position: relative;
+}
+.owl-carousel {
+	cursor:pointer !important;
+	
 }
 .owl-wrapper-outer {
    padding: 0 0 0 0;

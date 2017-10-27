@@ -160,13 +160,6 @@
 }
 
 
-.top-menu {
-	padding:3.128% 0 0.605% 13.04%;
-}
-
-footer {
-	padding:2.477% 13.04%;
-}
 
 
 
@@ -193,6 +186,15 @@ footer {
 .owl-item + .center .item {
     opacity: 1.0;
 }
+
+.owl-item + .center .item p {
+	padding: 0 7px;
+	margin-top: 10px;
+	color: #b5b5b6;
+	font-size: 1.3em;
+	text-align: center;
+	}
+
 @media screen and (max-width:991px) {
 
 .move-contact {
