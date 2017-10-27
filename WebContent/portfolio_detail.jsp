@@ -76,15 +76,15 @@
 
 		<div class="about-content">
 			<h2><%=dto.getPort_name() %></h2>
-			<img src="assets/images/portfolio/port<%=port_id%>/main.jpg"
+			<img src="assets/images/portfolio/port<%=port_id%>/main.png"
 				alt="The Last of us">
 		</div>
 		<div class="bottom-area">
 			<div class="left-grid">
-				<img src="assets/images/portfolio/port<%=port_id%>/sub1.png">
-				<img src="assets/images/portfolio/port<%=port_id%>/sub2.png">
-				<img src="assets/images/portfolio/port<%=port_id%>/sub3.png">
-				<img src="assets/images/portfolio/port<%=port_id%>/sub4.png">
+				<img src="assets/images/portfolio/port<%=port_id%>/img_01.png">
+				<img src="assets/images/portfolio/port<%=port_id%>/img_02.png">
+				<img src="assets/images/portfolio/port<%=port_id%>/img_03.png">
+				<img src="assets/images/portfolio/port<%=port_id%>/img_04.png">
 			</div>
 			<div class="right-grid">
 				<div class="topbox">
@@ -101,7 +101,7 @@
 				for (IanDto port : Recentlist3) {
 			%>					
 					<div class="imgbox">
-						<img src="assets/images/portfolio/port<%=port.getPort_id()%>/main.jpg"
+						<img src="assets/images/portfolio/port<%=port.getPort_id()%>/main.png"
 							alt="The Last of us">
 						<p>
 							<%=port.getPort_name() %>
@@ -143,7 +143,7 @@
 				for (IanDto port : Recentlist5) { 
 			%>
 				<div class="item">
-					<img src="assets/images/portfolio/port<%=port.getPort_id()%>/main.jpg">
+					<img src="assets/images/portfolio/port<%=port.getPort_id()%>/main.png">
 					<p><%=port.getPort_name() %></p>
 				</div>
 			<% 

@@ -58,8 +58,8 @@
 
 			<div class="iso-box-wrapper masonry" id="list">
 			
-							<div class="grid-sizer"></div>
-				 <div class="iso-box width">
+				<div class="grid-sizer"></div>
+				<div class="iso-box width">
 					<div class="owl-carousel owl-theme small-owl">
 						<div class="item">
 							<img class="" src="assets/images/portfolio/square.png"
@@ -69,7 +69,7 @@
 							<img class="" src="assets/images/portfolio/4in22.png" alt="GTA V">
 						</div>
 					</div>
-				</div>
+				</div> 
 			
 			
 <%
@@ -89,7 +89,7 @@
 %>
 				<div class="iso-box <%=port_division%> width<%=port_width%>">
 					<div class="portfolio-thumb"  onclick="location.href='portfolio_detail.jsp?id=<%=port_id %>'" style="cursor: pointer;">
-						<img class="" src="assets/images/portfolio-<%=port_id%>.png" alt="GTA V">
+						<img class="" src="assets/images/portfolio/port<%=port_id%>/thumb.png" alt="GTA V">
 						<div class="thumb-text">
 							<p>Portfolio, <%=port_division%></p>
 							<h2><%=port_name%></h2>
@@ -99,6 +99,26 @@
 <%	
 	}
 %>
+
+				<div class="iso-box width none_mobile">
+					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.jsp?id=1'" style="cursor: pointer;">
+					<img class="" src="assets/images/portfolio/prov.png" alt="GTA V">
+					</div>
+				</div> 
+				<div class="iso-box visible width zeno-padding">
+					
+				</div> 
+				<div class="iso-box width none_mobile">
+					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.jsp?id=1'" style="cursor: pointer;">
+					<div class="combine"><div class="img-box"><img class="" src="assets/images/portfolio/isis.png" alt="GTA V"></div>
+					<div class="thumb-text2">
+							<p>2015 Feb | Office</p>
+							<h2>경기도립 미술관</h2>
+						</div>
+					</div>
+					
+					</div>
+				</div> 
 
 			</div>
 			<div class="portfolo_footer">
