@@ -324,28 +324,6 @@
 	font-size: 1.5142857142857142em;
 }
 
-.triangle{
-	text-align: center;
-}
-
-.triangle img {
-    width: 40%;
-}
-
-@media screen and (min-width:450px) and (max-width:768px) {
-	.triangle img {
-	    width: 65%;
-	}
-}
-@media screen and (max-width:449px){
-	.triangle img {
-	    width: 80%;
-	}
-}
-
-
-
-
 /* ÃƒÂ«Ã‚ÂªÃ‚Â¨ÃƒÂ«Ã‚Â°Ã¢â‚¬ÂÃƒÂ¬Ã‚ÂÃ‚Â¼ÃƒÂ«Ã‚Â©Ã¢â‚¬ÂÃƒÂ«Ã¢â‚¬Â°Ã‚Â´ */
 
 .mobile-tab {
@@ -469,6 +447,25 @@ footer {
 	margin:0 auto;
 	padding:6% !important;
 } 
+
+.triangle{
+	text-align: center;
+}
+
+.triangle img {
+    width: 40%;
+}
+
+@media screen and (min-width:450px) and (max-width:768px) {
+	.triangle img {
+	    width: 65%;
+	}
+}
+@media screen and (max-width:449px){
+	.triangle img {
+	    width: 80%;
+	}
+}
 
 
 
