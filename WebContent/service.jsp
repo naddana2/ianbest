@@ -130,9 +130,13 @@
 						시설종합관리 서비스를 제공합니다. </span>
 				</div>
 
-				<div class="img-grid">
+				<div class="triangle better-top">
 					<img class="" src="assets/images/service/mobile_answer.png">
 				</div>
+			</div>
+
+			<div class="subtitle better-top">
+				<h2>HISTORY</h2>
 			</div>
 
 			<div class="mobile_view">
@@ -221,10 +225,6 @@
 				</div>
 			</div>
 
-
-			<div class="subtitle better-top mobile_hide">
-				<h2>HISTORY</h2>
-			</div>
 			<!-- Tab panes -->
 			<div class="tab-content">
 				<ul class="nav nav-tabs bignav">
