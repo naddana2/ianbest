@@ -74,7 +74,7 @@
 				</div> 
 				<div class="iso-box complex">
 					<div class="portfolio-thumb"
-						onclick="location.href='portfolio_detail.html'"
+						onclick="location.href='portfolio_detail.jsp?id=1'"
 						style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
@@ -87,7 +87,7 @@
 
 				<div class="iso-box complex">
 					<div class="portfolio-thumb"
-						onclick="location.href='portfolio_detail.html'"
+						onclick="location.href='portfolio_detail.jsp?id=1'"
 						style="cursor: pointer;">
 
 						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
@@ -104,7 +104,7 @@
 				
 				<div class="iso-box remodeling">
 					<div class="portfolio-thumb"
-						onclick="location.href='portfolio_detail.html'"
+						onclick="location.href='portfolio_detail.jsp?id=1'"
 						style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
@@ -118,7 +118,7 @@
 				</div>
 				<div class="iso-box remodeling">
 					<div class="portfolio-thumb"
-						onclick="location.href='portfolio_detail.html'"
+						onclick="location.href='portfolio_detail.jsp?id=1'"
 						style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
 						<div class="thumb-text">
@@ -131,7 +131,7 @@
 
 				<div class="iso-box hospital">
 					<div class="portfolio-thumb"
-						onclick="location.href='portfolio_detail.html'"
+						onclick="location.href='portfolio_detail.jsp?id=1'"
 						style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-2.png" alt="GTA V">
 						<div class="thumb-text">
@@ -145,7 +145,7 @@
 				</div>
 				<div class="iso-box hospital">
 					<div class="portfolio-thumb"
-						onclick="location.href='portfolio_detail.html'"
+						onclick="location.href='portfolio_detail.jsp?id=1'"
 						style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
@@ -157,7 +157,7 @@
 				</div>
 
 				<div class="iso-box hospital">
-					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
+					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.jsp?id=1'" style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-1.png" alt="GTA V">
 						<div class="thumb-text">
 							<p>2015 Feb | Office</p>
@@ -168,7 +168,7 @@
 				</div>
 				<div class="iso-box hospital">
 					<div class="portfolio-thumb"
-						onclick="location.href='portfolio_detail.html'"
+						onclick="location.href='portfolio_detail.jsp?id=1'"
 						style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio-3.png" alt="GTA V">
 						<div class="thumb-text">
@@ -180,7 +180,7 @@
 				</div>
 				
 				<div class="iso-box width none_mobile">
-					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
+					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.jsp?id=1'" style="cursor: pointer;">
 					<img class="" src="assets/images/portfolio/prov.png" alt="GTA V">
 					</div>
 				</div> 
@@ -188,7 +188,7 @@
 					
 				</div> 
 				<div class="iso-box width none_mobile">
-					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.html'" style="cursor: pointer;">
+					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.jsp?id=1'" style="cursor: pointer;">
 					<div class="combine"><div class="img-box"><img class="" src="assets/images/portfolio/isis.png" alt="GTA V"></div>
 					<div class="thumb-text2">
 							<p>2015 Feb | Office</p>
