@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="assets/css/theory/index.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <script src="assets/js/jquery-1.9.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
@@ -192,7 +193,6 @@
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<script src="assets/js/owl_index.js"></script>
-	<script src="assets/js/custom.js"></script>
 	<script src="assets/js/wow.min.js"></script>
 
 

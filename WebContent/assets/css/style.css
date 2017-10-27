@@ -303,6 +303,10 @@ footer a {
 .no-padding {
    padding: 0;
 }
+.zeno-padding {
+   padding: 0.1px !important;
+}
+
 
 .no-margin {
 	margin: 0;

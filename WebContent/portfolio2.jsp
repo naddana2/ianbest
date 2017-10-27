@@ -184,7 +184,7 @@
 					<img class="" src="assets/images/portfolio/prov.png" alt="GTA V">
 					</div>
 				</div> 
-				<div class="iso-box visible width">
+				<div class="iso-box visible width zeno-padding">
 					
 				</div> 
 				<div class="iso-box width none_mobile">
