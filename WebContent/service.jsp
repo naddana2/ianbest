@@ -127,7 +127,7 @@
 						시설종합관리 서비스를 제공합니다. </span>
 				</div>
 
-				<div class="triangle better-top">
+				<div class="triangle">
 					<img class="" src="assets/images/service/mobile_answer.png">
 				</div>
 			</div>
