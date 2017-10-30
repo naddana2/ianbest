@@ -15,10 +15,7 @@ jQuery(window).load(function() {
 
 	$(window).resize(function() { // 창크기 바뀔때마다
 		console.log("바뀌느즁")
-		
-		setTimeout(function() {
-			$isop.isotope('layout');
-		}, 297)
+		 
 	});
 	
 

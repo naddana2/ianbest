@@ -7,8 +7,7 @@
 @font-face {
 	font-family: 'Glyphicons Halflings2';
 	src: url('../fonts/glyphicons-halflings-regular.eot');
-	src: url('../fonts/glyphicons-halflings-regular.eot?#iefix')
-		format('embedded-opentype'),
+	src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
 		url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
 		url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
@@ -49,8 +48,8 @@
 	src: url('KoPub Batang Light.eot');
 	src: url('KoPub Batang Light.eot?#iefix') format('embedded-opentype');
 	src: url('KoPub Batang Light.woff') format('woff');
-	src: url('KoPub Batang Light.ttf') format('truetype');
-	
+/* 	src: url('KoPub Batang Light.ttf') format('truetype');
+ */	
 	font-weight: normal;
 	font-style: normal;
 }
@@ -61,8 +60,8 @@
 	src: url('KoPub Batang Medium.eot');
 	src: url('KoPub Batang Medium.eot?#iefix') format('embedded-opentype');
 	src: url('KoPub Batang Medium.woff') format('woff');
-	src: url('KoPub Batang Medium.ttf') format('truetype');
-	font-weight: normal;
+/* 	src: url('KoPub Batang Medium.ttf') format('truetype');
+ */	font-weight: normal;
 	font-style: normal;
 }
 
@@ -72,8 +71,8 @@
 	src: url('KoPub Batang Bold.eot');
 	src: url('KoPub Batang Bold.eot?#iefix') format('embedded-opentype');
 	src: url('KoPub Batang Bold.woff') format('woff');
-	src: url('KoPub Batang Bold.ttf') format('truetype');
-	font-weight: 600;
+/* 	src: url('KoPub Batang Bold.ttf') format('truetype');
+ */	font-weight: 600;
 	font-style: normal;
 }
 
@@ -82,8 +81,8 @@
 	src: url('KoPub Dotum Light.eot');
 	src: url('KoPub Dotum Light.eot?#iefix') format('embedded-opentype');
 	src: url('KoPub Dotum Light.woff') format('woff');
-	src: url('KoPub Dotum Light.ttf') format('truetype');
-	font-weight: normal;
+/* 	src: url('KoPub Dotum Light.ttf') format('truetype');
+ */	font-weight: normal;
 	font-style: normal;
 }
 
@@ -92,8 +91,8 @@
 	src: url('KoPub Dotum Medium.eot');
 	src: url('KoPub Dotum Medium.eot?#iefix') format('embedded-opentype');
 	src: url('KoPub Dotum Medium.woff') format('woff');
-	src: url('KoPub Dotum Medium.ttf') format('truetype');
-
+/* 	src: url('KoPub Dotum Medium.ttf') format('truetype');
+ */
 	
 	font-weight: normal;
 	font-style: normal;
@@ -105,8 +104,8 @@
 	src: url('KoPub Dotum Bold.eot');
 	src: url('KoPub Dotum Bold.eot?#iefix') format('embedded-opentype');
 	src: url('KoPub Dotum Bold.woff') format('woff');
-	src: url('KoPub Dotum Bold.ttf') format('truetype');
-	font-weight: normal;
+/* 	src: url('KoPub Dotum Bold.ttf') format('truetype');
+ */	font-weight: normal;
 	font-style: normal;
 }
 
