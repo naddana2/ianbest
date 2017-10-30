@@ -156,7 +156,7 @@
 		font-size: 1em;
 	}
 	.about_icon {
-		padding: 7.5% 26.5% 6%;
+		padding: 8.5% 20.7% 6%;
 	}
 	.about_ianImage:before {
 		display: none;
@@ -604,12 +604,18 @@
 	}
 	.about_content h4 {
 		font-size: 1.44em;
+		line-height:30px;
 	}
 	.about_content {
 		padding: 6.4% 0 0%;
 	}
+	.about_ianImage {
+		padding:7.8% 9.1% 9.7%;
+	}
+	
 	img.about_img {
-		width: 32%;
+		width: 100%;
+		padding:0px 23% 8.5%;
 	}
 	.about_icon {
 		padding: 5.5% 2.2% 10%;
@@ -1228,6 +1234,9 @@ and
 	}
 	.about_icon {
 		padding: 7.5% 3.4% 10%;
+	}
+	img.about_img {
+		padding:0 25px !important;
 	}
 	.about_ianImage {
 		padding: 5.7% 16.1% 8.7%;
