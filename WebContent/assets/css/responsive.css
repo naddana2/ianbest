@@ -1329,6 +1329,7 @@ and
 @media screen and (min-width:1376px) {
 	article .left-box img {
 		display: block;
+		margin-right:4.2vw;
 	}
 }
 

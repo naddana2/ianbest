@@ -170,11 +170,13 @@ section .double-set .txt-box .txt-area .btnS_fill {
 section .double-set .section-img {
    width: 50%;
    background: url(../../images/cross-walking.png) no-repeat center !important;
+   background-size:cover !important;
 }
 
 section .double-set .section-img2 {
    width: 50%;
    background: url(../../images/architect.png) no-repeat center !important;
+   background-size:cover !important;
 }
 
 section .double-set .section-img .in_transparent_img {
@@ -389,7 +391,7 @@ article .left-box p {
 }
 
 article .left-box .txt-zone {
-   width: fit-content;
+  
    margin: 0 auto;
 }
 

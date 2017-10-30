@@ -34,7 +34,7 @@
 	<%@ include file="assets/include/header.jsp"%>
 	<div id="wrap" class="wrap">
 		<div class="about-area">
-			<div class="subtitle">
+			<div class="subtitle no-padding">
 				<h2>IANBEST</h2>
 			</div>
 			<div class="ian_about">
