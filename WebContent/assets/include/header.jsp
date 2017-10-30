@@ -15,7 +15,7 @@
 	</ul>
 	<div class="etc-place">
 		<p>
-			<a>BROCHURE PDF</a>
+			<a>BROCHURE PDF</a><i class="fa fa-long-arrow-down" aria-hidden="true"></i>
 		</p>
 	</div>
 

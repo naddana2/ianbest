@@ -447,6 +447,14 @@
 	.small-owl {
 		padding-top: 1.7%;
 	}
+	section .double-set .txt-box .txt-area .btns:after {
+		display:none;
+	}
+	
+	section .double-set .txt-box .txt-area .btns {
+		padding:0.211vw 0.644vw 0.104vw 0 !important;
+	}
+	
 }
 
 @media screen and (min-width:768px) {
@@ -1245,6 +1253,25 @@ and
 		padding: 0 20% 0 8px;
 	}
 }
+
+@media screen and (min-width:1300px) and (max-width:1500px) {
+	
+	section .double-set .txt-box .txt-area .btns:after {
+		font-size:17.1px;
+	}
+	section .double-set .txt-box .txt-area .btns {
+		padding:0.211vw 1.604vw 0.104vw 0;
+	}
+}	
+
+@media screen and (min-width:992px) and (max-width:1299px) {
+			section .double-set .txt-box .txt-area .btns:after {
+		font-size:17.7px;
+	}
+	section .double-set .txt-box .txt-area .btns {
+		padding:0.211vw 1.744vw 0.104vw 0;
+	}
+}	
 
 @media screen and (min-width:991px) and (max-width:1091px) {
 	section .double-set .txt-box .section-header p {

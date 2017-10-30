@@ -138,12 +138,24 @@ section .double-set .txt-box .txt-area .btns {
    font-weight: 300;
    font-size: 1.75em;
    background: transparent;
-   padding: 0.211vw 0.83vw 0.104vw 0;
+   padding: 0.211vw 1.404vw 0.104vw 0;
    color: white;
    border-bottom: 2.45px solid white !important;
    border: none;
    text-transform: lowercase;
 }
+
+section .double-set .txt-box .txt-area .btns:after{ 
+	
+   content: "\\";
+   position: absolute;
+   z-index: 1;
+   pointer-events: none;
+   font-weight:600;
+   font-size:19.1px;
+   margin:20px 0 0 0.74%;
+   transform:rotate(-37deg);
+}	
 
 section .double-set .txt-box .txt-area .btnS_fill {
    margin-top: 3vw;
@@ -339,7 +351,7 @@ article:last-child {
 article:last-child p {
    color: #282828 !important;
    font-size: 1.5em;
-   margin-bottom: 7px;
+   margin-bottom: 12px;
    padding: 0;
    font-family:'KoPuDotum-M', sans-serif;
 }
@@ -352,7 +364,7 @@ article:last-child span {
 
 article:last-child div {
    width: 50% !important;
-   padding: 3.3% 0 !important;
+   padding: 3% 0 !important;
    text-align: center !important;
 }
 
