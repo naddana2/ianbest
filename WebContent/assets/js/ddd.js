@@ -50,7 +50,7 @@ jQuery(window).load(function() {
 		}, transitionDuration: 300
 	});
 	
-	var owl = $('.small-owl').owlCarousel({
+	var owl = $('.owl-carousel').owlCarousel({
 		items: 1,
 		loop: true,
 		nav: false,

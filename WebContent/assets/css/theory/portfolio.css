@@ -1,7 +1,7 @@
 .portfolio-area {
-   padding: 4.5% 15.25%;
+   padding: 4.5% 19.04% 6%;
    overflow: hidden;
-   background: rgb(31, 31, 31);
+   background: #535353;
    visibility:hidden;
 }
 
@@ -163,9 +163,9 @@
 
 .combine .thumb-text2 {
 
-   padding: 24.5% 0 0;
-   background: #494949;
-  
+padding: 24.5% 0 0;
+
+background: #424242;
 }
 
 .combine .thumb-text2 p {
@@ -195,8 +195,7 @@
 
 .portfolio-thumb .thumb-text {
    padding: 5.7% 0 13.3%;
-   background: #494949;
-  
+   background: #424242;
 }
 
 

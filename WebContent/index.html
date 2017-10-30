@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -18,7 +17,6 @@
 <script type="text/javascript">
 	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
-	
 	$(function() {
 		var mobilemenu = $('#mobilemenu');
 		menu = $('nav ul');
@@ -28,20 +26,17 @@
 			e.preventDefault();
 			menu.slideToggle();
 		});
-		
-		
+
 	});
 </script>
 </head>
 
 <body>
 
-	<nav class="top-menu">
-	<!-- 첫째 -->
+	<nav class="top-menu"> <!-- 첫째 -->
 
-	<div class="brand-logo" onclick="location.href= 'index.html'" style="cursor: pointer;">
-	
-	</div>
+	<div class="brand-logo" onclick="location.href= 'index.html'"
+		style="cursor: pointer;"></div>
 	<a id="mobilemenu"></a>
 	<ul class="topnav" id="myTopnav">
 		<li><a class="" href="about.html" id="about">ABOUT</a></li>
@@ -59,7 +54,7 @@
 
 
 
-</nav>
+	</nav>
 
 	<div id="wrap" class="wrap">
 
@@ -135,11 +130,12 @@
 		<article>
 		<div class="left-direction">
 			<p>What's new?</p>
-			<span>RECENT PROJECT</span> <img class="mobile_chevron" src="assets/images/chevronM.png"
-				alt="GTA V" style="">
+			<span>RECENT PROJECT</span> <img class="mobile_chevron"
+				src="assets/images/chevronM.png" alt="GTA V" style="">
 		</div>
 		<div class="right-direction">
-			<span><a>베스티안 오송 메디클러스터<img class="chevron" src="assets/images/chevron.png" alt="GTA V"></a></span>
+			<span><a>베스티안 오송 메디클러스터<img class="chevron"
+					src="assets/images/chevron.png" alt="GTA V"></a></span>
 		</div>
 		</article>
 		<section>
@@ -205,18 +201,12 @@
 		</div>
 		</article>
 	</div>
-	<footer class="dark">
-		<div class="footer-content">
-		<img src="assets/images/ian-logo-gray.png" alt="GTA V">
-		<p class="nomal">(주)이안베스트<br>대표자 박영수 | 법인등록번호 10111-3799321 | TEL 1670 - 5116 | FAX 02 - 568 -2952<br>ADD 서울시 강남구 논현로76길 25 꿈희망미래빌딩 5층<br>E-mail ribio@naver.com | Copyrights㉿2017 ianbest All rights reserved. </p>
-		<p>서울시 강남구 논현로76길 25 꿈희망미래빌딩 5층 <br> TEL 1670 - 5116 | E-mail ribio@naver.com <br> Copyrights 2017 ianbest All rights reserved. </p></div>
-		</footer>
-    
+	<%@ include file="assets//include/footer.jsp"%>
 
 
 	<script type="text/javascript">
-      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-   </script>
+		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+	</script>
 
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>
@@ -226,3 +216,4 @@
 
 </body>
 </html>
+

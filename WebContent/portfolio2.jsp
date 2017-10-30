@@ -62,7 +62,7 @@
 
 				<div class="grid-sizer"></div>
 				<div class="iso-box width">
-					<div class="owl-carousel owl-theme small-owl">
+					<div class="owl-carousel owl-theme">
 						<div class="item">
 							<img class="" src="assets/images/portfolio/square.png"
 								alt="GTA V">
