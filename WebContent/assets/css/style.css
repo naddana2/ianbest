@@ -1,5 +1,4 @@
 @import url('../fonts/stylesheet.css');
-
 @import url('responsive.css');
 
 body {
@@ -13,6 +12,9 @@ body {
    /* -webkit-transition: all 0.3s ease;
    -moz-transition: all 0.3s ease; */
 }
+
+
+
 
 html, body {
    margin: 0;
@@ -372,7 +374,9 @@ footer a {
 
 
 
-
+.after_none:after {
+	display:none !important;
+}
 
 
 /* ï¿½ê½‘ï¿½ê¹®ï¿½ì˜„*/
@@ -384,6 +388,8 @@ footer a {
 a.is-checked {
     color: #ffffff !important;
 }
+
+
 
 
 

@@ -88,13 +88,11 @@
 
 @font-face {
 	font-family: 'KoPuDotum-M';
-	src: url('KoPub Dotum Medium.eot');
-	src: url('KoPub Dotum Medium.eot?#iefix') format('embedded-opentype');
-	src: url('KoPub Dotum Medium.woff') format('woff');
-/* 	src: url('KoPub Dotum Medium.ttf') format('truetype');
- */
-	
-	font-weight: normal;
+		src: url('KoPub Dotum Light.eot');
+	src: url('KoPub Dotum Light.eot?#iefix') format('embedded-opentype');
+	src: url('KoPub Dotum Light.woff') format('woff');
+/* 	src: url('KoPub Dotum Light.ttf') format('truetype');
+ */	font-weight: normal;
 	font-style: normal;
 }
 

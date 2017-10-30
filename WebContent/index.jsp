@@ -7,12 +7,15 @@
 <title>Insert title here</title>
 <meta content="width=device-width, initial-scale=1" name="viewport">
 
+
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/owl.theme.css">
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/theory/index.css">
+
+
 <link rel="stylesheet" href="assets/css/responsive.css">
 <script src="assets/js/jquery-1.9.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
@@ -153,7 +156,7 @@
 					<p class="white content">
 						이안베스트가 만든 이로운 공간. <br>이안베스트에서는 늘 편안한 환경이 제공됩니다.
 					</p>
-					<button class="btns" type="button"
+					<button class="btns after_none" type="button"
 						onclick="location.href='work-lime.html'"
 						style="border-bottom: 2.45px solid #d2d2d2 !important;">MORE
 						VIEW</button>

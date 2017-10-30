@@ -10,6 +10,7 @@
 <title>Insert title here</title>
 <meta content="width=device-width, initial-scale=1" name="viewport">
 
+
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/owl.theme.css">

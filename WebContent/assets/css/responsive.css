@@ -247,7 +247,7 @@
 		display: none;
 	}
 	article:last-child div {
-		padding: 10% 0 !important;
+		padding: 8% 0 !important;
 	}
 	article:last-child span {
 		font-size: 1.342857em;
@@ -464,11 +464,7 @@
 	.mobile_view {
 		display: none !important;
 	}
-	.top-menu .brand-logo {
-		background: url(../images/ian-logo.png) no-repeat !important;
-		padding: 0 91px;
-		height: 71px;
-	}
+
 	.contact_content {
 		padding-top: 40px;
 	}
@@ -501,6 +497,11 @@
 @media screen and (min-width:992px) {
 	section .double-set .less_text .section-header h2 {
 		font-size: 3.457142857142857em !important;
+	}
+		.top-menu .brand-logo {
+		background: url(../images/ian-logo.png) no-repeat !important;
+		padding: 0 91px;
+		height: 71px;
 	}
 }
 
@@ -772,10 +773,15 @@
 		padding: 0;
 	}
 	article .left-box .txt-zone p {
-		font-size: 1.428571em;
+		font-size: 1.528571em;
+		padding-left:10vw;
 	}
 	article .left-direction p {
 		font-size: 1.2em !important;
+		margin-bottom:8px;
+	}
+	article:last-child p {
+		margin-bottom:8px;
 	}
 	.special {
 		height: 13.53vw;
@@ -826,7 +832,7 @@
 		top: calc(50% - 3em);
 	}
 	#mobilemenu {
-		margin-top: 10px;
+		
 	}
 	.portfolio-header ul>li>a {
 		font-size: 16px;
@@ -904,7 +910,7 @@
 
 @media screen and (min-width:769px) and (max-width:828px) {
 	.less_text {
-		padding-top: 7.5% !important;
+		padding-top: 7% !important;
 	}
 }
 
@@ -916,7 +922,7 @@
 
 @media screen and (min-width:891px) and (max-width:991px) {
 	.less_text {
-		padding-top: 9.4% !important;
+		padding-top: 8.65% !important;
 	}
 }
 
@@ -1059,7 +1065,15 @@ and
 		font-size: 2em;
 	}
 	article .left-box .txt-zone p {
-		font-size: 2.128571em;
+		font-size: 1.828571em;
+		padding-left:10vw;
+	}
+	article span {
+		font-size:1.842857em;
+	}
+	article p {
+		font-size:1.414286em;
+		margin-bottom:7px;
 	}
 	.special {
 		height: 13.25vw;
@@ -1162,6 +1176,7 @@ and
 	
 	article .left-box .txt-zone p {
 		font-size:2.128571em;
+		padding-left:10vw;
 	}
 	footer {
 		padding: 2.477% 7.04%;
