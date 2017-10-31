@@ -100,7 +100,7 @@
 	}
 %>
 
-				<div class="iso-box width none_mobile">
+<!-- 				<div class="iso-box width none_mobile">
 					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.jsp?id=1'" style="cursor: pointer;">
 					<img class="" src="assets/images/portfolio/prov.png" alt="GTA V">
 					</div>
@@ -118,7 +118,7 @@
 					</div>
 					
 					</div>
-				</div> 
+				</div>  -->
 
 			</div>
 			<div class="portfolo_footer">
