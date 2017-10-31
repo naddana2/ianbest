@@ -37,12 +37,13 @@
 	<%@ include file="assets/include/header.jsp"%>
 	<div id="wrap" class="wrap">
 		<div class="service-area">
+			
+
 			<div class="subtitle">
 				<h2>BUSINESS AREA</h2>
 			</div>
 
-
-			<div class="service-item">
+			<div class="first-section">
 				<div class="innertitle">
 					<h2>종합건설업</h2>
 					<img class="" src="assets/images/mConstruct.png">
@@ -59,81 +60,76 @@
 				</div>
 
 				<div class="img-grid">
-					<img class="" src="assets/images/service/icon-02.png">
-					<img class="" src="assets/images/service/icon-03.png">
-					<img class="" src="assets/images/service/icon-04.png">
-					<img class="" src="assets/images/service/icon-05.png">
-					<img class="" src="assets/images/service/icon-06.png">
-					<img class="" src="assets/images/service/icon-07.png">
+					<img class="" src="assets/images/service/icon-02.png"> <img
+						class="" src="assets/images/service/icon-03.png"> <img
+						class="" src="assets/images/service/icon-04.png"> <img
+						class="" src="assets/images/service/icon-05.png"> <img
+						class="" src="assets/images/service/icon-06.png"> <img
+						class="" src="assets/images/service/icon-07.png">
+				</div>
 				</div>
 
+				
+						
+						<div class="center-grid">
+				<div class="center-grid-left">
+				<!-- 	<img class="" src="assets/images/mHospital.png"> -->
+					<h2>
+						종합병원건축 <br>인테리어
+					</h2>
+					<p>전문성-노하우</p>
+				</div>
+				
+				<div class="center-grid-right">
+					<span>전문적이고 차별화된 의료시설 건축은 다른 건축물에 비해 기능성이 강조될 뿐만 아니라 24시간
+						사람이 활동하는 공간으로 진료과별 규모별 특성이 다르기 때문에 전문성이 반드시 필요합니다. 환자와
+						의료진의 관계를 이해하고 소통하면서 최상의 공간을 창조하는 것이 우리의 목표입니다. </span>
+					<div class="introduce-box">
+						<div class="introduce">
+							<p>
+								<img class="" src="assets/images/order.png">사용자 중심 업무프로세스를
+								구현한 인테리어
+							</p>
+							<p>
+								<img class="" src="assets/images/order2.png">사용자경험을 표준화하는
+								시설시스템 구축
+							</p>
+							<p>
+								<img class="" src="assets/images/order3.png">신규건물도 1년 된 듯
+								10년된 건물도 1년 된 듯
+							</p>
+						</div>
 
-				<div class="innertitle">
-					<h2>종합 병원 건축 & 인테리어</h2>
-					<img class="" src="assets/images/mHospital.png">
-				</div>
-
-				<div class="span-box mobile_hide">
-					<span>전문적이고 차별화된 의료시설 건축은 다른 건축물에 비해 기능성이 강조될 뿐만 아니라<br>24시간
-						사람이 활동하는 공간으로 진료과별 규모별 특성이 다르기 때문에<br>전문성이 반드시 필요합니다.
-					</span>
-				</div>
-				<div class="span-box mobile_view">
-					<span>의료시설 건축은 다른 건축과 달리 진료과별 규모별 특성이 다르기 때문에 전문성이 반드시
-						필요합니다. </span>
-				</div>
-
-				<div class="divider mobile_hide"></div>
-
-				<div class="span-box mobile_hide">
-					<span>10여년간의 의료기관 건축 노하우를 보유한 이안베스트는 급변하는 의료 환경 안에서<br>환자와
-						의료진의 관계를 이해하고 병원의 미션을 공유하고자 노력합니다.<br>의료진과 직원 환자 들과 끊임없이 소통하고
-						의견을 조율하면서 최상의 공간을<br>창조하는 것이 우리의 목표입니다.
-					</span>
-				</div>
-				<div class="span-box mobile_view">
-					<span>환자와 의료진의 공간을 이해하고 최상의 공간을 창조하는 것이 우리의 목표입니다. </span>
-				</div>
-				<div class="introduce-box">
-					<div class="introduce">
-						<p>
-							<img class="" src="assets/images/order.png">사용자 중심
-							업무프로세스를 구현한 인테리어
-						</p>
-						<p>
-							<img class="" src="assets/images/order2.png">사용자경험을
-							표준화하는 시설시스템 구축
-						</p>
-						<p>
-							<img class="" src="assets/images/order3.png">신규건물도 1년 된
-							듯 10년된 건물도 1년 된 듯
-						</p>
 					</div>
+				
+				</div>
+				</div>
+				<div class="center-grid give-padding">
+				<div class="center-grid-left">
 					
+					<h2>
+						시설물<br>종합관리
+					</h2>
+				<!-- 	<p>유지-관리시스템</p> -->
 				</div>
-
-				<div class="innertitle better-bottom">
-					<h2>시설종합관리</h2>
-					<img class="" src="assets/images/mManage.png">
-				</div>
-				<div class="span-box mobile_hide">
-					<span>완공이 되었다고 모든 게 끝난 것이 아닙니다.<br> 건축이 이루어진 후의 유지보수가
-						건축공간의 수명을 결정합니다.<br> 효율적이고 쳬계적인 이안베스트의 시설종합관리 서비스로<br>
-						건출설계부터 관리, 처음부터 끝가지 관리합니다.
+				<div class="center-grid-right">
+					<span>완공이 되었다고 모든 게 끝난 것이 아닙니다. 건축이 이루어진 후의 유지보수가
+						건축공간의 수명을 결정합니다. 효율적이고 쳬계적인 이안베스트의 시설종합관리 서비스로 건출설계부터 유지보수, 건축의 처음부터 끝까지 함께합니다.
 					</span>
+					<div class="inner-grid">
+				<div class="inbox"><img class="" src="assets/images/center_1.png"><h2>철저한검증으로<br>시설물유지관리</h2></div>
+				<div class="inbox"><img class="" src="assets/images/center_3.png"><h2>위생적이고 청결한<br>청소용역지원</h2></div>
+				<div class="inbox"><img class="" src="assets/images/center_2.png"><h2>안전지대지킴이<br>경비용역</h2></div>
+				<div class="inbox"><img class="" src="assets/images/center_3.png"><h2>위생적이고 청결한<br>청소용역지원</h2></div>
+				
+				</div>
+						</div>
+					
+				
 				</div>
 
-				<div class="span-box mobile_view">
-					<span>건축이 이루어진 후의 유지보수가 건축공간의 수명을 결정합니다. 이안베스트는 효율적이고 체계적으로
-						시설종합관리 서비스를 제공합니다. </span>
-				</div>
 
-				<div class="triangle">
-					<img class="" src="assets/images/service/mobile_answer.png">
-				</div>
-			</div>
-
-			<div class="subtitle better-top">
+			<div class="history-title">
 				<h2>HISTORY</h2>
 			</div>
 
@@ -405,6 +401,7 @@
 		<p>Get in touch</p>
 		<h2>CONTACT</h2>
 	</div>
+
 
 	<%@ include file="assets//include/footer.jsp"%>
 	<script type="text/javascript">

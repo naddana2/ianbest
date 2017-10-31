@@ -460,6 +460,7 @@
 @media screen and (min-width:768px) {
 	.service-area>.tab-content {
 		display: block;
+		padding:0 5.5%;
 	}
 	.mobile_view {
 		display: none !important;

@@ -1,17 +1,9 @@
 .service-area {
-	padding: 4.5% 17.04% 6%;
+	padding: 4.5% 19.04% 6%;
 	overflow: hidden;
 	background: #535353;
 }
 
-.service-area .service-item {
-	padding:38px 0 28px;
-	border-bottom:2px solid #b5b5b673;
-}
-
-.service-item .innertitle {
-	padding-bottom:25px;
-}
 
 .innertitle img {
 	
@@ -43,6 +35,7 @@
 .service-area  span {
 	color:#b5b5b6;
 	font-size:1.3em;
+	line-height:33.2px;
 	
 }
 .service-area .subtitle {
@@ -59,7 +52,7 @@
 
 
 .img-grid {
-	padding: 5.5% 5% 9.5%;
+	padding: 5.5% 5% 3.4%;
 	overflow:hidden;
 }
 
@@ -69,21 +62,22 @@
 }
 
 .introduce-box {
-	padding:2.4% 0 5.3%;
+	padding:3.8% 0 5.3%;
+	border-top:2px solid #808080;
+	margin-top:20px;
 }
 .introduce p {
-	padding-bottom:10px;
-	line-height:36px;
-   font-size: 1.492857em;
+	
+   font-size: 1.332857em;
+   margin-bottom:0px;
    color: #ffffff;
-
    letter-spacing: -.12px;
 }
 
 
 .introduce img {
- 
- 	padding-right:2%;
+     
+ 	padding:8.5px 12px 8px 4px;
 }
 
 
@@ -448,7 +442,8 @@ h1.title{
 }
 
 .triangle img {
-    width: 40%;
+    width: 43%;
+    padding:5.3% 0;
 }
 
 @media screen and (min-width:450px) and (max-width:768px) {
@@ -470,6 +465,121 @@ h1.title{
 	.introduce-box {
 		padding:3.3% 0 6% 8px !important; 
 	}
+}
+
+
+
+
+
+/* 김영찬스웨그 */
+
+ .center-grid {
+	
+	padding:4.5% 5.5% 5.5%;
+	overflow:hidden;
+}
+
+ .center-grid img {
+	
+	
+}
+ .center-grid-left {
+	width:30%;
+	float:left;
+}
+
+
+ .center-grid-left h2 {
+	margin-top:5px;
+	color:white;
+	letter-spacing:1.48px;
+	font-size:1.9em;
+	margin-bottom:6px;
+	line-height:34px;
+}
+
+.center-grid-left p {
+	color:#b5b5b6;
+	font-weight:300;
+	font-size:1.1em;
+	letter-spacing:-0.32px;
+}
+
+
+
+.center-grid-right {
+	width:70%;
+	float:left;
+}
+
+
+.center-grid-right h2 {
+	
+}
+
+
+
+.center-grid-left span {
+	
+}
+
+.inner-grid {
+	padding:7.5% 3% 3%;
+	overflow:hidden;
+	text-align:center;
+}
+
+.inner-grid .inbox {
+	width:25%;
+	float:left;
+}
+
+.inner-grid .inbox h2 {
+	padding-top:0px;
+	color:white;
+	letter-spacing:-0.12px;
+	font-size:1.2em;
+	line-height:24.4px;
+	margin:0;
+	
+}
+
+
+
+.inner-grid  img {
+	
+}
+
+
+
+
+.give-padding {
+	padding:4.5% 5.5% 3.2% !important;
+}
+
+
+
+
+.first-section {
+	padding:4.5% 5.5% 5.5%;
+	overflow:hidden;
+}
+
+.first-section .innertitle {
+	padding:38px 0 25px;
+}
+
+.history-title {
+	padding:3.3414% 0 0 0;
+	border-top:2px solid #808080;
+}
+.history-title h2 {
+	font-size: 2.392857142857143em;
+	font-weight: 600;
+	color: white;
+	padding:0;
+	letter-spacing: -0.12px;
+	text-transform:none;
 }
 
 
