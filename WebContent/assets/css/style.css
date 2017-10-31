@@ -330,8 +330,9 @@ footer a {
    color: #dcdddd !important;
 }
 
-.better-top {
-   padding-top: 3.3414%;
+.better-padding {
+   padding-top: 4.8% !important;
+   padding-bottom:2% !important;
 }
 .better-bottom {
    padding-bottom: 3.3414% !important;

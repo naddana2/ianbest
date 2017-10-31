@@ -44,17 +44,18 @@
 			</div>
 
 			<div class="first-section">
-			<div class="center-grid">
+			<div class="center-grid better-padding">
 				<div class="center-grid-left">
+				<div class="make-rborder"></div>
 					<h2>종합건설업</h2>
-					<p>전문성-노하우</p>
+					<img class="order" src="assets/images/order.png"><p>차별화 - 기술력</p>
 					</div>
 					<div class="center-grid-right">
 				
 
 				
 					<span>사람에게 편안하고 행복한 공간을 디자인하는 이안베스트는 환경을 심도있게 이해하고 맞춤 솔루션을
-						제안합니다. </span>
+						제안합니다. 고객만족을 최우선의 가치로 삼고 철저한 프로젝트 관리 능력과 차별화된 기술력을 바탕으로 행복한 미래를 건설하겠습니다. </span>
 						<div class="inner-grid2">
 				<div class="inbox"><img class="imagines" src="assets/images/service/icon-02.png"></div>
 				<div class="inbox"><img class="imagines" src="assets/images/service/icon-03.png"></div>
@@ -75,10 +76,12 @@
 						<div class="center-grid">
 				<div class="center-grid-left">
 				<!-- 	<img class="" src="assets/images/mHospital.png"> -->
+					<div class="make-rborder"></div>
 					<h2>
 						종합병원건축 <br>인테리어
 					</h2>
-					<p>전문성-노하우</p>
+					<img class="order" src="assets/images/order2.png"><p>전문성 - 노하우</p>
+			
 				</div>
 				
 				<div class="center-grid-right">
@@ -88,16 +91,13 @@
 					<div class="introduce-box">
 						<div class="introduce">
 							<p>
-								<img class="" src="assets/images/order.png">사용자 중심 업무프로세스를
-								구현한 인테리어
+								<strong>휴먼인테리어</strong>사용자 중심 업무프로세스를 구현한 인테리어
 							</p>
 							<p>
-								<img class="" src="assets/images/order2.png">사용자경험을 표준화하는
-								시설시스템 구축
+								<strong>표준화시스템</strong>사용자경험을 표준화하는 시설시스템 구축
 							</p>
 							<p>
-								<img class="" src="assets/images/order3.png">신규건물도 1년 된 듯
-								10년된 건물도 1년 된 듯
+								<strong>친환경건축물</strong>신규건물도 1년 된 듯 10년된 건물도 1년 된 듯
 							</p>
 						</div>
 
@@ -107,11 +107,12 @@
 				</div>
 				<div class="center-grid give-padding">
 				<div class="center-grid-left">
+			<div class="make-rborder"></div>
 					
 					<h2>
 						시설물<br>종합관리
 					</h2>
-				<!-- 	<p>유지-관리시스템</p> -->
+					<img class="order" src="assets/images/order3.png"><p>유지 - 관리시스템</p>
 				</div>
 				<div class="center-grid-right">
 					<span>완공이 되었다고 모든 게 끝난 것이 아닙니다. 건축이 이루어진 후의 유지보수가

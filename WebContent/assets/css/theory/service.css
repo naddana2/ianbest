@@ -35,7 +35,7 @@
 .service-area  span {
 	color:#b5b5b6;
 	font-size:1.3em;
-	line-height:33.2px;
+	line-height:31.2px;
 	
 }
 .service-area .subtitle {
@@ -62,22 +62,28 @@
 }
 
 .introduce-box {
-	padding: 8.5% 0 0%;
-	border-top:2px solid #808080;
+	padding: 6.7% 0 0%;
 	margin-top:20px;
 }
 .introduce p {
 	
-   font-size: 1.332857em;
-   margin-bottom:0px;
-   color: #ffffff;
-   letter-spacing: -.12px;
+font-size: 1.332857em;
+	
+margin-bottom: 5px;
+	
+color: #ffffff;
+	
+letter-spacing: -.12px;
 }
 
+.introduce p > strong {
+	color:#70b640;
+	padding-right:5%;
+	}
 
 .introduce img {
      
- 	padding:8.5px 12px 8px 4px;
+padding: 8.5px 12px 8px 4px;
 }
 
 
@@ -229,7 +235,7 @@
 	text-align: left;
 	list-style: none;
 	margin: 0;
-	padding: 3% 1.5% 0;
+	padding: 4.8% 1.5% 0;
 	overflow: hidden;
 	margin-bottom: 8%;
 }
@@ -475,7 +481,7 @@ h1.title{
 
  .center-grid {
 	
-padding: 8.5% 5.5% 0%;
+padding: 6.7%;
 	
 overflow:hidden;
 }
@@ -484,6 +490,11 @@ overflow:hidden;
 	
 	
 }
+ .center-grid .order {
+ 	float:left;
+ 	padding:0.7% 1.4%;
+ 	width:30px;
+ }
 
  .inbox .imagines {
 	width:100%;
@@ -492,9 +503,13 @@ overflow:hidden;
 	
 }
  .center-grid-left {
-	width:30%;
+	width:35%;
 	float:left;
 }
+
+ .center-grid-left .make-rborder {
+ 
+ }
 
 
  .center-grid-left h2 {
@@ -510,13 +525,13 @@ overflow:hidden;
 	color:#b5b5b6;
 	font-weight:300;
 	font-size:1.1em;
-	letter-spacing:-0.32px;
+	letter-spacing:-1.32px;
 }
 
 
 
 .center-grid-right {
-	width:70%;
+	width:65%;
 	float:left;
 }
 
@@ -532,7 +547,7 @@ overflow:hidden;
 }
 
 .inner-grid {
-	padding: 8.5% 3% 3%;
+	padding: 6.5% 3% 3%;
 	overflow:hidden;
 	text-align:center;
 }
@@ -553,7 +568,7 @@ overflow:hidden;
 }
 
 .inner-grid2 {
-	padding: 8.5% 2% 0%;
+	padding: 6.5% 2% 0%;
 	overflow:hidden;
 	text-align:center;
 }
@@ -583,7 +598,7 @@ overflow:hidden;
 
 
 .give-padding {
-	padding: 8.5% 5.5% 8.5% !important;
+	padding: 6.7% 5.5% 8.5% !important;
 }
 
 
