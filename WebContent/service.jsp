@@ -44,31 +44,32 @@
 			</div>
 
 			<div class="first-section">
-				<div class="innertitle">
+			<div class="center-grid">
+				<div class="center-grid-left">
 					<h2>종합건설업</h2>
-					<img class="" src="assets/images/mConstruct.png">
-				</div>
-				<div class="span-box mobile_hide">
-					<span>사람이 편안한,사람이 행복한 공간을 디자인하는 이안베스트는<br>사람을 둘러싼 여러가지
-						환경을 심도있게 이해하고 솔루션을 제안합니다.
-					</span>
-				</div>
+					<p>전문성-노하우</p>
+					</div>
+					<div class="center-grid-right">
+				
 
-				<div class="span-box mobile_view">
+				
 					<span>사람에게 편안하고 행복한 공간을 디자인하는 이안베스트는 환경을 심도있게 이해하고 맞춤 솔루션을
 						제안합니다. </span>
-				</div>
-
-				<div class="img-grid">
-					<img class="" src="assets/images/service/icon-02.png"> <img
-						class="" src="assets/images/service/icon-03.png"> <img
-						class="" src="assets/images/service/icon-04.png"> <img
-						class="" src="assets/images/service/icon-05.png"> <img
-						class="" src="assets/images/service/icon-06.png"> <img
-						class="" src="assets/images/service/icon-07.png">
+						<div class="inner-grid2">
+				<div class="inbox"><img class="imagines" src="assets/images/service/icon-02.png"></div>
+				<div class="inbox"><img class="imagines" src="assets/images/service/icon-03.png"></div>
+				<div class="inbox"><img class="imagines" src="assets/images/service/icon-04.png"></div>
+				<div class="inbox"><img class="imagines" src="assets/images/service/icon-05.png"></div>
+				<div class="inbox"><img class="imagines" src="assets/images/service/icon-06.png"></div>
+				<div class="inbox"><img class="imagines" src="assets/images/service/icon-07.png"></div>
 				</div>
 				</div>
 
+				
+				
+				</div>
+				
+				</div>
 				
 						
 						<div class="center-grid">
@@ -394,12 +395,13 @@
 					$(this).tab('show')
 				})
 			</script>
-		</div>
+		
 		<!-- tab content -->
 	</div>
 	<div class="move-contact">
 		<p>Get in touch</p>
 		<h2>CONTACT</h2>
+	</div>
 	</div>
 
 
