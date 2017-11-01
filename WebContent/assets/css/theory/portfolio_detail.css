@@ -47,9 +47,40 @@
 	padding: 2.3vw 1.5vw;
 }
 
+
+.right-grid .topbox P { 
+	letter-spacing: 0.2px;
+	font-size: 1.36em;
+	color: #b5b5b6;
+}
+
+.right-grid .topbox .gw { 
+letter-spacing: 0.2px;
+	font-size: 1.56em;
+	color: #b5b5b6;
+	overflow: hidden;
+	float: left;
+	width: 100px;
+	margin-right: 2.2%;
+}
+
+
+.right-grid .topbox strong { 
+	letter-spacing: 0.2px;
+	
+	color: white;
+	float:left;
+}
+
+.right-grid .topbox .subject { 
+		letter-spacing: 0.2px;
+	font-size: 1.56em;
+	color: #b5b5b6;
+}
+
 .right-grid .bottombox {
 	border-bottom: 2px solid #666666;
-	padding: 3.7vw 0 0 1.5vw;
+	padding: 3.4vw 0 0 1.5vw;
 }
 
 .right-grid h2 {
