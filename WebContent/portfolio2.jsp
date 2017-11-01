@@ -53,8 +53,8 @@
 					<li><a href="#" class="is-checked" data-filter="*">All</a></li>
 					<li><a href="#" class="" data-filter=".office">Office</a></li>
 					<li><a href="#" class="" data-filter=".complex">Complex</a></li>
-					<li><a href="#" class="" data-filter=".hospital">Hospital</a></li>
-					<li><a href="#" class="" data-filter=".remodeling">Remodling</a></li>
+					<li class="mobile-align"><a href="#" class="" data-filter=".hospital">Hospital</a></li>
+					<li class="mobile-align"><a href="#" class="" data-filter=".remodeling">Remodling</a></li>
 				</ul> 
 			</div>
 							

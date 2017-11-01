@@ -69,7 +69,7 @@
 	
 font-size: 1.332857em;
 	
-margin-bottom: 5px;
+padding-bottom: 12px;
 	
 color: #ffffff;
 	
@@ -494,6 +494,7 @@ overflow:hidden;
  	float:left;
  	padding:0.7% 1.4%;
  	width:30px;
+ 	display:none;
  }
 
  .inbox .imagines {
@@ -503,8 +504,7 @@ overflow:hidden;
 	
 }
  .center-grid-left {
-	width:35%;
-	float:left;
+	
 }
 
  .center-grid-left .make-rborder {
@@ -517,22 +517,23 @@ overflow:hidden;
 	color:white;
 	letter-spacing:1.48px;
 	font-size:1.9em;
-	margin-bottom:6px;
+	margin-bottom:5px;
 	line-height:34px;
+	padding-bottom:0;
 }
 
 .center-grid-left p {
-	color:#b5b5b6;
+	color:#8ade3e;
 	font-weight:300;
-	font-size:1.1em;
+	font-size:1.3em;
 	letter-spacing:-1.32px;
+	display:none;
 }
 
 
 
 .center-grid-right {
-	width:65%;
-	float:left;
+	
 }
 
 
@@ -558,7 +559,7 @@ overflow:hidden;
 }
 
 .inner-grid .inbox h2 {
-	padding-top:0px;
+	padding-top:15px;
 	color:white;
 	letter-spacing:-0.12px;
 	font-size:1.2em;
@@ -591,7 +592,8 @@ overflow:hidden;
 
 
 .inner-grid  img {
-	
+	width:100%;
+	padding:8px 13px;
 }
 
 
@@ -659,3 +661,21 @@ overflow:hidden;
 		padding:2.477% calc(7.04% + 8px) !important;
 	}	
 } */
+
+
+
+.mobile-in {
+	display:none;
+}
+
+.mobile-out {
+	display:block;
+}
+
+.mobile-text-in {
+	display:none;
+}
+
+.mobile-text-out {
+	display:block;
+}

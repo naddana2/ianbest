@@ -27,8 +27,34 @@
 	.portfolio-thumb .thumb-text {
 		padding: 11% 0;
 	}
+	
+	.inbox .imagines {
+		padding:5px 5px !important;
+	}
+	.inner-grid  img {
+		padding:8px 17px !important;
+	}
+	
+	
+	
+	
 }
 
+@media screen and (max-width:530px) {
+	.inner-grid2 .inbox {
+		width:50%;
+	}
+	.inner-grid .inbox {
+		width:50%;
+	}
+	.inner-grid  img {
+		padding:8px 16px;
+	}
+	.inner-grid {
+		padding:10.5% 5% 3%;
+	}
+	
+}
 @media screen and (max-width:374px) {
 	article:last-child span {
 		font-size: 1.242857em !important;
@@ -39,6 +65,11 @@
 	.view-header .owl-controls {
 		width: 35% !important;
 	}
+	.mobile-tab {
+		padding:0 0 0 4% !important;
+	}
+	
+	
 }
 
 @media screen and (max-width:424px) {
@@ -49,7 +80,7 @@
 		display: none;
 	}
 	.mobile-tab {
-		padding: 0 0 0 8px !important;
+		padding: 0 0 0 4% !important;
 	}
 }
 
@@ -80,6 +111,15 @@
 		font-size: 1.46em !important;
 		line-height: 31.7px !important;
 	}
+	.portfolio-header ul>li {
+		text-align:left;
+	}
+		.portfolio-header ul>li {
+		padding: 3px 3px 7px 0 !important;
+		width: 33%;
+		float: left;
+	}
+	
 }
 
 @media screen and (max-width:343px) {
@@ -115,7 +155,7 @@
 		padding: 45px 4.5% 2.5%;
 	}
 	.introduce-box {
-		padding: 20px 0 46px 8px !important;
+		padding: 20px 0 46px 0 !important;
 	}
 	.about-content h2 {
 		font-size: 1.792857em;
@@ -301,6 +341,12 @@
 	.map .subtitle {
 		padding-bottom: 10px;
 	}
+	.center-grid-left h2 {
+		margin-bottom:15px;
+	}
+	.better-padding {
+		padding-bottom:6.7% !important;
+	}
 }
 
 @media screen and (max-width:991px) {
@@ -345,6 +391,10 @@
 	.about-area {
 		padding: 3.128% 4.34% 1.605%;
 	}
+	.service-area {
+		padding: 3.128% 4.34% 1.605%;
+		}
+	
 	section .double-set .txt-box {
 		padding: 3.5% 0 0 4.34%;
 	}
@@ -454,13 +504,19 @@
 	section .double-set .txt-box .txt-area .btns {
 		padding:0.211vw 0.644vw 0.104vw 0 !important;
 	}
+		.mobile-in {
+	display:block !important;
+	}
+	.mobile-out {
+	display:none !important;
+	}
 	
 }
 
 @media screen and (min-width:768px) {
 	.service-area>.tab-content {
 		display: block;
-		padding:0 5.5%;
+		padding:0 5.5% 5.5%;
 	}
 	.mobile_view {
 		display: none !important;
@@ -469,6 +525,20 @@
 	.contact_content {
 		padding-top: 40px;
 	}
+	.center-grid-left {
+		width:35%;
+		float:left;
+	}
+	.center-grid-right {
+		width:65%;
+		float:left;
+	}
+	.center-grid-left p {
+		display:block;
+	}
+	 .center-grid .order {
+	 	display:block;
+	 }
 }
 
 
@@ -574,7 +644,7 @@
 		margin-bottom: 5px;
 	}
 	.portfolio-header ul>li {
-		padding: 3px 3px 7px 0 !important;
+	/* 	padding: 3px 3px 7px 0 !important; */
 		width: 33%;
 		float: left;
 	}
@@ -582,6 +652,10 @@
 		padding:7%;
 	}
 }
+
+@media screen and (min-width:425px) and (max-width:432px) {
+	
+	}
 
 @media screen and (min-width:481px) and (max-width:579px) {
 	.img-grid {
@@ -616,7 +690,7 @@
 	
 	img.about_img {
 		width: 100%;
-		padding:0px 23% 8.5%;
+		padding:0px 26% 8.5%;
 	}
 	.about_icon {
 		padding: 5.5% 2.2% 10%;
@@ -650,6 +724,10 @@
 		padding:7.1% 0 !important;
 	}
 	
+	.mobile-align {
+		padding:0 20% !important;
+	}
+	
 }
 
 @media screen and (min-width:425px) and (max-width:579px) {
@@ -667,11 +745,15 @@
 		padding:2.6% 9.5px 10px;
 		text-align:center;
 	}
-	.portfolio-header ul>li {
-		padding: 7px 10px 3px 0 !important;
-	}
+	
 	
 }
+
+@media screen and (min-width:425px) and (max-width:480px) {
+	
+	
+		
+	}
 
 @media screen and (min-width:481px) and (max-width:767px) {
 	section .double-set .txt-box .section-header h2 {
@@ -797,7 +879,7 @@
 		border-bottom: 13.53vw solid transparent;
 	}
 	.introduce-box {
-		padding: 30px 0 51px 8px !important;
+		padding: 30px 0 51px 0px !important;
 	}
 	.img-grid {
 		padding: 5.5% 4% 9.5%;
@@ -815,7 +897,7 @@
 		font-size: 1.24em;
 	}
 	.introduce p {
-		font-size: 1.272286em;
+		font-size: 1.182286em;
 	}
 	#mobilemenu i {
 		margin-top: 1vw;
@@ -875,6 +957,26 @@
 	.portfolio-thumb .thumb-text {
 		padding: 8.7% 0 !important;
 	}
+	
+	.center-grid-left h2 {
+		font-size:1.7em;
+		margin-bottom:2px;
+	}
+	.center-grid-left p {
+		font-size:1.06em;
+	}
+	.inbox .imagines {
+		padding:5px 5px;
+	}
+	.center-grid {
+		padding:6.7% 2%;
+	}
+	.inner-grid .inbox {
+		width:25%;
+	}
+	
+	
+	
 }
 
 @media screen and (min-width:768px) and (max-width:768px) {
@@ -974,6 +1076,9 @@
 	.imgbox p {
 		font-size: 1.14em;
 	}
+	.inbox .imagines {
+		padding:5px 5px;
+	}
 }
 
 @media
@@ -1026,6 +1131,9 @@ and
 	}
 	.about-area {
 		padding: 3.128% 4.34% 1.605%;
+	}
+	.service-area {
+		padding:3.128% 4.34% 1.605%;
 	}
 	section .double-set .txt-box .section-header p {
 		font-size: 1.271429em;
@@ -1132,12 +1240,13 @@ and
 		font-size: 4.55vw;
 		transform: rotate(-4deg);
 	}
+	img.about_img {
+		padding:0 34px;
+	}
 }
 
 @media screen and (max-width:1191px) {
-	.service-area {
-		padding: 4.5% 4.34% 11.5%;
-	}
+	
 }
 
 @media screen and (max-width:1200px) {
@@ -1204,7 +1313,7 @@ and
 		font-size: 2.442857em;
 	}
 	.service-area {
-		padding: 4.5% 7.34% 7.04%;
+		padding: 3.128% 13.04% 1.605%;
 	}
 	.top-menu .brand-logo {
 		margin-right: 3.2vw;
@@ -1233,6 +1342,7 @@ and
 	.about-area {
 		padding: 3.128% 13.04% 1.605%;
 	}
+	
 	.about_icon {
 		padding: 7.5% 3.4% 10%;
 	}
@@ -1275,7 +1385,7 @@ and
 		padding: 2.4% 0 5.3% 8px;
 	}
 	.mobile-tab {
-		padding: 0 20% 0 8px;
+		padding: 0 20% 0 4%;
 	}
 }
 
@@ -1357,6 +1467,21 @@ and
 		margin-right:4.2vw;
 	}
 }
+@media screen and (max-width:611px) {
+	
+	.mobile-text-in {
+	display:block;
+	}
+
+.mobile-text-out {
+	display:none;
+	}
+	.introduce p {
+		padding-bottom:5px;
+		margin-bottom:8px;
+	}
+}
+
 
 @media screen and (min-width:1376px) and (max-width:1580px) {
 	article .left-box img {
@@ -1377,6 +1502,9 @@ and
 	.about-area {
 		padding: 4.5% 14.04% 6%;
 	}
+	.service-area {
+		padding: 4.5% 14.04% 6%;
+	}
 	.about_ianImage:before {
 		right: 53.3%;
 		font-size: 3.85vw;
@@ -1387,6 +1515,15 @@ and
 	#mobilemenu {
 		margin-top: 3px;
 	}
+}
+
+
+@media screen and (min-width:424px) and (max-width:767px) {
+
+	.inbox .imagines {
+		padding:8px 8px;
+	}
+	
 }
 
 @media screen and (min-width:1580px) and (max-width:1700px) {
@@ -1404,9 +1541,9 @@ and
 @media screen and (min-width:481px) and (max-width:579px) {
 }
 
-@media screen and (min-width:1886px) {
-	.about_icon {
-		padding: 7.5% 15% 10%;
+@media screen and (min-width:1700px) {
+	.about_icon  {
+	padding:7.5% 11% 10%;
 	}
 }
 

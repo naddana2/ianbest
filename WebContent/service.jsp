@@ -48,7 +48,7 @@
 				<div class="center-grid-left">
 				<div class="make-rborder"></div>
 					<h2>종합건설업</h2>
-					<img class="order" src="assets/images/order.png"><p>차별화 - 기술력</p>
+					<p>차별화 - 기술력</p>
 					</div>
 					<div class="center-grid-right">
 				
@@ -80,7 +80,7 @@
 					<h2>
 						종합병원건축 <br>인테리어
 					</h2>
-					<img class="order" src="assets/images/order2.png"><p>전문성 - 노하우</p>
+					<p>전문성 - 노하우</p>
 			
 				</div>
 				
@@ -89,7 +89,7 @@
 						사람이 활동하는 공간으로 진료과별 규모별 특성이 다르기 때문에 전문성이 반드시 필요합니다. 환자와
 						의료진의 관계를 이해하고 소통하면서 최상의 공간을 창조하는 것이 우리의 목표입니다. </span>
 					<div class="introduce-box">
-						<div class="introduce">
+						<div class="introduce mobile-text-out">
 							<p>
 								<strong>휴먼인테리어</strong>사용자 중심 업무프로세스를 구현한 인테리어
 							</p>
@@ -98,6 +98,17 @@
 							</p>
 							<p>
 								<strong>친환경건축물</strong>신규건물도 1년 된 듯 10년된 건물도 1년 된 듯
+							</p>
+						</div>
+						<div class="introduce mobile-text-in">
+							<p>
+								<strong>휴먼인테리어</strong></p><p>사용자 중심 업무프로세스를 구현한 인테리어
+							</p>
+							<p>
+								<strong>표준화시스템</strong></p><p>사용자경험을 표준화하는 시설시스템 구축
+							</p>
+							<p>
+								<strong>친환경건축물</strong></p><p>신규건물도 1년 된 듯 10년된 건물도 1년 된 듯
 							</p>
 						</div>
 
@@ -112,17 +123,17 @@
 					<h2>
 						시설물<br>종합관리
 					</h2>
-					<img class="order" src="assets/images/order3.png"><p>유지 - 관리시스템</p>
+					<p>유지 - 관리시스템</p>
 				</div>
 				<div class="center-grid-right">
 					<span>완공이 되었다고 모든 게 끝난 것이 아닙니다. 건축이 이루어진 후의 유지보수가
 						건축공간의 수명을 결정합니다. 효율적이고 쳬계적인 이안베스트의 시설종합관리 서비스로 건출설계부터 유지보수, 건축의 처음부터 끝까지 함께합니다.
 					</span>
 					<div class="inner-grid">
-				<div class="inbox"><img class="" src="assets/images/center_1.png"><h2>철저한검증으로<br>시설물유지관리</h2></div>
-				<div class="inbox"><img class="" src="assets/images/center_3.png"><h2>위생적이고 청결한<br>청소용역지원</h2></div>
-				<div class="inbox"><img class="" src="assets/images/center_2.png"><h2>안전지대지킴이<br>경비용역</h2></div>
-				<div class="inbox"><img class="" src="assets/images/center_3.png"><h2>위생적이고 청결한<br>청소용역지원</h2></div>
+				<div class="inbox"><img class="" src="assets/images/center_1.png"><h2 class="mobile-out">철저한검증으로<br>시설물유지관리</h2><h2 class="mobile-in">유지관리</h2></div>
+				<div class="inbox"><img class="" src="assets/images/center_2.png"><h2 class="mobile-out">위생적이고 청결한<br>청소용역지원</h2><h2 class="mobile-in">청소용역</h2></div>
+				<div class="inbox"><img class="" src="assets/images/center_3.png"><h2 class="mobile-out">안전지대지킴이<br>경비용역</h2><h2 class="mobile-in">경비용역</h2></div>
+				<div class="inbox"><img class="" src="assets/images/center_4.png"><h2 class="mobile-out">위생적이고 청결한<br>청소용역지원</h2><h2 class="mobile-in">청소용역</h2></div>
 				
 				</div>
 						</div>
