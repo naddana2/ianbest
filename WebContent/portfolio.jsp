@@ -62,10 +62,19 @@
 				<div class="iso-box width">
 					<div class="owl-carousel owl-theme small-owl">
 						<div class="item">
-							<img class="" src="assets/images/portfolio/square.png"
-								alt="GTA V">
+							<div class="owl-overlay">
+								<h2>
+									건물설계 컨설팅에서 시설관리까지<br> <strong>앞서나가는 종합 건설, 이안베스트</strong>
+								</h2>
+							</div>
+							<img class="" src="assets/images/portfolio/square.png" alt="GTA V">
 						</div>
 						<div class="item">
+							<div class="owl-overlay">
+								<h2>
+									건물설계 컨설팅에서 시설관리까지<br> <strong>앞서나가는 종합 건설, 이안베스트</strong>
+								</h2>
+							</div>
 							<img class="" src="assets/images/portfolio/4in22.png" alt="GTA V">
 						</div>
 					</div>
@@ -100,9 +109,9 @@
 	}
 %>
 
-<!-- 				<div class="iso-box width none_mobile">
+ 				<div class="iso-box width none_mobile">
 					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.jsp?id=1'" style="cursor: pointer;">
-					<img class="" src="assets/images/portfolio/prov.png" alt="GTA V">
+					<img class="" src="assets/images/portfolio/222.png" alt="GTA V">
 					</div>
 				</div> 
 				<div class="iso-box visible width zeno-padding">
@@ -118,7 +127,7 @@
 					</div>
 					
 					</div>
-				</div>  -->
+				</div>
 
 			</div>
 			<div class="portfolo_footer">
@@ -173,11 +182,6 @@
 
 		}, 297)
 		
-		
-		
-		
-		
-		
 		var $isop =  $('.masonry').isotope({
 			masonry : {
 				itemSelector : 'iso-box',
@@ -189,11 +193,13 @@
 		
 		var owl = $('.small-owl').owlCarousel({
 			items: 1,
-			nav: false,
-			loop : true
+			nav: true,
+			loop : true,
+		    navText: [
+				   "<i class='fa fa-angle-left license_chevron fa3'></i>",
+				   "<i class='fa fa-angle-right license_chevron fa3'></i>"
+			]
 		});
-		
-
 
 		// filter functions
 		var filterFns = {

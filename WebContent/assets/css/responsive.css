@@ -914,10 +914,10 @@
 	.right-grid span {
 		font-size: 1.52em;
 	}
-	.owl-prev {
+	#owl-demo .owl-prev {
 		top: calc(50% - 3em);
 	}
-	.owl-next {
+	#owl-demo .owl-next {
 		top: calc(50% - 3em);
 	}
 	#mobilemenu {

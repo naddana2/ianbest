@@ -273,6 +273,54 @@ background: #424242;
 }
 
 
+
+.owl-overlay {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.43);
+    height: 100%;  
+    
+}
+
+.owl-overlay h2 {
+    color: white;
+    font-size: 1.734em;
+    font-weight: 300;
+    letter-spacing: 0.04vw;
+    position: relative;
+    top: calc(50% - 1.3em);
+    padding:0;
+    margin:0;
+    text-transform: none;
+    line-height: 1.3em;
+    font-family: 'KoPuDotum-L', sans-serif;
+}
+
+.owl-prev {
+    /* width: 50%; */
+    float: left;
+    position: absolute;
+    top: calc(50% - 1.5em);
+    padding-left:4.5%;
+}
+
+.owl-next {
+    /* width: 50%; */
+    float: right;
+    /* text-align: right; */
+    position: absolute;
+    top: calc(50% - 1.5em);
+    right: 0;
+    padding-right:4.5%;
+}
+
+.fa3{
+    font-size: 3em !important;
+    padding: 0;
+}
+
+
 /* 
 .top-menu {
       padding: 3.128% 0 0.605% calc(13.04% + 9.5px);
