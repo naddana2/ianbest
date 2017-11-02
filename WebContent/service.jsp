@@ -385,7 +385,7 @@
 									alt="GTA V">
 							</div>
 							<div class="tab-pane" id="be">
-								<img class="history_image" src="assets/images/service/오상빈.png"
+								<img class="history_image" src="assets/images/service/오상빈.png" 
 									alt="GTA V">
 							</div>
 						</div>
