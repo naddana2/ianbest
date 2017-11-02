@@ -94,9 +94,8 @@
 		int port_id = port.getPort_id();
 		String port_name = port.getPort_name();
 		String port_division = port.getPort_division();
-		String port_width = port.getPort_width();
 %>
-				<div class="iso-box <%=port_division%> width<%=port_width%>">
+				<div class="iso-box <%=port_division%> ">
 					<div class="portfolio-thumb"  onclick="location.href='portfolio_detail.jsp?id=<%=port_id %>'" style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio/port<%=port_id%>/thumb.png" alt="GTA V">
 						<div class="thumb-text">
@@ -110,15 +109,15 @@
 %>
 
  				<div class="iso-box width none_mobile">
-					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.jsp?id=1'" style="cursor: pointer;">
-					<img class="" src="assets/images/portfolio/222.png" alt="GTA V">
+					<div class="portfolio-thumb">
+					<img class="wide" src="assets/images/portfolio/bestianosong_wide.png" alt="GTA V">
 					</div>
 				</div> 
 				<div class="iso-box visible width zeno-padding">
 					
 				</div> 
 				<div class="iso-box width none_mobile">
-					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.jsp?id=1'" style="cursor: pointer;">
+					<div class="portfolio-thumb">
 					<div class="combine"><div class="img-box"><img class="" src="assets/images/portfolio/isis.png" alt="GTA V"></div>
 					<div class="thumb-text2">
 							<p>2015 Feb | Office</p>
@@ -136,7 +135,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="move-contact">
+		<div class="move-contact" onclick="location.href ='contact.jsp' " style="cursor: pointer;">
 			<p>Get in touch</p>
 			<h2>CONTACT</h2>
 		</div>
@@ -153,10 +152,9 @@
 			int port_id = port.getPort_id();
 			String port_name = port.getPort_name();
 			String port_division = port.getPort_division();
-			String port_width = port.getPort_width();
 
 	%>
-		item += '<div class="iso-box <%=port_division%> width<%=port_width%>"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.jsp?id=<%=port_id %>\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-<%=port_id%>.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, <%=port_division%></p><h2><%=port_name%></h2></div></div></div>';
+		item += '<div class="iso-box <%=port_division%> "><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.jsp?id=<%=port_id %>\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio-<%=port_id%>.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, <%=port_division%></p><h2><%=port_name%></h2></div></div></div>';
 	<%
 		}
 	%>

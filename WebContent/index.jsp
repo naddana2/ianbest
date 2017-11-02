@@ -86,7 +86,7 @@
 						끊임없이 소통하고 의견을 조율하면서<br>최상의 공간을 창조하는 것이 우리의 목표입니다.
 					</p>
 					<button class="btnS" type="button"
-						onclick="location.href='work-lime.html'">MORE VIEW</button>
+						onclick="location.href='service.jsp'">MORE VIEW</button>
 				</div>
 			</div>
 
@@ -104,7 +104,7 @@
 				<div class="txt-area">
 					<p>우리는 사용자의 동선흐름을 예측하여 디자인에 적용합니다.</p>
 					<button class="btns" type="button"
-						onclick="location.href='work-lime.html'">MORE VIEW</button>
+						onclick="location.href='portfolio.jsp'">MORE VIEW</button>
 				</div>
 			</div>
 			<div class="section-img w50 make-area"></div>
@@ -118,7 +118,7 @@
 				alt="GTA V" style="">
 		</div>
 		<div class="right-direction">
-			<span><a>베스티안 오송 메디클러스터<img class="chevron" src="assets/images/chevron.png" alt="GTA V"></a></span>
+			<span onclick="location.href ='portfolio_detail.jsp?id=1' " style="cursor: pointer;"><a>베스티안 오송 메디클러스터<img class="chevron" src="assets/images/chevron.png" alt="GTA V"></a></span>
 		</div>
 		</article>
 		<section>
@@ -135,7 +135,7 @@
 						이안베스트가 만든 이로운 공간. <br>이안베스트에서는 늘 편안한 환경이 제공됩니다.
 					</p>
 					<button class="btnS" type="button"
-						onclick="location.href='work-lime.html'">MORE VIEW</button>
+						onclick="location.href='about.jsp'">MORE VIEW</button>
 				</div>
 			</div>
 			<div class="section-img2 w50"></div>
@@ -155,7 +155,7 @@
 						이안베스트가 만든 이로운 공간. <br>이안베스트에서는 늘 편안한 환경이 제공됩니다.
 					</p>
 					<button class="btns after_none" type="button"
-						onclick="location.href='work-lime.html'"
+						onclick="location.href='about.jsp'"
 						style="border-bottom: 2.45px solid #d2d2d2 !important;">MORE
 						VIEW</button>
 				</div>
@@ -174,7 +174,7 @@
 		<div class="right-box"></div>
 		</article>
 		<article>
-		<div class="left-direction green">
+		<div class="left-direction green" onclick="location.href ='contact.jsp' " style="cursor: pointer;">
 			<p>Work with us?</p>
 			<span>+ NEW PROJECT</span>
 		</div>

@@ -118,6 +118,27 @@ img.about_img {
 	letter-spacing: -0.12px;
 	text-transform:none;
 }
+.move-contact {
+	text-align: center;
+	padding: 2.6% 0;
+	background: #6eb92b;
+}
+
+.move-contact p {
+	font-size: 16.6px;
+	margin-bottom: 0;
+	color: white;
+	font-family: 'KoPuBatang-L', sans-serif;
+	font-weight: 300;
+}
+
+.move-contact h2 {
+	font-size: 33.5px;
+	letter-spacing: -0.12px;
+	color: white;
+	font-weight: 600;
+	margin-top: 12px;
+}
 
 
 
