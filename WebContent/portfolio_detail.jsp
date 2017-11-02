@@ -112,7 +112,7 @@
 			<% 
 				}
 			%>
-					<div class="morebtn">
+					<div class="morebtn" onclick="location.href ='portfolio.jsp' " style="cursor: pointer;">
 						<p>more</p>
 						<span class="glyphicons glyphicons-arrow-right"></span>
 					</div>
@@ -120,7 +120,7 @@
 			</div>
 		</div>
 
-		<div class="move-contact">
+		<div class="move-contact" onclick="location.href ='contact.jsp' " style="cursor: pointer;">
 			<p>Get in touch</p>
 			<h2>CONTACT</h2>
 		</div>

@@ -13,9 +13,12 @@
 		<li><a class="" href="portfolio.jsp" id="project">PROJECT</a></li>
 		<li><a class="" href="contact.jsp" id="contact">CONTACT</a></li>
 	</ul>
-	<div class="etc-place">
+	<div class="etc-place" >
 		<p>
-			<a>BROCHURE PDF</a><i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+			<a onclick="location.href='https://drive.google.com/file/d/0B3zspoXx7b8NWnZHUVJ3U3B2Qnc/view?usp=sharing'" style="cursor: pointer;">
+				BROCHURE PDF 
+				<i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+			</a>
 		</p>
 	</div>
 

@@ -10,8 +10,35 @@ public class IanDto {
 	private int port_id;
 	private String port_name;
 	private String port_division;
-	private String port_width;
+	private String port_scale;
+	private String port_priod;
+	private String port_purpose;
+	private String port_location;
 	
+	public String getPort_scale() {
+		return port_scale;
+	}
+	public void setPort_scale(String port_scale) {
+		this.port_scale = port_scale;
+	}
+	public String getPort_priod() {
+		return port_priod;
+	}
+	public void setPort_priod(String port_priod) {
+		this.port_priod = port_priod;
+	}
+	public String getPort_purpose() {
+		return port_purpose;
+	}
+	public void setPort_purpose(String port_purpose) {
+		this.port_purpose = port_purpose;
+	}
+	public String getPort_location() {
+		return port_location;
+	}
+	public void setPort_location(String port_location) {
+		this.port_location = port_location;
+	}
 	public int getPop_id() {
 		return pop_id;
 	}
@@ -54,11 +81,6 @@ public class IanDto {
 	public void setPort_division(String port_division) {
 		this.port_division = port_division;
 	}
-	public String getPort_width() {
-		return port_width;
-	}
-	public void setPort_width(String port_width) {
-		this.port_width = port_width;
-	}
+
 	
 }

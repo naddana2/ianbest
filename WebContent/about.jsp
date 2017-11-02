@@ -91,7 +91,12 @@
 					<p class="pd_left">건물시설관리업 / 위생관리업 / 시설경비업</p>
 				</div>
 			</div>
+			
 		</div>
+			<div class="move-contact"  onclick="location.href ='contact.jsp' " style="cursor: pointer;">
+				<p>Get in touch</p>
+				<h2>CONTACT</h2>
+			</div>
 	</div>
 	
 
