@@ -111,7 +111,7 @@
 
  				<div class="iso-box width none_mobile">
 					<div class="portfolio-thumb" onclick="location.href='portfolio_detail.jsp?id=1'" style="cursor: pointer;">
-					<img class="" src="assets/images/portfolio/222.png" alt="GTA V">
+					<img class="wide" src="assets/images/portfolio/bestianosong_wide.png" alt="GTA V">
 					</div>
 				</div> 
 				<div class="iso-box visible width zeno-padding">
