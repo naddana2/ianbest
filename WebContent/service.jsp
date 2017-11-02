@@ -261,7 +261,7 @@
 							<li><a class="childli" href="#ab" aria-controls="ab"
 								data-toggle="pill">미래빌딩 신축(청주)</a></li>
 							<li><a class="childli" href="#ac" aria-controls="ac"
-								data-toggle="pill">제니스치과의원</a></li>
+								data-toggle="pill">베스티안서울병원</a></li>
 							<li><a class="childli" href="#ad" aria-controls="ad"
 								data-toggle="pill">바른정형외과</a></li>
 							<li><a class="childli" href="#ae" aria-controls="ae"
@@ -270,7 +270,7 @@
 								data-toggle="pill">MHI종합검진센터</a></li>
 							<li><a class="childli" href="#ag" aria-controls="ag"
 								data-toggle="pill">미소래이비인후과</a></li>
-							<li><a class="childli" href="#ah" aria-controls="ah"
+							<!-- <li><a class="childli" href="#ah" aria-controls="ah"
 								data-toggle="pill">오상빈정형외과</a></li>
 							<li><a class="childli" href="#ai" aria-controls="ai"
 								data-toggle="pill">자연한방병원</a></li>
@@ -280,6 +280,8 @@
 								data-toggle="pill">봄정신건강의학과</a></li>
 							<li><a class="childli" href="#al" aria-controls="al"
 								data-toggle="pill">에이탑치과의원</a></li>
+								<li><a class="childli" href="#al" aria-controls="al"
+								data-toggle="pill">에이탑치과의원</a></li>
 							<li><a class="childli" href="#am" aria-controls="am"
 								data-toggle="pill">참조은내과검진센터</a></li>
 							<li><a class="childli" href="#an" aria-controls="an"
@@ -287,12 +289,12 @@
 							<li><a class="childli" href="#ao" aria-controls="ao"
 								data-toggle="pill">라벨성형외과</a></li>
 							<li><a class="childli" href="#ap" aria-controls="ap"
-								data-toggle="pill">인본정형외과</a></li>
+								data-toggle="pill">인본정형외과</a></li> -->
 						</ul>
 						<!-- Tab panes -->
 						<div class="tab-content history_img_div">
 							<div class="tab-pane active" id="aa">
-								<img class="history_image" src="assets/images/service/오송.png"
+								<img class="history_image" src="assets/images/service/베스티안오송.jpg"
 									alt="GTA V">
 							</div>
 							<div class="tab-pane" id="ab">
@@ -300,7 +302,7 @@
 									alt="GTA V">
 							</div>
 							<div class="tab-pane" id="ac">
-								<img class="history_image" src="assets/images/service/제니스.png"
+								<img class="history_image" src="assets/images/service/베스티안서울.png"
 									alt="GTA V">
 							</div>
 							<div class="tab-pane" id="ad">
@@ -319,22 +321,13 @@
 								<img class="history_image" src="assets/images/service/미소래.png"
 									alt="GTA V">
 							</div>
-							<div class="tab-pane" id="ah">
-								<img class="history_image" src="assets/images/service/오상빈.png"
-									alt="GTA V">
-							</div>
-							<div class="tab-pane" id="ai">
-								<img class="history_image" src="assets/images/service/한방병원.png"
-									alt="GTA V">
-							</div>
+							<!-- 
+							
 							<div class="tab-pane" id="aj">
 								<img class="history_image" src="assets/images/service/편안성모.png"
 									alt="GTA V">
 							</div>
-							<div class="tab-pane" id="ak">
-								<img class="history_image" src="assets/images/service/봄정신건강.png"
-									alt="GTA V">
-							</div>
+							
 							<div class="tab-pane" id="al">
 								<img class="history_image" src="assets/images/service/에이탑.png"
 									alt="GTA V">
@@ -347,14 +340,11 @@
 								<img class="history_image" src="assets/images/service/판교연세.png"
 									alt="GTA V">
 							</div>
-							<div class="tab-pane" id="ao">
-								<img class="history_image" src="assets/images/service/라벨성형외과.png"
-									alt="GTA V">
-							</div>
+							
 							<div class="tab-pane" id="ap">
 								<img class="history_image" src="assets/images/service/인본.png"
 									alt="GTA V">
-							</div>
+							</div> -->
 						</div>
 					</div>
 
@@ -363,32 +353,39 @@
 					<!-- Nav tabs -->
 					<div class="tab2">
 						<ul class="smallnav nav nav-tabs ">
+							<p>Design project</p>
 							<li class="active"><a class="childli" href="#ba"
-								aria-controls="aa" data-toggle="pill">ba</a></li>
+								aria-controls="aa" data-toggle="pill">-베스티안 부산병원</a></li>
 							<li><a class="childli" href="#bb" aria-controls="bb"
-								data-toggle="pill">bb</a></li>
+								data-toggle="pill">라벨성형외과</a></li>
 							<li><a class="childli" href="#bc" aria-controls="bc"
-								data-toggle="pill">bc</a></li>
+								data-toggle="pill">봄정신건강의학과</a></li>
 							<li><a class="childli" href="#bd" aria-controls="bd"
-								data-toggle="pill">bd</a></li>
+								data-toggle="pill">자연한방병원</a></li>
+								<li><a class="childli" href="#bd" aria-controls="be"
+								data-toggle="pill">오상빈정형외과</a></li>
 						</ul>
 
 						<!-- Tab panes -->
 						<div class="tab-content history_img_div">
 							<div class="tab-pane active" id="ba">
-								<img class="history_image" src="assets/images/portfolio-1.png"
+								<img class="history_image" src="assets/images/portfolio/베스티안부산.png"
 									alt="GTA V">
 							</div>
 							<div class="tab-pane" id="bb">
-								<img class="history_image" src="assets/images/portfolio-2.png"
+								<img class="history_image" src="assets/images/service/라벨성형외과.png"
 									alt="GTA V">
 							</div>
 							<div class="tab-pane" id="bc">
-								<img class="history_image" src="assets/images/portfolio-3.png"
+								<img class="history_image" src="assets/images/service/봄정신건강.png"
 									alt="GTA V">
 							</div>
 							<div class="tab-pane" id="bd">
-								<img class="history_image" src="assets/images/portfolio-1.png"
+								<img class="history_image" src="assets/images/service/한방병원.png"
+									alt="GTA V">
+							</div>
+							<div class="tab-pane" id="be">
+								<img class="history_image" src="assets/images/service/오상빈.png"
 									alt="GTA V">
 							</div>
 						</div>
