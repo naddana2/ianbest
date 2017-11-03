@@ -48,10 +48,10 @@
 			<div class="portfolio-header">
 				<ul class="filter-wrapper button-group" id="filters">
 					<li><a href="#" class="is-checked" data-filter="*">ALL</a></li>
-					<li><a href="#" class="" data-filter=".office">OFFICE</a></li>
-					<li><a href="#" class="" data-filter=".complex">COMPLEX</a></li>
-					<li><a href="#" class="" data-filter=".hospital">HOSPITAL</a></li>
-					<li><a href="#" class="" data-filter=".remodeling">REMODELING</a></li>
+					<li><a href="#" class="" data-filter=".Hospital">HOSPITAL</a></li>
+					<li><a href="#" class="" data-filter=".Complex">COMPLEX</a></li>
+					<li><a href="#" class="" data-filter=".Remodeling">REMODELING</a></li>
+					<li><a href="#" class="" data-filter=".Office">OFFICE</a></li>
 				</ul>
 
 			</div>
@@ -63,19 +63,19 @@
 					<div class="owl-carousel owl-theme small-owl">
 						<div class="item">
 							<div class="owl-overlay">
-								<h2>
-									건물설계 컨설팅에서 시설관리까지<br> <strong>앞서나가는 종합 건설, 이안베스트</strong>
-								</h2>
+								<h3>
+									DECEMBER 02 | 2017 CONSTRUCT<br> <strong>베스티안 오송메디클러스터</strong>
+								</h3>
 							</div>
-							<img class="" src="assets/images/portfolio/square.png" alt="GTA V">
+							<img class="" src="assets/images/portfolio/4in22.png" alt="GTA V">
 						</div>
 						<div class="item">
 							<div class="owl-overlay">
-								<h2>
-									건물설계 컨설팅에서 시설관리까지<br> <strong>앞서나가는 종합 건설, 이안베스트</strong>
-								</h2>
+								<h3>
+									DECEMBER 02 | 2013 REMODELING<br> <strong>광주 목뉴방외과</strong>
+								</h3>
 							</div>
-							<img class="" src="assets/images/portfolio/4in22.png" alt="GTA V">
+							<img class="" src="assets/images/portfolio/square.png" alt="GTA V">
 						</div>
 					</div>
 				</div> 
