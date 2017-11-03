@@ -310,6 +310,9 @@
 								data-toggle="pill">MHI종합검진센터</a></li>
 							<li><a class="childli" href="#ag" aria-controls="ag"
 								data-toggle="pill">미소래이비인후과</a></li>
+								<li><a class="childli" href="#ah" aria-controls="ah"
+								data-toggle="pill">제니스치과</a></li>
+								
 							
 						</ul>
 						<!-- Tab panes -->
@@ -342,6 +345,11 @@
 								<img class="history_image"
 									src="assets/images/portfolio/sample/미소래.png" alt="GTA V">
 							</div>
+							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="ah">
+								<img class="history_image"
+									src="assets/images/portfolio/sample/제니스.png" alt="GTA V">
+							</div>
+							
 							
 						</div>
 					</div>
@@ -359,14 +367,16 @@
 							<li><a class="childli" href="#bc" aria-controls="bc"
 								data-toggle="pill">봄정신건강의학과</a></li>
 							<li><a class="childli" href="#bd" aria-controls="bd"
-								data-toggle="pill">자연한방병원</a></li>
+								data-toggle="pill">에이탑성형외과</a></li>
 							<li><a class="childli" href="#be" aria-controls="be"
-								data-toggle="pill">오상빈정형외과</a></li>
+								data-toggle="pill">체리쉬성형외과</a></li>
+								<li><a class="childli" href="#bf" aria-controls="bf"
+								data-toggle="pill">두루가정의학과</a></li>
 						</ul>
 
 						<!-- Tab panes -->
 						<div class="tab-content history_img_div">
-							<div class="tab-pane onclick="location.href='portfolio.jsp'" active" id="ba">
+							<div class="tab-pane active" onclick="location.href='portfolio.jsp'"  id="ba">
 								<img class="history_image"
 									src="assets/images/portfolio/sample/베스티안부산.png" alt="GTA V">
 							</div>
@@ -380,11 +390,15 @@
 							</div>
 							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="bd">
 								<img class="history_image"
-									src="assets/images/portfolio/sample/한방병원.png" alt="GTA V">
+									src="assets/images/portfolio/sample/에이탑.png" alt="GTA V">
 							</div>
 							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="be">
 								<img class="history_image"
-									src="assets/images/portfolio/sample/오상빈.png" alt="GTA V">
+									src="assets/images/portfolio/sample/체리쉬.png" alt="GTA V">
+							</div>
+							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="bf">
+								<img class="history_image"
+									src="assets/images/portfolio/sample/두루.png" alt="GTA V">
 							</div>
 						</div>
 					</div>
@@ -427,6 +441,7 @@
 								<img class="history_image"
 									src="assets/images/portfolio/sample/판교연세.png" alt="GTA V">
 							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -497,7 +512,7 @@
 							</div>
 							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="eb">
 								<img class="history_image"
-									src="assets/images/portfolio/sample/서울듀크의원.png" alt="GTA V">
+									src="assets/images/portfolio/sample/서울듀크.png" alt="GTA V">
 							</div>
 							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="ec">
 								<img class="history_image"
