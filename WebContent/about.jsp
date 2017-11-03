@@ -38,67 +38,57 @@
 			<div class="subtitle no-padding">
 				<h2>IANBEST</h2>
 			</div>
-			<div class="ian_about">
-				<div class="about_ianImage">
-					<img class="ian_img" src="assets/images/about/Ian1.png">
-					<img class="ian_img" src="assets/images/about/Ian2.png">
-				</div>
-				<div class="about_ianBest">
-					<div class="about_ianBest2">
-						<h3>
-							<strong>이안베스트</strong>
-						</h3>
-						<h3>
-							<strong>이안</strong>에서 <strong>사람</strong>이 <strong>편안</strong>하다.
-						</h3>
-						<h3>
-							<strong>이안</strong>에서 <strong>사람</strong>이 <strong>이롭게</strong>
-							된다.
-						</h3>
-						<h3>
-							<strong>이안</strong>에서 <strong>최고</strong>의 <strong>서비스</strong>를
-							누린다.
-						</h3>
-					</div>
-				</div>
-				
-					<div class="about_content">
-						<h4>
-							건설설계컨설팅에서 건물시설관리까지 <br>
-							이안베스트는 처음부터 끝까지 관리합니다
-						</h4>
-					</div>
-					<div class="about_icon">
-						<img class="about_img" src="assets/images/about/about_01.png">
-						<img class="about_img" src="assets/images/about/about_02.png">
-						<img class="about_img" src="assets/images/about/about_03.png">
-					</div>
-				
+			<div class="about-header">
+				<img src="assets/images/about/about-header.png">
 			</div>
-			<div class="about">
+			<div class="about-circle">
+				<div class="left-circle">
+					<img src="assets/images/about/one.png">
+				</div>
+				<div class="right-circle">
+					<img src="assets/images/about/one2.png">
+				</div>
+			</div>
+			<div class="about_content">
+				<h4>
+					건설설계컨설팅에서 건물시설관리까지 <br> 이안베스트는 처음부터 끝까지 관리합니다
+				</h4>
+			</div>
+			
+			<div class="chart">
+			<div class="chart-item"><H2>종합건설</H2><p>개개인의 창의성이 성장의 원동력임을 인식하고 창의적인 사고와 발상의 전환을 통해 문제를 해결하는 부원</p></div>
+				<div class="chart-item"><H2>전문건축</H2><p>개개인의 창의성이 성장의 원동력임을 인식하고 창의적인 사고와 발상의 전환을 통해 문제를 해결하는 부원</p></div>
+					<div class="chart-item"><H2>시설유지</H2><p>개개인의 창의성이 성장의 원동력임을 인식하고 창의적인 사고와 발상의 전환을 통해 문제를 해결하는 부원</p></div>
+			</div>
+
+			<div class="about"></div>
 				<div class="subtitle">
 					<h2>ABOUT</h2>
 				</div>
-				<div class ="about-info">
-					<p>설립일 : 2007년 12월 05일 </p>
-					<p>대표자 : 박명수 </p>
-					<p>주소 : 서울시 강남구 논현로76길 25 꿈희망미래빌딩 5층 </p>
-					<p>총종업원수 : 53명 </p>
-					<p class="pd_left">건축기사 5명, 전기기사 4명 , 전기공사기사 3명, 산업안전기사 1명, 컬러리스트 기사 1명, </p>
+
+
+				<div class="about-info">
+					<p>설립일 : 2007년 12월 05일</p>
+					<p>대표자 : 박명수</p>
+					<p>주소 : 서울시 강남구 논현로76길 25 꿈희망미래빌딩 5층</p>
+					<p>총종업원수 : 53명</p>
+					<p class="pd_left">건축기사 5명, 전기기사 4명 , 전기공사기사 3명, 산업안전기사 1명,
+						컬러리스트 기사 1명,</p>
 					<p class="pd_left">컬러리스트 코디네이터 1명 , 건축 설비기사 1명</p>
 					<br>
-					<p class="pd_left">실내건축공사업 / 대한전문건설협회 정회원 / 실내건축공사협의회 정회원 </p>
+					<p class="pd_left">실내건축공사업 / 대한전문건설협회 정회원 / 실내건축공사협의회 정회원</p>
 					<p class="pd_left">건물시설관리업 / 위생관리업 / 시설경비업</p>
 				</div>
 			</div>
-			
-		</div>
-			<div class="move-contact"  onclick="location.href ='contact.jsp' " style="cursor: pointer;">
-				<p>Get in touch</p>
-				<h2>CONTACT</h2>
-			</div>
-	</div>
+
 	
+		<div class="move-contact" onclick="location.href ='contact.jsp' "
+			style="cursor: pointer;">
+			<p>Get in touch</p>
+			<h2>CONTACT</h2>
+		</div>
+	</div>
+
 
 	<%@ include file="assets//include/footer.jsp"%>
 	<script type="text/javascript">

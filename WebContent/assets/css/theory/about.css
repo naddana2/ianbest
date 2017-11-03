@@ -3,6 +3,92 @@
 	overflow: hidden;
 	background: #535353;
 }
+
+.about-area .about-header {
+	padding-top:24px;
+	padding-bottom:4.2vw;
+}
+
+
+.about-area .about-circle {
+	padding:0% calc(12% + 20px);
+	overflow:hidden;
+	
+}
+
+.about-area .chart {
+	overflow:hidden;
+	padding-bottom:7%;
+}
+
+.about-area .chart .chart-item {
+	width:33.3%;
+	float:left;
+	
+	padding:24px 0;
+}
+
+
+.about-area .chart .chart-item h2{
+	
+	padding: 0 0 32px;
+	font-size:1.6em;
+	text-align:center;
+	margin:20px;
+	color:white;
+	border-bottom:2px solid #b6b6b6;
+	font-family:'KoPubatang-L', sans-serif;
+}
+
+.about-area .chart .chart-item p {
+	padding:0 15px;
+	
+}
+
+.border-r-none {
+	border-right:none !important;
+}
+
+
+
+.about-circle:before {
+	 content: "+";
+   position: absolute;
+   z-index: 1;
+   pointer-events: none;
+  
+   left: 49%;
+   color:#e8e8e8;
+   margin-top:10%;
+ 	font-size:5em;
+ 	
+}
+
+.about-area .about-circle div {
+	
+	padding:30px 10px;
+	width:50%;
+	float:left;
+}
+
+.about-area .about-circle img {
+	width:100%;
+	
+}
+ .about-circle .left-circle  {
+	
+	
+}
+
+.about-circle .right-circle  {
+	
+	
+}
+
+.about-area .about-header img {
+	width:100%;
+	padding:0 20px;
+}
 .about_ianBest h3 {
 	font-size: 2.442857142857143em;
 	color : rgba(130,130,130,1);
@@ -43,19 +129,19 @@
 
 
 img.ian_img {
-    width: 48%;
+    width: 50%;
     float: left;
 }
 
 .about_ianImage {
-    padding: 5.7% 14.1% 8.7%;
+    padding: 10.1% 13.3% 8.7%;
     overflow: hidden;w
 }
 
 .about_ianImage:before {
 	content: "\\";
 	position:absolute;
-	right:53%;
+	right:52.3%;
 	font-size:3.25vw;
 	margin-top:-2px;
 	color:white;
@@ -75,7 +161,7 @@ img.ian_img {
 }
 .about-area p {
     color: rgba(219, 219, 219, 1);
-    font-size: 1.33em;
+    font-size: 1.43em;
     font-weight:300;
     letter-spacing:-0.28px;
     margin-bottom:0;
@@ -83,12 +169,16 @@ img.ian_img {
 }
 
 .subtitle {
-    padding: 33px 0;
+    padding: 33px 0px;
 }
 
 .about {
     border-top: 1px solid white;
+    margin:0 20px;
+   
 }
+
+
 
 img.about_img {
    width:33%;
@@ -97,8 +187,9 @@ img.about_img {
 }
 
 .about_content {
-    padding: 7.8% 0 0%;
+   
     text-align:center;
+    padding:6.2% 0;
 }
 
 
@@ -107,14 +198,15 @@ img.about_img {
 }
 
 .about-info {
-	padding-bottom:6.4%;
+	padding:0 20px 6.4%;
 }
 
 .subtitle h2 {
 	font-size: 2.392857142857143em;
 	font-weight: 600;
 	color: white;
-	padding:0;
+	padding:0 20px;
+	
 	letter-spacing: -0.12px;
 	text-transform:none;
 }
