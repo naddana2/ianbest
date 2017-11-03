@@ -559,9 +559,7 @@
 		font-size: 1.114286em;
 		line-height: 25px;
 	}
-	.history_image {
-		height: 465px;
-	}
+
 	.bignav .childli {
 		font-size: 1.685714em;
 	}
@@ -910,9 +908,7 @@
 	#mobilemenu i {
 		margin-top: 1vw;
 	}
-	.history_image {
-		padding: 0 8%;
-	}
+	
 	.about-content h2 {
 		font-size: 2.092857em;
 	}

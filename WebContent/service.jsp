@@ -316,7 +316,7 @@
 						<div class="tab-content history_img_div">
 							<div class="tab-pane active" id="aa">
 								<img class="history_image"
-									src="assets/images/portfolio/sample/베스티안오송.jpg" alt="GTA V">
+									src="assets/images/portfolio/sample/베스티안오송.png" alt="GTA V">
 							</div>
 							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="ab">
 								<img class="history_image"
@@ -332,7 +332,7 @@
 							</div>
 							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="ae">
 								<img class="history_image"
-									src="assets/images/portfolio/sample/오름통증.jpg" alt="GTA V">
+									src="assets/images/portfolio/sample/오름통증.png" alt="GTA V">
 							</div>
 							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="af">
 								<img class="history_image"
@@ -425,7 +425,7 @@
 							</div>
 							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="ce">
 								<img class="history_image"
-									src="assets/images/portfolio/sample/판교연세.jpg" alt="GTA V">
+									src="assets/images/portfolio/sample/판교연세.png" alt="GTA V">
 							</div>
 						</div>
 					</div>
@@ -493,11 +493,11 @@
 						<div class="tab-content history_img_div">
 							<div class="tab-pane active" onclick="location.href='portfolio.jsp'" id="ea">
 								<img class="history_image"
-									src="assets/images/portfolio/sample/맘마외과.jpg" alt="GTA V">
+									src="assets/images/portfolio/sample/맘마외과.png" alt="GTA V">
 							</div>
 							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="eb">
 								<img class="history_image"
-									src="assets/images/portfolio/sample/서울듀크의원.jpg" alt="GTA V">
+									src="assets/images/portfolio/sample/서울듀크의원.png" alt="GTA V">
 							</div>
 							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="ec">
 								<img class="history_image"
@@ -505,11 +505,11 @@
 							</div>
 							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="ed">
 								<img class="history_image"
-									src="assets/images/portfolio/sample/제이치과.jpg" alt="GTA V">
+									src="assets/images/portfolio/sample/제이치과.png" alt="GTA V">
 							</div>
 							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="ee">
 								<img class="history_image"
-									src="assets/images/portfolio/sample/스타일성형외과.jpg" alt="GTA V">
+									src="assets/images/portfolio/sample/스타일성형외과.png" alt="GTA V">
 							</div>
 						</div>
 					</div>
