@@ -123,6 +123,10 @@
 		padding:2.6% 9.5px 10px;
 		
 	}
+	.center-grid-left h2 {
+		font-size:1.6em !important;
+	}
+	
 	
 }
 
@@ -346,6 +350,7 @@
 		padding-bottom: 10px;
 	}
 	.center-grid-left h2 {
+		font-size:1.7em;
 		margin-bottom:15px;
 	}
 	.better-padding {
@@ -554,9 +559,7 @@
 		font-size: 1.114286em;
 		line-height: 25px;
 	}
-	.history_image {
-		height: 465px;
-	}
+
 	.bignav .childli {
 		font-size: 1.685714em;
 	}
@@ -905,9 +908,7 @@
 	#mobilemenu i {
 		margin-top: 1vw;
 	}
-	.history_image {
-		padding: 0 8%;
-	}
+	
 	.about-content h2 {
 		font-size: 2.092857em;
 	}
