@@ -12,11 +12,11 @@ import javax.sql.DataSource;
 
 import kr.co.ianbest.dto.*;;
 
-public class IanDao
+public class IanDao2
 {
-	private static IanDao instance = new IanDao();
+	private static IanDao2 instance = new IanDao2();
 
-	public static IanDao getInstance()
+	public static IanDao2 getInstance()
 	{
 		return instance;
 	}
@@ -70,7 +70,6 @@ public class IanDao
 				dto.setPort_id(rs.getInt("port_id"));
 				dto.setPort_name(rs.getString("port_name"));
 				dto.setPort_division(rs.getString("port_division"));
-				dto.setPort_since(rs.getString("port_since"));
 				list.add(dto);
 			}
 		}
@@ -103,7 +102,6 @@ public class IanDao
 				dto.setPort_id(rs.getInt("port_id"));
 				dto.setPort_name(rs.getString("port_name"));
 				dto.setPort_division(rs.getString("port_division"));
-				dto.setPort_since(rs.getString("port_since"));
 				list.add(dto);
 			}
 		}
@@ -117,7 +115,7 @@ public class IanDao
 	}
 	
 	
-	// 연혁 () .
+	// 포트폴리오 리스트 더보기 .
 	public List<IanDto> history(int since) throws Exception {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
@@ -150,7 +148,7 @@ public class IanDao
 		return list;
 	}
 	
-	//  포트폴리오 연혁 중복제거   .
+	// 포트폴리오 리스트 더보기 .
 	public List<IanDto> history_since() throws Exception {
 		Connection conn = null;
 		PreparedStatement pstmt = null;

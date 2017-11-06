@@ -94,12 +94,13 @@
 		int port_id = port.getPort_id();
 		String port_name = port.getPort_name();
 		String port_division = port.getPort_division();
+		String port_since = port.getPort_since();
 %>
 				<div class="iso-box <%=port_division%> ">
 					<div class="portfolio-thumb"  onclick="location.href='portfolio_detail.jsp?id=<%=port_id %>'" style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio/port<%=port_id%>/thumb.png" alt="GTA V">
 						<div class="thumb-text">
-							<p>Portfolio, <%=port_division%></p>
+							<p><%=port_since%>, <%=port_division%></p>
 							<h2><%=port_name%></h2>
 						</div>
 					</div>
@@ -152,9 +153,10 @@
 			int port_id = port.getPort_id();
 			String port_name = port.getPort_name();
 			String port_division = port.getPort_division();
+			String port_since = port.getPort_since();
 
 	%>
-		item += '<div class="iso-box <%=port_division%>"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.jsp?id=<%=port_id %>\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio/port<%=port_id%>/thumb.png" alt="GTA V"><div class="thumb-text"><p>Portfolio, <%=port_division%></p><h2><%=port_name%></h2></div></div></div>';
+		item += '<div class="iso-box <%=port_division%>"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.jsp?id=<%=port_id %>\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio/port<%=port_id%>/thumb.png" alt="GTA V"><div class="thumb-text"><p><%=port_since%>, <%=port_division%></p><h2><%=port_name%></h2></div></div></div>';
 	<%
 		}
 	%>

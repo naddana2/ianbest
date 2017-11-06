@@ -55,7 +55,7 @@
 			
 			<div class="chart">
 			<div class="chart-item"><H2>종합건설</H2><p>폭넓은 분야에서 쌓아온 경험을 바탕을 앞세워 완벽한 시공으로 조형적인 아름다움과 고객이 원하는 새로운 기능을 갖춘 건축물을 완성합니다.</p></div>
-				<div class="chart-item"><H2>전문건축</H2><p>관련분야 전문가들의 지식과 경험을 바탕으로 유구를 확실히 이행하고, 적극적인 소통을 통하여 합리적이고 높은 품질을 제공합니다.</p></div>
+				<div class="chart-item"><H2>전문건축</H2><p>관련분야 전문가들의 지식과 경험을 바탕으로 요구를 확실히 이행하고, 적극적인 소통을 통하여 합리적이고 높은 품질을 제공합니다.</p></div>
 					<div class="chart-item"><H2>시설유지</H2><p>면적별,인원별,시간별 등 구체적인 근거에 의거 철저한 효율관리를 해나가고 있습니다.
 동일면적대비 최소의 인원을 고용하면서도 최상의 서비스를 제공합니다.</p></div>
 			</div>
@@ -80,7 +80,7 @@
 				</div>
 			</div>
 
-	
+	 
 		<div class="move-contact" onclick="location.href ='contact.jsp' "
 			style="cursor: pointer;">
 			<p>Get in touch</p>
