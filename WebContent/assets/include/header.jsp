@@ -15,7 +15,7 @@
 	</ul>
 	<div class="etc-place" >
 		<p>
-			<a onclick="location.href='https://drive.google.com/file/d/0B3zspoXx7b8NWnZHUVJ3U3B2Qnc/view?usp=sharing'" style="cursor: pointer;">
+			<a onclick="location.href='https://drive.google.com/open?id=1OZsCvXTyXD6zHynLHtlnSHSd2yuGoIBu'" style="cursor: pointer;">
 				BROCHURE PDF 
 				<i class="fa fa-long-arrow-down" aria-hidden="true"></i>
 			</a>
