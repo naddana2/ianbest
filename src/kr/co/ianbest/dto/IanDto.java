@@ -10,6 +10,7 @@ public class IanDto {
 	private int port_id;
 	private String port_name;
 	private String port_division;
+	private String port_since;
 	private String port_scale;
 	private String port_priod;
 	private String port_purpose;
@@ -80,6 +81,12 @@ public class IanDto {
 	}
 	public void setPort_division(String port_division) {
 		this.port_division = port_division;
+	}
+	public String getPort_since() {
+		return port_since;
+	}
+	public void setPort_since(String port_since) {
+		this.port_since = port_since;
 	}
 
 	

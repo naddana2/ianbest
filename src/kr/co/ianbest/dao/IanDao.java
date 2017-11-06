@@ -114,6 +114,70 @@ public class IanDao
 		return list;
 	}
 	
+	
+	// 포트폴리오 리스트 더보기 .
+	public List<IanDto> history(int since) throws Exception {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		List<IanDto> list = null;
+		IanDto dto = null;
+		String sql = "";
+		try {
+			conn = getConnection();
+			sql = "select port_id,port_since,port_name from ian_port where port_since = ? ";
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, since);
+			rs = pstmt.executeQuery();
+			list = new ArrayList<IanDto>();
+			
+			while (rs.next()){
+				dto = new IanDto();
+				dto.setPort_id(rs.getInt("port_id"));
+				dto.setPort_name(rs.getString("port_name"));
+				dto.setPort_since(rs.getString("port_since"));
+				list.add(dto);
+			}
+		}
+		catch (Exception e) {
+			throw new Exception(e);
+		}
+		finally {
+			executeClose(rs, pstmt, conn);
+		}
+		return list;
+	}
+	
+	// 포트폴리오 리스트 더보기 .
+	public List<IanDto> history_since() throws Exception {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		List<IanDto> list = null;
+		IanDto dto = null;
+		String sql = "";
+		try {
+			conn = getConnection();
+			sql = "select distinct port_since from ian_port order by port_since desc";
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			list = new ArrayList<IanDto>();
+			
+			while (rs.next()){
+				dto = new IanDto();
+				dto.setPort_since(rs.getString("port_since"));
+				list.add(dto);
+			}
+		}
+		catch (Exception e) {
+			throw new Exception(e);
+		}
+		finally {
+			executeClose(rs, pstmt, conn);
+		}
+		return list;
+	}
+	
 	// 포트폴리오 디테일 (상세페이지 id)
 	public IanDto port_Detail(int id) throws Exception {
 		Connection conn = null;
