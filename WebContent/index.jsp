@@ -107,7 +107,7 @@
 						onclick="location.href='portfolio.jsp'">MORE VIEW</button>
 				</div>
 			</div>
-			<div class="section-img w50 make-area"></div>
+			<div class="section-img w50 make-area"><img src="assets/images/cross-walking.png" alt="GTA V"></div>
 		</div>
 		</section>
 
@@ -171,7 +171,7 @@
 				<p>처음부터 끝까지 관리하는 이안베스트</p>
 			</div>
 		</div>
-		<div class="right-box"></div>
+		<div class="right-box"><img src="assets/images/main-complex.png" alt="GTA V"></div>
 		</article>
 		<article>
 		<div class="left-direction green" onclick="location.href ='contact.jsp' " style="cursor: pointer;">

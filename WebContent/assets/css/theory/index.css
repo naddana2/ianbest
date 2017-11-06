@@ -73,15 +73,18 @@
 
 
 section .double-set {
-   display: flex;
+ 
 	
    position: relative;
+   
 }
 
 section .double-set .txt-box {
    width: 50%;
    padding: 7.5% 0 0 9.04%;
    background: transparent;
+   float:left;
+   height:100%;
 }
 
 
@@ -169,8 +172,12 @@ section .double-set .txt-box .txt-area .btnS_fill {
 
 section .double-set .section-img {
    width: 50%;
-   background: url(../../images/cross-walking.png) no-repeat center !important;
-   background-size:cover !important;
+   height:100%;
+   float:left;
+}
+section .double-set .section-img img{
+	width:100%;
+	min-height:100%;
 }
 
 section .double-set .section-img2 {
@@ -328,7 +335,7 @@ article a:hover {
    background: #545454 !important;
    padding: 0;
    position: relative;
-   display:flex;
+   
    
 }
 
@@ -372,17 +379,24 @@ article:last-child div {
 
 
 
-article .left-box {
+ .left-box {
    width: 65%;
    padding: 5% 0 4.4% 9.04%;
+    float:left;
 }
 
-article .right-box {
+ .right-box {
    width: 35%;
-   background: url(../../images/main-complex.png) no-repeat center !important;
+ /*   background: url(../../images/main-complex.png) no-repeat center !important; */
+   float:left;
 }
 
-article .left-box p {
+ .right-box img {
+ 	padding:0;
+ 	margin:0;
+ }
+
+.left-box p {
    font-size: 22.6px;
    color: #9fa0a0;
    font-weight: 300;
@@ -390,12 +404,12 @@ article .left-box p {
    padding-right: 58px;
 }
 
-article .left-box .txt-zone {
+ .left-box .txt-zone {
   
    margin: 0 auto;
 }
 
-article .left-box .txt-zone p {
+.left-box .txt-zone p {
    font-size: 2.4285714285714284em;
    color: #75d701;
    letter-spacing: -0.8px;
@@ -407,15 +421,15 @@ article .left-box .txt-zone p {
    margin: 0;
 }
 
-article .left-box img {
+.left-box img {
    padding: 0;
-   height: fit-content;
+  
    float: left;
    display:none;
 }
 
 
-article .right-box:after {
+ .right-box:after {
    content: "";
    position: absolute;
    z-index: 1;
@@ -427,7 +441,8 @@ article .right-box:after {
    -o-background-size: cover;
    background-size: cover;
    border-left: 11.8vw solid #545454;
-   border-bottom: 13.73vw solid transparent;
+   border-bottom: 14.48vw solid transparent;
+   top:0%;
 }
 
 .owl-theme .owl-controls .owl-buttons {
