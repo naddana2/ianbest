@@ -197,6 +197,7 @@ public class IanDao
 				dto = new IanDto();
 				dto.setPort_id(rs.getInt("port_id"));
 				dto.setPort_name(rs.getString("port_name"));
+				dto.setPort_engname(rs.getString("port_engname"));
 				dto.setPort_division(rs.getString("port_division"));
 			}
 		}
@@ -228,6 +229,7 @@ public class IanDao
 			while (rs.next()){
 				dto = new IanDto();
 				dto.setPort_id(rs.getInt("port_id"));
+				dto.setPort_engname(rs.getString("port_engname"));
 				dto.setPort_name(rs.getString("port_name"));
 				dto.setPort_division(rs.getString("port_division"));
 				list.add(dto);
