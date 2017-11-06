@@ -269,9 +269,9 @@
 
 @media screen and (min-width:601px) and (max-width:767px) {
 	.about-circle:before {
-		left: 47.5%;
+		left: 47.6%;
 		font-size: 4em;
-		margin-top: 12.4vw;
+		margin-top: 13.6vw;
 	}
 }
 
@@ -1228,8 +1228,8 @@
 		padding: 0 34px;
 	}
 	.about-circle:before {
-		left: 47.9%;
-		margin-top: 13.4vw;
+		left: 48.2%;
+		margin-top: 13.6vw;
 	}
 }
 

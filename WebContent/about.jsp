@@ -41,10 +41,10 @@
 			
 			<div class="about-circle">
 				<div class="left-circle">
-					<img src="assets/images/about/one.png">
+					<img class="totoru" src="assets/images/about/ianbest.png">
 				</div>
 				<div class="right-circle">
-					<img src="assets/images/about/one2.png">
+					<img class="totoru2" src="assets/images/about/ianbest_ian.png">
 				</div>
 			</div>
 			<div class="about_content">
@@ -93,7 +93,7 @@
 		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 		$('#about').addClass('selected');
 	</script>
-
+	<script src="assets/js/about.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
