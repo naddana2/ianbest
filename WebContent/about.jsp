@@ -38,9 +38,7 @@
 			<div class="subtitle no-padding">
 				<h2>IANBEST</h2>
 			</div>
-			<div class="about-header">
-				<img src="assets/images/about/about-header.png">
-			</div>
+			
 			<div class="about-circle">
 				<div class="left-circle">
 					<img src="assets/images/about/one.png">

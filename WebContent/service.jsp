@@ -523,7 +523,6 @@
 									src="assets/images/portfolio/sample/제이치과.png" alt="GTA V">
 							</div>
 							<div class="tab-pane" onclick="location.href='portfolio.jsp'" id="ee">
-								<img class="history_image"
 									src="assets/images/portfolio/sample/스타일성형외과.png" alt="GTA V">
 							</div>
 						</div>

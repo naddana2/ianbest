@@ -21,60 +21,52 @@
 		
 	}
 	.portfolio-thumb .thumb-text h2 {
-	
 		font-size: 16.3px;
 	}
 	.portfolio-thumb .thumb-text {
 		padding: 11% 0;
 	}
-	
 	.inbox .imagines {
-		padding:5px 5px !important;
+		padding: 5px 5px !important;
 	}
 	.inner-grid  img {
-		padding:8px 17px !important;
+		padding: 8px 17px !important;
 	}
-	
-	
-	
-	
 }
 
 @media screen and (max-width:600px) {
-	
 	.about-area .chart .chart-item {
-		width:100%;
+		width: 100%;
 	}
 	.about-area .about-circle div {
-		width:100%;
+		width: 100%;
 	}
-	 .about-circle:before {
-	 	display:none;
-	 }
-	 .about-area .about-circle div {
-		padding:15px 10px;
+	.about-circle:before {
+		display: none;
+	}
+	.about-area .about-circle div {
+		padding: 15px 10px;
 	}
 	.about_content h4 {
-		padding-bottom:20px;
+		padding-bottom: 20px;
 	}
 }
 
 @media screen and (max-width:530px) {
 	.inner-grid2 .inbox {
-		width:50%;
+		width: 50%;
 	}
 	.inner-grid .inbox {
-		width:50%;
+		width: 50%;
 	}
 	.inner-grid  img {
-		padding:8px 16px;
+		padding: 8px 16px;
 	}
 	.inner-grid {
-		padding:10.5% 5% 3%;
+		padding: 10.5% 5% 3%;
 	}
-	
-	
 }
+
 @media screen and (max-width:374px) {
 	article:last-child span {
 		font-size: 1.242857em !important;
@@ -86,10 +78,8 @@
 		width: 35% !important;
 	}
 	.mobile-tab {
-		padding:0 0 0 4% !important;
+		padding: 0 0 0 4% !important;
 	}
-	
-	
 }
 
 @media screen and (max-width:424px) {
@@ -132,22 +122,19 @@
 		line-height: 31.7px !important;
 	}
 	.portfolio-header ul>li {
-		text-align:left;
+		text-align: left;
 	}
-		.portfolio-header ul>li {
+	.portfolio-header ul>li {
 		padding: 3px 3px 7px 0 !important;
 		width: 33%;
 		float: left;
 	}
 	.portfolio-header {
-		padding:2.6% 9.5px 10px;
-		
+		padding: 2.6% 9.5px 10px;
 	}
 	.center-grid-left h2 {
-		font-size:1.6em !important;
+		font-size: 1.6em !important;
 	}
-	
-	
 }
 
 @media screen and (max-width:343px) {
@@ -234,6 +221,12 @@
 	}
 }
 
+@media screen and (min-width:540px) and (max-width:600px) {
+	.about-area .chart .chart-item {
+		padding: 24px 40px;
+	}
+}
+
 @media screen and (min-width:580px) and (max-width:767px) {
 	.innertitle h2 {
 		font-size: 1.692857em;
@@ -271,6 +264,14 @@
 	.about-content h2 {
 		font-size: 1.892857em;
 		padding-bottom: 10px;
+	}
+}
+
+@media screen and (min-width:601px) and (max-width:767px) {
+	.about-circle:before {
+		left: 47.5%;
+		font-size: 4em;
+		margin-top: 12.4vw;
 	}
 }
 
@@ -341,7 +342,6 @@
 		padding-top: 2.5%;
 		margin-bottom: 10px;
 	}
-	
 	.mobile-view {
 		display: block;
 	}
@@ -370,11 +370,14 @@
 		padding-bottom: 10px;
 	}
 	.center-grid-left h2 {
-		font-size:1.7em;
-		margin-bottom:15px;
+		font-size: 1.7em;
+		margin-bottom: 15px;
 	}
 	.better-padding {
-		padding-bottom:6.7% !important;
+		padding-bottom: 6.7% !important;
+	}
+	.about-area .chart {
+		padding-bottom: 10%;
 	}
 }
 
@@ -422,8 +425,7 @@
 	}
 	.service-area {
 		padding: 3.128% 4.34% 1.605%;
-		}
-	
+	}
 	section .double-set .txt-box {
 		padding: 3.5% 0 0 4.34%;
 	}
@@ -463,7 +465,7 @@
 	}
 	article p {
 		font-size: 1.031429em;
-		margin-bottom:0;
+		margin-bottom: 0;
 	}
 	article span {
 		font-size: 1.664286em;
@@ -527,51 +529,45 @@
 		padding-top: 1.7%;
 	}
 	section .double-set .txt-box .txt-area .btns:after {
-		display:none;
+		display: none;
 	}
-	
 	section .double-set .txt-box .txt-area .btns {
-		padding:0.211vw 0.644vw 0.104vw 0 !important;
+		padding: 0.211vw 0.644vw 0.104vw 0 !important;
 	}
-		.mobile-in {
-	display:block !important;
+	.mobile-in {
+		display: block !important;
 	}
 	.mobile-out {
-	display:none !important;
+		display: none !important;
 	}
-	
 }
 
 @media screen and (min-width:768px) {
 	.service-area>.tab-content {
 		display: block;
-		padding:0 5.5% 5.5%;
+		padding: 0 5.5% 5.5%;
 	}
 	.mobile_view {
 		display: none !important;
 	}
-
 	.contact_content {
 		padding-top: 40px;
 	}
 	.center-grid-left {
-		width:35%;
-		float:left;
+		width: 35%;
+		float: left;
 	}
 	.center-grid-right {
-		width:65%;
-		float:left;
+		width: 65%;
+		float: left;
 	}
 	.center-grid-left p {
-		display:block;
+		display: block;
 	}
-	 .center-grid .order {
-	 	display:block;
-	 }
-	
-	 
+	.center-grid .order {
+		display: block;
+	}
 }
-
 
 @media screen and (min-width:768px) and (max-width:1192px) {
 	.smallnav p {
@@ -581,16 +577,14 @@
 		font-size: 1.114286em;
 		line-height: 25px;
 	}
-
 	.bignav .childli {
 		font-size: 1.685714em;
 	}
 	.bigli i {
 		padding: 0.6vh 33px 0;
 	}
-	
 	.triangle {
-		padding:4.1%;
+		padding: 4.1%;
 	}
 }
 
@@ -598,7 +592,7 @@
 	section .double-set .less_text .section-header h2 {
 		font-size: 3.457142857142857em !important;
 	}
-		.top-menu .brand-logo {
+	.top-menu .brand-logo {
 		background: url(../images/ian-logo.png) no-repeat !important;
 		padding: 0 91px;
 		height: 71px;
@@ -673,18 +667,17 @@
 		margin-bottom: 5px;
 	}
 	.portfolio-header ul>li {
-	/* 	padding: 3px 3px 7px 0 !important; */
+		/* 	padding: 3px 3px 7px 0 !important; */
 		width: 33%;
 		float: left;
 	}
 	.triangle {
-		padding:7%;
+		padding: 7%;
 	}
 }
 
 @media screen and (min-width:425px) and (max-width:432px) {
-	
-	}
+}
 
 @media screen and (min-width:481px) and (max-width:579px) {
 	.img-grid {
@@ -708,18 +701,17 @@
 	}
 	.about_content h4 {
 		font-size: 1.44em;
-		line-height:30px;
+		line-height: 30px;
 	}
 	.about_content {
 		padding: 6.4% 0 0%;
 	}
 	.about_ianImage {
-		padding:7.8% 9.1% 9.7%;
+		padding: 7.8% 9.1% 9.7%;
 	}
-	
 	img.about_img {
 		width: 100%;
-		padding:0px 26% 8.5%;
+		padding: 0px 26% 8.5%;
 	}
 	.about_icon {
 		padding: 5.5% 2.2% 10%;
@@ -732,56 +724,44 @@
 		line-height: 1.66;
 	}
 	.about-content h2 {
-		font-size:1.892857em;
+		font-size: 1.892857em;
 	}
-	
 	.right-grid span {
-		font-size:1.41em;
+		font-size: 1.41em;
 	}
 	.portfolio-area {
-	padding:6.5% 7.34% 4.5% !important;
+		padding: 6.5% 7.34% 4.5% !important;
 	}
 	.portfolio-thumb .thumb-text p {
-		padding:0 !important;
-		text-align:center !important;
+		padding: 0 !important;
+		text-align: center !important;
 	}
 	.portfolio-thumb .thumb-text h2 {
-		padding:0 !important;
-		text-align:center !important;
+		padding: 0 !important;
+		text-align: center !important;
 	}
 	.portfolio-thumb .thumb-text {
-		padding:7.1% 0 !important;
+		padding: 7.1% 0 !important;
 	}
-	
 	.mobile-align {
-		padding:0 20% !important;
+		padding: 0 20% !important;
 	}
-	
 	.portfolio-header {
-		text-align:center;
+		text-align: center;
 	}
-	
-	
 }
 
 @media screen and (min-width:425px) and (max-width:579px) {
 	.portfolio-header ul>li>a {
 		font-size: 16px !important;
 	}
-	
 	.portfolio-thumb .thumb-text h2 {
 		font-size: 16px;
 	}
-	
-	
-	
 }
 
 @media screen and (min-width:425px) and (max-width:480px) {
-	
-	
-		
-	}
+}
 
 @media screen and (min-width:481px) and (max-width:767px) {
 	section .double-set .txt-box .section-header h2 {
@@ -838,7 +818,7 @@
 	.about_content h4 {
 		font-size: 1.5em;
 		line-height: 31.7px;
-		padding-bottom:6.7%;
+		padding-bottom: 6.7%;
 	}
 	.about_icon {
 		padding: 7.5% 25% 10%;
@@ -892,14 +872,14 @@
 	}
 	article .left-box .txt-zone p {
 		font-size: 1.528571em;
-		padding-left:10vw;
+		padding-left: 10vw;
 	}
 	article .left-direction p {
 		font-size: 1.2em !important;
-		margin-bottom:8px;
+		margin-bottom: 8px;
 	}
 	article:last-child p {
-		margin-bottom:8px;
+		margin-bottom: 8px;
 	}
 	.special {
 		height: 13.53vw;
@@ -931,7 +911,6 @@
 	#mobilemenu i {
 		margin-top: 1vw;
 	}
-	
 	.about-content h2 {
 		font-size: 2.092857em;
 	}
@@ -954,14 +933,14 @@
 		font-size: 16px;
 	}
 	.portfolio-thumb .thumb-text p {
-		padding:0 !important;
-		text-align:center !important;
+		padding: 0 !important;
+		text-align: center !important;
 	}
 	.portfolio-thumb .thumb-text h2 {
-		padding:0 !important;
-		text-align:center !important;
+		padding: 0 !important;
+		text-align: center !important;
 	}
-		img.about_img {
+	img.about_img {
 		width: 32.8%;
 	}
 	.about_ianBest h3 {
@@ -984,26 +963,26 @@
 	.portfolio-thumb .thumb-text {
 		padding: 8.7% 0 !important;
 	}
-	
 	.center-grid-left h2 {
-		font-size:1.7em;
-		margin-bottom:2px;
+		font-size: 1.7em;
+		margin-bottom: 2px;
 	}
 	.center-grid-left p {
-		font-size:1.06em;
+		font-size: 1.06em;
 	}
 	.inbox .imagines {
-		padding:5px 5px;
+		padding: 5px 5px;
 	}
 	.center-grid {
-		padding:6.7% 2%;
+		padding: 6.7% 2%;
 	}
 	.inner-grid .inbox {
-		width:25%;
+		width: 25%;
 	}
-	
-	
-	
+	.about-circle:before {
+		left: 47.6%;
+		margin-top: 12.7vw;
+	}
 }
 
 @media screen and (min-width:768px) and (max-width:768px) {
@@ -1029,19 +1008,17 @@
 		width: 70px;
 	}
 	.about_ianImage {
-		padding:5.7% 14.1% 9.4%;
+		padding: 5.7% 14.1% 9.4%;
 	}
 	.about_content {
-		padding:8.3% 0 0%;
+		padding: 8.3% 0 0%;
 	}
 	.subtitle {
-		padding:28px 0;
+		padding: 28px 0;
 	}
-	
 	.triangle {
-		padding:10%;
+		padding: 10%;
 	}
-	
 }
 
 @media screen and (min-width:769px) and (max-width:828px) {
@@ -1104,42 +1081,22 @@
 		font-size: 1.14em;
 	}
 	.inbox .imagines {
-		padding:5px 5px;
+		padding: 5px 5px;
 	}
 }
 
-@media
-screen
-and
-(min-width:1100px)
-and
-(max-width:1239px)
-{
+@media screen and (min-width:1100px) and (max-width:1239px) {
 }
-@media
-screen
-and
-(min-width:1240px)
-and
-(max-width:1399px)
-{
+
+@media screen and (min-width:1240px) and (max-width:1399px) {
 }
-@media
-screen
-and
-(min-width:1400px)
-and
-(max-width:1579px)
-{
+
+@media screen and (min-width:1400px) and (max-width:1579px) {
 }
-@media
-screen
-and
-(min-width:1580px)
-and
-(max-width:1740px)
-{
+
+@media screen and (min-width:1580px) and (max-width:1740px) {
 }
+
 @media screen and (min-width:992px) and (max-width:1191px) {
 	.right-grid .topbox {
 		
@@ -1160,7 +1117,7 @@ and
 		padding: 3.128% 4.34% 1.605%;
 	}
 	.service-area {
-		padding:3.128% 4.34% 1.605%;
+		padding: 3.128% 4.34% 1.605%;
 	}
 	section .double-set .txt-box .section-header p {
 		font-size: 1.271429em;
@@ -1208,14 +1165,14 @@ and
 	}
 	article .left-box .txt-zone p {
 		font-size: 1.828571em;
-		padding-left:10vw;
+		padding-left: 10vw;
 	}
 	article span {
-		font-size:1.842857em;
+		font-size: 1.842857em;
 	}
 	article p {
-		font-size:1.414286em;
-		margin-bottom:7px;
+		font-size: 1.414286em;
+		margin-bottom: 7px;
 	}
 	.special {
 		height: 13.25vw;
@@ -1268,12 +1225,15 @@ and
 		transform: rotate(-4deg);
 	}
 	img.about_img {
-		padding:0 34px;
+		padding: 0 34px;
+	}
+	.about-circle:before {
+		left: 47.9%;
+		margin-top: 13.4vw;
 	}
 }
 
 @media screen and (max-width:1191px) {
-	
 }
 
 @media screen and (max-width:1200px) {
@@ -1316,10 +1276,9 @@ and
 	article .left-box {
 		padding: 5% 0 4.4% 7.04%;
 	}
-	
 	article .left-box .txt-zone p {
-		font-size:2.128571em;
-		padding-left:10vw;
+		font-size: 2.128571em;
+		padding-left: 10vw;
 	}
 	footer {
 		padding: 2.477% 7.04%;
@@ -1369,12 +1328,11 @@ and
 	.about-area {
 		padding: 3.128% 13.04% 1.605%;
 	}
-	
 	.about_icon {
 		padding: 7.5% 3.4% 10%;
 	}
 	img.about_img {
-		padding:0 25px !important;
+		padding: 0 25px !important;
 	}
 	.about_ianImage {
 		padding: 5.7% 16.1% 8.7%;
@@ -1389,13 +1347,15 @@ and
 		font-size: 1.23em;
 	}
 	#owl-demo .item .owl-overlay h2 {
-		font-size:2.934em;
+		font-size: 2.934em;
 	}
-	
 	.introduce-box {
-	padding:3.3% 0 6% 8px !important;
+		padding: 3.3% 0 6% 8px !important;
 	}
-	
+	.about-circle:before {
+		left: 48.3%;
+		margin-top: 10.7vw;
+	}
 }
 
 @media screen and (max-width:1375px) {
@@ -1417,23 +1377,22 @@ and
 }
 
 @media screen and (min-width:1300px) and (max-width:1500px) {
-	
 	section .double-set .txt-box .txt-area .btns:after {
-		font-size:17.1px;
+		font-size: 17.1px;
 	}
 	section .double-set .txt-box .txt-area .btns {
-		padding:0.211vw 1.604vw 0.104vw 0;
+		padding: 0.211vw 1.604vw 0.104vw 0;
 	}
-}	
+}
 
 @media screen and (min-width:992px) and (max-width:1299px) {
-			section .double-set .txt-box .txt-area .btns:after {
-		font-size:17.7px;
+	section .double-set .txt-box .txt-area .btns:after {
+		font-size: 17.7px;
 	}
 	section .double-set .txt-box .txt-area .btns {
-		padding:0.211vw 1.744vw 0.104vw 0;
+		padding: 0.211vw 1.744vw 0.104vw 0;
 	}
-}	
+}
 
 @media screen and (min-width:991px) and (max-width:1091px) {
 	section .double-set .txt-box .section-header p {
@@ -1482,33 +1441,28 @@ and
 		padding: 4.5% 9.04%;
 	}
 } */
-@media
-screen
-and
-(min-width:1400px)
-{
+@media screen and (min-width:1400px) {
 }
+
 @media screen and (min-width:1376px) {
 	article .left-box img {
 		display: block;
-		margin-right:4.2vw;
+		margin-right: 4.2vw;
 	}
 }
-@media screen and (max-width:611px) {
-	
-	.mobile-text-in {
-	display:block;
-	}
 
-.mobile-text-out {
-	display:none;
+@media screen and (max-width:611px) {
+	.mobile-text-in {
+		display: block;
+	}
+	.mobile-text-out {
+		display: none;
 	}
 	.introduce p {
-		padding-bottom:5px;
-		margin-bottom:8px;
+		padding-bottom: 5px;
+		margin-bottom: 8px;
 	}
 }
-
 
 @media screen and (min-width:1376px) and (max-width:1580px) {
 	article .left-box img {
@@ -1529,6 +1483,10 @@ and
 	.about-area {
 		padding: 4.5% 14.04% 6%;
 	}
+	.about-circle:before {
+		margin-top: 10.8vw;
+		left: 48.5%;
+	}
 	.service-area {
 		padding: 4.5% 14.04% 6%;
 	}
@@ -1544,13 +1502,10 @@ and
 	}
 }
 
-
 @media screen and (min-width:424px) and (max-width:767px) {
-
 	.inbox .imagines {
-		padding:8px 8px;
+		padding: 8px 8px;
 	}
-	
 }
 
 @media screen and (min-width:1580px) and (max-width:1700px) {
@@ -1573,15 +1528,14 @@ and
 }
 
 @media screen and (min-width:1700px) {
-	.about_icon  {
-	padding:7.5% 11% 10%;
+	.about_icon {
+		padding: 7.5% 11% 10%;
 	}
 }
 
-
 @media screen and (min-width:1192px) and (max-width:1530px) {
 	.triangle {
-		padding:5%;
+		padding: 5%;
 	}
 }
 

@@ -4,14 +4,14 @@
 	background: #535353;
 }
 
-.about-area .about-header {
-	padding-top:24px;
-	padding-bottom:4.2vw;
-}
-
+/* .about-post {
+	padding:0 0 490px;
+	background:url(../../images/»Ñ±î»ß.png) no-repeat center !important;
+	background-size:cover;
+} */
 
 .about-area .about-circle {
-	padding:0% calc(12% + 20px);
+	padding:3.4% calc(12% + 20px) 0%;
 	overflow:hidden;
 	
 }
@@ -57,9 +57,9 @@
    z-index: 1;
    pointer-events: none;
   
-   left: 49%;
+   left: 48.9%;
    color:#e8e8e8;
-   margin-top:10%;
+   margin-top:9.6vw;
  	font-size:5em;
  	
 }
@@ -189,7 +189,7 @@ img.about_img {
 .about_content {
    
     text-align:center;
-    padding:6.2% 0;
+    padding:4.9% 0 6.2%;
 }
 
 
