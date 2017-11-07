@@ -102,7 +102,7 @@
 			<% 
 				for (IanDto port : Recentlist3) {
 			%>					
-					<div class="imgbox" onclick="location.href ='portfolio_detail.jsp?id=<%=port.getPort_id()%>' " style="cursor: pointer;">
+					<div class="imgbox" onclick="location.href ='project_detail?id=<%=port.getPort_id()%>' " style="cursor: pointer;">
 						<img src="assets/images/portfolio/port<%=port.getPort_id()%>/main.png"
 							alt="The Last of us">
 						<p class="last-p">
@@ -114,7 +114,7 @@
 			<% 
 				}
 			%>
-					<div class="morebtn" onclick="location.href ='portfolio.jsp' " style="cursor: pointer;">
+					<div class="morebtn" onclick="location.href ='project' " style="cursor: pointer;">
 						<p>more</p>
 						<span class="glyphicons glyphicons-arrow-right"></span>
 					</div>
@@ -122,7 +122,7 @@
 			</div>
 		</div>
 
-		<div class="move-contact" onclick="location.href ='portfolio_detail.jsp?id=<%=id+1%>'" style="cursor: pointer;">
+		<div class="move-contact" onclick="location.href ='contact'" style="cursor: pointer;">
 			<p>Get in touch</p>
 			<h2>CONTACT</h2>
 		</div>
@@ -146,7 +146,7 @@
 			<% 
 				for (IanDto port : Recentlist5) { 
 			%>
-				<div class="item" onclick="location.href ='portfolio_detail.jsp?id=<%=port.getPort_id()%>' " style="cursor: pointer;">
+				<div class="item" onclick="location.href ='project_detail?id=<%=port.getPort_id()%>' " style="cursor: pointer;">
 					<img src="assets/images/portfolio/port<%=port.getPort_id()%>/main.png">
 					<p><%=port.getPort_name() %></p>
 				</div>
