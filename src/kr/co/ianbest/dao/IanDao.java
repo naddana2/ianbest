@@ -24,7 +24,7 @@ public class IanDao
 	private Connection getConnection() throws Exception {
 		Context initCtx = new InitialContext();
 		DataSource ds = 
-				(DataSource)initCtx.lookup("java:comp/env/jdbc/mysql");
+				(DataSource)initCtx.lookup("java:comp/env/jdbc/ianbest01");
 
 		return ds.getConnection();
 	}

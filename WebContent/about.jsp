@@ -81,7 +81,7 @@
 			</div>
 
 	 
-		<div class="move-contact" onclick="location.href ='contact.jsp' "
+		<div class="move-contact" onclick="location.href ='contact' "
 			style="cursor: pointer;">
 			<p>Get in touch</p>
 			<h2>CONTACT</h2>

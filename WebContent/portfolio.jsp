@@ -97,7 +97,7 @@
 		String port_since = port.getPort_since();
 %>
 				<div class="iso-box <%=port_division%> ">
-					<div class="portfolio-thumb"  onclick="location.href='portfolio_detail.jsp?id=<%=port_id %>'" style="cursor: pointer;">
+					<div class="portfolio-thumb"  onclick="location.href='project_detail?id=<%=port_id %>'" style="cursor: pointer;">
 						<img class="" src="assets/images/portfolio/port<%=port_id%>/thumb.png" alt="GTA V">
 						<div class="thumb-text">
 							<p><%=port_since%>, <%=port_division%></p>
@@ -136,7 +136,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="move-contact" onclick="location.href ='contact.jsp' " style="cursor: pointer;">
+		<div class="move-contact" onclick="location.href ='contact' " style="cursor: pointer;">
 			<p>Get in touch</p>
 			<h2>CONTACT</h2>
 		</div>
@@ -156,7 +156,7 @@
 			String port_since = port.getPort_since();
 
 	%>
-		item += '<div class="iso-box <%=port_division%>"><div class="portfolio-thumb" onclick="location.href=\'portfolio_detail.jsp?id=<%=port_id %>\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio/port<%=port_id%>/thumb.png" alt="GTA V"><div class="thumb-text"><p><%=port_since%>, <%=port_division%></p><h2><%=port_name%></h2></div></div></div>';
+		item += '<div class="iso-box <%=port_division%>"><div class="portfolio-thumb" onclick="location.href=\'project_detail?id=<%=port_id %>\'" style="cursor: pointer;"><img class="" src="assets/images/portfolio/port<%=port_id%>/thumb.png" alt="GTA V"><div class="thumb-text"><p><%=port_since%>, <%=port_division%></p><h2><%=port_name%></h2></div></div></div>';
 	<%
 		}
 	%>
