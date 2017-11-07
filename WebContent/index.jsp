@@ -49,7 +49,7 @@
 						건물설계 컨설팅에서 시설관리까지<br> <strong>앞서나가는 종합 건설, 이안베스트</strong>
 					</h2>
 					<!-- 	<button class="btnS" type="button" onclick="location.href='work-web.html'">CONTACT US</button> -->
-				</div>
+				</div>  
 				<img src="assets/images/carousel-1.png" alt="The Last of us">
 			</div>
 			<div class="item">
