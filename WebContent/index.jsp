@@ -118,7 +118,7 @@
 				alt="GTA V" style="">
 		</div>
 		<div class="right-direction">
-			<span onclick="location.href ='portfolio_detail.jsp?id=1' " style="cursor: pointer;"><a>베스티안 오송 메디클러스터<img class="chevron" src="assets/images/chevron.png" alt="GTA V"></a></span>
+			<span onclick="location.href ='project_detail?id=1' " style="cursor: pointer;"><a>베스티안 오송 메디클러스터<img class="chevron" src="assets/images/chevron.png" alt="GTA V"></a></span>
 		</div>
 		</article>
 		<section>
@@ -156,7 +156,7 @@
 						이안베스트가 만든 이로운 공간. <br>이안베스트에서는 늘 편안한 환경이 제공됩니다.
 					</p>
 					<button class="btns after_none" type="button"
-						onclick="location.href='about.jsp'"
+						onclick="location.href='about'"
 						style="border-bottom: 2.45px solid #d2d2d2 !important;">MORE
 						VIEW</button>
 				</div>
