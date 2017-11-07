@@ -116,16 +116,16 @@
 				</div> 
 				<div class="iso-box visible width zeno-padding">
 					
-				</div> 
+				</div>
+				
 				<div class="iso-box width none_mobile">
-					<div class="portfolio-thumb">
-					<div class="combine"><div class="img-box"><img class="" src="assets/images/portfolio/isis.png" alt="GTA V"></div>
+					<div class="portfolio-thumb" onclick="location.href='project_detail?id=100'" style="cursor: pointer;">
+					<div class="combine"><div class="img-box"><img class="" src="assets/images/portfolio/port100/thumb.png" alt="GTA V"></div>
 					<div class="thumb-text2">
-							<p>2015 Feb | Office</p>
-							<h2>경기도립 미술관</h2>
+							<p>2015 Feb | Hospital Complex</p>
+							<h2>베스티안 오송병원</h2>
 						</div>
 					</div>
-					
 					</div>
 				</div>
 

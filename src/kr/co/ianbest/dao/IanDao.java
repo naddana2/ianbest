@@ -24,7 +24,7 @@ public class IanDao
 	private Connection getConnection() throws Exception {
 		Context initCtx = new InitialContext();
 		DataSource ds = 
-				(DataSource)initCtx.lookup("java:comp/env/jdbc/ianbest01");
+				(DataSource)initCtx.lookup("java:comp/env/jdbc/mysql");
 
 		return ds.getConnection();
 	}
@@ -93,7 +93,7 @@ public class IanDao
 		String sql = "";
 		try {
 			conn = getConnection();
-			sql = "select * from ian_port limit 8, 10000";
+			sql = "select * from ian_port limit 8, 99";
 			pstmt = conn.prepareStatement(sql);
 			rs = pstmt.executeQuery();
 			list = new ArrayList<IanDto>();
