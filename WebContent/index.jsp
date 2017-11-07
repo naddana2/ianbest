@@ -58,7 +58,7 @@
 						건물설계 컨설팅에서 시설관리까지<br> <strong>앞서나가는 종합 건설, 이안베스트</strong>
 					</h2>
 				</div>
-				<img src="assets/images/carousel-2.png" alt="Mirror Edge">
+				<img src="assets/images/index_osong.png" alt="Mirror Edge">
 			</div>
 			<div class="item">
 				<div class="owl-overlay ovr-3">
@@ -67,7 +67,7 @@
 					</h2>
 
 				</div>
-				<img src="assets/images/carousel-3.png" alt="GTA V">
+				<img src="assets/images/index_int.png" alt="GTA V">
 			</div>
 		</div>
 		<section>

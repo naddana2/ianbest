@@ -187,7 +187,7 @@ section .double-set .section-img2 {
 }
 
 section .double-set .section-img2 img {
-	min-height:100%;
+	height:100%;
 	width:100%;
 }
 section .double-set .section-img .in_transparent_img {
@@ -393,11 +393,14 @@ article:last-child div {
    width: 35%;
  /*   background: url(../../images/main-complex.png) no-repeat center !important; */
    float:left;
+   height:100%;
 }
 
  .right-box img {
  	padding:0;
  	margin:0;
+ 	width:100%;
+ 	height:100%;
  }
 
 .left-box p {

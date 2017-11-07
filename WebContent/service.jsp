@@ -150,28 +150,28 @@
 						함께합니다. </span>
 					<div class="inner-grid">
 						<div class="inbox">
-							<img class="" src="assets/images/center_1.png">
+							<img class="" src="assets/images/service/maintenance.png">
 							<h2 class="mobile-out">
 								철저한검증으로<br>시설물유지관리
 							</h2>
 							<h2 class="mobile-in">유지관리</h2>
 						</div>
 						<div class="inbox">
-							<img class="" src="assets/images/center_3.png">
+							<img class="" src="assets/images/service/cleaning.png">
 							<h2 class="mobile-out">
 								위생적이고 청결한<br>청소용역지원
 							</h2>
 							<h2 class="mobile-in">청소용역</h2>
 						</div>
 						<div class="inbox">
-							<img class="" src="assets/images/center_2.png">
+							<img class="" src="assets/images/service/guard.png">
 							<h2 class="mobile-out">
 								안전지대지킴이<br>경비용역
 							</h2>
 							<h2 class="mobile-in">경비용역</h2>
 						</div>
 						<div class="inbox">
-							<img class="" src="assets/images/center_4.png">
+							<img class="" src="assets/images/service/complexmanagement.png">
 							<h2 class="mobile-out">
 								효율적이고 체계적인<br>종합관리서비스
 							</h2>
