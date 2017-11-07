@@ -182,10 +182,14 @@ section .double-set .section-img img{
 
 section .double-set .section-img2 {
    width: 50%;
-   background: url(../../images/architect.png) no-repeat center !important;
-   background-size:cover !important;
+  float:left;
+  height:100%;
 }
 
+section .double-set .section-img2 img {
+	min-height:100%;
+	width:100%;
+}
 section .double-set .section-img .in_transparent_img {
    width: 80%;
    margin: 0 10% 0 10%;

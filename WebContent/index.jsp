@@ -138,7 +138,8 @@
 						onclick="location.href='about.jsp'">MORE VIEW</button>
 				</div>
 			</div>
-			<div class="section-img2 w50"></div>
+			<div class="section-img2 w50"><img class="mobile_chevron" src="assets/images/architect.png"
+				alt="GTA V" style=""></div>
 		</div>
 		</section>
 		<section>
