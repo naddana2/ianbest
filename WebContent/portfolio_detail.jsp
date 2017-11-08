@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>IanBest | Project_detail</title>
 <meta content="width=device-width, initial-scale=1" name="viewport">
 
 

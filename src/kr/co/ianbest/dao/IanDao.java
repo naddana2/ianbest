@@ -93,7 +93,7 @@ public class IanDao
 		String sql = "";
 		try {
 			conn = getConnection();
-			sql = "select * from ian_port limit 8, 99";
+			sql = "select * from ian_port where port_id != 100 limit 8, 99999";
 			pstmt = conn.prepareStatement(sql);
 			rs = pstmt.executeQuery();
 			list = new ArrayList<IanDto>();

@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>I</title>
+<title>IanBest | Contact</title>
 
 
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">

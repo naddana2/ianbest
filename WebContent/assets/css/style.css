@@ -92,7 +92,7 @@ a {
 }
 
 a:hover, a:focus {
-   color: inherit !important;
+   /* color: inherit !important; */
    outline: none;
    text-decoration: none !important;
 }
@@ -194,7 +194,16 @@ a:hover, a:focus {
 
 
 .top-menu .etc-place p>a {
-   color: #898989 !important;
+   color: #898989;
+}
+
+.top-menu a:hover {
+        color: #85c352 !important;
+}
+
+
+.top-menu .topnav li :hover {
+    color: #6eb92b !important;
 }
 
 /* .top-menu .etc-place p>a:after {

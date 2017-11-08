@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>IanBest</title>
 <meta content="width=device-width, initial-scale=1" name="viewport">
 
 
@@ -103,7 +103,7 @@
 				<div class="txt-area">
 					<p>우리는 사용자의 동선흐름을 예측하여 디자인에 적용합니다.</p>
 					<button class="btns" type="button"
-						onclick="location.href='portfolio'">MORE VIEW</button>
+						onclick="location.href='project'">MORE VIEW</button>
 				</div>
 			</div>
 			<div class="section-img w50 make-area"><img src="assets/images/cross-walking.png" alt="GTA V"></div>
