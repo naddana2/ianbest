@@ -338,6 +338,10 @@ background: #424242;
     padding: 0;
 }
 
+a.append-button {
+    cursor: pointer;
+}
+
 
 /* 
 .top-menu {
