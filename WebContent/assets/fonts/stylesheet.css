@@ -44,6 +44,27 @@
 
 
 @font-face {
+	font-family: 'Calluna-Semibold';
+	src: url('Calluna-Semibold.eot');
+	src: url('Calluna-Semibold.eot?#iefix') format('embedded-opentype');
+	src: url('Calluna-Semibold.woff') format('woff');
+/* 	src: url('KoPub Batang Light.ttf') format('truetype');
+ */	
+	
+}
+@font-face {
+	font-family: 'KiloGram';
+	src: url('KiloGram.eot');
+	src: url('KiloGram.eot?#iefix') format('embedded-opentype');
+	src: url('KiloGram.woff') format('woff');
+/* 	src: url('KoPub Batang Light.ttf') format('truetype');
+ */	
+	
+}
+
+
+
+@font-face {
 	font-family: 'KoPuBatang-L';
 	src: url('KoPub Batang Light.eot');
 	src: url('KoPub Batang Light.eot?#iefix') format('embedded-opentype');

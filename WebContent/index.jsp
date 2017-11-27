@@ -103,7 +103,7 @@
 				<div class="txt-area">
 					<p>우리는 사용자의 동선흐름을 예측하여 디자인에 적용합니다.</p>
 					<button class="btns" type="button"
-						onclick="location.href='project'">MORE VIEW</button>
+						onclick="location.href='error'">MORE VIEW</button>
 				</div>
 			</div>
 			<div class="section-img w50 make-area"><img src="assets/images/cross-walking.png" alt="GTA V"></div>
@@ -185,7 +185,7 @@
 		</article>
 	</div>
 	<%@ include file="assets//include/footer.jsp"%>
-
+	
  
 	<script type="text/javascript">
       /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */

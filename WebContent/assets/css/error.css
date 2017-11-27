@@ -1,0 +1,76 @@
+@import url('../fonts/stylesheet.css');
+@import url('responsive.css');
+
+body {
+   background: #ffffff;
+   font-family: 'KoPuDotum-L', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   position: relative;
+   min-height: 100%;
+   text-transform: initial;
+   background:url(../images/error-bg.png);
+ 
+}
+
+
+
+
+
+.error-background {
+	text-align:center;
+	padding: 7.5vw 0;
+}
+
+.error-background h2 {
+	font-family: 'KoPuDotum-B', sans-serif;
+	font-size: 6.1vw;
+	letter-spacing: -.7px;
+	margin:0;
+	color: white;
+	padding:0;
+}
+
+.error-background .text-area {
+	padding:2.6vw 0 1.4vw;
+}
+.error-background .text-area p {
+	/* font-family: 'Calluna-Semibold', sans-serif; */
+	margin:0;
+	font-size:1.5vw;
+	
+	padding-bottom: 1vw;
+	font-weight:600;
+	color: white;
+}
+
+.error-background .img-set {
+	
+width: 400px;
+	
+margin: 0 auto;
+	
+/* height: 200px; */
+	
+/* text-align: center; */
+	
+padding: 2vw;
+}
+
+.error-background .img-set img{
+	
+/* float: left; */
+	
+padding: 0 1.4vw;
+}
+
+.error-background .clone {
+	font-size: 5.1vw !important;
+	font-family: 'KoPuDotum-m', sans-serif;
+}
+
+.fa4 {
+	font-size:1em !important;
+	color: #d8d8d8 !important;
+	padding:0.6vh !important;
+}
