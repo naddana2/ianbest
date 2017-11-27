@@ -19,7 +19,6 @@
 <script type="text/javascript">
 	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
-	
 	$(function() {
 		var mobilemenu = $('#mobilemenu');
 		menu = $('nav ul');
@@ -29,8 +28,7 @@
 			e.preventDefault();
 			menu.slideToggle();
 		});
-		
-		
+
 	});
 </script>
 </head>
@@ -39,29 +37,24 @@
 
 	<%@ include file="assets/include/header.jsp"%>
 
-	
-	<div class="error-background">
-	
-	<h2>500</h2>
-	<h2 class="clone">error</h2>
-	<div class="text-area"><p>We are sorry but the page</p><p>your were looking for was not found...</p>
-	</div><div class="img-set" onclick="window.location.reload()">
-	
-	<img class="reload" src="assets/images/reload2.png" alt="GTA V">
-	<img class="home" src="assets/images/home.png" alt="GTA V">
-	
-	</div>
-	
-	</div>
-	
-		
-	
-	
 
- 
+	<div class="error-background">
+
+		<h2>500</h2>
+		<h2 class="clone">error</h2>
+		<div class="text-area">
+			<p>We are sorry but the page</p>
+			<p>your were looking for was not found...</p>
+		</div>
+		<div class="img-set" >
+			<img class="reload" src="assets/images/reload2.png" alt="GTA V" onclick="window.location.reload()" style="cursor: pointer;">
+			<img class="home" src="assets/images/home.png" alt="GTA V" onclick="location.href='main'" style="cursor: pointer;">
+		</div>
+	</div>
+
 	<script type="text/javascript">
-      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-   </script>
+		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+	</script>
 
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/error.js"></script>

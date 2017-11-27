@@ -40,8 +40,6 @@
 	<%@ include file="assets/include/header.jsp"%>
 	<div id="wrap" class="wrap">
 		<div class="service-area">
-
-
 			<div class="subtitle">
 				<h2>BUSINESS AREA</h2>
 			</div>
@@ -187,6 +185,92 @@
 
 			<div class="history-title">
 				<h2>HISTORY</h2>
+			</div>
+			
+			<div class="mobile_view">
+				<ul class="nav nav-tabs mobile-tab">
+					<li class="active"><a data-toggle="tab" href="#home">2016-2013</a></li>
+					<li><a data-toggle="tab" href="#menu1">2012-2007</a></li>
+					<li><a data-toggle="tab" href="#menu2">2006-1990</a></li>
+				</ul>
+
+				<div class="tab-content inner-tab">
+					<div id="home" class="tab-pane fade in active">
+						<div class="history">
+							<img class="" src="assets/images/historyM.png">
+							<div class="txtbox">
+								<h1 class="title">2016-2013</h1>
+								<ul class="lst_dot_history">
+									<li><span class="month">2016.03</span> <span
+										class="history_obj">중국목단강시베스티안의료미용병원계약식</span></li>
+									<li><span class="month">2016.04</span> <span
+										class="history_obj">베스티안오송첨단임상시험센터 기공식</span></li>
+									<li><span class="month">2016.07</span> <span
+										class="history_obj">의료기관평가2주기 인증 획득 2016.07.01 –
+											2020.06.30</span></li>
+									<li><span class="month">2016.09</span> <span
+										class="history_obj">재단법인 베스티안서울병원 출범 – 공익재단 부속병원으로 운영</span></li>
+									<li><span class="month">2016.10</span> <span
+										class="history_obj">제8회 베스티안 화상심포지엄 개최</span></li>
+									<li><span class="month">2016.10</span> <span
+										class="history_obj">의료질 경영 선포식 개최</span></li>
+									<li><span class="month">2016.12</span> <span
+										class="history_obj">질병관리본부 보건의료통계 표창</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="menu1" class="tab-pane fade">
+						<div class="history">
+							<img class="" src="assets/images/historyM.png">
+							<div class="txtbox">
+								<h1 class="title">2016-2013</h1>
+								<ul class="lst_dot_history">
+									<li><span class="month">2016.03</span> <span
+										class="history_obj">중국목단강시베스티안의료미용병원계약식</span></li>
+									<li><span class="month">2016.04</span> <span
+										class="history_obj">베스티안오송첨단임상시험센터 기공식</span></li>
+									<li><span class="month">2016.07</span> <span
+										class="history_obj">의료기관평가2주기 인증 획득 2016.07.01 –
+											2020.06.30</span></li>
+									<li><span class="month">2016.09</span> <span
+										class="history_obj">재단법인 베스티안서울병원 출범 – 공익재단 부속병원으로 운영</span></li>
+									<li><span class="month">2016.10</span> <span
+										class="history_obj">제8회 베스티안 화상심포지엄 개최</span></li>
+									<li><span class="month">2016.10</span> <span
+										class="history_obj">의료질 경영 선포식 개최</span></li>
+									<li><span class="month">2016.12</span> <span
+										class="history_obj">질병관리본부 보건의료통계 표창</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="menu2" class="tab-pane fade">
+						<div class="history">
+							<img class="" src="assets/images/historyM.png">
+							<div class="txtbox">
+								<h1 class="title">2016-2013</h1>
+								<ul class="lst_dot_history">
+									<li><span class="month">2016.03</span> <span
+										class="history_obj">중국목단강시베스티안의료미용병원계약식</span></li>
+									<li><span class="month">2016.04</span> <span
+										class="history_obj">베스티안오송첨단임상시험센터 기공식</span></li>
+									<li><span class="month">2016.07</span> <span
+										class="history_obj">의료기관평가2주기 인증 획득 2016.07.01 –
+											2020.06.30</span></li>
+									<li><span class="month">2016.09</span> <span
+										class="history_obj">재단법인 베스티안서울병원 출범 – 공익재단 부속병원으로 운영</span></li>
+									<li><span class="month">2016.10</span> <span
+										class="history_obj">제8회 베스티안 화상심포지엄 개최</span></li>
+									<li><span class="month">2016.10</span> <span
+										class="history_obj">의료질 경영 선포식 개최</span></li>
+									<li><span class="month">2016.12</span> <span
+										class="history_obj">질병관리본부 보건의료통계 표창</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<!-- Tab panes -->
