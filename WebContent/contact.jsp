@@ -65,7 +65,7 @@
 				<div class="contact_content">
 					<h5 class="border_bot">IANBEST</h5>
 					<p class="">
-						TEL : 1670 - 5116 <br> FAX : 02 - 568 - 2952<br> 
+						TEL : 1670 - 5116 <br> FAX : 02 - 6207 - 5116<br> 
 						E-mail : ribio@naver.com
 					</p>
 				</div>
